@@ -1,0 +1,240 @@
+---
+title: "STA237H1F Assignment #2 (Fall 2023) - Working with Probability Distributions in R"
+author: "TYPE YOUR *NAME* HERE (type your *STUDENT NUMBER* & *LEC section* here)"
+output: pdf_document
+date: "2023-11-13"
+---
+## Assignment #2 (both .Rmd & .pdf) - Due on Quercus $\textcolor{blue}{5:00pm}$, Fri Nov 24, 2023
+## Direct link to assignment - <https://q.utoronto.ca/courses/316967/assignments/1184644> 
+## Graded out of **68 marks** & worth **7.5% of your STA237H1F grade**
+## NOTE: you must export *both* your completed R Markdown (i.e., rmd) file and your pdf file of your answers from U of T JupyterHub and save on your machine; then upload to Quercus.
+
+*NOTE - Save a copy of this rmd file as STA237A2yourname.rmd before you start editing it.* 
+
+
+*The best way to learn R is to experience coding yourself and to ask for support from the instructors or TAs in office hours if and when needed. In this assignment, you will again gain hands-on experience with RStudio and a reproducible workflow as you use R to simulate random experiments and use R functions for a variety of probability distributions that have been discussed in the course. This assignment must be completed $\textcolor{red}{independently}$ so you will gain these skills and have the preparation to succeed in STA237H1F and later courses. You are strongly encouraged to start this assignment early and visit the instructor and/or TA office hours for support well before the deadline. Note that this assignment builds on Assignment 1. If you need a refresher on how to work with R Markdown and access, produce and export your assignment files from JupyterHub, please refer to <https://q.utoronto.ca/courses/316967/pages/sta237h1f-assignment-number-1-introduction-to-rstudio-and-estimating-probabilities-via-simulation-due-5pm-oct-6>.*
+
+```{r, include=FALSE}
+install.packages("EnvStats", repos = "http://cran.us.r-project.org") 
+```
+
+
+## STA237H1F ASSIGNMENT 2  QUESTIONS (Fall 2023)
+Answer each of the following questions with R code chunks and/or text, as appropriate. 
+
+*Be sure to use `set.seed(type your student number)` ahead of every use of R functions that use a pseudo-random number generator (e.g., sample(), rbinom(), etc.) so you can answer the questions based on your results, and your simulated results will remain the same when you knit your assignment #2 rmd file to pdf.*
+
+## QUESTION 1 (14 marks)
+Use built-in R functions for common probability distributions to find each of the following values.	 Comment your code to describe your step(s). 
+
+
+**(a)** (2 marks) If a random variable $Y$ follows a *beta distribution* with shape parameters $\alpha\ = 5$ and $\beta\ = 3$, find the median of $Y$.
+
+```{r}
+# 1(a) ANSWER:
+
+```
+
+**(b)** (2 marks) Simulate one observation from a *binomial distribution* with parameters $20$ and $0.7$.
+
+```{r}
+# set seed with your student number
+# 1(b) ANSWER:
+
+```
+
+**(c)** (2 marks)	If a random variable $Y$ follows a *normal distribution* with a mean $70$ and variance $64$, compute $P\left(60\ < Y<75\right)$.
+
+```{r}
+# 1(c) ANSWER:
+
+```
+
+**(d)** (2 marks) Let $Y$ follow a  *gamma distribution* with the shape and rate parameter $8$ and $0.4$ respectively. Find the $60^{th}$ percentile of $Y$.
+
+```{r}
+# 1(d) ANSWER:
+
+```
+
+**(e)** (2 marks) Suppose a box contains 6 blue and 8 red marbles. If a child chooses three marbles together without looking, what is the probability the selected marbles contain at least two blue marbles?
+
+```{r}
+# 1(e) ANSWER:
+
+```
+
+**(f)** (2 marks)	If a random variable $Y$ follows a Pareto distribution with the $\alpha=5$ and $\beta=2$ respectively, calculate $P\left(Y<6\right)$. 
+
+Recall from Week 7 tutorial that you first need the "EnvStats" R package to use the built-in Pareto R functions. The code to install this package is on line 18 of this rmd document but you will need to load the package in the R chunk below to use any of the Pareto R functions. 
+
+Note that the Pareto distribution was presented in tutorial with parameters $\alpha$ and $\beta$. The R function will be expecting "location" and "shape" parameters. We encourage you to access the R help documentation for the Pareto distribution R function you are planning to use to confirm how the parameters should be entered. If they are entered in the wrong order, you will be working with a different Pareto distribution. To access the help documentation, you can type *help(R function name)* in the R console window. The relevant documentation is also available online at <https://search.r-project.org/CRAN/refmans/EnvStats/html/Pareto.html>.
+
+```{r}
+# 1(f) ANSWER:
+
+
+```
+
+**(g)** (2 marks)	If a random variable $Y$ follows a Poisson distribution with mean $8$, find the largest integer $y_0$ such that $P\left(Y\geq y_0\right)> 0.3$.
+
+```{r}
+# 1(g) ANSWER: 
+
+```
+
+
+
+## QUESTION 2 (14 marks)
+
+Consider the continuous random variable $Y$ with a pdf given by
+$f_Y\left(y\right)\ =\ \frac{\exp{\left(-y\right)}}{\left(1\ +\ \exp{\left(-y\right)}\right)^2}$ for $-\infty < y < \infty$. $Y$ is said to have a *standard logistic distribution*.  
+	
+**(a)** (3 marks)	Derive the cumulative distribution function (cdf) for the random variable $Y$. Clearly describe each of your steps with text or appropriate LaTeX code for mathematical expressions (refer to Assignment 1 for more information on LaTeX).\
+$\textcolor{blue}{ 2(a)  ANSWER:}$
+
+
+**(b)** (5 marks) 
+*(i)* (2 marks) Briefly describe (in words) how to simulate an observation from a standard logistic distribution using the inverse transform method you learned in tutorial.\
+$\textcolor{blue}{ 2(bi)  ANSWER:}$
+
+*(ii)* (3 marks) Use the inverse transform method to generate *500* observations from the standard logistic distribution. Store these values in an R object called *simvalues* and plot your simulated values using the *hist()* R function. Comment your code to describe your step(s). 
+```{r}
+# 2(bii) ANSWER:
+# set seed with your student number
+
+```
+
+
+**(c)** (6 marks) 
+*(i)* (2 marks) Compute the theoretical value of $P\left(Y <1\right)$. Be sure to describe your steps.\
+$\textcolor{blue}{ 2(ci)  ANSWER:}$
+
+*(ii)* (2 marks) Use R to estimate $P\left(Y\ <1\right)$ using the standard logistic distribution observations you simulated in *1(bii)*. 
+```{r}
+# 2(cii) ANSWER:
+
+```
+
+*(iii)* (2 marks) Compare the theoretical value of $P\left(Y <1\right)$ in *ci* to the estimated value of $P\left(Y <1\right)$ in *cii*. If you simulated *5000* values from this distribution instead, what impact would this have on the difference between the theoretical and estimated probabilities. Justify your answer.\
+$\textcolor{blue}{ 2(ciii)  ANSWER:}$
+
+
+## QUESTION 3 (14 marks)
+
+Suppose the university is looking for *30* student representatives to serve on a variety of committees across campus. They plan to randomly select current students one at a time and send them an invitation. Suppose *75%* of students will agree to serve on a committee if invited. Let $Y$ be the number of students the university will need to invite to recruit their target number of student representatives. *[Note: Since the number of students at the university is so large compared to the number of students they are looking for to serve on university committees, you may assume that sampling is done with replacement for this question.]*
+
+**(a)** (4 marks) What probability distribution may be an appropriate model of $Y$? Justify your answer.
+$\textcolor{blue}{ 3(a)  ANSWER:}$
+
+
+**(b)** (3 marks) Find  *(i)* $E(Y)$, and *(ii)* $P(Y\le a)$ where $a=E(Y)$. Justify your answer.
+```{r}
+# 3(b) ANSWER
+
+
+```
+
+**(c)** (3 marks)	Write R code to simulate $1000$ repetitions of the random experiment described in this question. Save your simulated observations in an R vector called *invitations* and obtain of histogram of your simulated values. Comment your code to describe your step(s).  
+```{r}
+# 3(c) ANSWER:
+# set seed with your student number
+
+```
+
+
+**(d)** (4 marks)	Estimate $E(Y)$ and $P(Y\le a)$ where $a=E(Y)$ using the generated random observations in *3c*. Comment your code to describe your step(s). Are they close to the theoretical values you determined in part *3b*? Why or why not.
+```{r}
+# 3(d) ANSWER:
+
+```
+
+
+## QUESTION 4 (14 marks)
+
+**(a)** (7 marks) The time until the light in Savanna's office fails is *exponentially distributed* with mean *2 hours*.\
+
+*(i)* (2 marks) Find the probability that Savanna's light survives more than three hours. Show your steps.\
+$\textcolor{blue}{ 4a(i)  ANSWER:}$
+
+*(ii)* (3 marks) Simulate 2000 observations from this exponential distribution and estimate probability that was computed in *5ai*. Comment your code to describe your steps.
+```{r}
+# 4a(ii) ANSWER:
+# set seed with your student number
+
+
+```
+
+*(iii)* (2 marks) Estimate the mean of this exponential distribution using your simulated observations. Comment your code to describe your steps.
+
+```{r}
+# 4a(iii) ANSWER:
+
+
+```
+
+
+**(b)** (7 marks) The time until the computer crashes in Savanna's office is *exponentially distributed* with mean *3 hours*. Suppose failure of the light and crash of the computer times in Savanna's office are independent. \
+
+*(i)* (3 marks) Find the probability that neither the light nor the computer fails in the next 3 hours. Show your steps.\
+$\textcolor{blue}{ 4b(i)  ANSWER:}$
+
+*(ii)* (4 marks) Estimate the probability that was computed in part *5bi* by randomly generating 2000 light failures and computer crashes and report your estimated probability. Comment your code to describe your steps.
+```{r}
+# 4b(ii) ANSWER:
+# set seed with your student number
+
+
+```
+
+## QUESTION 5 (8 marks)
+
+Consider the R data set “Nile” that contains measurements of the annual flow of the river  Nile (in $10^8$ $m^2$) at Aswan. The data set consists of $100$ measurements and the following code produces a histogram of these data. 
+```{r}
+hist(Nile)
+```
+
+You can see that one of measurements (456 $10^8$ $m^2$) is an unusual observation in the data set. We will exclude this measurement from the data set using the R code below and save the 99 measurements we will work with in this question in the vector *flow*. 
+```{r}
+flow<-Nile[Nile > 600]
+
+```
+
+**(a)** (4 marks)	*(i)* Construct a histogram for the *99* annual flow measurements of the Nile and comment on the shape of the distribution of flow measurements. *(ii)* Do these data appear to follow a normal distribution? Justify your answer based on appropriate plots.
+```{r}
+# 5(a) ANSWER:
+
+```
+
+
+**(b)** (2 marks)	Which of the common probability distributions we've discussed in the course may be an appropriate model for these flow measurements? Briefly explain your reasoning.\
+$\textcolor{blue}{ 5(b)  ANSWER:}$
+
+
+**(c)**	(2 marks) Create a gamma Q-Q plot using the parameters shape parameter *20* and rate parameter *1*. Do these annual flow measurements appear to follow this gamma distribution? Justify your answer.
+```{r}
+# 5(c) ANSWER:
+
+```
+
+
+## ASSIGNMENT REPRODUCIBILITY (4 marks)
+Your assignment #2 file submission in the Quercus Assignment must include *both* the rmd file with your assignment #2 answers that was compiled (or *knitted*) to produce a pdf file of your assignment #1 answers. 
+# Rubric:
+\begin{itemize}
+\item 0/4 marks - submitted rmd file did not produce submitted pdf file
+\item 1/4 marks - no rmd file submitted, or rmd failed to knit.
+\item 1/4 marks - number other than your student number used in `set.seed()` or seed not set in most R code chunks with randomness
+\item 3/4 marks - seed set in some, but not all, R code chunks with randomness.
+\item 4/4 marks - both your pdf file and rmd file used to produce your pdf file submitted
+\end{itemize}
+
+
+____________________________________________________________
+THIS IS THE END OF STA237H1F ASSIGNMENT #2
+```{r echo = FALSE}
+# for grading purposes only (do not remove or edit this R code chunk)
+runif(1,0,1)
+date()
+```
+
