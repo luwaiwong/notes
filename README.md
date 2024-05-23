@@ -1,5 +1,6 @@
 
 Most of my notes taken through UofT
+
 For the best experience open in [Obsidian](https://obsidian.md/)
 
 ---
