@@ -45,12 +45,12 @@ Notes for MAT224, Linear Algebra II
 ^132a9d
 ### 1.1 Vector Spaces
 A [Vector](../MAT223%20Notes/Vector.md) is a directed line segment or "arrow", with one point distinguished  as the "head", and the other distinguished as the "tail"  
-	Two operations which can be done on vectors are **vector addition**, and **vector multiplication**
-	These operations give rise to various [](../MAT223%20Notes/Vector.md#^a7e263|properties) of vectors
+- Two operations which can be done on vectors are **vector addition**, and **vector multiplication**
+- These operations give rise to various [Properties](../MAT223%20Notes/Vector.md#^a7e263|properties) of vectors
 
 A [Vector Space](Vector%20Space.md) $\mathbb{V}$ is a [Set](../MAT223%20Notes/Set.md), whose elements are called vectors, and satisfies the requirements: **(1.1.1, 7)**     
-	The set has the operations of vector addition and vector multiplication
-	The set follows a set of [](../MAT223%20Notes/Vector.md#^a7e263|axioms) (The properties of vector addition and multiplication)
+- The set has the operations of vector addition and vector multiplication
+- The set follows a set of [Axioms](../MAT223%20Notes/Vector.md#^a7e263|axioms) (The properties of vector addition and multiplication)
 Axioms
 - For all vectors $x,y$ and $z\in \mathbb{V}, (x,y)+z=x+(y+z)$
 - For all vectors $x$ and $y\in \mathbb{V}, x+y=y+x$
@@ -78,48 +78,48 @@ Many other types of sets and spaces can be created, with their own operations, b
 > 	$V=\mathbb{R}^{2}$, where $x+y=x\cdot y$, and $cx=x^{c}$
 
 **Other Definitions:**
-$P_{n}(\mathbb{R})$ is the set of all polynomials, with a *degree no larger than $n$*, where:  
-- $P_{n}(R)=\{p:\mathbb{R}\rightarrow \mathbb{R}|p(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{0} \text{ where }a_{i}\in \mathbb{R}\}$  
-Operations (Addition and Multiplication)  
-- For two polynomials $p(x), q(x)$, $(p+q)(x)=p(x)+q(x)=(a_{n}+b_{n})x^{n}+...+(a_{0}+b_{0})\in P_{n}(\mathbb{R})$
-	for $c\in \mathbb{R}$, $cp(x)=ca_{n}x^{n}+...+ca_{0}\in P_{n}(\mathbb{R})$
-$C(\mathbb{R})$ is the set of all continuous [Functions](../MAT235%20Notes/Function.md)
+- $P_{n}(\mathbb{R})$ is the set of all polynomials, with a *degree no larger than $n$*, where:  
+	- $P_{n}(R)=\{p:\mathbb{R}\rightarrow \mathbb{R}|p(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{0} \text{ where }a_{i}\in \mathbb{R}\}$  
+	- Operations (Addition and Multiplication)  
+		- For two polynomials $p(x), q(x)$, $(p+q)(x)=p(x)+q(x)=(a_{n}+b_{n})x^{n}+...+(a_{0}+b_{0})\in P_{n}(\mathbb{R})$
+			for $c\in \mathbb{R}$, $cp(x)=ca_{n}x^{n}+...+ca_{0}\in P_{n}(\mathbb{R})$
+- $C(\mathbb{R})$ is the set of all continuous [Functions](../MAT235%20Notes/Function.md)
 
 ### 1.2 Subspaces
 Let $V$ be a *vector space*
 
 A [Subspace](../MAT223%20Notes/Subspace.md) is a subset of a [Vector Space](Vector%20Space.md), which is also a vector space itself **(1.2.6, 15)**
-	One can check if a subset is a subspace by verifying the axioms of vector spaces
-	Also can just check that the following apply:
-		$\vec{u}+\vec{v}\in V$(also called being *closed with respect to vector addition*, and
-		$k\vec{u}\in V$(also called being *closed with respect to scalar multiplication*)
-		$\vec 0 \in V$ 
-	Geometrically, a subspace is a [Span](../MAT223%20Notes/Span.md) which passes through zero , and goes on infinitely
-		Line passing through zero in 3D space, Plane passing through zero in 3D space
+- One can check if a subset is a subspace by verifying the axioms of vector spaces
+- Also can just check that the following apply:
+	- $\vec{u}+\vec{v}\in V$(also called being *closed with respect to vector addition*, and
+	- $k\vec{u}\in V$(also called being *closed with respect to scalar multiplication*)
+	- $\vec 0 \in V$ 
+- Geometrically, a subspace is a [Span](../MAT223%20Notes/Span.md) which passes through zero , and goes on infinitely
+	- Line passing through zero in 3D space, Plane passing through zero in 3D space
 
 You can also check if a subset is a subspace with the following theorem
-	Let $V$ be a vector space, $W$ be nonempty subset of $V$
-	$W$ is a [Subspace](../MAT223%20Notes/Subspace.md) of $V$ if and only if: 
-		$\forall x,y \in W, \forall c \in \mathbb{R}, cx+y \in W$ 
-	This *merges* both definitions into one
+- Let $V$ be a vector space, $W$ be nonempty subset of $V$
+- $W$ is a [Subspace](../MAT223%20Notes/Subspace.md) of $V$ if and only if: 
+	- $\forall x,y \in W, \forall c \in \mathbb{R}, cx+y \in W$ 
+- This *merges* both definitions into one
 
 > We define a subspace as a separate thing, because it is a subset of a **Vector Space**, which holds all the properties of a vector space
 > A Vector Space is a more general definition, which can include many things
 
 The intersection of any collection of *subspaces* of $V$ is a subspace of $V$
-	Think of the intersection between two planes passing through zero in the 3D space
-	They would produce a line passing through zero in 3D space (also a subspace)
+- Think of the intersection between two planes passing through zero in the 3D space
+- They would produce a line passing through zero in 3D space (also a subspace)
 
 ### 1.3 Linear Combinations
 Let $S$ be *subset* of a *vector space* $V$
 
 A [Linear Combination](../MAT223%20Notes/Linear%20Combination.md) of **Vectors** in $S$ is any sum $a_{1}x_{1}+...+a_{n}x_{n}$, where $a_{i}\in \mathbb{R}, x_{i}\in S$ **(1.3.1, 22)**
-	For two vectors $x,y$ a linear combination of them is any vector:
-		$a_{1}(x)+a_{2}(y)$
+- For two vectors $x,y$ a linear combination of them is any vector:
+	- $a_{1}(x)+a_{2}(y)$
 
 The [Span](../MAT223%20Notes/Span.md) of a set of **Vectors** $S$, or $Span(S)$ is the set of all possible **Linear Combinations** of vectors in $S$ **(1.3.1, 22)**
-	If $S=\phi$ (empty set), $Span(S)=\{0\}$
-	If a set $W$ = $Span(S)$, we say $S$ **spans**, (or generates) $W$
+- If $S=\phi$ (empty set), $Span(S)=\{0\}$
+- If a set $W$ = $Span(S)$, we say $S$ **spans**, (or generates) $W$
 **Properties**
 - Let $S$ be any subset of $V$, $Span(S)$ is a subspace of $V$
 - The span of anything in a vector space $V$ will result in a subspace
