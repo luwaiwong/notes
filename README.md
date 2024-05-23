@@ -4,7 +4,6 @@ Most of my notes taken through UofT
 ---
 # Notes
 ## Math
-- [MAT223 Notes](Math/MAT223%20Notes/MAT223%20Notes.md)
 - [MAT224 Notes](Math/MAT224%20Notes/MAT224%20Notes.md)
 - [MAT235 Notes](Math/MAT235%20Notes/MAT235%20Notes.md)
 
