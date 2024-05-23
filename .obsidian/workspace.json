@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "0351d490fddd436b",
   "lastOpenFiles": [
+    "Math/MAT224 Notes/MAT224 Notes.md",
     "README.md",
     "Econ/ECO200 Notes/ECO200 Notes.md",
     "STA237.md",
     "Math/MAT223 Notes/MAT223 Notes.md",
-    "Math/MAT224 Notes/MAT224 Notes.md",
     "MAT224/MAT224.md",
     "MAT224",
     "MAT235/MAT235 Notes.md",
