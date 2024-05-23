@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAT235/Notes/Function of Two Variables.md",
+                "file": "Math/MAT224 Notes/MAT224 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAT235/Notes/Function of Two Variables.md",
+                "file": "Math/MAT224 Notes/MAT224 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAT235/Notes/Function of Two Variables.md",
+                "file": "Math/MAT224 Notes/MAT224 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAT235/Notes/Function of Two Variables.md"
+                "file": "Math/MAT224 Notes/MAT224 Notes.md"
               }
             }
           }
@@ -148,6 +148,13 @@
   },
   "active": "0351d490fddd436b",
   "lastOpenFiles": [
+    "README.md",
+    "Econ/ECO200 Notes/ECO200 Notes.md",
+    "STA237.md",
+    "Math/MAT223 Notes/MAT223 Notes.md",
+    "Math/MAT224 Notes/MAT224 Notes.md",
+    "MAT224/MAT224.md",
+    "MAT224",
     "MAT235/MAT235 Notes.md",
     "MAT235/MAT235 Definitions.md",
     "MAT235/MAT235.md",
@@ -162,7 +169,6 @@
     "MAT235/attachments/MAT235 TT3 23 (Practice test) solutions.pdf",
     "MAT235/MAT235 TT3 23 (Practice test) solutions.pdf.md",
     "MAT235/MAT235 Term Test 4.md",
-    "MAT235/MAT235 Textbook Week 2.md",
-    "README.md"
+    "MAT235/MAT235 Textbook Week 2.md"
   ]
 }

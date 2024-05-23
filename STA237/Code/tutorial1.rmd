@@ -1,9 +1,0 @@
----
-title: "tutorial1"
-output: pdf_document
----
-
-# Code
-```{r setup, include=FALSE}
-sample(1:6, 10, TRUE)
-```
