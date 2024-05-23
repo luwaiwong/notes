@@ -44,11 +44,11 @@ Notes for MAT224, Linear Algebra II
 ## Chapter 1 Vector Spaces
 ^132a9d
 ### 1.1 Vector Spaces
-A [Vector](../MAT223%20Notes/Vector.md) is a directed line segment or "arrow", with one point distinguished  as the "head", and the other distinguished as the "tail"
+A [Vector](../MAT223%20Notes/Vector.md) is a directed line segment or "arrow", with one point distinguished  as the "head", and the other distinguished as the "tail"  
 	Two operations which can be done on vectors are **vector addition**, and **vector multiplication**
 	These operations give rise to various [](../MAT223%20Notes/Vector.md#^a7e263|properties) of vectors
 
-A [Vector Space](Vector%20Space.md) $\mathbb{V}$ is a [Set](../MAT223%20Notes/Set.md), whose elements are called vectors, and satisfies the requirements: **(1.1.1, 7)**
+A [Vector Space](Vector%20Space.md) $\mathbb{V}$ is a [Set](../MAT223%20Notes/Set.md), whose elements are called vectors, and satisfies the requirements: **(1.1.1, 7)**     
 	The set has the operations of vector addition and vector multiplication
 	The set follows a set of [](../MAT223%20Notes/Vector.md#^a7e263|axioms) (The properties of vector addition and multiplication)
 Axioms
@@ -78,12 +78,12 @@ Many other types of sets and spaces can be created, with their own operations, b
 > 	$V=\mathbb{R}^{2}$, where $x+y=x\cdot y$, and $cx=x^{c}$
 
 **Other Definitions:**
-	$P_{n}(\mathbb{R})$ is the set of all polynomials, with a *degree no larger than $n$*, where:
-		$P_{n}(R)=\{p:\mathbb{R}\rightarrow \mathbb{R}|p(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{0} \text{ where }a_{i}\in \mathbb{R}\}$
-		Operations (Addition and Multiplication)
-			For two polynomials $p(x), q(x)$, $(p+q)(x)=p(x)+q(x)=(a_{n}+b_{n})x^{n}+...+(a_{0}+b_{0})\in P_{n}(\mathbb{R})$
-			for $c\in \mathbb{R}$, $cp(x)=ca_{n}x^{n}+...+ca_{0}\in P_{n}(\mathbb{R})$
-	$C(\mathbb{R})$ is the set of all continuous [Functions](../MAT235%20Notes/Function.md)
+$P_{n}(\mathbb{R})$ is the set of all polynomials, with a *degree no larger than $n$*, where:  
+- $P_{n}(R)=\{p:\mathbb{R}\rightarrow \mathbb{R}|p(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_{0} \text{ where }a_{i}\in \mathbb{R}\}$  
+Operations (Addition and Multiplication)  
+- For two polynomials $p(x), q(x)$, $(p+q)(x)=p(x)+q(x)=(a_{n}+b_{n})x^{n}+...+(a_{0}+b_{0})\in P_{n}(\mathbb{R})$
+	for $c\in \mathbb{R}$, $cp(x)=ca_{n}x^{n}+...+ca_{0}\in P_{n}(\mathbb{R})$
+$C(\mathbb{R})$ is the set of all continuous [Functions](../MAT235%20Notes/Function.md)
 
 ### 1.2 Subspaces
 Let $V$ be a *vector space*
