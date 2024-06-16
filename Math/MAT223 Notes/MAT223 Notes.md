@@ -17,10 +17,10 @@ Say you have a system on equations, $t\vec{u} + s\vec{v} + r\vec{w} = \vec{p}$, 
 $$
 You can represent this equation as a system of linear equations, like:
 $$
-\begin{cases}
-      t+2s-2r=-15  \text{, row 1} \\ 
-      2t+s-5r=-21  \text{, row 2}\\
-      t-4s+r \ =18 \ \ \ \ \text{, row 3} 
+\begin{cases}  
+      t+2s-2r=-15  \text{, row 1} \\  
+      2t+s-5r=-21  \text{, row 2}\\  
+      t-4s+r \ =18 \ \ \ \ \text{, row 3}  
 \end{cases}
 $$To solve a system like this, we can use *substitution* and other techniques from algebra. [Row Reduction](Row%20Reduction) is a similar method to substitution, where we subtract rows from one another to simplify the equations
 ![850](Pasted%20image%2020231002143519.png)

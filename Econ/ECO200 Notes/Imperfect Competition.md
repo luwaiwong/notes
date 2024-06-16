@@ -1,6 +1,6 @@
 #economics #uoft/eco200 
 
-**Imperfect Competition** is the industry structure in between [Perfect Competition](Perfect%20Competition) and [Imperfect Competition](.md), where no firm has complete **Market Control**, but have each 
+**Imperfect Competition** is the industry structure in between [Perfect Competition](Perfect%20Competition) and [Imperfect Competition](.md), where no firm has complete **Market Control**, but have each  
 have some level of market influence
 
 ---

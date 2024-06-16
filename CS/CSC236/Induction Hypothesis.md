@@ -1,4 +1,4 @@
-#mathematics 
+#mathematics  
 #uoft/csc236 
 
 The [Induction Hypothesis](.md), sometimes abbreviated **I.H**, is a step of [Induction](Induction.md)

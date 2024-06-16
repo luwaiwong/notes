@@ -1,4 +1,4 @@
-#mathematics/linear-algebra 
+#mathematics/linear-algebra  
 #uoft/mat224 
 
 Two [Vector Spaces](Vector%20Space.md) are $V$ and $W$ are **Isomorphic**, if there exists a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) $T:V\rightarrow W$ that is an [Isomorphism](Isomorphism.md)

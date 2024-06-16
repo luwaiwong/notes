@@ -13,8 +13,8 @@ This can be done by finding the combination of goods that give how much of the g
 ## What does this mean
 Graphically, this means with the same utility level and utility function as with the original price, how much would consumer purchase with the new [Budget Constraint](Budget%20Constraint.md) graph
 
-> [!example]+
-> Graphical Example of the Substitution Effect VS. Income Effect
+> [!example]+  
+> Graphical Example of the Substitution Effect VS. Income Effect  
 ![Pasted image 20231102111428](attachments/Pasted%20image%2020231102111428.png)
 
 # Types of Goods
@@ -26,7 +26,7 @@ When two goods are [Complements](Complements.md), when the price of one good goe
 
 ![Pasted image 20231102114125](attachments/Pasted%20image%2020231102114125.png)
 # Graph
-The size of the substitution effect depends on the degree of curvature between the [Indifference Curve](Indifference%20Curve.md)s
-![Pasted image 20231102112711](attachments/Pasted%20image%2020231102112711.png)
+The size of the substitution effect depends on the degree of curvature between the [Indifference Curve](Indifference%20Curve.md)s  
+![Pasted image 20231102112711](attachments/Pasted%20image%2020231102112711.png)  
 This is because [Indifference Curve](Indifference%20Curve.md)s have more curvature when two goods are not highly substitutable. Goods would obviously have smaller substitution effects the worse substitutes they are for each other.
 

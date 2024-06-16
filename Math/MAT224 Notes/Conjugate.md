@@ -1,4 +1,4 @@
-#mathematics/linear-algebra 
+#mathematics/linear-algebra  
 #uoft/mat224 
 
 

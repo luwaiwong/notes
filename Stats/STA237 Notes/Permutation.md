@@ -1,4 +1,4 @@
-#statistics #computer-science #mathematics 
+#statistics #computer-science #mathematics  
 #uoft/sta237 #uoft/csc236 
 
 The **Permutations** of a [Set](../../Math/MAT223%20Notes/Set.md) is the number of ways $n$ distinct objects can be arranged, when order matters.

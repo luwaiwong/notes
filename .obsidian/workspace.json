@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md",
+                "file": "CS/CSC236/CSC236 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md",
+                "file": "CS/CSC236/CSC236 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md",
+                "file": "CS/CSC236/CSC236 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md"
+                "file": "CS/CSC236/CSC236 Notes.md"
               }
             }
           }
@@ -156,9 +156,9 @@
   },
   "active": "0351d490fddd436b",
   "lastOpenFiles": [
+    "Math/MAT224 Notes/MAT224 Notes.md",
     "README.md",
     "CS/CSC236/CSC236 Notes.md",
-    "Math/MAT224 Notes/MAT224 Notes.md",
     "CS/CSC236/attachments/Pasted image 20240612160719.png",
     "CS/CSC236/attachments/Pasted image 20240612153053.png",
     "CS/CSC236/attachments/Pasted image 20240529155616.png",

@@ -1,7 +1,7 @@
-#mathematics/linear-algebra 
+#mathematics/linear-algebra  
 #uoft/mat224 
 
-A **System of Linear Equations** is a system of $m$ equations with $n$ unknowns $x_{1},...x_{n}$, in the form:
+A **System of Linear Equations** is a system of $m$ equations with $n$ unknowns $x_{1},...x_{n}$, in the form:  
 $$\begin{aligned} a_{11}x_{1}+...+a_{1n}x_{n}&=b_{1}\\a_{21}x_{1}+...+a_{2n}x_{n}&=b_{2}\\\vdots \ \ \ \ \ \  \ \ \ \ \ \ \ \  \ \\a_{m1}x_{1}+...+a_{mn}x_{n}&=b_{m}\end{aligned} $$
 
 ---

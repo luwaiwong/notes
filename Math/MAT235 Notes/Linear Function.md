@@ -1,4 +1,4 @@
-#mathematics 
+#mathematics  
 #uoft/mat235 
 
 Linear functions are mathematical constructs, and are different for different spaces

@@ -1,4 +1,4 @@
-#mathematics 
+#mathematics  
 #uoft/mat224 
 
 **Column Vectors** are a way to represent [Vectors](Vector.md) as a [Matrix](../MAT224%20Notes/Matrix.md) with one column

@@ -4,7 +4,7 @@
 
 ---
 ## Related
-[Tangent](Tangent)
+[Tangent](Tangent)  
 [Tangent Plane](Tangent%20Plane.md)
 
 # Functions

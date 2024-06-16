@@ -12,17 +12,17 @@ To-Do:
 - 4.1a, 4.3, 4.6, 4.7
 - 4.8, 4.12, 4.13, 4.14. 
 - 7.1, 7.2a, b &d, 7.5
-- Assignment Question
-rolling 2 die
-Event C: rolling one 1
-Event D: sum of die < 6
-What is P(D|C)
+- Assignment Question  
+rolling 2 die  
+Event C: rolling one 1  
+Event D: sum of die < 6  
+What is P(D|C)  
  ^uDovX8wN
 
 
 # Embedded files
-8e5056da6567eb99e5967d7735dc1d4ce50d9da3: [[Pasted Image 20231006164419_631.png]]
-dae0c88876716af80b03a4aa6ad09fe5d346b31d: [[Pasted Image 20231006164449_661.png]]
+8e5056da6567eb99e5967d7735dc1d4ce50d9da3: [[Pasted Image 20231006164419_631.png]]  
+dae0c88876716af80b03a4aa6ad09fe5d346b31d: [[Pasted Image 20231006164449_661.png]]  
 f9f27613517ef7cd07462c8aa2d26c859941081a: [[Pasted Image 20231006164522_623.png]]
 
 %%

@@ -4,7 +4,7 @@ The [Orientation of a Base](.md) represents the direction that a base is pointin
 
 ---
 
-An ordered basis $B =\{ \vec{b}_1,...,\vec{b}_n\}$ is considered **right handed** or **positively oriented** if it can be **continuously transformed**[#^44cd90](#^44cd90) to the [Standard Basis](Standard%20Basis.md) (with $\vec{b}_{i}\rightarrow \vec{e}_i$) while remaining [linearly independent](Linear%20Independence.md) throughout the transformation. 
+An ordered basis $B =\{ \vec{b}_1,...,\vec{b}_n\}$ is considered **right handed** or **positively oriented** if it can be **continuously transformed**[#^44cd90](#^44cd90) to the [Standard Basis](Standard%20Basis.md) (with $\vec{b}_{i}\rightarrow \vec{e}_i$) while remaining [linearly independent](Linear%20Independence.md) throughout the transformation.  
 Otherwise, $B$ is called **left handed** or **negatively oriented**
 
 
@@ -16,11 +16,11 @@ A *reflection* reverses the orientation of a vector
 
 # Continuously Transformed
 
-^44cd90
+^44cd90  
 **Continuously Transformed** essentially just means rotating one axis of a vector continuously
 
-Example
+Example  
 	![Pasted image 20231016193923](Pasted%20image%2020231016193923.png)
 
-This is what it means graphically for a vector to become linearly dependent while being continuously transformed
+This is what it means graphically for a vector to become linearly dependent while being continuously transformed  
 	![Pasted image 20231016194212](Pasted%20image%2020231016194212.png)

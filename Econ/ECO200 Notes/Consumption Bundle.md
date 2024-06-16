@@ -1,4 +1,4 @@
-#economics 
+#economics  
 #uoft/eco200
 
 ## Definition

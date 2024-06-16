@@ -4,11 +4,11 @@ The **Joint Probability Mass Function** of a [Joint Distribution](Joint%20Distri
 
 ---
 # Definition
-The **Joint Probability Mass Function** $p$ of two [Discrete Random Variable](Discrete%20Random%20Variable.md)s $X$ and $Y$ is the  [Function](../../Math/MAT235%20Notes/Function.md) $p:\mathbb{R}^{2}\rightarrow [0,1]$, defined by  $$p(a,b) = P(X=a, Y=b) \ \text{ for } \ -\infty<a,b <\infty$$
+The **Joint Probability Mass Function** $p$ of two [Discrete Random Variable](Discrete%20Random%20Variable.md)s $X$ and $Y$ is the  [Function](../../Math/MAT235%20Notes/Function.md) $p:\mathbb{R}^{2}\rightarrow [0,1]$, defined by  $$p(a,b) = P(X=a, Y=b) \ \text{ for } \ -\infty<a,b <\infty$$  
 Let [Set](../../Math/MAT223%20Notes/Set.md) A be a set of pairs of $(x,y)$ in [Sample Space](Sample%20Space.md) $\Omega$. Then, $$P[(X,Y)\in A]=\sum\limits_{(x,y)\in A}p_{(X,Y)}(x,y)$$
-> [!example]- Table Example of a Joint Probability Mass Function
-> ![Pasted image 20231123121107](Attachments/Pasted%20image%2020231123121107.png)
-> On the left, are all possible values for *Random Variable $A$*, on top are all possible values for *Random Variable $B$*
+> [!example]- Table Example of a Joint Probability Mass Function  
+> ![Pasted image 20231123121107](Attachments/Pasted%20image%2020231123121107.png)  
+> On the left, are all possible values for *Random Variable $A$*, on top are all possible values for *Random Variable $B$*  
 > On the right, we can retrieve the [Probability Mass Function](Probability%20Mass%20Function.md) of only $A$, by adding up all probabilities
 
 ## Properties

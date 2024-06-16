@@ -7,5 +7,5 @@ It represents the quantity change in an input Y necessary  to keep output consis
 ---
 
 # Mathematical Definition
-$$MRTS_{LK}=-\frac{\Delta K}{\Delta L}=\frac{MP_{L}}{MP_{K}}$$
+$$MRTS_{LK}=-\frac{\Delta K}{\Delta L}=\frac{MP_{L}}{MP_{K}}$$  
 Or, the *negative of the slope of the [Isoquant](Isoquant.md)*, or [Marginal Product](Marginal%20Product.md) with respect to [Labour](Labour.md) over the **marginal product** with respect to [Capital](Capital.md)

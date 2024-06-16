@@ -10,7 +10,7 @@ The **cross section** of $f(x,y)$ at $x=c$ is the **curve** or **cross section**
 
 Thus, we can calculate the shape of the **cross section** of a function $f(x,y)$ at $c$ as $$z=f(c,y)$$
 
->An example of the cross section of a function with two variables
+>An example of the cross section of a function with two variables  
 	![Pasted image 20230919220237](Images/Pasted%20image%2020230919220237.png)![Pasted image 20230919220255](Images/Pasted%20image%2020230919220255.png)
 
 
@@ -24,5 +24,5 @@ A **Contour Diagram** for a function $f(x,y)$ is a graph of several contours for
 
 
 
-Example of a contour diagram for a Function
+Example of a contour diagram for a Function  
 	![Pasted image 20230919221716](Images/Pasted%20image%2020230919221716.png)

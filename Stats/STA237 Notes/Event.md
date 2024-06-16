@@ -1,10 +1,10 @@
-#uoft/sta237 
-#statistics 
+#uoft/sta237  
+#statistics  
 [Statistics](Statistics.md)
 
 Events are subsets of a [Sample Space](Sample%20Space.md) (Events are sets). An event *occurs* if the outcome of the experiment is an element of the Event.
 
-Two events are *disjoint* or *mutually exclusive* if both events have no outcomes in common.
+Two events are *disjoint* or *mutually exclusive* if both events have no outcomes in common.  
 $A \cap B = \emptyset$  
 
 An event A *implies* event B if all the outcomes of A are all in B, $A \in B$ 

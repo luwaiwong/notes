@@ -4,11 +4,11 @@
 
 ---
 
-> [!Example]- Cost Minimization Graphically
+> [!Example]- Cost Minimization Graphically  
 > 	![Pasted image 20231106213255](attachments/Pasted%20image%2020231106213255.png)
 
 
 
-> Change in Cost minimization graphically after changes in labour cost
+> Change in Cost minimization graphically after changes in labour cost  
 > 	![Pasted image 20231106213855](attachments/Pasted%20image%2020231106213855.png)
 

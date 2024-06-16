@@ -6,7 +6,7 @@ Similar to [Indifference Curves](Indifference%20Curve.md)
 
 ---
 
->[!Example]- Isoquant Graph Example
+>[!Example]- Isoquant Graph Example  
 >	![Pasted image 20231106204750](attachments/Pasted%20image%2020231106204750.png)
 
 # Properties
@@ -16,14 +16,14 @@ Similar to [Indifference Curves](Indifference%20Curve.md), **isoquants**
 - Isoquants are convex to the origin
 
 # Curvature 
-The **curvature** of an isoquant shows how easily firms can substitute one input for another in production
+The **curvature** of an isoquant shows how easily firms can substitute one input for another in production  
 	![Pasted image 20231106210910](attachments/Pasted%20image%2020231106210910.png)
 
-Perfect substitutes make result in perfectly straight isoquant curves, while perfect complements make "L" shaped right angles
+Perfect substitutes make result in perfectly straight isoquant curves, while perfect complements make "L" shaped right angles  
 	![Pasted image 20231106211125](attachments/Pasted%20image%2020231106211125.png)
 # Marginal Rate 
 The **slope** of the isoquant represents the *tradeoff in the productive abilitys of capital and labour*.
-> Example
+> Example  
 	![Pasted image 20231106205153](attachments/Pasted%20image%2020231106205153.png)
 
 
@@ -32,7 +32,7 @@ The **Negative of the Slope of the Isoquant** is called the [Marginal Rate of Te
 # Calculations
 [Cost Minimization](Cost%20Minimization.md)
 # Etymology
-Greek prefix *iso-* means "the same"
+Greek prefix *iso-* means "the same"  
 *quant* is a shortened version of "quantity"
 
 Together, *isoquant* means "the same quantity"

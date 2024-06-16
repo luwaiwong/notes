@@ -1,4 +1,4 @@
-#economics #uoft/eco200 
+#economics #uoft/eco200  
 A good for which **consumption decreases when income rises**
 
 A good which has a **negative** [Income Elasticity](Income%20Elasticity.md)

@@ -9,14 +9,14 @@ The [Hermitian Inner Product](../MAT224%20Notes/Hermitian%20Inner%20Product.md) 
 ## Notation
 The dot product between two vectors $\vec v, \vec w$ can be notated:
 - $\vec v\cdot \vec w$
-- $\langle \vec v,\vec w\rangle$ 
+- $\langle \vec v,\vec w\rangle$  
 	Notation in [MAT224](MAT224)
 
 ## Definitions
-The **dot product** has two definitions, both of which are equivalent:
-Geometric Definition
-	$\vec{v}\cdot \vec{w} = || \vec{v}|| \ ||\vec{w}||cos\theta$
-Algebraic Definition
+The **dot product** has two definitions, both of which are equivalent:  
+Geometric Definition  
+	$\vec{v}\cdot \vec{w} = || \vec{v}|| \ ||\vec{w}||cos\theta$  
+Algebraic Definition  
 	$\vec{v}\cdot \vec{w}=v_{1}w_{1}+v_{2}w_{2}+v_{3}w_{3}$ 
 
 Two nonzero vectors $\vec{v}$ and $\vec{w}$ are  [perpendicular/orthogonal](Orthogonal.md) if, and only if $$\vec{v}\cdot\vec{w} = 0$$

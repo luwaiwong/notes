@@ -11,7 +11,7 @@ A **production function** has a **Constant Return to Scale** if *changing the am
 
 **Decreasing Return to Scale** occurs if changing all inputs by the same multiple changes output *less than that multiple*
 
-> Examples of different Returns to Scale
+> Examples of different Returns to Scale  
 > 	![Pasted image 20231106214910](attachments/Pasted%20image%2020231106214910.png)
 
 

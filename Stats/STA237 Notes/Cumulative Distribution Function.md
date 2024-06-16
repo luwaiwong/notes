@@ -13,7 +13,7 @@ Expressing the function in terms of the [Probability Mass Function](Probability%
 ## Continuous Random Variable
 
 
-Both the [Probability Mass Function](Probability%20Mass%20Function.md) and the **Cumulative Distribution Function** of a discrete random variable *X* contain the all the probabilistic information of *X*, in other words, you can determine the *probability distribution* of *X* with either. 
+Both the [Probability Mass Function](Probability%20Mass%20Function.md) and the **Cumulative Distribution Function** of a discrete random variable *X* contain the all the probabilistic information of *X*, in other words, you can determine the *probability distribution* of *X* with either.  
 **Properties
 
 1. For $a\leq b, \ F(a)\leq F(b)$. this is a because $a \leq b$ implies that the event {$X\leq a$} is contained in the event {$X\leq b$} (Is **nondecreasing**)

@@ -10,7 +10,7 @@ The Indifference curve is defined as the combination of all different bundles of
 Thus, given a [Utility Function](Utility%20Function.md) $U=U(J,K)$, the indifference curve can be found by holding $U$ constant.
 
 
-> [!Example]
+> [!Example]  
 Say someone is looking to rent an apartment, and they like living around friends. Their [Utility Function](Utility%20Function.md) can be defined by: $$U=U(\text{Num of Friends}, \text{Apt Size})$$An example of the indifference curve could be:![Pasted image 20231010233718](attachments/Pasted%20image%2020231010233718.png)
 
 # Properties

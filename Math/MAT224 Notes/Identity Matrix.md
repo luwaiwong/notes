@@ -1,4 +1,4 @@
-#mathematics 
+#mathematics  
 #uoft/mat224 
 
 The **Identity Matrix** is one which is the $k\times k$ [Matrix](Matrix.md) $\begin{bmatrix} 1 \\  & . \\  &   & .\\ &   &   &  1\end{bmatrix}$, notated using a capital $I$

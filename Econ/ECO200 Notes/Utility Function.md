@@ -4,7 +4,7 @@ A **Utility [Function](../../Math/MAT235%20Notes/Function.md)** describes mathem
 
 ---
 # Notation
-The utility someone enjoys from consuming combinations of two goods J and K can be written as:
+The utility someone enjoys from consuming combinations of two goods J and K can be written as:  
 $$U=U(J,K)$$
 
 > An example of a specific utility function for this consumer could be $$U=J\times K$$Here, the consumers level of utility is the product of the number of J and K
