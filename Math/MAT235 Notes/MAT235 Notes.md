@@ -611,7 +611,7 @@ We know from before, that for a function, the second derivatives $f_{xy}=f_{yx}$
 The [Curl Test](Curl%20Test) says that if $\vec F$ is a gradient field, then $F_{1y}-F_{2x}=0$
 	Or better notation: $$\frac{\partial F_{1}}{y}-\frac{\partial F_{2}}{x}=0$$
 	In 3-Space, we want to check if$$\frac{\partial F_{3}}{\partial y}-\frac{\partial F_{2}}{\partial z}=0, \frac{\partial F_{1}}{\partial z}-\frac{\partial F_{2}}{\partial x}=0 , \frac{\partial F_{2}}{\partial x}-\frac{\partial F_{1}}{\partial y}=0$$
-	The **Curl Test** only holds if the [Domain](Domain) of $\vec F$ has no holes
+	The **Curl Test** only holds if the [Domain](../../CS/CSC236/Domain.md) of $\vec F$ has no holes
 
 [Green's Theorem](Green's%20Theorem) is a way of calculating the [Potential Function](Potential%20Function) of a gradient field: 
 	For a [Vector Field](Vector%20Field) $\vec F$ along the curve $C$, bounded by $a<x<b, c<y<d$ (The region $R$), $$\int_{C}\vec F \cdot d\vec r=\int_{R}^{}(\frac{\partial F_{2}}{x} - \frac{\partial F_{1}}{y})dxdy$$ OR:$$\int_{C}\vec F \cdot d\vec r=\int_{c}^{d}\int_{a}^{b}(\frac{\partial F_{2}}{x} - \frac{\partial F_{1}}{y})dxdy$$

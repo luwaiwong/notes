@@ -15,7 +15,7 @@
 [Probability](Probability.md)
 [Conditional Probability](Conditional%20Probability.md)
 [Independence](Independence.md)
-[Quantile(Percentile)](Quantile(Percentile).md)
+[Quantile(Percentile|[Percentile)](Quantile(Percentile)]].md)
 
 ### Random Variables and their Functions
 [Discrete Random Variable](Discrete%20Random%20Variable.md)
@@ -143,7 +143,7 @@ An [Exponential Distribution](Exponential%20Distribution.md) models an experimen
 A [Normal Distribution](Normal%20Distribution.md) is the most common distribution, it has a bell curved shape
 
 ### Quantiles and Percentiles
-A [Quantile(Percentile)](Quantile(Percentile).md) describes the value at which the [Cumulative Distribution Function](Cumulative%20Distribution%20Function.md) up to that point, equals a certain percentage value
+A [Quantile(Percentile|[Percentile)](Quantile(Percentile)]].md) describes the value at which the [Cumulative Distribution Function](Cumulative%20Distribution%20Function.md) up to that point, equals a certain percentage value
 For example
 	The value $q$ at which a [Continuous Random Variable](Continuous%20Random%20Variable.md) $T$ has $$P(T\leq q)=0.1$$Is called the 0.1th *quantile*, or 10th *percentile* of the distribution
 

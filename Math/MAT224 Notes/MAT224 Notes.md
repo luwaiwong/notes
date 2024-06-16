@@ -46,11 +46,11 @@ Notes for MAT224, Linear Algebra II
 ### 1.1 Vector Spaces
 A [Vector](../MAT223%20Notes/Vector.md) is a directed line segment or "arrow", with one point distinguished  as the "head", and the other distinguished as the "tail"  
 - Two operations which can be done on vectors are **vector addition**, and **vector multiplication**
-- These operations give rise to various [Properties](../MAT223%20Notes/Vector.md#^a7e263|properties) of vectors
+- These operations give rise to various [](../MAT223%20Notes/Vector.md#^a7e263|properties) of vectors
 
 A [Vector Space](Vector%20Space.md) $\mathbb{V}$ is a [Set](../MAT223%20Notes/Set.md), whose elements are called vectors, and satisfies the requirements: **(1.1.1, 7)**     
 - The set has the operations of vector addition and vector multiplication
-- The set follows a set of [Axioms](../MAT223%20Notes/Vector.md#^a7e263|axioms) (The properties of vector addition and multiplication)
+- The set follows a set of [](../MAT223%20Notes/Vector.md#^a7e263|axioms) (The properties of vector addition and multiplication)
 Axioms
 - For all vectors $x,y$ and $z\in \mathbb{V}, (x,y)+z=x+(y+z)$
 - For all vectors $x$ and $y\in \mathbb{V}, x+y=y+x$
@@ -204,7 +204,7 @@ A function $T:V\rightarrow W$ is a [Linear Transformation](../MAT223%20Notes/Lin
 -  $T(u+v)=T(u)+T(v), \forall u,v \in V$, and
 -  $T(av)=aT(v), \forall a\in \mathbb{R}, v\in V$
 	A **Linear Transformation** is one which *preserves the algebraic structure of [Vector Spaces](Vector%20Space.md)*
-	$V$ is the [Domain](Domain) of $T$, and $W$ is the [Target](Target) of $T$
+	$V$ is the [Domain](../../CS/CSC236/Domain.md) of $T$, and $W$ is the [Target](Target) of $T$
 **Properties**
 - A linear transformation always takes $0$ to $0$ 
 - Linear Transformations can convert **Vector Spaces** from one base to another
@@ -316,7 +316,7 @@ if $V$ is a finite-dimensional vector space and $T:V\rightarrow W$ is a linear t
 
 [Matrices](Matrix.md)
 	The maximum number of linearly independent columns of a matrix $A$ is called the [Rank](../MAT223%20Notes/Rank.md) of $A$
-	The **Rank** of $[T]_{\alpha}^{\beta}$ is the [Dimension](../MAT223%20Notes/Dimension.md) of the [Image](../MAT223%20Notes/Image.md) of $T$
+	The **Rank** of $[T](../MAT223%20Notes/Dimension.md) of the [Image](../MAT223%20Notes/Image.md) of $T$
 
 ### 2.4 Applications of the Dimension Theorem
 95-105
@@ -425,7 +425,7 @@ If $V$ and $W$ are finite dimensional vector spaces If two vector spaces have th
 Let $[T]_{\alpha}^{\beta}$ be the matrix representation of a linear transformation $T$.
 The [Gauss-Jordan Method](Gauss-Jordan%20Method.md) is a method for producing $[T^{-1}]_{\beta}^{\alpha}$, the matrix representation of the *inverse of the linear transformation* $T$
 	To do the **Gauss-Jordan Method**, start with the augmented matrix
-	$[T|I]=\begin{bmatrix} t_{11} & \dots & t_{1n} & | & 1 \\ \vdots &   & \vdots  & | &   & \ddots\\ a_{n1} & \dots & a_{nn}  &  | &   &   & 1\end{bmatrix}$, Where the left matrix is the matrix representation of $T$, and the right matrix is the [Identity Matrix](Identity%20Matrix.md) 
+	$[T|I](Identity%20Matrix.md) 
 	Then, perform row operations until the left side is the identity matrix.
 	The resulting matrix on the right will be $[T^{-1}]_{\beta}^{\alpha}$
 
@@ -1083,7 +1083,7 @@ An $n\times n$ complex matrix is called **Hermitian/Self Adjoint** if $A=A^{*}$
 
 Let $T:V\rightarrow V$ be a linear mapping
 
-A [Subspace](../MAT223%20Notes/Subspace.md) $W\subset V$ is [Invariant (Or Stable)](Invariant.md) under $T$ if $T(W)\subset W$
+A [Subspace](../MAT223%20Notes/Subspace.md) $W\subset V$ is [Invariant (Or Stable)](Or%20Stable)) under $T$ if $T(W)\subset W$
 
 > Invariant means that, the subspace is "contained" under $T$, Any vector from $W$ is still in $W$ after being transformed
 

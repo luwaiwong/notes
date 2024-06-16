@@ -18,7 +18,7 @@ Let $V$ and $W$ be [Subspace](Subspace.md)s. A [Function](../MAT235%20Notes/Func
 For all vectors $\vec{u},\vec{v} \in V$ and all scalars $a$
 
 > Note how this definition is similar to that of a [Vector Space](../MAT224%20Notes/Vector%20Space.md) and [Subspace](Subspace.md) 
-> Here, $V$ is called the [Domain](Domain) of $T$, and $W$ is called the [Target](Target)  of $T$
+> Here, $V$ is called the [Domain](../../CS/CSC236/Domain.md) of $T$, and $W$ is called the [Target](Target)  of $T$
 
 **Linear Transformations** have the same notation as [Transformation](Transformation.md)s
 For **linear** transformation, it is traditional to use **capital letters** to describe the function/transformation

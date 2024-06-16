@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md",
+                "file": "CS/CSC236/CSC236 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md",
+                "file": "CS/CSC236/CSC236 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md",
+                "file": "CS/CSC236/CSC236 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/MAT224 Notes/MAT224 Notes.md"
+                "file": "CS/CSC236/CSC236 Notes.md"
               }
             }
           }
@@ -148,28 +148,51 @@
   },
   "active": "0351d490fddd436b",
   "lastOpenFiles": [
-    "Math/MAT223 Notes/Vector.md",
-    "Math/MAT224 Notes/MAT224 Notes.md",
     "README.md",
-    "Econ/ECO200 Notes/ECO200 Notes.md",
-    "STA237.md",
-    "Math/MAT223 Notes/MAT223 Notes.md",
-    "MAT224/MAT224.md",
-    "MAT224",
-    "MAT235/MAT235 Notes.md",
-    "MAT235/MAT235 Definitions.md",
-    "MAT235/MAT235.md",
-    "MAT235/Notes/Unit Vector.md",
-    "MAT235/attachments/Pasted image 20231122153821.png",
-    "MAT235/Notes/Calculating Distance.md",
-    "MAT235/Notes/Chain Rule.md",
-    "MAT235/Notes",
-    "MAT137 Course Review.pdf",
-    "MAT235/Mathematics.md",
-    "MAT235/Untitled.md",
-    "MAT235/attachments/MAT235 TT3 23 (Practice test) solutions.pdf",
-    "MAT235/MAT235 TT3 23 (Practice test) solutions.pdf.md",
-    "MAT235/MAT235 Term Test 4.md",
-    "MAT235/MAT235 Textbook Week 2.md"
+    "CS/CSC236/CSC236 Notes.md",
+    "Math/MAT224 Notes/MAT224 Notes.md",
+    "CS/CSC236/attachments/Pasted image 20240612160719.png",
+    "CS/CSC236/attachments/Pasted image 20240612153053.png",
+    "CS/CSC236/attachments/Pasted image 20240529155616.png",
+    "CS/CSC236/attachments/Pasted image 20240517203833.png",
+    "CS/CSC236/attachments/Pasted image 20240517204035.png",
+    "CS/CSC236/attachments/Pasted image 20240517203945.png",
+    "CS/CSC236/attachments/Pasted image 20240508182232.png",
+    "CS/CSC236/attachments/CSC236 Week 6 Slides Completed.pdf",
+    "CS/CSC236/attachments/Pasted image 20240517173143.png",
+    "CS/CSC236/attachments/CSC236 Week 5 Slides.pdf",
+    "CS/CSC236/attachments/CSC236 Week 5 Slides Completed.pdf",
+    "CS/CSC236/attachments/CSC236 Week 4 Slides Completed.pdf",
+    "CS/CSC236/attachments/CSC236 Week 4 Slides.pdf",
+    "CS/CSC236/attachments/CSC236 Week 1 Slides.pdf",
+    "CS/CSC236/attachments/CSC236 Week 3 Slides Completed.pdf",
+    "CS/CSC236/attachments/CSC236 Week 2 Slides.pdf",
+    "CS/CSC236/attachments/CSC236 Week 3 Slides.pdf",
+    "CS/CSC236/attachments/CSC236 Textbook Hadzilacos.pdf",
+    "CS/CSC236/Well Ordering.md",
+    "CS/CSC236/Well Ordering Theorem.md",
+    "CS/CSC236/Well Ordering Principle.md",
+    "CS/CSC236/Total Ordering.md",
+    "CS/CSC236/Strong Induction.md",
+    "CS/CSC236/Simple Induction.md",
+    "CS/CSC236/Relationship.md",
+    "CS/CSC236/Predicate.md",
+    "CS/CSC236/Relation.md",
+    "CS/CSC236/Ordering.md",
+    "CS/CSC236/Non Empty.md",
+    "CS/CSC236/Induction.md",
+    "CS/CSC236/Induction Hypothesis.md",
+    "CS/CSC236/Domain.md",
+    "CS/CSC236/Complete Induction.md",
+    "CS/CSC236/Arity.md",
+    "CS/CSC236 Notes/attachments/Pasted image 20240612160719.png",
+    "CS/CSC236 Notes/attachments/Pasted image 20240612153053.png",
+    "CS/CSC236 Notes/Well Ordering.md",
+    "CS/CSC236 Notes/Well Ordering Theorem.md",
+    "CS/CSC236 Notes/Well Ordering Principle.md",
+    "CS/CSC236 Notes/Total Ordering.md",
+    "CS/CSC236 Notes/Strong Induction.md",
+    "CS/CSC236 Notes/Simple Induction.md",
+    "CS/CSC236 Notes/Relationship.md"
   ]
 }

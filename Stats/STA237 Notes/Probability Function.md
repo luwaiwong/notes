@@ -5,4 +5,4 @@ A **Probability [Function](../../Math/MAT235%20Notes/Function.md)** on a [Sample
 ---
 # Properties
 - $P(\Omega) = 1$
-- $P(A_1 \cup A_2 \cup A_3 \cup ...) = P(A_1)+ P(A_2)+P(A_2)+...$ if $A_1, A_2, A_3,...$ are [Mutually Exclusive(Disjoint)](Mutually%20Exclusive(Disjoint))
+- $P(A_1 \cup A_2 \cup A_3 \cup ...) = P(A_1)+ P(A_2)+P(A_2)+...$ if $A_1, A_2, A_3,...$ are [Mutually Exclusive(Disjoint|[Disjoint)](Mutually%20Exclusive(Disjoint)]])

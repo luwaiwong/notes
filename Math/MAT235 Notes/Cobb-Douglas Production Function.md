@@ -13,7 +13,7 @@ Mathematically, the *Cobb-Douglas Production Function* is:
 $$Q=AK^{\alpha}L^{1-\alpha} $$
 	Where:
 	$Q$ is Quantity
-	$A$ is [Total Factor Productivity Growth(Technological Change)](../../Econ/ECO200%20Notes/Total%20Factor%20Productivity%20Growth(Technological%20Change).md)
+	$A$ is [Total Factor Productivity Growth(Technological Change|[Technological Change)](../../Econ/ECO200%20Notes/Total%20Factor%20Productivity%20Growth(Technological%20Change)]].md)
 	$K$ is Capital
 	$L$ is Labour
 
