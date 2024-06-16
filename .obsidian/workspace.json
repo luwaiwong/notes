@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/CSC236/CSC236 Notes.md",
+                "file": "Math/MAT224 Notes/MAT224 Notes.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "68d2a16ef5e51fce",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/CSC236/CSC236 Notes.md",
+                "file": "Math/MAT224 Notes/MAT224 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/CSC236/CSC236 Notes.md",
+                "file": "Math/MAT224 Notes/MAT224 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +133,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/CSC236/CSC236 Notes.md"
+                "file": "Math/MAT224 Notes/MAT224 Notes.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 283.5
   },
   "left-ribbon": {
     "hiddenItems": {

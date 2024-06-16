@@ -9,7 +9,6 @@ Textbook References
 	[CSC236 Textbook Rosen](attachments/CSC236%20Textbook%20Rosen.pdf)
 
 ---
-
 # Table of Contents
 
 [#Week 1](#Week%201)
