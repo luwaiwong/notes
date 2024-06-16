@@ -6,7 +6,7 @@ For the best experience, open in [Obsidian](https://obsidian.md/)
 ---
 # Notes
 ## CS
-- [[CSC236 Notes]]
+- [CSC236 Notes](CS/CSC236/CSC236%20Notes.md)
 ## Math
 - [MAT224 Notes](Math/MAT224%20Notes/MAT224%20Notes.md)
 - [MAT235 Notes](Math/MAT235%20Notes/MAT235%20Notes.md)
