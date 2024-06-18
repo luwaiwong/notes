@@ -9,8 +9,8 @@ The **Marginal Product of Labour** ($MP_{L}$) would be the *change in quantity
 We can calculate this value as:  
 $$ MP_{L}=\frac{\Delta Q}{\Delta L}=\frac{f(K,L+\Delta L)-f(K,L)}{\Delta L}$$
 
-The **Marginal Product** is can be calculated as the [Partial Derivative](Partial%20Derivative.md) of the [Production Function](Production%20Function.md)
+The **Marginal Product** is can be calculated as the [Partial Derivative](../../Mathematics/MAT235%20Notes/Partial%20Derivative.md) of the [Production Function](Production%20Function.md)
 
 > [!Example]- Graphical Example  
 ![Pasted image 20231102120148](attachments/Pasted%20image%2020231102120148.png)  
-[](Pasted%20image%2020231102120148.png)ained from adding more and more labour*. (Diminishing returns)
+[Pasted image 20231102120148](attachments/Pasted%20image%2020231102120148.png)ained from adding more and more labour*. (Diminishing returns)

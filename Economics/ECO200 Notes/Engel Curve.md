@@ -7,7 +7,7 @@ An **Engel Curve** describes the relationship between **Income** and **Quantity 
 Engel curves are helpful because they isolate the relationship between income and quantity consumed more easily
 
 >[!example]+  
->Engel Curve Example![Pasted image 20231108174142](Pasted%20image%2020231108174142.png)
+>Engel Curve Example![Pasted image 20231108174142](attachments/Pasted%20image%2020231108174142.png)
 # Properties
 The **Y-Axis** of an **Engel curve** shows  **level of income**  
 The **X-Axis** of an **Engel curve** shows **quantity consumed**

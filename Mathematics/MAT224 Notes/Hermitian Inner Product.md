@@ -1,7 +1,7 @@
 #mathematics  
 #uoft/mat224 
 
-The **Hermitian Inner Product** is the [Dot Product](Dot%20Product.md) for [Complex Numbers](Complex%20Numbers.md)
+The **Hermitian Inner Product** is the [Dot Product](../MAT223%20Notes/Dot%20Product.md) for [Complex Numbers](Complex%20Numbers.md)
 
 ---
 # Definition

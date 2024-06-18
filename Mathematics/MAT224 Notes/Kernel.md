@@ -1,11 +1,11 @@
 #uoft/mat224 #mathematics/linear-algebra 
 
-The **Kernel** is all elements in a [Linear Transformation](Linear%20Transformation.md) which map to 0
+The **Kernel** is all elements in a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) which map to 0
 
 ---
 # Definition
 
-Let $T: V \rightarrow W$ be a [Linear Transformation](Linear%20Transformation.md)
+Let $T: V \rightarrow W$ be a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md)
 
 The [Kernel](.md) of $T$ is the subset of $V$ consisting of all vectors $v\in V$ such that $T(v)=0$ 
 
@@ -14,7 +14,7 @@ The [Kernel](.md) of $T$ is the subset of $V$ consisting of all vectors $v\in V$
 
 > Conceptually, the Kernel is the set of all vectors, that when fed into the transformation $T$, get "squashed" into 0. These represent the dimensions which are *lost* after going through the linear transformation $T$
 ## Properties
-- The **Kernel** is a [Subspace](Subspace.md) of $V$
+- The **Kernel** is a [Subspace](../MAT223%20Notes/Subspace.md) of $V$
 
 # Theorems
 The Dimension Theorem  

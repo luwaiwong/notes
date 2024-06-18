@@ -45,7 +45,7 @@ Another strategy for analyzing 3D functions is translating functions into functi
 ### 12.3 Contour Diagrams
 A [Contour Diagram](Contour%20Diagram.md), like topographical maps, can help us visualize the surface of a function and its behavior.  
 	Example of a Contour Diagram:  
-	![Pasted image 20230919221020](Pasted%20image%2020230919221020.png)
+	![Pasted image 20230919221020](Images/Pasted%20image%2020230919221020.png)
 
 > Contour Diagrams are essentially depicting the cross section of a function at certain intervals on an axis. The closer lines are together on the contour diagram, the faster the rate of change for the function at that point.
 
@@ -83,7 +83,7 @@ A **Level Surface**, or **Level Set** of a function of three variables, f(x, y, 
 > This approach of level surfaces is similar to that of using [Contour Diagrams](Contour%20Diagram.md) for **Functions of Two Variables**
 
 Example of Contour Diagrams  
-	![Pasted image 20230919225816](Pasted%20image%2020230919225816.png)
+	![Pasted image 20230919225816](Images/Pasted%20image%2020230919225816.png)
 
 ##### Some Surfaces Encountered So Far
 	![Pasted image 20230919231245](Images/Pasted%20image%2020230919231245.png)![334](Images/Pasted%20image%2020230919231258.png)
@@ -98,31 +98,31 @@ A function *f* has a [Limit](Limit.md) L at the point (a,b) is written as $$\lim
 
 ## Chapter 13
 ### 13.1 Displacement Vectors
-A **displacement vector** is a [Vector](Vector.md) from one point to another, with an arrow with the tail at the first point and the tip at the second.
+A **displacement vector** is a [Vector](../MAT223%20Notes/Vector.md) from one point to another, with an arrow with the tail at the first point and the tip at the second.
 
 **Notation**  
-[Vectors](Vector.md) can be notated as:  
+[Vectors](../MAT223%20Notes/Vector.md) can be notated as:  
 $\vec v = (v_{1},v_{2},v_{3})$, or $\vec v = v_{1}\vec{i}+v_{2}\vec{j}+v_{3}\vec{k}$  
 	In this course, the second notation is used
 
 **Vector Math**
 - You can add two displacement vectors by adding them tip to tail
 - or subtract them by adding them tip to tip
-- Vectors can be **Scaled**, with by being multiplied with [Scalars](Scalar.md)  
+- Vectors can be **Scaled**, with by being multiplied with [Scalars](../MAT223%20Notes/Scalar.md)  
 	Two vectors are [Parallel](Parallel) if one is a *scalar multiple* of the other
 
 A [Unit Vector](Unit%20Vector.md) is a vector whose magnitude is 1.  
 	A unit vector in the direction of any nonzero vector $\vec v$ is:  
 	$\vec u = (\frac{\vec{v}}{||\vec{v}||})$
 
-[Vector](Vector.md)s can be resolved to [Components](Components.md), and these **components** can be used for computations
+[Vector](../MAT223%20Notes/Vector.md)s can be resolved to [Components](../MAT223%20Notes/Components.md), and these **components** can be used for computations
 
 
 > Much has been omitted, because I understand most of vector math already, and I don't really want to write it all down again
 
 
 ### 13.2 Vectors in General
-Many quantities have both magnitude and direction, and are added and multiplied by scalars the same way as displacements. Any of these quantities is called a [Vector](Vector.md), and is represented by an arrow the same way as displacements
+Many quantities have both magnitude and direction, and are added and multiplied by scalars the same way as displacements. Any of these quantities is called a [Vector](../MAT223%20Notes/Vector.md), and is represented by an arrow the same way as displacements
 
 Such quantities are 
 - Velocity
@@ -132,7 +132,7 @@ Such quantities are
 - Acceleration
 - Force
 
-See [Vector](Vector.md) for properties of addition and scalar multiplication
+See [Vector](../MAT223%20Notes/Vector.md) for properties of addition and scalar multiplication
 
 **Vectors in *n* Dimensions**  
 We can define a vector in *n* dimensions as a string of *n* numbers. A vector in *n* dimensions can be written as  
@@ -140,7 +140,7 @@ $$\vec{c} = (c_{1},c_{2},...,c_{n})$$ Addition and scalar multiplication can be 
 
 
 ### 13.3 The Dot Product
-The [Dot Product](Dot%20Product.md) helps us represent and compute the angle between two vectors  
+The [Dot Product](../MAT223%20Notes/Dot%20Product.md) helps us represent and compute the angle between two vectors  
 The dot product has two definitions, both of which are equivalent:  
 Geometric  
 	$\vec{v}\cdot \vec{w} = || \vec{v}|| \ ||\vec{w}||cos\theta$  
@@ -165,7 +165,7 @@ Geometric Definition
 	If $\vec{v}$ and $\vec{w}$ are not parallel, then $$\vec{v}\times\vec{w}=(\text{Area of parallelogram})\vec{n}=(||\vec{v}|| \ ||\vec{w}|| \ sin \theta) \vec{n}$$where $0\leq\theta\leq\pi$ is the angle between $\vec{v}$ and $\vec{w}$ and $\vec{n}$ is the unit vector perpendicular to $\vec{v}$ and $\vec{w}$ pointing in the direction given by the right hand  
 Algebraic Definition$$\vec{v}\times\vec{w}=(v_2w_3-v_3w_2)\vec{i}+(v_3w_1-v_1w_3)\vec{j}+(v_1w_2-v_2w_1)\vec{k}$$where $\vec{v}=\vec{v_1i}+\vec{v_2j}+\vec{v_3k}$ and $\vec{w}=\vec{w_1i}+\vec{w_2j}+\vec{w_3k}$
 
-![Pasted image 20240412145112](Pasted%20image%2020240412145112.png)
+![Pasted image 20240412145112](attachments/Pasted%20image%2020240412145112.png)
 
 ## Chapter 14
 ### 14.1 The Partial Derivative
@@ -228,7 +228,7 @@ Let $f$ be a [Function of Three Variables](Function%20of%20Three%20Variables) $f
 The [Gradient Vector](Gradient%20Vector.md) for $f$ is  
 	$grad(f)=f_{x}\vec i + f_{y}\vec j + f_{z}\vec k$  
 **Properties**
--  $grad(f)(a,b,c)$ is  [Orthogonal](Orthogonal.md) to the level surface of $f$ at $(a,b,c)$
+-  $grad(f)(a,b,c)$ is  [Orthogonal](../MAT223%20Notes/Orthogonal.md) to the level surface of $f$ at $(a,b,c)$
 -  $grad(f)(a,b,c)$ is in the direction of the greatest rate of increase if $f$
 -  $||grad(f)(a,b,c)||$ is the maximum rate of change of $f$ at $(a,b,c)$
 
@@ -297,7 +297,7 @@ To find critical points of a function $f$ we set the [Gradient Vector](Gradient%
 Critical points are **Local Max/Mins**, **Global Max/Mins**, or **Neither**  
 	A critical point is not a maximum or a minimum if near the point the [partial derivatives](Partial%20Derivative.md) take both positive and negative values
 > A critical point that is neither a local max or min  
->  ![450](Pasted%20image%2020240205135527.png)
+>  ![450](attachments/Pasted%20image%2020240205135527.png)
 				
 After finding a critical point, you can classify it using the [Second Derivative Test](Second%20Derivative%20Test.md)
 
@@ -310,7 +310,7 @@ The [Discriminant](Discriminant.md) $D=f_{xx}(x,y)f_{yy}(x,y)-(f_{xy}(x,y))^{2}$
   - $D = 0$  $\implies$ inconclusive, $f$ can have local max, min, saddle point, or none at $(x,y)$
 
 >Using the second-derivative test  
->	![Pasted image 20240205141058](Pasted%20image%2020240205141058.png)
+>	![Pasted image 20240205141058](attachments/Pasted%20image%2020240205141058.png)
 
 ### 15.2 Optimization
 #### Global Max/Min
@@ -341,7 +341,7 @@ A [Regression Line](Regression%20Line) is the best fit line for a set of data/po
 
  **How to find a regression line**  
 A set of lines, and a theoretical best fit line $y=mx+b$  
-![359](Pasted%20image%2020240321213239.png)  
+![359](attachments/Pasted%20image%2020240321213239.png)  
 The least square method, is done by:
 1. Creating a new function of $m$ and $b$, $f(b,m)$ 
 2. $f(b,m)$ will be the square of the difference between each point and the equivalent point of the line  
@@ -351,7 +351,7 @@ The least square method, is done by:
 	 The correct answer for this question is $y=\frac{x-1}{3}$
 
 ### 15.3 Constrained Optimization: Lagrange
-The [Lagrangian Method](Lagrangian%20Method.md) is one which is used solve *constrained optimization* questions  
+The [Lagrangian Method](../../Economics/ECO200%20Notes/Lagrangian%20Method.md) is one which is used solve *constrained optimization* questions  
 
 > What is *constrained optimization*  
 > 	Say we are trying to optimize a function $f(x,y)$ on a region $\mathbb{R}$  
@@ -366,7 +366,7 @@ To use the **Lagrangian Method**:
 
 The **Lagrange Multiplier** $\lambda$ represents the rate of change of the optimum value of $f$ as the constraint increases
 
-The **Lagrangian Function** is another way of using the [Lagrangian Method](Lagrangian%20Method.md).  
+The **Lagrangian Function** is another way of using the [Lagrangian Method](../../Economics/ECO200%20Notes/Lagrangian%20Method.md).  
 	To optimize $f(x,y)$ with the constraint $g(x,y)=c$, we can use the **Lagrangian Function**: $$L(x,y,\lambda)=f(x,y)-\lambda(g(x,y)-c)$$  
 	To solve the equations, we can compute the [Partial Derivatives](Partial%20Derivative.md) of $L$: $$\begin{aligned}\frac{\partial L}{\partial x}&=\frac{\partial f}{\partial x}-\lambda\frac{\partial g}{\partial x} \\\frac{\partial L}{\partial y}&=\frac{\partial f}{\partial y}-\lambda\frac{\partial g}{\partial y} \\ \frac{\partial L}{\partial \lambda}&=-(g(x,y)-c)\end{aligned}$$
 	 
@@ -394,7 +394,7 @@ This does not have to always be the case, and the y integral can be inside of x 
 
 When calculating the iterated integral, calculate the inside integral with respect to x (holding y constant), then integrate the result with respect to y
 > Example of Calculating the iterated integral  
-> ![500](Pasted%20image%2020240205163859.png)
+> ![500](attachments/Pasted%20image%2020240205163859.png)
 
 #### Iterated Integrals Over Non-Rectangular Regions
 
@@ -406,28 +406,28 @@ So far, the integrals are over a rectangular area, for non-rectangular area, we 
 
 
 > Example of a Iterated Integral over a non-rectangular area  
-> ![450](Pasted%20image%2020240205164354.png)![475](Pasted%20image%2020240205164407.png)  
+> ![450](attachments/Pasted%20image%2020240205164354.png)![475](attachments/Pasted%20image%2020240205164407.png)  
 > Note: This example bounds only the top limit
 
 >  Example of an Iterated Integral Bounding the Top and Bottom  
-> ![375](Pasted%20image%2020240205164614.png)
+> ![375](attachments/Pasted%20image%2020240205164614.png)
 
 Sometimes you may want to reverse the order of the integral, the following is an example how
 
 > Example  
-> ![Pasted image 20240412172924](Pasted%20image%2020240412172924.png)
+> ![Pasted image 20240412172924](attachments/Pasted%20image%2020240412172924.png)
 ### 16.3 Triple Integrals
 
 Functions of three variables can be integrated the same as functions of two variables  
 For a box $W$ with the shape:  
-![Pasted image 20240205175730](Pasted%20image%2020240205175730.png)  
+![Pasted image 20240205175730](attachments/Pasted%20image%2020240205175730.png)  
 A triple integral as an iterated [Integral](Integral.md) would be: $$\int_{W}f dV = \int_{p}^{q}(\int_{c}^{d}(\int_{a}^{b}f(x,y,z)dx)dy)dz$$ Where $y$ and $z$ are constants in the center integral, and z is a constant in the middle integral
 
 ### 16.4 Double Integrals in polar Coordinates
 
 [Polar Coordinates](Polar%20Coordinates.md) are a coordinate system based off of the radius and angles around a circle  
 A section divided into polar coordinates will look something like the example below  
-	![Pasted image 20240205180746](Pasted%20image%2020240205180746.png)
+	![Pasted image 20240205180746](attachments/Pasted%20image%2020240205180746.png)
 
 The coordinates in this case will be the *angle* ($\theta$) and the radius $r$
 
@@ -440,7 +440,7 @@ To convert from polar coordinates to typical Cartesian coordinates, use:
 You can calculate the area of a circle by integrating its angle and radius  
 This would look something like this: $$\int_{R}fdA=\int_{\alpha}^{\beta}\int_{a}^{b}f(r,\theta)r \ drd\theta$$
 >  Calculating the area of shapes using polar coordinates  
-> 	![Pasted image 20240205181433](Pasted%20image%2020240205181433.png)
+> 	![Pasted image 20240205181433](attachments/Pasted%20image%2020240205181433.png)
 
 When computing $\int_{R}f(x,y)dA$ in polar coordinates:
 - Convert the integrand to $r,\theta$ by using $x=r \cos \theta, y = r \sin \theta, x^{2}+y^{2}=r^{2}$
@@ -454,7 +454,7 @@ In [Cylindrical Coordinates](Cylindrical%20Coordinates.md), points in 3-space ar
 To calculate a volume in Cylindrical Coordinates, we can [Integrate](Integral.md) it similarly to [Polar Coordinates](Polar%20Coordinates.md)
 
 > Calculating the area of a water tank with cylindrical coordinates  
-> 	![Pasted image 20240205182306](Pasted%20image%2020240205182306.png)
+> 	![Pasted image 20240205182306](attachments/Pasted%20image%2020240205182306.png)
 
 
 In [Spherical Coordinates](Spherical%20Coordinates.md), points in 3-space is represented using $\rho, \phi$ and $\theta$ $0\leq \rho \leq \infty, 0 \leq \phi \leq \pi$, and $0\leq \theta \leq 2\pi$
@@ -470,7 +470,7 @@ You can convert **Spherical Coordinates** to typical Cartesian coordinates with:
 > This system of coordinates is useful when there is spherical symmetry with respect to the origin, either in the region of integration or in the integrand.  
  >How Spherical Coordinates work  
 > 	Red = $\theta$, Green = $\rho$, Orange = $\phi$  
-> 	![Pasted image 20240205183752](Pasted%20image%2020240205183752.png)
+> 	![Pasted image 20240205183752](attachments/Pasted%20image%2020240205183752.png)
 
 ## Chapter 17
 ### 17.1 Parameterized Curves
@@ -528,7 +528,7 @@ A **Vector field** in 3-space is a function $\vec F(x,y,z)$ whose value at a poi
 The [Gradient Vector](Gradient%20Vector.md) of a scalar function $f$ is a function that assigns a vector to each point, and so is also   [Vector Field](Vector%20Field)
 
 > A velocity vector field  
-> ![359](Pasted%20image%2020240304164440.png)
+> ![359](attachments/Pasted%20image%2020240304164440.png)
 
 
 ## Chapter 18
@@ -548,7 +548,7 @@ The [Line Integral](Line%20Integral.md), measures the extent to which a curve in
 
 >**Conceptual Idea**  
 The Line Integral is a measure of the [Vector Field](Vector%20Field) flows for every point along a [Parametric](Parameterization.md) curve.  
-So, it is the [Sum](Sum.md) of the **Vector Field*** times the amount we move along the curve, at each point. The [Integral](Integral.md) part of it works the same way as a regular integral  
+So, it is the [Sum](../MAT224%20Notes/Sum.md) of the **Vector Field*** times the amount we move along the curve, at each point. The [Integral](Integral.md) part of it works the same way as a regular integral  
 The line integral is  
 	Positive if $\vec F$ is mostly pointing in the same direction as $C$  
 	Negative if $\vec F$ is mostly pointing in the opposite direction to $C$  
@@ -557,7 +557,7 @@ For physics questions, the line integral could represent the the amount of **Wor
 	Take someone trying to move through a river, the line integral could represent the total force of the river pushing on them
 
 > Textbook Definition of the [Line Integral](Line%20Integral.md)  
-> ![650](Pasted%20image%2020240307185506.png)
+> ![650](attachments/Pasted%20image%2020240307185506.png)
 
 ### 18.2 Computing Line Integrals over Parameterized Curves
 
@@ -627,7 +627,7 @@ Given a [Parametric](Parameterization.md) equation $\vec r$ and a [Vector Field]
 		
 
 > Example Question from Textbook  
-> ![650](Pasted%20image%2020240307193724.png)  
+> ![650](attachments/Pasted%20image%2020240307193724.png)  
 > 	Here, the values are:  
 > 		$\vec{F}=(x+y)\vec{i}+y\vec{j}$  
 > 		$\vec{r}(t)=x(t)\vec{i}+y(t)\vec{j}=cos(t)\vec{i}+sin(t)\vec{j}$  
@@ -637,7 +637,7 @@ Given a [Parametric](Parameterization.md) equation $\vec r$ and a [Vector Field]
 > 	Then we solve the equation, and get the answer
 
 > Example of computing line integral with alternative notation  
-> ![Pasted image 20240307194819](Pasted%20image%2020240307194819.png)
+> ![Pasted image 20240307194819](attachments/Pasted%20image%2020240307194819.png)
 
 How to check if [Vector Field](Vector%20Field) has a potential function/is [Path-Independent](Path-Independent)
 
@@ -645,7 +645,7 @@ How to check if [Vector Field](Vector%20Field) has a potential function/is [Path
 ### 19.1 The Idea of a Flux Integral
 
 > We start with an example of the idea of **Flux Integrals**  
-> 	![375](Pasted%20image%2020240415154950.png)  
+> 	![375](attachments/Pasted%20image%2020240415154950.png)  
 > 	The general premise we are looking for, is the idea of how much a function "flows" through an area.
 
 [Flux](Flux) describes the "flow rate" of a vector field $\vec v$ through an area (defined by an [Area Vector](Area%20Vector))  
@@ -658,7 +658,7 @@ Surfaces have an orientation, one which is is positive and one which is negative
 We say the flux through a piece of surface is positive if the flow is in the direction of the orientation and negative if it is in the opposite direction
 
 > Surface Orientation  
-> 	![Pasted image 20240415154840](Pasted%20image%2020240415154840.png)
+> 	![Pasted image 20240415154840](attachments/Pasted%20image%2020240415154840.png)
 
 The [Area Vector](Area%20Vector) of a flat, oriented surface is a vector $\vec A$ such that 
 - The magnitude of $\vec A$ is the area of the surface
@@ -672,8 +672,8 @@ The area vector represents the entire area of a surface, and the general directi
 
 > If the vector field $\vec F$ is constant, and $\vec A$ is the area vector of a flat surface, then the flux through the surface = $\vec F \cdot \vec A$  
 > Example of calculating a simple flux integral  
-> 	![Pasted image 20240415201233](Pasted%20image%2020240415201233.png)  
-> Conceptually this makes sense, if the flow rate is constant and $A$ is flat, the [Dot Product](Dot%20Product.md) already gives us information about how "aligned" two vectors are, so the flux of the surface would be as given above
+> 	![Pasted image 20240415201233](attachments/Pasted%20image%2020240415201233.png)  
+> Conceptually this makes sense, if the flow rate is constant and $A$ is flat, the [Dot Product](../MAT223%20Notes/Dot%20Product.md) already gives us information about how "aligned" two vectors are, so the flux of the surface would be as given above
 
 If the vector field $\vec F$ is not constant, or the surface $S$ is not flat, then we use the **Flux Integral**
 
@@ -709,7 +709,7 @@ And the area of the a region $S$, on the function $z=f(x,y)$ is:
 
 $$\text{Area of S}=\int_{R}\sqrt{(f_{x})^{2}+f_{y}^{2}+1}dxdy$$
 > Calculating the surface of a graph  
-> 	![Pasted image 20240415203933](Pasted%20image%2020240415203933.png)
+> 	![Pasted image 20240415203933](attachments/Pasted%20image%2020240415203933.png)
 
 
 The [Vector Field](Vector%20Field) $\vec F(x,y,z)$ of a graph given by $z=f(x,y)$ can also be found with $\vec F(x,y,f(x,y))$
@@ -718,7 +718,7 @@ With those two pieces, The [Flux](Flux) of $\vec F$ through a surface given by a
 $$\int_{S}\vec F\cdot d\vec A=\int_{R}\vec F(x,y,f(x,y))\cdot(-f_{x}\vec i-f_{y}\vec j+\vec k)dxdy$$
 
 > **Calculating Flux Integral through a surface given by a graph**  
-> 	![Pasted image 20240415203016](Pasted%20image%2020240415203016.png)
+> 	![Pasted image 20240415203016](attachments/Pasted%20image%2020240415203016.png)
 
 #### Cylinders
 
@@ -733,7 +733,7 @@ Where $T$ is the $\theta z$-region corresponding to $S$
 	Also remember to convert to Cartesian coordinates before passing values to the [Vector Field](Vector%20Field)
 
 > Example of Calculating Flux through a Cylinder  
-> 	![Pasted image 20240415205025](Pasted%20image%2020240415205025.png)
+> 	![Pasted image 20240415205025](attachments/Pasted%20image%2020240415205025.png)
 
 #### Spheres
 
@@ -747,7 +747,7 @@ $$\int_{S}\vec F\cdot d\vec A=\int_{T}\vec F(R,\theta,\phi)\cdot((\sin \phi\cos 
 Where $T$ is the $\theta \phi$-region corresponding to $S$
 
 > Example of Calculating Flux through a spherical region  
-> 	![Pasted image 20240415214304](Pasted%20image%2020240415214304.png)
+> 	![Pasted image 20240415214304](attachments/Pasted%20image%2020240415214304.png)
 
 > How to set up flux integrals (generally)
 > 1. Set up $d\vec A$, for each type of flux integral is different, for ones defined by the graph of $z=f(x,y)$, $d\vec A=-f_{x}\vec i-f_{y}\vec j+\vec k$
@@ -761,7 +761,7 @@ Where $T$ is the $\theta \phi$-region corresponding to $S$
 
 > When calculating flux, our initial metaphor was that of a liquid flowing, and flux being the rate of flow through an area.  
 > Keeping with that idea, **Divergence** is the outflow from a single point  
-> 	![287](Pasted%20image%2020240415223117.png)  
+> 	![287](attachments/Pasted%20image%2020240415223117.png)  
 > 	The divergence for the first graph at $\vec 0$ would be negative, and the divergence for the second graph at the $\vec 0$ would be positive  
 > 	That's because the first one has overall negative inflow, the vector field is "flowing out" and the second one has overall positive outflow, the vector field is "flowing in"
 
@@ -822,7 +822,7 @@ If $\vec F=F_{1}\vec i + F_{2}\vec j+F_{3}\vec k$, then
 $$curl\vec F=(\frac{\partial F_{3}}{\partial y}-\frac{\partial F_{2}}{\partial z})\vec i+(\frac{\partial F_{1}}{\partial z}-\frac{\partial F_{3}}{\partial x})\vec j+(\frac{\partial F_{2}}{\partial x}-\frac{\partial F_{1}}{\partial y})\vec k$$
 
 > We can use the cross product to help us remember the Cartesian Coordinate Definition easier  
-> 	![Pasted image 20240415232638](Pasted%20image%2020240415232638.png)
+> 	![Pasted image 20240415232638](attachments/Pasted%20image%2020240415232638.png)
 
 **Properties of the Curl**
 - Using [Green's Theorem](Green's%20Theorem) we can prove that:  

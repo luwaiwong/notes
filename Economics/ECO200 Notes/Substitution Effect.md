@@ -15,7 +15,7 @@ Graphically, this means with the same utility level and utility function as with
 
 > [!example]+  
 > Graphical Example of the Substitution Effect VS. Income Effect  
-![Pasted image 20231102111428](Pasted%20image%2020231102111428.png)
+![Pasted image 20231102111428](attachments/Pasted%20image%2020231102111428.png)
 
 # Types of Goods
 ## Substitutes
@@ -24,9 +24,9 @@ When two goods are [Substitutes](Substitutes.md),when the price of one good goes
 ## Complements
 When two goods are [Complements](Complements.md), when the price of one good goes up or goes down, and the quantity purchased changes as well, the other good follows the trend
 
-![Pasted image 20231102114125](Pasted%20image%2020231102114125.png)
+![Pasted image 20231102114125](attachments/Pasted%20image%2020231102114125.png)
 # Graph
 The size of the substitution effect depends on the degree of curvature between the [Indifference Curve](Indifference%20Curve.md)s  
-![Pasted image 20231102112711](Pasted%20image%2020231102112711.png)  
+![Pasted image 20231102112711](attachments/Pasted%20image%2020231102112711.png)  
 This is because [Indifference Curve](Indifference%20Curve.md)s have more curvature when two goods are not highly substitutable. Goods would obviously have smaller substitution effects the worse substitutes they are for each other.
 

@@ -4,46 +4,46 @@
 
 Notes for [CSC236](CSC236)  
 Textbook References  
-	[CSC236 Course Notes (Textbook) Liu](CSC236%20Course%20Notes%20(Textbook)%20Liu.pdf)  
-	[CSC236 Textbook Hadzilacos](CSC236%20Textbook%20Hadzilacos.pdf)  
-	[CSC236 Textbook Rosen](CSC236%20Textbook%20Rosen.pdf)
+	[CSC236 Course Notes (Textbook) Liu](Textbook)%20Liu)%20Liu.pdf)  
+	[CSC236 Textbook Hadzilacos](attachments/CSC236%20Textbook%20Hadzilacos.pdf)  
+	[CSC236 Textbook Rosen](attachments/CSC236%20Textbook%20Rosen.pdf)
 
 ---
 
 # Table of Contents
 
 [#Week 1](#Week%201)  
-	[CSC236 Week 1 Slides](CSC236%20Week%201%20Slides.pdf)  
+	[CSC236 Week 1 Slides](attachments/CSC236%20Week%201%20Slides.pdf)  
 	[#Course Overview](#Course%20Overview)  
 	[#Asymptotic Analysis](#Asymptotic%20Analysis)  
 	[#Induction](#Induction)  
 		[#Simple Induction](#Simple%20Induction)  
 		[#Complete Induction](#Complete%20Induction)  
 [#Week 2](#Week%202)  
-	[CSC236 Week 2 Slides](CSC236%20Week%202%20Slides.pdf)  
+	[CSC236 Week 2 Slides](attachments/CSC236%20Week%202%20Slides.pdf)  
 	[#Relations](#Relations)  
 	[#Ordering](#Ordering)  
 	[#Counting](#Counting)  
 [#Week 3](#Week%203)  
-	[CSC236 Week 3 Slides](CSC236%20Week%203%20Slides.pdf)  
+	[CSC236 Week 3 Slides](attachments/CSC236%20Week%203%20Slides.pdf)  
 	[#Probability](#Probability)  
 		[#Pigeonhole Principle](#Pigeonhole%20Principle)  
 	[#Graph Theory](#Graph%20Theory)  
 [#Week 4](#Week%204)  
-	[CSC236 Week 4 Slides](CSC236%20Week%204%20Slides.pdf)  
+	[CSC236 Week 4 Slides](attachments/CSC236%20Week%204%20Slides.pdf)  
 	[#Trees](#Trees)  
 	[#Recursion](#Recursion)  
 		[#Structural Induction](#Structural%20Induction)  
 	[#Program Correctness](#Program%20Correctness)  
 [#Week 5](#Week%205)  
-	[CSC236 Week 5 Slides](CSC236%20Week%205%20Slides.pdf)  
+	[CSC236 Week 5 Slides](attachments/CSC236%20Week%205%20Slides.pdf)  
 [#Week 6](#Week%206)  
 	[#Recursion](#Recursion)
 
 
 # Notes
 ## Week 1
->[CSC236 Week 1 Slides](CSC236%20Week%201%20Slides.pdf)  
+>[CSC236 Week 1 Slides](attachments/CSC236%20Week%201%20Slides.pdf)  
 >Readings: Liu Chapter 2: The Induction Idea, When Simple Induction Isn't Enough, Complete Induction (PG 16)
 ### Course Overview
 Course Topics
@@ -53,7 +53,7 @@ Course Topics
 
 
 Course Schedule  
-	![575](Pasted%20image%2020240508182232.png)
+	![575](attachments/Pasted%20image%2020240508182232.png)
 
 > Midterms are not cumulative
 
@@ -102,7 +102,7 @@ Then we can conclude that $\forall n\in \mathbb{N}, P(n)$ is  true
 > Prove $\forall n \in \mathbb{N}, \sum\limits_{i=0}^{n}i=\frac{n(n+1)}{2}$, Predicate is $P(n): \sum\limits_{i=0}^{n}i=\frac{n(n+1)}{2}$  
 > Base Case: $P(0):\sum\limits^{0}_{i=0}=\frac{0(0+1)}{2}=0$  (True because both are 0)  
 > Induction: $P(k)\implies P(k+1)$ (We solve this by assuming that $P(k)$ is true)  
-> 	 ![Pasted image 20240517173143](Pasted%20image%2020240517173143.png)  
+> 	 ![Pasted image 20240517173143](attachments/Pasted%20image%2020240517173143.png)  
 > 	 This proves that $\sum\limits^{k+1}_{i=0}i=\frac{(k+1)(k+2)}{2}$ which proves that $P(k)\implies P(k+1)$  
 > And thus the example is proved
 
@@ -127,12 +127,12 @@ Then we can conclude that $\forall n\in \mathbb{N}, P(n)$ is  true
 
 
 ## Week 2
->[CSC236 Week 2 Slides](CSC236%20Week%202%20Slides.pdf)  
+>[CSC236 Week 2 Slides](attachments/CSC236%20Week%202%20Slides.pdf)  
 >Readings: Hadzilacos Chapter 0.4, Chapter 1.1., Rosen Chapter 6: 6.1, 6.3~6.5.
 ### Relations
-A [Set](Set.md) is a collection of elements
+A [Set](../../Mathematics/MAT223%20Notes/Set.md) is a collection of elements
 
-A [Relation](Relation.md) between two [Set](Set.md)s $A$ and $B$ is an *association* or [Relationship](Relationship.md) between elements of set $A$ and set $B$  
+A [Relation](Relation.md) between two [Set](../../Mathematics/MAT223%20Notes/Set.md)s $A$ and $B$ is an *association* or [Relationship](Relationship.md) between elements of set $A$ and set $B$  
 More formally, a [Relation](Relation.md) is a subset of the product $A\times B$, $R\subset A\times B$  
 **Properties**
 - Relations can be defined with any number of sets
@@ -147,12 +147,12 @@ More formally, a [Relation](Relation.md) is a subset of the product $A\times B$,
 > 	The ordered pair $(-2,7)$ belongs to *Less Than*, but $(2,2)$ or $(5,3)$ do not belong
 
 ### Ordering
-A [Set](Set.md) can be [Ordered](Ordering.md) by a [Relation](Relation.md), defining relationships between elements of the set
+A [Set](../../Mathematics/MAT223%20Notes/Set.md) can be [Ordered](Ordering.md) by a [Relation](Relation.md), defining relationships between elements of the set
 
 > An example of the ordering is the *Less Than* example given above, all natural numbers are ordered by this relationship
 
 >An [Ordering](Ordering.md) of a set can be visualized as a set of nodes, with arrows connected to one another  
->	![Pasted image 20240517203833](Pasted%20image%2020240517203833.png)  
+>	![Pasted image 20240517203833](attachments/Pasted%20image%2020240517203833.png)  
 >You could visualize the *Less Than* ordering as the larger numbers pointing towards the smaller numbers
 
 [Total Ordering](Total%20Ordering.md) is when all elements have a relationship to all other elements
@@ -164,11 +164,11 @@ A [Set](Set.md) can be [Ordered](Ordering.md) by a [Relation](Relation.md), defi
 > The Less Than relation on the set of all real numbers is a [Well Ordering](Well%20Ordering.md)
 
 >A Visual Example of Total Ordering and Well Ordering  
->	![500](Pasted%20image%2020240517203945.png)![425](Pasted%20image%2020240517204035.png)  
+>	![500](attachments/Pasted%20image%2020240517203945.png)![425](attachments/Pasted%20image%2020240517204035.png)  
 >Note in the well ordering example, how each node connects to every node, and only points downwards from where it starts
 
 The [Well Ordering Theorem](Well%20Ordering%20Theorem.md) (also called Zermelo's theorem)  
-	Every [Non Empty](Non%20Empty.md) [Set](Set.md) has a relation < (less than) on $S$ which is a [Well Ordering](Well%20Ordering.md)
+	Every [Non Empty](Non%20Empty.md) [Set](../../Mathematics/MAT223%20Notes/Set.md) has a relation < (less than) on $S$ which is a [Well Ordering](Well%20Ordering.md)
 
 > This states that the natural numbers are [Well Ordering](Well%20Ordering.md)  
 > Also mentioned in lectures is that combined with [Zorn's Lemma](Zorn's%20Lemma) results in the [Axiom of Choice](Axiom%20of%20Choice) (No idea what this means)
@@ -184,28 +184,28 @@ The [Well Ordering Principle](Well%20Ordering%20Principle.md) says every nonempt
 ### Counting
 A [Factorial](Factorial.md) $n!=n\cdot(n-1)...2\cdot 1$ 
 
-A [Permutation](Permutation.md) is the number of ways $n$ objects can be arranged, when order matters  
+A [Permutation](../../Statistics/STA237%20Notes/Permutation.md) is the number of ways $n$ objects can be arranged, when order matters  
 	Without replacement, the formula for permutation is $n!$ (because $n$ ways to arrange first item, $n-1$ ways to arrange second...)  
 	With replacement, the formula for permutation is $n^{n}$ (because can pick out of $n$ for first item, $n$ for second item...)
 
-A [Combination](Combination.md) is the number of ways $n$ objects can be arranged to groups of $m$, when order does **not** matter  
+A [Combination](../../Statistics/STA237%20Notes/Combination.md) is the number of ways $n$ objects can be arranged to groups of $m$, when order does **not** matter  
 	Without replacement, the formula for combination is $_nC_{m}=\begin{pmatrix} n \\ m\end{pmatrix} = \frac{n!}{m!(n-m)!}$  
 	With replacement, the formula for combination is $\begin{pmatrix} m+n-1 \\ m\end{pmatrix}$
 
 ## Week 3
->[CSC236 Week 3 Slides Completed](CSC236%20Week%203%20Slides%20Completed.pdf)  
+>[CSC236 Week 3 Slides Completed](attachments/CSC236%20Week%203%20Slides%20Completed.pdf)  
 >Readings: Rosen Chapter 6.2, 7.1. West Chapter 1.
 
 > Discrete Probability -> Probability with countable numbers, no continuous numbers
 
 ### Probability
 Stats Recap:  
-	[Random Variables](Random%20Variable) represent an experiment, think of a random variable as a [Function](Function.md) that takes in the sample space of the experiment (For example, the different ways you can roll a dice), and returns the outcome (If the dice lands on an even number)
+	[Random Variables](Random%20Variable) represent an experiment, think of a random variable as a [Function](../../Mathematics/MAT235%20Notes/Function.md) that takes in the sample space of the experiment (For example, the different ways you can roll a dice), and returns the outcome (If the dice lands on an even number)
 	
-	[Probability Distributions](Probability%20Distribution), and [Probability Functions](Probability%20Function.md) return a [Probability](Probability.md) from 0-1 of the probability of any event occurring for a [Random Variable](Random%20Variable)  
+	[Probability Distributions](Probability%20Distribution), and [Probability Functions](../../Statistics/STA237%20Notes/Probability%20Function.md) return a [Probability](../../Statistics/STA237%20Notes/Probability.md) from 0-1 of the probability of any event occurring for a [Random Variable](Random%20Variable)  
 	
-	[Expected Value](Expected%20Value.md)
-	[Variance](Variance.md)
+	[Expected Value](../../Statistics/STA237%20Notes/Expected%20Value.md)
+	[Variance](../../Statistics/STA237%20Notes/Variance.md)
 
 #### Pigeonhole Principle
 The [Pigeonhole Principle](Pigeonhole%20Principle.md) (Also known as the **Dirichlet Drawer Principle**) states that:  
@@ -237,7 +237,7 @@ A [Cycle](Cycle.md) is a $u,u$-path
 The [Length](Length.md) of any of the concepts above, is the number of edges
 
 > An example of each of the concepts  
-> 	![Pasted image 20240529155616](Pasted%20image%2020240529155616.png)
+> 	![Pasted image 20240529155616](attachments/Pasted%20image%2020240529155616.png)
 
 A [Graph](Graph.md) is:
 - [Connected](Connected.md), if between every pair of [Vertices](Vertex.md), there exits a path
@@ -247,7 +247,7 @@ The [Degree](Degree.md) of a [Vertex](Vertex.md) is the *number of neighbors* it
  - A [Leaf](Leaf.md) is a [Vertex](Vertex.md) with degree 1 in a tree
 
 ## Week 4
-> [CSC236 Week 4 Slides Completed](CSC236%20Week%204%20Slides%20Completed.pdf)  
+> [CSC236 Week 4 Slides Completed](attachments/CSC236%20Week%204%20Slides%20Completed.pdf)  
 > Readings: Liu Chapter 2: Structural induction, Chapter 4: What is Correctness. Vassos Hadzilacos Chapter 2: 1, 2, 3
 
 ### Trees
@@ -259,7 +259,7 @@ The [Height](Height.md) of any node is the length of the longest path from the n
 The [Depth](Depth.md) of a node is the length of the path to the [Root](Root.md)
 
 > Example  
-> 	![500](Pasted%20image%2020240618184536.png)
+> 	![500](attachments/Pasted%20image%2020240618184536.png)
 
 ### Recursion
 You can use [Recursion](Recursion) to [Recursively Define Sets](Recursively%20Defined%20Set.md)
@@ -288,7 +288,7 @@ Structural Induction is the technique of using the [Recursive Definition of a Se
 
 > An example of using [Structural Induction](Structural%20Induction.md) to prove that every non-empty binary tree has one more node than edge  
 > (Using the recursive definition of the set of all non-empty binary trees shown above)  
-> ![349](Pasted%20image%2020240612153053.png)
+> ![349](attachments/Pasted%20image%2020240612153053.png)
 
 ### Program Correctness
 
@@ -302,7 +302,7 @@ A function has [Program Correctness](Program%20Correctness) if:
 	For every input $I$ to $f$, if $I$ satisfies the preconditions, then $f(I)$ terminates, and all the postconditions hold after it terminates
 
 > An example of the preconditions and the postcondition of a function  
-> ![650](Pasted%20image%2020240612160719.png)  
+> ![650](attachments/Pasted%20image%2020240612160719.png)  
 > This code is correct, its **Statement of Correctness** is such:  
 > 	For all $a,b\in \mathbb{Z}^{+}$ such that $a\geq b$, `gcd_rec(a,b)` terminates and returns `gcd(a,b)`
 
@@ -329,9 +329,9 @@ For each program path from the first line to a *return* statement, show that it 
 An algo to find the minimum spanning tree
 
 ## Week 5
->[CSC236 Week 5 Slides Completed](CSC236%20Week%205%20Slides%20Completed.pdf)  
+>[CSC236 Week 5 Slides Completed](attachments/CSC236%20Week%205%20Slides%20Completed.pdf)  
 > Readings: Liu Chapter 4 (Iterative Programs, Termination)  
-> 	[CSC236 Course Notes (Textbook) Liu](CSC236%20Course%20Notes%20(Textbook)%20Liu.pdf)
+> 	[CSC236 Course Notes (Textbook) Liu](Textbook)%20Liu)%20Liu.pdf)
 
 > Most of this week is focused on reinforcing concepts from previous weeks, and exploring more problems using previous content
 
@@ -348,7 +348,7 @@ The [Loop Invariant](Loop%20Invariant) is a condition that guarantees that durin
 	Usually, the predicate depends on which iteration the loop is on
 
 > The loop invariant of a function like this:  
-> 	![Pasted image 20240616180319](Pasted%20image%2020240616180319.png)  
+> 	![Pasted image 20240616180319](attachments/Pasted%20image%2020240616180319.png)  
 > Could be $Inv(i,\text{sum}):0\leq i \leq len(A) \land\text{sum}=\sum\limits_{k=0}^{i-1}A[k]$  
 > 	The first part is important, defines the loop *termination*/bounds, and then second part defines the value of sum at each point in the loop  
 > Defining the current state of sum at every point in the loop
@@ -387,16 +387,16 @@ The Structure of a [Program Correctness](Program%20Correctness) proof would be
 > Review examples, in week 5 slides
 
 ## Week 6
->[CSC236 Week 6 Slides Completed](CSC236%20Week%206%20Slides%20Completed.pdf)  
+>[CSC236 Week 6 Slides Completed](attachments/CSC236%20Week%206%20Slides%20Completed.pdf)  
 >_Readings: Liu Chapter 3, Chapter 4 (Correctness of Recursive Programs)._  
->	[CSC236 Course Notes (Textbook) Liu](CSC236%20Course%20Notes%20(Textbook)%20Liu.pdf)
+>	[CSC236 Course Notes (Textbook) Liu](Textbook)%20Liu)%20Liu.pdf)
 
 ### Recursion
 
 [Recursive](Recursive) Algorithms are ones which call itself during runtime  
 [Recursion Depth](Recursion%20Depth) is the number of times a recursive function will call itself
 
-A [Recursive](Recursive) [Function](Function.md) is one defined with itself
+A [Recursive](Recursive) [Function](../../Mathematics/MAT235%20Notes/Function.md) is one defined with itself
 
 > An example of a *recursively defined function*  
 > 	$f(n)=\begin{cases} 0, & \text{if } n=0 \\ f(n-1)+2n-1, & \text{if } n\geq 1 \end{cases}$

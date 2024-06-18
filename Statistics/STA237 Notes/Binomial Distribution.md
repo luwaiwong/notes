@@ -31,4 +31,4 @@ Consider an experiment where you must complete a multiple choice exam, which has
 The probability that you answer exactly one question correctly would be $$P(X=1) =\frac{1}{4}\cdot(\frac{3}{4})^{9}\cdot 10$$  
 $\frac{1}{4}$ being the one question correct, and $(\frac{3}{4})^9$ being all the possible ways you can answer the other questions wrong  
 Then, the probability of getting *k* number of questions correct would be $$P(X=k)=(\frac{1}{4})^{k\cdot}(\frac{3}{4})^{10-k}\cdot C_{10,k}$$which is the probability that *k* questions were answered correctly, times the probability that the other 10-*k* answers are wrong, times the number of ways $C_{10,k}$ this can occur  
-![Pasted image 20231011133724](Pasted%20image%2020231011133724.png)
+![Pasted image 20231011133724](Attachments/Pasted%20image%2020231011133724.png)

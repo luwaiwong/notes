@@ -1,6 +1,6 @@
 #statistics #uoft/sta237
 
-The **Marginal Probability Mass [Function](Function.md)** of a [Joint Probability Mass Function](Joint%20Probability%20Mass%20Function.md) describes the probability of only one of the variables occurring
+The **Marginal Probability Mass [Function](../../Mathematics/MAT235%20Notes/Function.md)** of a [Joint Probability Mass Function](Joint%20Probability%20Mass%20Function.md) describes the probability of only one of the variables occurring
 
 ---
 # Definition

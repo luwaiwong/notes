@@ -8,9 +8,9 @@ Each good in a [Utility Function](Utility%20Function.md) has its own **marginal 
 # Formal Definition & Notation
 Given the [Utility Function](Utility%20Function.md) of a consumer which consumes two goods, $J$ and $K$,  
 The **Marginal Utility** of $J$ is:  
-$$MU_J=\frac{\Delta U(J,K)}{\Delta{J}}$$Or, the [Derivative](Derivative.md) of the **utility function** over the change in $J$
+$$MU_J=\frac{\Delta U(J,K)}{\Delta{J}}$$Or, the [Derivative](../../Mathematics/MAT235%20Notes/Derivative.md) of the **utility function** over the change in $J$
 
 Alternatively, The **Marginal Utility** of a good $J$ is: $$MU_{J}=U_{J}(J,K)$$  
-Or, the [Partial Derivative](Partial%20Derivative.md) of the **utility function** with respect to $J$
+Or, the [Partial Derivative](../../Mathematics/MAT235%20Notes/Partial%20Derivative.md) of the **utility function** with respect to $J$
 
 

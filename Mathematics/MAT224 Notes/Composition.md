@@ -1,7 +1,7 @@
 #mathematics/linear-algebra  
 #uoft/mat224 
 
-The **Composition** of two [Functions](Function.md)/[Transformations](Transformation.md)   $S$ and $T$ is denoted $TS:U\rightarrow W$ and is defined by $TS(v)=T(S(v))$ 
+The **Composition** of two [Functions](../MAT235%20Notes/Function.md)/[Transformations](../MAT223%20Notes/Transformation.md)   $S$ and $T$ is denoted $TS:U\rightarrow W$ and is defined by $TS(v)=T(S(v))$ 
 
 ---
 # Definition
@@ -11,7 +11,7 @@ Let $\alpha, \beta$ and $\gamma$ be bases for $U,V$ and $W$
 Then $[TS]^{\gamma}_{\alpha}=[T]^{\gamma}_{\beta}[S]^{\beta}_{\alpha}$
 
 >Takeaways:  
->The resulting [Basis](Base.md) of the **Composition** transformation is related to the bases of the bases of the transformation going in  
+>The resulting [Basis](../MAT223%20Notes/Base.md) of the **Composition** transformation is related to the bases of the bases of the transformation going in  
 >And the matrix of the composition of two linear transformations is the product of the matrices of the transformations
 
 ## Properties

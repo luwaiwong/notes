@@ -15,4 +15,4 @@ Since **Cylindrical Coordinates** exist in 3-Space, most integration done with c
 When computing triple integrals in cylindrical coordinates, convert the integrand to be in terms of $r, \theta, z$ and set $dV=r dr d \theta dz$
 
 > Example of Integrating in Cylindrical Coordinates  
-> ![Pasted image 20240412185331](Pasted%20image%2020240412185331.png)
+> ![Pasted image 20240412185331](attachments/Pasted%20image%2020240412185331.png)

@@ -5,7 +5,7 @@ One stop shop for everything MAT224
 
 ---
 # Definitions
-A [Vector Space](Vector%20Space.md) is a [Set](Set.md), whose elements are called  [Vectors]([Vector), with the operations of vector addition and multiplication, following the axioms:
+A [Vector Space](Vector%20Space.md) is a [Set](../MAT223%20Notes/Set.md), whose elements are called  [Vectors]([Vector), with the operations of vector addition and multiplication, following the axioms:
 - For all vectors $x,y$ and $z\in \mathbb{V}, (x,y)+z=x+(y+z)$
 - For all vectors $x$ and $y\in \mathbb{V}, x+y=y+x$
 - There exists a vector $0\in \mathbb{V}$ with the property that $x+0=x$ for all vectors $x\in \mathbb{V}$
@@ -15,25 +15,25 @@ A [Vector Space](Vector%20Space.md) is a [Set](Set.md), whose elements are calle
 - For all vectors $x\in \mathbb{V}$ and all $c,d\in \mathbb{R}, (cd)x=c(dx)$
 - For all vectors $x\in \mathbb{V},1x=x$
 
-A [Subspace](Subspace.md) is a subset of a [Vector Space](Vector%20Space.md), that is also a vector space  
+A [Subspace](../MAT223%20Notes/Subspace.md) is a subset of a [Vector Space](Vector%20Space.md), that is also a vector space  
 If the following properties hold, then a subspace is also a vector space
 - $\vec{u}+\vec{v}\in V$(also called being *closed with respect to vector addition*, and
 - $k\vec{u}\in V$(also called being *closed with respect to scalar multiplication*)
 - $\vec 0 \in V$ 
 
-A [Span](Span.md) of a set of [Vectors](Vector.md) is the set of all possible [Linear Combinations](Linear%20Combination.md) of those vectors
+A [Span](../MAT223%20Notes/Span.md) of a set of [Vectors](../MAT223%20Notes/Vector.md) is the set of all possible [Linear Combinations](../MAT223%20Notes/Linear%20Combination.md) of those vectors
 - $W_{1}+W_{2}=\{x\in V \  | \ x = x_{1}, \text{ for some }x_{1}\in W_{2} \}$ 
 - If $W_{1}=Span(S_{1})$, and $W_{2}=Span(S_{2})$, $W_{1}+W_{2}=Span(S_{1}\cup S_{2})$
 - Let $W \supseteq W_{1}\cup W_{2}$ , then $W\supseteq W_{1}+W_{2}$
 
-The [Dimension](Dimension.md) of a [Vector Space](Vector%20Space.md) is the number of vectors in any [Base](Base.md)
+The [Dimension](../MAT223%20Notes/Dimension.md) of a [Vector Space](Vector%20Space.md) is the number of vectors in any [Base](../MAT223%20Notes/Base.md)
 
-A [Linear Transformation](Linear%20Transformation.md) is one where:
+A [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) is one where:
 -  $T(u+v)=T(u)+T(v), \forall u,v \in V$, and
 -  $T(av)=aT(v), \forall a\in \mathbb{R}, v\in V$  
 	$T(au+bv)=aT(u)+bT(v)$
 
-The [Dot Product](Dot%20Product.md), or **Inner Product** has two definitions, both of which are equivalent:  
+The [Dot Product](../MAT223%20Notes/Dot%20Product.md), or **Inner Product** has two definitions, both of which are equivalent:  
 Geometric Definition  
 	$\vec{v}\cdot \vec{w} = || \vec{v}|| \ ||\vec{w}||cos\theta$  
 Algebraic Definition  
@@ -46,15 +46,15 @@ Transformation as Matrices
 	And $[R_{a}]_\alpha^{\alpha}= \begin{bmatrix} cos(\theta) & -sin(\theta) \\ sin(\theta)  & cos(\theta)\end{bmatrix}$  
 	Where $\alpha$ is the standard basis in $\mathbb{R}^{2}$
 - A **Projection** on a vector $a$ in $\mathbb{R^{2}}$ can be defined by $[P_{a}]_{\alpha}^{\alpha}= \frac{1}{a_{1}^{2}+a_{2}^{2}}\begin{bmatrix} a^{2}_{1} & a_{1}a_{2} \\ a_{1}a_{2} & a^{2}_{2}\end{bmatrix}$  
-	Try to solve for this using the equation for [Projection](Projection.md), look back at 2.1
+	Try to solve for this using the equation for [Projection](../MAT235%20Notes/Projection.md), look back at 2.1
 
 
 The [Transpose](Transpose.md) of a [Matrix](Matrix.md) is the matrix with its rows and columns swapped  
 	If $A$ is the $m\times n$ matrix with entries $a_{ij}$, then $B=T(A)$ is the $n\times n$ matrix with entries $b_{ji}=a_{ij}$ The rows of $A$ are the columns of $B$, and vice versa
 
-The [Image](Image.md) is the result of the linear transformation of $W$
+The [Image](../MAT223%20Notes/Image.md) is the result of the linear transformation of $W$
 - The dimension of $Im(T)$ is:
-	- The [Rank](Rank.md) of $A$ (Number of linearly independent columns)
+	- The [Rank](../MAT223%20Notes/Rank.md) of $A$ (Number of linearly independent columns)
 	-  $dim(Im(T))\leq dim(V)$ 
 
 The [Kernel](Kernel.md) is the space of all vectors, where $T(x)=0$
@@ -66,15 +66,15 @@ if $V$ is a finite-dimensional vector space and $T:V\rightarrow W$ is a linear t
 ---
 # How To's (Condensed)
 ### Check if a Set is a Vector Space/Subspace
-For a [Vector Space](Vector%20Space.md), verifies that the set follows the [](Vector.md#^a7e263|axioms)  
-For a [Subspace](Subspace.md) $V$ of a Vector Space  
+For a [Vector Space](Vector%20Space.md), verifies that the set follows the [](../MAT223%20Notes/Vector.md#^a7e263|axioms)  
+For a [Subspace](../MAT223%20Notes/Subspace.md) $V$ of a Vector Space  
 Verify that the following are true, or check that $V$ follows all axioms too  
 	$\vec{u}+\vec{v}\in V$(also called being *closed with respect to vector addition*, and  
 	$k\vec{u}\in V$(also called being *closed with respect to scalar multiplication*)  
 	$\vec 0 \in V$  
 Or use this to check both at once  
 	Let $V$ be a vector space, $W$ be nonempty subset of $V$  
-	$W$ is a [Subspace](Subspace.md) of $V$ if and only if:  
+	$W$ is a [Subspace](../MAT223%20Notes/Subspace.md) of $V$ if and only if:  
 		$\forall x,y \in W, \forall c \in \mathbb{R}, cx+y \in W$ 
 
 ### Check if a Set is Linearly Independent
@@ -157,7 +157,7 @@ Solve matrix to row-reduced echelon form
 Find the columns in the original matrix, where the row-reduced form has leading 1's  
 Those columns are the basis for the image of $A$
 
-The dimension of the image is also equal to the number of linearly independent columns, or the [Rank](Rank.md) of $A$
+The dimension of the image is also equal to the number of linearly independent columns, or the [Rank](../MAT223%20Notes/Rank.md) of $A$
 
 Number of basic variables in homogenous system $Ax=0$ is $dim(Im(T))$
 
@@ -245,7 +245,7 @@ The [Determinant](Determinant.md) of a $3\times 3$ matrix $A$ is:
 	$\begin{bmatrix} a & b & c \\ d & e & f \\ g & h &i\end{bmatrix}=aei+bfg+cdh-ceg-bdi-afh$
 
 > Rule of Sarus  
-> ![Pasted image 20240308195525](Pasted%20image%2020240308195525.png)
+> ![Pasted image 20240308195525](attachments/Pasted%20image%2020240308195525.png)
 
 
 #### Elimination Algorithm
@@ -306,7 +306,7 @@ $P_{W_{i}}(v)=\sum\limits\frac{\langle v_{i},v\rangle}{\langle v_{i},v_{i}\rangl
 - Define $W_{2}=Span(\{v_{1},v_{2}\})$, Produce $v_{3}$ with $v_{3}=u_{3}-P_{W_{2}}(u_{3})$,  
 	This by definition will be orthogonal to $v_{1}$ and $v_{2}$ 
 - Continue this process for each $u_{i}$, set $W_{i}=Span(\{v_{1},...,v_{i}\})$, and define $v_{i+1}=u_{i+1}-P_{W_{i}}(u_{i+1})$
-- To make an [Orthonormal](Orthonormal.md) basis, divide each $v_{i}$ by its [Norm](Norm.md) during the process to make a unit vector
+- To make an [Orthonormal](../MAT223%20Notes/Orthonormal.md) basis, divide each $v_{i}$ by its [Norm](Norm.md) during the process to make a unit vector
 
 ### Check if Matrix is Symmetric
 Check $A=A^{t}$, or $x,y\in \mathbb{R}^{n}, \langle Ax,y\rangle = \langle x, A^{t}y\rangle$  

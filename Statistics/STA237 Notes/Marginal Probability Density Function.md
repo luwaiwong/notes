@@ -1,6 +1,6 @@
 #statistics #uoft/sta237 
 
-The **Marginal Probability Density [Function](Function.md)** of a [Joint Probability Density Function](Joint%20Probability%20Density%20Function.md) describes the probability of only one of the variables occurring
+The **Marginal Probability Density [Function](../../Mathematics/MAT235%20Notes/Function.md)** of a [Joint Probability Density Function](Joint%20Probability%20Density%20Function.md) describes the probability of only one of the variables occurring
 
 ---
 

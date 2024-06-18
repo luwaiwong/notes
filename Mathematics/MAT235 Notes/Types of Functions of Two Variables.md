@@ -17,7 +17,7 @@ If a **plane** has slope $m$ in the x-direction and slope $n$ in the y-direction
 - The [Contour Diagram](Contour%20Diagram.md) of a linear function is simply evenly spaced, straight parallel lines
 > [!example]- Cross Section Example  
 ![Pasted image 20230919220350](Images/Pasted%20image%2020230919220350.png)  
-[](Pasted%20image%2020230919220350.png)t shapes called **cylinders**  
+[Pasted image 20230919220350](Images/Pasted%20image%2020230919220350.png)t shapes called **cylinders**  
 Example:  
-	![Pasted image 20230919220540](Pasted%20image%2020230919220540.png)
+	![Pasted image 20230919220540](Images/Pasted%20image%2020230919220540.png)
 

@@ -20,6 +20,6 @@ Then we can conclude that $\forall n\in \mathbb{N}, P(n)$ is  true
 > Prove $\forall n \in \mathbb{N}, \sum\limits_{i=0}^{n}i=\frac{n(n+1)}{2}$, Predicate is $P(n): \sum\limits_{i=0}^{n}i=\frac{n(n+1)}{2}$  
 > Base Case: $P(0):\sum\limits^{0}_{i=0}=\frac{0(0+1)}{2}=0$  (True because both are 0)  
 > Induction: $P(k)\implies P(k+1)$ (We solve this by assuming that $P(k)$ is true)  
-> 	 ![Pasted image 20240517173143](Pasted%20image%2020240517173143.png)  
+> 	 ![Pasted image 20240517173143](attachments/Pasted%20image%2020240517173143.png)  
 > 	 This proves that $\sum\limits^{k+1}_{i=0}i=\frac{(k+1)(k+2)}{2}$ which proves that $P(k)\implies P(k+1)$  
 > And thus the example is proved

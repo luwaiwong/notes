@@ -17,10 +17,10 @@ Similar to [Indifference Curves](Indifference%20Curve.md), **isoquants**
 
 # Curvature 
 The **curvature** of an isoquant shows how easily firms can substitute one input for another in production  
-	![Pasted image 20231106210910](Pasted%20image%2020231106210910.png)
+	![Pasted image 20231106210910](attachments/Pasted%20image%2020231106210910.png)
 
 Perfect substitutes make result in perfectly straight isoquant curves, while perfect complements make "L" shaped right angles  
-	![Pasted image 20231106211125](Pasted%20image%2020231106211125.png)
+	![Pasted image 20231106211125](attachments/Pasted%20image%2020231106211125.png)
 # Marginal Rate 
 The **slope** of the isoquant represents the *tradeoff in the productive abilitys of capital and labour*.
 > Example  

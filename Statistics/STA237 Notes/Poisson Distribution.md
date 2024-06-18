@@ -15,7 +15,7 @@ Given $\lambda$,
 [Expected Value](Expected%20Value.md):$$E(X)=\lambda$$  
 [Variance](Variance.md):$$Var(X)=\lambda$$
 # Example
-Patients arrive at a hospital emergency room at a constant rate of 5 patients per hour, on average.![Pasted image 20231012122945](Pasted%20image%2020231012122945.png)
+Patients arrive at a hospital emergency room at a constant rate of 5 patients per hour, on average.![Pasted image 20231012122945](Attachments/Pasted%20image%2020231012122945.png)
 ## R Functions 
 Computing [Probability Mass Function](Probability%20Mass%20Function.md): $p(x)=P(X=x)$  
 `dpois(x, \lambda)`  

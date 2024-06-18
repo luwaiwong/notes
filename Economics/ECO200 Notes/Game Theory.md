@@ -23,7 +23,7 @@ Sometimes there may be **Multiple Nash Equilibria**
 	In that case, then we don't know which the companies will settle on, it is essentially random
  
 > Multiple Nash Equilibrium Example  
-> ![400](Pasted%20image%2020240305134248.png)  
+> ![400](attachments/Pasted%20image%2020240305134248.png)  
 > 	Here, for both companies, *March* is a **dominated strategy**  
 > 	The companies will never pick March
 
@@ -34,7 +34,7 @@ The **Maximin Strategy** is where the player minimizes their exposure to risk. T
 
 ## Examples
 > Examples of **Nash Equilibrium**  
-> ![400](Pasted%20image%2020240305132607.png) ![400](Pasted%20image%2020240305132812.png) ![350](Pasted%20image%2020240305134453.png)  
+> ![400](attachments/Pasted%20image%2020240305132607.png) ![400](attachments/Pasted%20image%2020240305132812.png) ![350](attachments/Pasted%20image%2020240305134453.png)  
 > 	For Table 12.2  
 > 		The options with checks are best decisions given the other player's moves  
 > 		Here, when blue selects RS, and red selects CI, selecting another option would decrease their profit, thus, the **Nash Equilibrium** is the box with two checks  
@@ -60,7 +60,7 @@ The **Maximin Strategy** is where the player minimizes their exposure to risk. T
 
 
 > Why finite repeated games do not induce cooperation  
->![500](Pasted%20image%2020240305140307.png)  
+>![500](attachments/Pasted%20image%2020240305140307.png)  
 >	This logic carries for as many repeated games there are.  
 >	If there are 50 played games, the players will realize that its best to cheat on the 50th game, meaning that it would be the best to cheat on the 49th game, and so on and so on  
 >	This is an example of **Backwards Induction**
@@ -81,7 +81,7 @@ Sequential games eliminates **Multiple Equilibriums**, but the outcome is still 
 
 ## Examples
 > Decision Tree Examples  
-> ![425](Pasted%20image%2020240305141621.png) ![450](Pasted%20image%2020240305142328.png) ![400](Pasted%20image%2020240305142824.png)  
+> ![425](attachments/Pasted%20image%2020240305141621.png) ![450](attachments/Pasted%20image%2020240305142328.png) ![400](attachments/Pasted%20image%2020240305142824.png)  
 > 	Example 1  
 > 		The first example is the same as the one before with multiple equilibrium  
 > 		Now, since the game is sequential, *Warner Brothers* has a **First Movers Advantage**  
@@ -104,13 +104,13 @@ One application of strategic moves is a company trying to deter new competitors 
 
 ## Examples
 > Example of Side Payments  
-> ![400](Pasted%20image%2020240305142824.png) ![500](Pasted%20image%2020240305142945.png) ![450](Pasted%20image%2020240305143025.png)  
+> ![400](attachments/Pasted%20image%2020240305142824.png) ![500](attachments/Pasted%20image%2020240305142945.png) ![450](attachments/Pasted%20image%2020240305143025.png)  
 > 	In Example 1, The best move is for *Danica* to do play.  
 > 	Example 2 shows the change in dominant strategy with a promised side payment  
 > 	Example 3 shows a punishment for non-cooperation
 
 > Example of **Commitments**  
-> ![Pasted image 20240305143527](Pasted%20image%2020240305143527.png) ![400](Pasted%20image%2020240305155408.png) ![425](Pasted%20image%2020240305155430.png)  
+> ![Pasted image 20240305143527](attachments/Pasted%20image%2020240305143527.png) ![400](attachments/Pasted%20image%2020240305155408.png) ![425](attachments/Pasted%20image%2020240305155430.png)  
 > 	Example 1  
 > 		For both players, both opening in may would be detrimental, so there were two **Nash Equilibrium** for May, and December.  
 > 		One player however, makes a commitment, threatening to do May no matter what.  

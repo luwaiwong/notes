@@ -1,6 +1,6 @@
 #statistics #uoft/sta237 
 
-A [Set](Set.md) containing **all the possible [Outcomes](Outcomes.md)** of an experiment
+A [Set](../../Mathematics/MAT223%20Notes/Set.md) containing **all the possible [Outcomes](Outcomes.md)** of an experiment
 
 ---
 

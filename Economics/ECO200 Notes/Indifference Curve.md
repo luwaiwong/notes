@@ -1,6 +1,6 @@
 #uoft/eco200 #economics 
 
-An **Indifference Curve** represents the combination of all the different bundles of goods that the consumer is [Indifferent](Indifferent.md) towards, or gives a consumer the same amount of [Utility](Utility.md). **Indifference Curves** are similar to [Contour Diagram](Contour%20Diagram.md)s
+An **Indifference Curve** represents the combination of all the different bundles of goods that the consumer is [Indifferent](Indifferent.md) towards, or gives a consumer the same amount of [Utility](Utility.md). **Indifference Curves** are similar to [Contour Diagram](../../Mathematics/MAT235%20Notes/Contour%20Diagram.md)s
 
 ---
 
@@ -11,7 +11,7 @@ Thus, given a [Utility Function](Utility%20Function.md) $U=U(J,K)$, the indiffer
 
 
 > [!Example]  
-Say someone is looking to rent an apartment, and they like living around friends. Their [Utility Function](Utility%20Function.md) can be defined by: $$U=U(\text{Num of Friends}, \text{Apt Size})$$An example of the indifference curve could be:![Pasted image 20231010233718](Pasted%20image%2020231010233718.png)
+Say someone is looking to rent an apartment, and they like living around friends. Their [Utility Function](Utility%20Function.md) can be defined by: $$U=U(\text{Num of Friends}, \text{Apt Size})$$An example of the indifference curve could be:![Pasted image 20231010233718](attachments/Pasted%20image%2020231010233718.png)
 
 # Properties
 - Every value of [Utility](Utility.md) has a different **indifference curve**

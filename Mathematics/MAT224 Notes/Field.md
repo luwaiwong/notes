@@ -1,13 +1,13 @@
 #mathematics/linear-algebra  
 #uoft/mat224 
 
-A **Field** is a [Set](Set.md) $F$ with two operations, defined on ordered pairs of elements of $F$, called addition and multiplication
+A **Field** is a [Set](../MAT223%20Notes/Set.md) $F$ with two operations, defined on ordered pairs of elements of $F$, called addition and multiplication
 
 The properties of a field, come from [Vector Spaces](Vector%20Space.md), which are abstracted so that they can fit [Complex Numbers](Complex%20Numbers.md)
 
 ---
 # Definition
-A **Field** is a [Set](Set.md) $F$ with two operations, defined on ordered pairs of elements of $F$, called addition and multiplication  
+A **Field** is a [Set](../MAT223%20Notes/Set.md) $F$ with two operations, defined on ordered pairs of elements of $F$, called addition and multiplication  
 These two operations must satisfy the following properties for all $x,z$ and $z\in F$
 - usual properties, commutativity, associativity
 

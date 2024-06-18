@@ -6,8 +6,8 @@ The **Marginal Rate of Substitution** represents the rate at which a consumer is
 # Formal Definition
 Given a [Indifference Curve](Indifference%20Curve.md)  
 $$MRS_{XY}=-\frac{\Delta Y}{\Delta X}$$  
-Or, the value of the slope/[Derivative](Derivative.md) of the [Indifference Curve](Indifference%20Curve.md) at a point  
-With a [Utility Function](Utility%20Function.md):$$\begin{aligned} \text{Slope of indifference curve(Marginal Rate of Sub)} &= \text{Slope of budget}\\-MRS_{XY}&=-\frac{MU_X}{MU_Y}\\\frac{MU_X}{MU_Y}&=\frac{P_X}{P_Y}\end{aligned}$$The marginal rate for a utility function with two variables is the [Partial Derivative](Partial%20Derivative.md) of the utility function with respect to one variable, over the **partial derivative** of the of the utility function with respect to the other variable
+Or, the value of the slope/[Derivative](../../Mathematics/MAT235%20Notes/Derivative.md) of the [Indifference Curve](Indifference%20Curve.md) at a point  
+With a [Utility Function](Utility%20Function.md):$$\begin{aligned} \text{Slope of indifference curve(Marginal Rate of Sub)} &= \text{Slope of budget}\\-MRS_{XY}&=-\frac{MU_X}{MU_Y}\\\frac{MU_X}{MU_Y}&=\frac{P_X}{P_Y}\end{aligned}$$The marginal rate for a utility function with two variables is the [Partial Derivative](../../Mathematics/MAT235%20Notes/Partial%20Derivative.md) of the utility function with respect to one variable, over the **partial derivative** of the of the utility function with respect to the other variable
 
 
 

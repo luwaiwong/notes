@@ -6,7 +6,7 @@ The graph representing the [Demand](Demand) for a **good** by the **Market**
 # Given Individual Demand Curves
 Given the [Demand Curve](Demand%20Curve.md)s of multiple individuals, the **Market Demand** is the sum horizontally of all the individual demand curves
 ## Graphically
-> Summing Demand Curves ![Pasted image 20231108202545](Pasted%20image%2020231108202545.png)
+> Summing Demand Curves ![Pasted image 20231108202545](attachments/Pasted%20image%2020231108202545.png)
 
 
 ## Algebraically

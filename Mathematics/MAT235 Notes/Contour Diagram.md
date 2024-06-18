@@ -9,7 +9,7 @@ A **Contour** of a function $f(x,y)$ is the set of points in the $xy$-plane sati
 A **Contour Diagram**, such as a topographical map, is a graph of several contours for a selection of constants  
 It can help us visualize the surface of a function and its behaviour.  
 	Example of a Contour Diagram:  
-	![Pasted image 20230919221020](Pasted%20image%2020230919221020.png)
+	![Pasted image 20230919221020](Images/Pasted%20image%2020230919221020.png)
 
 > Contour Diagrams are essentially depicting the cross section of a function at certain intervals on an axis. The closer lines are together on the contour diagram, the faster the rate of change for the function at that point.
 
@@ -18,5 +18,5 @@ You can find contours for a function *f* algebraically as long as you have a for
 
 ## Different Shapes of Contour Diagrams
 
-Common Shapes of Contour Diagrams![277](Pasted%20image%2020240412135518.png)  
-	![Pasted image 20230919221716](Pasted%20image%2020230919221716.png)
+Common Shapes of Contour Diagrams![277](attachments/Pasted%20image%2020240412135518.png)  
+	![Pasted image 20230919221716](Images/Pasted%20image%2020230919221716.png)

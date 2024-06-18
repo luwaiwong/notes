@@ -1,6 +1,6 @@
 #mathematics #uoft/mat235 
 
-The **Directional Derivative** of a function $f$ is a [Scalar](Scalar.md) which defines the rate of $f$ in a direction
+The **Directional Derivative** of a function $f$ is a [Scalar](../MAT223%20Notes/Scalar.md) which defines the rate of $f$ in a direction
 
 ---
 # Definition and Notation
@@ -18,7 +18,7 @@ $$f_{\vec{u}}(a,b)=f_{x}(a,b)u_{1}+f_{y}(a,b)u_{2}$$
 
 
 > Example  
-> ![Pasted image 20231101134030](Pasted%20image%2020231101134030.png)
+> ![Pasted image 20231101134030](Images/Pasted%20image%2020231101134030.png)
 
 ## Definition for Function
 If $\vec u$ is a [Unit Vector](Unit%20Vector.md), the **Directional Derivative** of $f$ can be computed using  

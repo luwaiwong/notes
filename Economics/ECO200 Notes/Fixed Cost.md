@@ -16,7 +16,7 @@
 
 # Curve
 The [Fixed Cost Curve](Fixed%20Cost%20Curve.md) graphs **Fixed Cost** to **Quantity Produced**  
-	![Pasted image 20240110215710](Pasted%20image%2020240110215710.png)  
+	![Pasted image 20240110215710](attachments/Pasted%20image%2020240110215710.png)  
 	By definition, Fixed cost does not change as quantity  increases
 # Related
 [Average Fixed Cost](Average%20Fixed%20Cost.md) is the fixed cost divided by quantity produced

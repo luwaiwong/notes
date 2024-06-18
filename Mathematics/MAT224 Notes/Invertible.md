@@ -1,6 +1,6 @@
 #mathematics/linear-algebra #uoft/mat224 
 
-A [Function](Function.md) or [Transformation](Transformation.md) being **Invertible**, means that it has an [Inverse](Inverse.md)
+A [Function](../MAT235%20Notes/Function.md) or [Transformation](../MAT223%20Notes/Transformation.md) being **Invertible**, means that it has an [Inverse](Inverse.md)
 
 ---
 # Definition

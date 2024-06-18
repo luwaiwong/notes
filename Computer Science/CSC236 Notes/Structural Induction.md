@@ -9,4 +9,4 @@ Structural Induction is the technique of using the [Recursive Definition of a Se
 
 > An example of using [Structural Induction](.md) to prove that every non-empty binary tree has one more node than edge  
 > (Using the recursive definition of the set of all non-empty binary trees shown above)  
-> ![349](Pasted%20image%2020240612153053.png)
+> ![349](attachments/Pasted%20image%2020240612153053.png)

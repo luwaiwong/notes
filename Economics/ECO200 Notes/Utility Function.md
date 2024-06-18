@@ -1,6 +1,6 @@
 #uoft/eco200 #economics 
 
-A **Utility [Function](Function.md)** describes mathematically the relationship between what [consumers](consumers) consume, and their level of happiness/well-being/[Utility](Utility.md)
+A **Utility [Function](../../Mathematics/MAT235%20Notes/Function.md)** describes mathematically the relationship between what [consumers](consumers) consume, and their level of happiness/well-being/[Utility](Utility.md)
 
 ---
 # Notation
@@ -15,6 +15,6 @@ $$U=U(J,K)$$
 # Marginal Utility
 [Marginal Utility](Marginal%20Utility.md) is the *extra* utility a consumer receives from a 1-unit increase in consumption.
 
-The  of a consumer which enjoys two goods is $$MU_J=\frac{\Delta U(J,K)}{\Delta{J}}$$Or, the [Derivative](Derivative.md) of the **utility function** at a point
+The  of a consumer which enjoys two goods is $$MU_J=\frac{\Delta U(J,K)}{\Delta{J}}$$Or, the [Derivative](../../Mathematics/MAT235%20Notes/Derivative.md) of the **utility function** at a point
 
 

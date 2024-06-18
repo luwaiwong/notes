@@ -10,5 +10,5 @@
 
 
 > Change in Cost minimization graphically after changes in labour cost  
-> 	![Pasted image 20231106213855](Pasted%20image%2020231106213855.png)
+> 	![Pasted image 20231106213855](attachments/Pasted%20image%2020231106213855.png)
 

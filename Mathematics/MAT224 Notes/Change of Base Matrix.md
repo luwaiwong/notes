@@ -1,7 +1,7 @@
 #mathematics  
 #uoft/mat224 
 
-A **Change of Base Matrix** is one which, once applied to a [Matrix](Matrix.md) using [Matrix Multiplication](Matrix%20Multiplication.md), **converts** the [Base](Base.md) of a matrix into a different base 
+A **Change of Base Matrix** is one which, once applied to a [Matrix](Matrix.md) using [Matrix Multiplication](../MAT223%20Notes/Matrix%20Multiplication.md), **converts** the [Base](../MAT223%20Notes/Base.md) of a matrix into a different base 
 
 ---
 # Definition
@@ -9,7 +9,7 @@ Given two different bases $\beta$ and $\alpha$, and a matrix $X$
 The **Change of Base Matrix** $[I]_{\beta}^{\alpha}$ takes a matrix $[X]_{\beta}^{\beta}$ to $[X]_{\alpha}^{\alpha}$ with  
 $$[X]_{\beta}^{\beta}[I]_{\beta}^{\alpha}=[X]_{\alpha}^{\alpha}$$
 
-> Note the notation of matrices and [Transformations](Transformation.md) with [Bases](Base.md), the bottom base is the *original base*, and the top base is the *transformed base*  
+> Note the notation of matrices and [Transformations](../MAT223%20Notes/Transformation.md) with [Bases](../MAT223%20Notes/Base.md), the bottom base is the *original base*, and the top base is the *transformed base*  
 > e.g. $[I]_{\beta}^{\alpha}$ transforms from $\beta$ to $\alpha$
 
 >Extended example of how a change of base matrix works  

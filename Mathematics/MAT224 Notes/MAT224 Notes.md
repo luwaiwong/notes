@@ -44,13 +44,13 @@ Notes for MAT224, Linear Algebra II
 ## Chapter 1 Vector Spaces
 ^132a9d
 ### 1.1 Vector Spaces
-A [Vector](Vector.md) is a directed line segment or "arrow", with one point distinguished  as the "head", and the other distinguished as the "tail"  
+A [Vector](../MAT223%20Notes/Vector.md) is a directed line segment or "arrow", with one point distinguished  as the "head", and the other distinguished as the "tail"  
 - Two operations which can be done on vectors are **vector addition**, and **vector multiplication**
-- These operations give rise to various [](Vector.md#^a7e263|properties) of vectors
+- These operations give rise to various [](../MAT223%20Notes/Vector.md#^a7e263|properties) of vectors
 
-A [Vector Space](Vector%20Space.md) $\mathbb{V}$ is a [Set](Set.md), whose elements are called vectors, and satisfies the requirements: **(1.1.1, 7)**     
+A [Vector Space](Vector%20Space.md) $\mathbb{V}$ is a [Set](../MAT223%20Notes/Set.md), whose elements are called vectors, and satisfies the requirements: **(1.1.1, 7)**     
 - The set has the operations of vector addition and vector multiplication
-- The set follows a set of [](Vector.md#^a7e263|axioms) (The properties of vector addition and multiplication)  
+- The set follows a set of [](../MAT223%20Notes/Vector.md#^a7e263|axioms) (The properties of vector addition and multiplication)  
 Axioms
 - For all vectors $x,y$ and $z\in \mathbb{V}, (x,y)+z=x+(y+z)$
 - For all vectors $x$ and $y\in \mathbb{V}, x+y=y+x$
@@ -83,23 +83,23 @@ Many other types of sets and spaces can be created, with their own operations, b
 	- Operations (Addition and Multiplication)  
 		- For two polynomials $p(x), q(x)$, $(p+q)(x)=p(x)+q(x)=(a_{n}+b_{n})x^{n}+...+(a_{0}+b_{0})\in P_{n}(\mathbb{R})$  
 			for $c\in \mathbb{R}$, $cp(x)=ca_{n}x^{n}+...+ca_{0}\in P_{n}(\mathbb{R})$
-- $C(\mathbb{R})$ is the set of all continuous [Functions](Function.md)
+- $C(\mathbb{R})$ is the set of all continuous [Functions](../MAT235%20Notes/Function.md)
 - [ ] 
 ### 1.2 Subspaces
 Let $V$ be a *vector space*
 
-A [Subspace](Subspace.md) is a subset of a [Vector Space](Vector%20Space.md), which is also a vector space itself **(1.2.6, 15)**
+A [Subspace](../MAT223%20Notes/Subspace.md) is a subset of a [Vector Space](Vector%20Space.md), which is also a vector space itself **(1.2.6, 15)**
 - One can check if a subset is a subspace by verifying the axioms of vector spaces
 - Also can just check that the following apply:
 	- $\vec{u}+\vec{v}\in V$(also called being *closed with respect to vector addition*, and
 	- $k\vec{u}\in V$(also called being *closed with respect to scalar multiplication*)
 	- $\vec 0 \in V$ 
-- Geometrically, a subspace is a [Span](Span.md) which passes through zero , and goes on infinitely
+- Geometrically, a subspace is a [Span](../MAT223%20Notes/Span.md) which passes through zero , and goes on infinitely
 	- Line passing through zero in 3D space, Plane passing through zero in 3D space
 
 You can also check if a subset is a subspace with the following theorem
 - Let $V$ be a vector space, $W$ be nonempty subset of $V$
-- $W$ is a [Subspace](Subspace.md) of $V$ if and only if: 
+- $W$ is a [Subspace](../MAT223%20Notes/Subspace.md) of $V$ if and only if: 
 	- $\forall x,y \in W, \forall c \in \mathbb{R}, cx+y \in W$ 
 - This *merges* both definitions into one
 
@@ -113,18 +113,18 @@ The intersection of any collection of *subspaces* of $V$ is a subspace of $V$
 ### 1.3 Linear Combinations
 Let $S$ be *subset* of a *vector space* $V$
 
-A [Linear Combination](Linear%20Combination.md) of **Vectors** in $S$ is any sum $a_{1}x_{1}+...+a_{n}x_{n}$, where $a_{i}\in \mathbb{R}, x_{i}\in S$ **(1.3.1, 22)**
+A [Linear Combination](../MAT223%20Notes/Linear%20Combination.md) of **Vectors** in $S$ is any sum $a_{1}x_{1}+...+a_{n}x_{n}$, where $a_{i}\in \mathbb{R}, x_{i}\in S$ **(1.3.1, 22)**
 - For two vectors $x,y$ a linear combination of them is any vector:
 	- $a_{1}(x)+a_{2}(y)$
 
-The [Span](Span.md) of a set of **Vectors** $S$, or $Span(S)$ is the set of all possible **Linear Combinations** of vectors in $S$ **(1.3.1, 22)**
+The [Span](../MAT223%20Notes/Span.md) of a set of **Vectors** $S$, or $Span(S)$ is the set of all possible **Linear Combinations** of vectors in $S$ **(1.3.1, 22)**
 - If $S=\phi$ (empty set), $Span(S)=\{0\}$
 - If a set $W$ = $Span(S)$, we say $S$ **spans**, (or generates) $W$  
 **Properties**
 - Let $S$ be any subset of $V$, $Span(S)$ is a subspace of $V$
 - The span of anything in a vector space $V$ will result in a subspace
 
-The [Sum](Sum.md) of two [Subspaces](Subspace.md) $W_{1}, W_{2}$ is the set $W_{1}+W_{2}=\{x\in V \  | \ x = x_{1}, \text{ for some }x_{1}\in W_{2} \}$ **(1.3.4, 23)**  
+The [Sum](Sum.md) of two [Subspaces](../MAT223%20Notes/Subspace.md) $W_{1}, W_{2}$ is the set $W_{1}+W_{2}=\{x\in V \  | \ x = x_{1}, \text{ for some }x_{1}\in W_{2} \}$ **(1.3.4, 23)**  
 	$W_{1}+W_{2}$ can be thought of as the set of vectors that can be "built up" from the vectors in $W_1 +W_2$ by linear combinations  
 		The **Sum** of two subspaces can be thought of as the Span of the two subspaces?  
 	If $W_{1}=Span(S_{1})$, and $W_{2}=Span(S_{2})$, $W_{1}+W_{2}=Span(S_{1}\cup S_{2})$  
@@ -143,7 +143,7 @@ A set $S$ has a [Linear Dependence](Linear%20Dependence.md) if for the vectors o
 A set $S$ is [Linearly Dependent](Linear%20Dependence.md) if there exists a linear dependence  
 	A superset of a linearly dependent set will also be linearly dependent
 
-A set $S$ is [Linearly Independent](Linear%20Independence.md) if for the vectors of $S$: **(1.4.4, 29)**  
+A set $S$ is [Linearly Independent](../MAT223%20Notes/Linear%20Independence.md) if for the vectors of $S$: **(1.4.4, 29)**  
 	$a_{1}x_{1}+...a_{n}x_{n}\neq 0$, or only equals zero when all $a_{i}\in  \mathbb{R}$ are zero  
 	A subset of a linearly independent set will also be linearly independent
 
@@ -167,7 +167,7 @@ A [System of Linear Equations](System%20of%20Linear%20Equations.md) is in [](Mat
 - For each two columns on a row, the column to the left has a larger coefficient than the column to the right  
 	The variables in the leading terms of the equations are the **basic variables**  
 	All other variables are **free variables**  
-	For a [Vector Space](Vector%20Space.md) $W$ defined by a System of Linear Equations, the [Dimension](Dimension.md) of $W$ is the number of free variables in echelon form
+	For a [Vector Space](Vector%20Space.md) $W$ defined by a System of Linear Equations, the [Dimension](../MAT223%20Notes/Dimension.md) of $W$ is the number of free variables in echelon form
 
 >**Theorem (1.5.6, 38)**  
 	Every system of linear equations has an **Echelon Form**
@@ -175,7 +175,7 @@ A [System of Linear Equations](System%20of%20Linear%20Equations.md) is in [](Mat
 ### 1.6 Bases and Dimension
 47-60
 
-A subset $S$ of a vector space $V$ is a [Base](Base.md), or **Basis** of $V$ if: **(1.6.1, 47)**  
+A subset $S$ of a vector space $V$ is a [Base](../MAT223%20Notes/Base.md), or **Basis** of $V$ if: **(1.6.1, 47)**  
 	$V=Span(S)$  
 	$S$ is linearly independent  
 **Properties**
@@ -187,10 +187,10 @@ A subset $S$ of a vector space $V$ is a [Base](Base.md), or **Basis** of $V$ if:
 	Or, if you find a set that can span $V$, then any set with a larger amount of elements will be included in $Span(S)$  
 	Thus, you can only have a linearly independent set with with $\leq m$ elements
 
-The [Dimension](Dimension.md) of a finite-dimensional vector space $V$ is the number of vectors in any [Base](Base.md) of $V$ **(1.6.12, 53)**  
+The [Dimension](../MAT223%20Notes/Dimension.md) of a finite-dimensional vector space $V$ is the number of vectors in any [Base](../MAT223%20Notes/Base.md) of $V$ **(1.6.12, 53)**  
 	The subspace $W$ of a vector space $V$ has $dim(W) \leq dim(V)$  
 	$dim(W) = dim(V)$ only if $W=V$  
-	For a [Vector Space](Vector%20Space.md) $W$ defined by a System of Linear Equations, the [Dimension](Dimension.md) of $W$ is the number of free variables in echelon form  
+	For a [Vector Space](Vector%20Space.md) $W$ defined by a System of Linear Equations, the [Dimension](../MAT223%20Notes/Dimension.md) of $W$ is the number of free variables in echelon form  
 **Properties**
 - For a vector space defined by a system of [Homogenous](Homogenous.md) linear equations, its dimension is equal to the number of free variables in its echelon form
 - $dim(W_{1}+W_{2})=dim(W_{1})+dim(W_{2})-dim(W_{1}\cap W_{2})$  
@@ -200,7 +200,7 @@ The [Dimension](Dimension.md) of a finite-dimensional vector space $V$ is the nu
 ### 2.1 Linear Transformations
 63-72
 #### Linear Transformations
-A function $T:V\rightarrow W$ is a [Linear Transformation](Linear%20Transformation.md) if: **(2.1.1, 64)**
+A function $T:V\rightarrow W$ is a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) if: **(2.1.1, 64)**
 -  $T(u+v)=T(u)+T(v), \forall u,v \in V$, and
 -  $T(av)=aT(v), \forall a\in \mathbb{R}, v\in V$  
 	A **Linear Transformation** is one which *preserves the algebraic structure of [Vector Spaces](Vector%20Space.md)*  
@@ -215,36 +215,36 @@ Following this,
 	A function $T:V\rightarrow W$ is a linear transformation if $\forall a_{1},...,a_{k}\in \mathbb{R}, \forall v_{1},...v_{k} \in V$:  
 		$T(\sum\limits_{i=1}^{k}a_{i}v_{i})=\sum\limits_{i=1}^{k}a_{i}T(v_{i})$
 
-The [Image](Image.md) of a **Linear Transformation** is the *result* of the linear transformation
+The [Image](../MAT223%20Notes/Image.md) of a **Linear Transformation** is the *result* of the linear transformation
 
 Transformations
 - The [Identity Transformation](Identity%20Transformation.md) is one where $\forall v, T(v)=v$
 - The **Zero Transformation** is one where $\forall v, T(v)=v$
-- [Projections](Projection.md) are linear transformations
+- [Projections](../MAT235%20Notes/Projection.md) are linear transformations
 - The process of differentiation and definite integration can be viewed as linear mappings
 
 The angle between two vectors $a$ and $v$ can be found with  
 	$\cos(\theta)=\frac{\langle a,b\rangle}{||a||\cdot ||b||}$ 
 
 #### Dot Product
-The [Dot Product](Dot%20Product.md), or **Inner Product** has two definitions, both of which are equivalent:  
+The [Dot Product](../MAT223%20Notes/Dot%20Product.md), or **Inner Product** has two definitions, both of which are equivalent:  
 Geometric Definition  
 	$\vec{v}\cdot \vec{w} = || \vec{v}|| \ ||\vec{w}||cos\theta$  
 Algebraic Definition  
 	$\vec{v}\cdot \vec{w}=v_{1}w_{1}+v_{2}w_{2}+v_{3}w_{3}$ 
 
 #### Projections
-The [Projection](Projection.md) $P_{w}(v)=w$ of a vector $v$ on a line $W$ is point where, if you create a perpendicular line from the head of $v$, to $W$, $w$ is the point on $W$ where the line intersects  
+The [Projection](../MAT235%20Notes/Projection.md) $P_{w}(v)=w$ of a vector $v$ on a line $W$ is point where, if you create a perpendicular line from the head of $v$, to $W$, $w$ is the point on $W$ where the line intersects  
 The **Projection** can be calculated by: $P_{w}(v)=\frac{\langle w,b\rangle}{\langle w,w \rangle}w=\frac{w_{1}v_{1}+w_{2}v_{2}}{w^{2}_{1}+w_{2}^{2}}(w_{1},w_{2})=\frac{1}{w_{1}^{2}+w_{2}^{2}}(w_{1}^{2}v_{1}+w_{1}w_{2}v_{2},w_{1}w_{2}v_{1}+w^{2}_{2}v_{2})$ 
 
 Properties
-- The with this definition of a [Perpendicular](Perpendicular.md) line, the **Dot Product** of the vector $\langle W, (V-w)\rangle=0$  
+- The with this definition of a [Perpendicular](../MAT235%20Notes/Perpendicular.md) line, the **Dot Product** of the vector $\langle W, (V-w)\rangle=0$  
 	The dot product of the vector being projected on, and the vector being projected-the projection is 0
 
 ### 2.2 Linear Transformations between Finite Dimensional Vector Spaces
 73-83
 #### Matrices and Linear Transformations
-[Linear Transformation](Linear%20Transformation.md) can be uniquely determined by a system of linear equations for each value of its [Base](Base.md)
+[Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) can be uniquely determined by a system of linear equations for each value of its [Base](../MAT223%20Notes/Base.md)
 
 A [Matrix](Matrix.md) is a rectangular array of numbers. **(2.2.5, 75)**  
 	A **Matrix** can be used to represent a system of linear equations  
@@ -275,7 +275,7 @@ Let $a_{ij},1\leq i \leq l$ and $1\leq j \leq k$ be the $l\cdot k$ scalars that 
 	And $[R_{a}]_\alpha^{\alpha}= \begin{bmatrix} cos(\theta) & -sin(\theta) \\ sin(\theta)  & cos(\theta)\end{bmatrix}$  
 	Where $\alpha$ is the standard basis in $\mathbb{R}^{2}$
 - A **Projection** on a vector $a$ in $\mathbb{R^{2}}$ can be defined by $[P_{a}]_{\alpha}^{\alpha}= \frac{1}{a_{1}^{2}+a_{2}^{2}}\begin{bmatrix} a^{2}_{1} & a_{1}a_{2} \\ a_{1}a_{2} & a^{2}_{2}\end{bmatrix}$  
-	Try to solve for this using the equation for [Projection](Projection.md), look back at 2.1
+	Try to solve for this using the equation for [Projection](../MAT235%20Notes/Projection.md), look back at 2.1
 
 To apply a matrix to a vector, and apply a linear transformation represented by a matrix to a vector, you must perform *matrix vector multiplication*  
 	Let $A$ be an $l\times k$ matrix, and let $x$ be a column vector with $k$ entries, then the *product of the vector $x$ by the matrix $A$* is defined as:  
@@ -291,15 +291,15 @@ The [Transpose](Transpose.md) of a [Matrix](Matrix.md) is the matrix with its ro
 ### 2.3 Kernel and Image
 84-94
 
-Let $T: V \rightarrow W$ be a [Linear Transformation](Linear%20Transformation.md)
+Let $T: V \rightarrow W$ be a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md)
 
 The [Kernel](Kernel.md) of $T$, $Ker(T)$ is the subset of $V$ consisting of all vectors $v\in V$ such that $T(v)=0$ **(2.3.1, 84)**  
-	The **Kernel** is a [Subspace](Subspace.md) of $V$  
+	The **Kernel** is a [Subspace](../MAT223%20Notes/Subspace.md) of $V$  
 	Given a matrix for a linear transformation, you can solve for the kernel, by solving for the set of vectors which results in 0  
 		This set of vectors will be the kernel
 
-The [Image](Image.md) of $T$, $Im(T)$ is the subset of $W$ consisting of all vectors $w\in W$ where $\exists v\in V$ s.t. $T(v)= w$  
-	The **Image** is a [Subspace](Subspace.md) of $W$  
+The [Image](../MAT223%20Notes/Image.md) of $T$, $Im(T)$ is the subset of $W$ consisting of all vectors $w\in W$ where $\exists v\in V$ s.t. $T(v)= w$  
+	The **Image** is a [Subspace](../MAT223%20Notes/Subspace.md) of $W$  
 **Properties**
 - If $\{v_{1},...v_{m}\}$ is any set that spans $V$, then $\{T(v_{1}),...,T(v_{m})\}$ spans $Im(T)$  
 	So the transformed set of the basis also spans the image  
@@ -315,7 +315,7 @@ if $V$ is a finite-dimensional vector space and $T:V\rightarrow W$ is a linear t
 > This also means, that once we solve for $Ker(T)$, if we can find the subspace of the vectors which are not $Ker(T)$, that is the subspace, that when fed into $T$, produce $Im(T)$
 
 [Matrices](Matrix.md)  
-	The maximum number of linearly independent columns of a matrix $A$ is called the [Rank](Rank.md) of $A$  
+	The maximum number of linearly independent columns of a matrix $A$ is called the [Rank](../MAT223%20Notes/Rank.md) of $A$  
 	The **Rank** of $[T](../MAT223%20Notes/Dimension.md) of the [Image](../MAT223%20Notes/Image.md) of $T$
 
 ### 2.4 Applications of the Dimension Theorem
@@ -327,7 +327,7 @@ A function between sets $S_{1}\rightarrow S_{2}$ is:
 [Injective](Injective.md) if whenever $f(p_{1})=f(p_{2})$ for $p_{1},p_{2}\in S_{1}$, $p_{1}=p_{2}$  
 	"One to One"  
 **Properties
-- A [Linear Transformation](Linear%20Transformation.md) is **Injective** if and only if $dim(Ker(T))= 0$  
+- A [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) is **Injective** if and only if $dim(Ker(T))= 0$  
 	This is obvious, if $dim(Ker(T))>0$, there is more than one $p\in S_{1}, f(p)=0$
 - A **Linear Transformation** is **Injective** if and only if $dim(Im(T))=dim(V)$  
 	A result from the dimension theorem
@@ -338,7 +338,7 @@ A function between sets $S_{1}\rightarrow S_{2}$ is:
 
 [Surjective](Surjective.md) if for each $q\in S_{2}$, there is some $p\in S_{1}$, with $f(p)=q$  
 	"Onto"  
-	Or, that the [Image](Image.md) of $T$, is all that of $W$  
+	Or, that the [Image](../MAT223%20Notes/Image.md) of $T$, is all that of $W$  
 **Properties**
 - A **Linear Transformation** is **Surjective** if and only if $dim(Im(T))=dim(W)$
 - If $dim(V) < dim(W)$, there is no surjective linear mapping $T:V\rightarrow W$  
@@ -489,7 +489,7 @@ The formula for the **Determinant** of a $2\times 2$ matrix $A$ is:
 	 $det(A)=a_{11}a_{22}-a_{12}a_{21}$  
 **Properties**
 - The determinant is not zero if and only if the rows are linearly independent
-- The [Linear Transformation](Linear%20Transformation.md) represented by $A$ is an [Isomorphism](Isomorphism.md) if and only if the determinant is nonzero
+- The [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) represented by $A$ is an [Isomorphism](Isomorphism.md) if and only if the determinant is nonzero
 
 > This is the equation of the area of a parallelogram constructed with the rows of of matrix
 
@@ -542,7 +542,7 @@ This definition can be expanded for a $n\times n$ matrix, as seen below
 - Let $A$ be an $n\times n$ matrix. $A$ is [Invertible](Invertible.md) if and only if $det(A)\neq 0$
 - And If $A$ is invertible, then $det(A)\neq 0$
 
-The [Cross Product](Cross%20Product.md) in $R^{3}$ for two vectors $x=(x_{1},x_{2},x_{3}), y=(y_{1},y_{2},y_{3})$ be vectors if $R^{3}$ **(153)**  
+The [Cross Product](../MAT235%20Notes/Cross%20Product.md) in $R^{3}$ for two vectors $x=(x_{1},x_{2},x_{3}), y=(y_{1},y_{2},y_{3})$ be vectors if $R^{3}$ **(153)**  
 	The **Cross Product** of $x$ and $y$ be the vector:  
 		$x\times y=(x_{2}y_{3}-y_{2}x_{3},-(x_{1}y_{3}-y_{1}x_{3}),x_{1}y_{2}-y_{1}x_{2})$
 
@@ -566,7 +566,7 @@ The [Determinant](Determinant.md) of a $3\times 3$ matrix $A$ is:
 	$\begin{bmatrix} a & b & c \\ d & e & f \\ g & h &i\end{bmatrix}=aei+bfg+cdh-ceg-bdi-afh$
 
 > Rule of Sarus  
-> ![Pasted image 20240308195525](Pasted%20image%2020240308195525.png)
+> ![Pasted image 20240308195525](attachments/Pasted%20image%2020240308195525.png)
 
 #### Elimination Algorithm
 The Elimination Algorithm is another technique for calculating the determinant.  
@@ -609,7 +609,7 @@ If $A$ and $B$ are $n\times n$ matrices, then
 - $det(AB)=det(A)det(B)$
 - If $A$ is invertible, then $det(A^{-1})=\frac{1}{det(A)}$
 
-The [Determinant](Determinant.md) of a [Linear Transformation](Linear%20Transformation.md)$T:V\rightarrow V$ of a finite-dimensional [Vector Space](Vector%20Space.md) is the determinant of $[T]$(the matrix of $T$ with any base $a$) **(3.3.9 157)**  
+The [Determinant](Determinant.md) of a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md)$T:V\rightarrow V$ of a finite-dimensional [Vector Space](Vector%20Space.md) is the determinant of $[T]$(the matrix of $T$ with any base $a$) **(3.3.9 157)**  
 	We denote this by $det(T)$  
 **Properties**  
 For any bases $\alpha$ and $\beta$:  
@@ -636,7 +636,7 @@ Page 162
 Let $T:V\rightarrow V$ be a linear mapping: 
 
 A vector $x\in V$ is called an [Eigenvector](Eigenvector.md) of $T$ if $x\neq 0$, and there exists a scalar $\lambda \in \mathbb{R}$ such that $T(x)=\lambda x$ **(4.1.2, 164)**  
-	An **Eigenvector** is a vector in the [Image](Image.md) of $T$, where it is just the original vector $x$, scaled by a factor $\lambda$ 
+	An **Eigenvector** is a vector in the [Image](../MAT223%20Notes/Image.md) of $T$, where it is just the original vector $x$, scaled by a factor $\lambda$ 
 
 If $x$ is an **Eigenvector** of $T$ and $T(x)=\lambda x$, the scalar $\lambda$ is called the [Eigenvalue](Eigenvalue) of $T$ corresponding to $x$ **(4.1.2, 164)**  
 	An **Eigenvalue** is a scalar for which there exists a corresponding **Eigenvector**  
@@ -678,7 +678,7 @@ In addition, if $\lambda_{1},...,\lambda k$ are the distinct eigenvalues of $A$ 
 
 > The multiplicities of the eigenvalues, add up to $n$
 
-An [Inner Product](Dot%20Product.md) on $V$ is any mapping $\langle , \rangle:V\times V\rightarrow \mathbb{R}$ with the following three properties:
+An [Inner Product](../MAT223%20Notes/Dot%20Product.md) on $V$ is any mapping $\langle , \rangle:V\times V\rightarrow \mathbb{R}$ with the following three properties:
 - For all vectors $x,y,z\in V$ and all $c\in \mathbb{R}$, $\langle cx+y,z\rangle = c\langle x,z\rangle+\langle y,z\rangle$
 - For all $x,y\in V, \langle x,y\rangle = \langle y,x\rangle$
 - For all $x\in V,\langle x,x\rangle \geq 0$, and $\langle x,x\rangle = 0$ only if $x=0$
@@ -697,7 +697,7 @@ An [Inner Product](Dot%20Product.md) on $V$ is any mapping $\langle , \rangle:V\
 >	And it would create a diagonal matrix when applied to $T$
 
 Let $V$ be a finite-dimensional [Vector Space](Vector%20Space.md), and let $T:V\rightarrow V$ be a linear mapping. **(4.2.1, 176)**  
-	$T$ is [Diagonalizable](Diagonalizable) if there exists a [Basis](Base.md) of $V$, all whose vectors are eigenvectors of $T$  
+	$T$ is [Diagonalizable](Diagonalizable) if there exists a [Basis](../MAT223%20Notes/Base.md) of $V$, all whose vectors are eigenvectors of $T$  
 **Properties**
 - $T:V\rightarrow V$ is diagonalizable if and only if, for any basis $\alpha$ of $V$, the matrix $[T]_{\alpha}^{\alpha}$ is similar to a diagonal matrix  
 	This is essentially the definition of diagonalizability, that $T$ has a [Similar](Similar.md) diagonal matrix
@@ -728,7 +728,7 @@ This means that for a transformation to be **diagonalizable**, it must have as m
 
 **Properties of Eigenvectors & Eigenvalues**
 - Let $x_{i} (1\leq i \leq k)$ be **eigenvectors** of a linear mapping $T:V\rightarrow V$ corresponding to distinct eigenvalues $\lambda_{i}$.  
-	Then $\{x_{1},...x_{k}\}$ is a [Linearly Independent](Linear%20Independence.md) subset of $V$  
+	Then $\{x_{1},...x_{k}\}$ is a [Linearly Independent](../MAT223%20Notes/Linear%20Independence.md) subset of $V$  
 	Or, that any set of **eigenvectors** is **Linearly Independent**
 - Let $\lambda$ be an **eigenvalue** of $T$, assume that $\lambda$ is an $m$-fold root of the characteristic polynomial of $T$. Then we have $1\leq dim(E_{\lambda}) \leq m$  
 	Or, that the the dimension of the **eigenspace** for a **eigenvalue** will be between 1, and the **[Multiplicity](Multiplicity)** of the eigenvalue
@@ -738,7 +738,7 @@ This means that for a transformation to be **diagonalizable**, it must have as m
 
 ### 4.3 Geometry in $R^{3}$
 
-The **Standard Inner Product**, or the [Dot Product](Dot%20Product.md) on $\mathbb{R}^{n}$ is the function:  
+The **Standard Inner Product**, or the [Dot Product](../MAT223%20Notes/Dot%20Product.md) on $\mathbb{R}^{n}$ is the function:  
 	$<x,y>:\mathbb{R}^{n}\times \mathbb{R}^{n}\rightarrow \mathbb{R}$ defined by $<x,y>=x_{1}y_{1}+...+x_{n}y_{n}$  
 **Properties**
 - For all $x,y,z \in \mathbb{R}^{n}$, and all  $c\in  \mathbb{R}$, $<cx+y,z> \ =c<x,z>+<y,z>$  or, the **Dot Product** is a **Linear Mapping**
@@ -761,20 +761,20 @@ The  **Cauchy-Schwarz Inequality** says that
 The **Angle** $\theta$ between two nonzero vectors $x,y\in \mathbb{R}^{n}$ between two vectors is:  
 	$\theta=cos^{-1}\frac{\langle x,y\rangle}{||x||\cdot ||y||}$
 
-Two vectors are [Orthogonal](Orthogonal.md), or  **Perpendicular** if $\langle x,y \rangle = 0$  
+Two vectors are [Orthogonal](../MAT223%20Notes/Orthogonal.md), or  **Perpendicular** if $\langle x,y \rangle = 0$  
 	A set of vectors are **Orthogonal**, if for every pair of vectors $x,y\in S$ with $x\neq y$, $\langle x,y, \rangle = 0$  
 **Properties**  
-	If $x,y \in \mathbb{R}^{n}$ are orthogonal, nonzero vectors, then $\{x,y\}$ is [Linearly Independent](Linear%20Independence.md) 
+	If $x,y \in \mathbb{R}^{n}$ are orthogonal, nonzero vectors, then $\{x,y\}$ is [Linearly Independent](../MAT223%20Notes/Linear%20Independence.md) 
 
-A set of vectors $S\subset \mathbb{R}^{n}$ is [Orthonormal](Orthonormal.md) if $S$ is orthogonal and, in addition, every vector in $S$ is a [Unit Vector](Unit%20Vector.md)
+A set of vectors $S\subset \mathbb{R}^{n}$ is [Orthonormal](../MAT223%20Notes/Orthonormal.md) if $S$ is orthogonal and, in addition, every vector in $S$ is a [Unit Vector](../MAT235%20Notes/Unit%20Vector.md)
 
 ### 4.4 Orthogonal Projections and the Gram-Schmidt Process
 Page 190
 
 Let $W\subset \mathbb{R}^{n}$ be any subspace  
-The [Orthogonal Complement](Orthogonal.md) of $W$, $W^{\perp}$ , is the set: **(4.4.1, 190)**  
+The [Orthogonal Complement](../MAT223%20Notes/Orthogonal.md) of $W$, $W^{\perp}$ , is the set: **(4.4.1, 190)**  
 	$W^{\perp}=\{v\in \mathbb{R}^{n}|v\cdot w=0\text{ for all }w\in W \}$  
-	Or, $W^{\perp}$ is the set of all vectors **perpendicular**, or [Orthogonal](Orthogonal.md), to $W$  
+	Or, $W^{\perp}$ is the set of all vectors **perpendicular**, or [Orthogonal](../MAT223%20Notes/Orthogonal.md), to $W$  
 **Properties**
 - For every subspace $W$ of $\mathbb{R}^{n}, W^{\perp}$ is also a subspace of $\mathbb{R}^{n}$
 - We have $dim(W)+dim(W^{\perp})=dim(\mathbb{R}^{n})=n$
@@ -789,7 +789,7 @@ The [Orthogonal Complement](Orthogonal.md) of $W$, $W^{\perp}$ , is the set: **(
 
 > The Orthogonal Complement of a set of vectors is just the set of all other vectors, orthogonal to each of the vectors in the set
 
-**Orthogonal Projection** is another way of defining the transformation of a [Projection](Projection.md), using the last property listed above  
+**Orthogonal Projection** is another way of defining the transformation of a [Projection](../MAT235%20Notes/Projection.md), using the last property listed above  
 Since every vector $x$ can be written as $x=x_{1}+x_{2}$, where $x_{1}\in W, x_{2}\in W^{\perp}$ , we can define:  
 	$P_{W}:\mathbb{R}^{n}\rightarrow \mathbb{R}^{n} = P_{W}(x)=x_{1}$  
 **Properties**
@@ -802,9 +802,9 @@ Since every vector $x$ can be written as $x=x_{1}+x_{2}$, where $x_{1}\in W, x_{
 > Most of the properties are also self explanatory 
 
 >Solving for a projection with this strategy  
->	![Pasted image 20240418125049](Pasted%20image%2020240418125049.png)
+>	![Pasted image 20240418125049](attachments/Pasted%20image%2020240418125049.png)
 
-Let $\{ w_{1},...w_{k}\}$ be an [Orthonormal](Orthonormal.md) basis for the subspace $W\subset \mathbb{R}^{n}$
+Let $\{ w_{1},...w_{k}\}$ be an [Orthonormal](../MAT223%20Notes/Orthonormal.md) basis for the subspace $W\subset \mathbb{R}^{n}$
 - For each $w\in W$, $w=\sum\limits_{i=1}^{k} \frac{\langle w,w_{i}\rangle}{||w_{i}||^{2}} w_{i}$
 - For all $x\in \mathbb{R}^{n}$,  $P_{W}(x)=\sum\limits_{i=1}\frac{\langle x, w_{i} \rangle}{||w_{i}||^{2}} w_{i}$
 
@@ -816,7 +816,7 @@ Let $\{ w_{1},...w_{k}\}$ be an [Orthonormal](Orthonormal.md) basis for the subs
 > 	$\begin{aligned} P_{W}(x)&=\sum\limits_{i=1}\langle x, w_{i}\rangle w_{i}\\&=(\begin{bmatrix} x_{1} \\ x_{2} \\ x_{3}\end{bmatrix}\cdot\begin{bmatrix} 1 \\ 1 \\ 0\end{bmatrix})\begin{bmatrix} 1 \\ 1 \\ 0\end{bmatrix}\\ &=(x_{1}+x_{2})\begin{bmatrix} 1 \\ 1  \\ 0\end{bmatrix}\end{aligned}$  
 > 	Which results in the matrix $\begin{bmatrix} 1  & 1 & 0\\ 1 & 1 & 0 \\0 & 0 & 0 \end{bmatrix}$
 
-Let $W$ be a subspace of $\mathbb{R}^{n}$. Then there exists an [Orthonormal](Orthonormal.md) [Basis](Base.md) of $W$
+Let $W$ be a subspace of $\mathbb{R}^{n}$. Then there exists an [Orthonormal](../MAT223%20Notes/Orthonormal.md) [Basis](../MAT223%20Notes/Base.md) of $W$
 
 > From the above observations, it seems clear that orthonormal bases are good to work with  
 > They make finding projections, and things related to the dot product, very easy to solve  
@@ -844,7 +844,7 @@ For a more formal definition.
 ### 4.5 Symmetric Matrices
 > 4.2 was talking about diagonalizability, this section introduces a class of matrices, all of which are diagonalizable
 
-Not a property of being symmetric, but is a property of the [Dot Product](Dot%20Product.md)  
+Not a property of being symmetric, but is a property of the [Dot Product](../MAT223%20Notes/Dot%20Product.md)  
 	For all $x,y\in \mathbb{R}^{n}, \langle Ax,y\rangle = \langle x, A^{t}y\rangle$
 
 A square matrix $a$ IS [Symmetric](Symmetric) if $A=A^{t}$, the [Transpose](Transpose.md) of $A$  
@@ -864,7 +864,7 @@ When finding eigenvalues and eigenvectors
 
 > The reason that symmetric matrices are important, and that we are examining them, is that they arise frequently in many branches of mathematics
 
-A [Linear Transformation](Linear%20Transformation.md) $T:V\rightarrow V$ is **Symmetric** if $\langle T(x),y\rangle=\langle x,T(y)\rangle$ for all vectors $x,y\in V$  
+A [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) $T:V\rightarrow V$ is **Symmetric** if $\langle T(x),y\rangle=\langle x,T(y)\rangle$ for all vectors $x,y\in V$  
 	Projections are symmetric transformations
 
 > This section is unrelated, but the textbook delves a little bit into this
@@ -880,11 +880,11 @@ Orthogonal Projections are [Diagonalizable](Diagonalizable). We can prove this b
 > Physicists noticed a similarity between the discrete spectral lines of atoms, and the pattern of distributions of eigenvalues of some linear mappings  
 > And some guy called it the spectral theorem I guess
 
-A Matrix $A$ is called [Orthogonal](Orthogonal.md) if $A^{t}A=I$, in other words, $A^{t}=A^{-1}$
+A Matrix $A$ is called [Orthogonal](../MAT223%20Notes/Orthogonal.md) if $A^{t}A=I$, in other words, $A^{t}=A^{-1}$
 - This is true if the columns of $A$ are orthonormal bases
 
 **The [Spectral Theorem](Spectral%20Theorem)**  
-Let $T:\mathbb{R}^{n}\rightarrow \mathbb{R}^{n}$ be a [Symmetric](Symmetric) linear mapping. Then there is an [Orthonormal](Orthonormal.md) basis of $\mathbb{R}^n$ consisting of eigenvectors of $T$.  
+Let $T:\mathbb{R}^{n}\rightarrow \mathbb{R}^{n}$ be a [Symmetric](Symmetric) linear mapping. Then there is an [Orthonormal](../MAT223%20Notes/Orthonormal.md) basis of $\mathbb{R}^n$ consisting of eigenvectors of $T$.  
 And, that every Symmetric Transformation $T$ is diagonalizable.
 
 [Diagonalizable](Diagonalizable) Transformation can be *decomposed*, into different matrices, in their diagonalized form. 
@@ -992,9 +992,9 @@ For the **Polar Coordinate** definition, we can define:
 ### 5.2 Vector Spaces over a Field
 > This section attempts to extend the results of the first four chapters, by generalizing vector spaces to fields, which can have different values (like complex numbers or real numbers), instead of being based directly on the real numbers  
 > This section mostly sets up how our concept of vector spaces, can be extended to all general fields (and by extension, complex numbers). It then delves into several examples of concepts covered in past chapters, but with complex numbers instead  
-[Class Notes from 5.2-5.3](Note%20Mar%2021,%202024.pdf)
+[Class Notes from 5.2-5.3](attachments/Note%20Mar%2021,%202024.pdf)
 
-A [Vector Space](Vector%20Space.md) over a [Field](Field.md) is a set $V$ (whose elements) are called [Vectors](Vector.md) together with the operations
+A [Vector Space](Vector%20Space.md) over a [Field](Field.md) is a set $V$ (whose elements) are called [Vectors](../MAT223%20Notes/Vector.md) together with the operations
 - Vector Addition  
 	For each pair of vectors $x,y\in V$, produces a vector denoted $x+y\in V$
 - Multiplication by a Scalar (A field element)  
@@ -1028,8 +1028,8 @@ A complex vector space with a Hermitian Inner Product is a **Hermitian Inner Pro
 > Mostly because of the second property, Hermitian inner products are both similar to a real inner product, and different from a real inner product, in that it is not linear in both variables
 
 The *[Norm](Norm.md)* or *length* of a vector $v\in V$ is $||v||=\langle v,v\rangle^{\frac{1}{2}}$  
-A set of nonzero vectors $v_{1},...,v_{k}\in V$ is called [Orthogonal](Orthogonal.md) if $\langle v_{i},v_{j}\rangle = 0$ for $i\neq j$.  
-If in addition $\langle v_{i}, v_{i}\rangle = 1$, for  all $i$, the vectors are called [Orthonormal](Orthonormal.md)
+A set of nonzero vectors $v_{1},...,v_{k}\in V$ is called [Orthogonal](../MAT223%20Notes/Orthogonal.md) if $\langle v_{i},v_{j}\rangle = 0$ for $i\neq j$.  
+If in addition $\langle v_{i}, v_{i}\rangle = 1$, for  all $i$, the vectors are called [Orthonormal](../MAT223%20Notes/Orthonormal.md)
 
 > The [Gram-Schmidt Process](Gram-Schmidt%20Process) depends only on the properties of an inner product, so it still applies for the Hermitian Inner Product
 
@@ -1083,7 +1083,7 @@ An $n\times n$ complex matrix is called **Hermitian/Self Adjoint** if $A=A^{*}$
 
 Let $T:V\rightarrow V$ be a linear mapping
 
-A [Subspace](Subspace.md) $W\subset V$ is [Invariant (Or Stable)](Or%20Stable))) under $T$ if $T(W)\subset W$
+A [Subspace](../MAT223%20Notes/Subspace.md) $W\subset V$ is [Invariant (Or Stable)](Or%20Stable)))) under $T$ if $T(W)\subset W$
 
 > Invariant means that, the subspace is "contained" under $T$, Any vector from $W$ is still in $W$ after being transformed
 

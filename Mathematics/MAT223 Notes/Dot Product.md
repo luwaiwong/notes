@@ -2,7 +2,7 @@
 
 The **Dot product** (also known as the **scalar product**, or **Inner Product** represents the angle between two [vectors](Vector.md), and produces a [Scalar](Scalar.md)
 
-The [Hermitian Inner Product](Hermitian%20Inner%20Product.md) is a version of the dot product, for **Complex Number Spaces**
+The [Hermitian Inner Product](../MAT224%20Notes/Hermitian%20Inner%20Product.md) is a version of the dot product, for **Complex Number Spaces**
 
 ---
 # Definition

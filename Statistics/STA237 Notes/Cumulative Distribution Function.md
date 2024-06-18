@@ -1,13 +1,13 @@
 #uoft/sta237 #statistics 
 
-The **Cumulative Distribution Function** is a [Function](Function.md) that describes the [Probability](Probability.md) in a [Random Variable](Random%20Variable) that an [Event](Event.md) <= to the input will occur
+The **Cumulative Distribution Function** is a [Function](../../Mathematics/MAT235%20Notes/Function.md) that describes the [Probability](Probability.md) in a [Random Variable](Random%20Variable) that an [Event](Event.md) <= to the input will occur
 
 Some [Continuous Random Variable](Continuous%20Random%20Variable.md)s cannot be specified with a **probability mass function**, so, the **Cumulative Distribution Function** of a random variable X lets us treat both discrete and continuous random variables the same way
 
 ---
 
 # Definition
-The **distribution function** $F$ of a random variable $X$ is the [Function](Function.md) $F:\mathbb{R}\rightarrow[0,1]$, $$F(a) = P(X \leq a) \text{ for }-\infty<a<\infty$$
+The **distribution function** $F$ of a random variable $X$ is the [Function](../../Mathematics/MAT235%20Notes/Function.md) $F:\mathbb{R}\rightarrow[0,1]$, $$F(a) = P(X \leq a) \text{ for }-\infty<a<\infty$$
 ## Discrete Random Variable
 Expressing the function in terms of the [Probability Mass Function](Probability%20Mass%20Function.md) *p* of *X*, if X has values $a_{1},a_{2},... s.t p(a_{i})> 0, p(a_{1})+p(a_{2})+...=1,$ $$F(a)=\Sigma_{a_{i}\leq a}p(a_{i})$$
 ## Continuous Random Variable

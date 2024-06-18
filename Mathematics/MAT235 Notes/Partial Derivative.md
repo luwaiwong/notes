@@ -23,10 +23,10 @@ To calculate  $f_x(x,y)$ or **the partial derivative with respect to x**, think 
 To calculate $f_{y}(x,y)$, or **the partial derivative with respect to y**, think of $x$ as a constant, and differentiate with respect to $y$ normally
 
 > Computation Example  
-![Pasted image 20231101122426](Pasted%20image%2020231101122426.png)
+![Pasted image 20231101122426](Images/Pasted%20image%2020231101122426.png)
 
 >Graph Example  
->![Pasted image 20231011101848](Pasted%20image%2020231011101848.png)
+>![Pasted image 20231011101848](Images/Pasted%20image%2020231011101848.png)
 
 ---
 # Second-Order Partial Derivatives

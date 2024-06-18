@@ -6,4 +6,4 @@ A **Trail** is a list of [Vertices](Vertex.md) and [Edges](Edge.md) in a [Graph]
 Each [Vertex](Vertex.md) in the **Trail** is connected to the next by an edge
 
 > Example  
-> 	![Pasted image 20240529155616](Pasted%20image%2020240529155616.png)
+> 	![Pasted image 20240529155616](attachments/Pasted%20image%2020240529155616.png)

@@ -20,9 +20,9 @@ L: Number of units of **labour**
 - Lines for higher total expenditure levels are *further from the origin*
 - Lines are parallel, *all have the same slope, regardless of total cost level*
 - When labour becomes more expensive, line becomes *steeper*  
-	![Pasted image 20231106212537](Pasted%20image%2020231106212537.png)
+	![Pasted image 20231106212537](attachments/Pasted%20image%2020231106212537.png)
 - When capital becomes more expensive, line becomes *flatter*  
-	![Pasted image 20231106212650](Pasted%20image%2020231106212650.png)
+	![Pasted image 20231106212650](attachments/Pasted%20image%2020231106212650.png)
 
 # Calculations
 [Cost Minimization](Cost%20Minimization.md)

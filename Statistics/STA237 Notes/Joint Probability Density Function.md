@@ -4,7 +4,7 @@ The **Joint Probability Density Function** of a [Joint Continuous Distribution](
 
 ---
 # Definition
-The **Joint Probability Mass Function** $f$ of two [Discrete Random Variable](Discrete%20Random%20Variable.md) $X$ and $Y$ is the  [Function](Function.md) $p:\mathbb{R}^{2}\rightarrow [0,1]$, defined by  $$f(a,b) = P(X=a, Y=b) \ \text{ for } \ -\infty<a,b <\infty$$
+The **Joint Probability Mass Function** $f$ of two [Discrete Random Variable](Discrete%20Random%20Variable.md) $X$ and $Y$ is the  [Function](../../Mathematics/MAT235%20Notes/Function.md) $p:\mathbb{R}^{2}\rightarrow [0,1]$, defined by  $$f(a,b) = P(X=a, Y=b) \ \text{ for } \ -\infty<a,b <\infty$$
 ## Properties
 - $f_{X,Y}(x,y)\geq 0$ for all $x,y$
 - Total volume under density over all possible $x,y$ is 1

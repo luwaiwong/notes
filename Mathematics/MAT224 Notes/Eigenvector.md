@@ -1,12 +1,12 @@
 #uoft/mat224 #mathematics/linear-algebra 
 
-An **Eigenvector** is a [Vector](Vector.md) $x$ of a [Linear Transformation](Linear%20Transformation.md) $T$ where there is an [Eigenvalue](Eigenvalue) $\lambda$ such that $T(x)=\lambda x$
+An **Eigenvector** is a [Vector](../MAT223%20Notes/Vector.md) $x$ of a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) $T$ where there is an [Eigenvalue](Eigenvalue) $\lambda$ such that $T(x)=\lambda x$
 
 ---
 # Formal Definition
 
 A vector $x\in V$ is called an **Eigenvector** of $T$ if $x\neq 0$, and there exists a scalar $\lambda \in \mathbb{R}$ such that $T(x)=\lambda x$  
-	An **Eigenvector** is a vector in the [Image](Image.md) of $T$, where it is just the original vector $x$, scaled by a factor $\lambda$ 
+	An **Eigenvector** is a vector in the [Image](../MAT223%20Notes/Image.md) of $T$, where it is just the original vector $x$, scaled by a factor $\lambda$ 
 
 # Properties
 $(T-\lambda I)(x)$  

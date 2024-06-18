@@ -1,13 +1,13 @@
 #uoft/mat223 #mathematics 
 
-**Matrix Vector Multiplication** is multiplication from [Matrices](Matrix.md) on [Column Vectors](Column%20Vectors.md). 
+**Matrix Vector Multiplication** is multiplication from [Matrices](../MAT224%20Notes/Matrix.md) on [Column Vectors](Column%20Vectors.md). 
 
 ---
 # Example/Concept
 Consider a system of linear equations$$\begin{cases} x+2y-2z &=-15  \\  
  2x+y-5z &= -21 \\  
  x-4y+z &= 18\end{cases}$$This is equivalent to the vector equation: $$\begin{bmatrix}x+2y-2z  \\ 2x+y-5z \\ x-4y+z\end{bmatrix} =\begin{bmatrix} -15 \\ -21 \\ 18\end{bmatrix}$$Rewriting using **Matrix Vector Multiplication**$$\begin{bmatrix} 1  & 2 & -2 \\ 2 & 1 & -5 \\ 1 & -4 & 1\end{bmatrix}\begin{bmatrix} x \\ y \\ z\end{bmatrix}=\begin{bmatrix} -15 \\ -21 \\ -18\end{bmatrix}$$  
- The [Matrix](Matrix.md) on the left is called the **Coefficient Matrix**, because it is made out of coefficients from the equations. Using **coefficient matrices**, every system of linear equations can be rewritten as a single matrix equation of the form $$A\vec{x}=\vec{b}$$Where $A$ is a coefficient matrix, $\vec{x}$ is a column vector of variables, and $\vec{b}$ is a column [Vector](Vector.md) of constants
+ The [Matrix](../MAT224%20Notes/Matrix.md) on the left is called the **Coefficient Matrix**, because it is made out of coefficients from the equations. Using **coefficient matrices**, every system of linear equations can be rewritten as a single matrix equation of the form $$A\vec{x}=\vec{b}$$Where $A$ is a coefficient matrix, $\vec{x}$ is a column vector of variables, and $\vec{b}$ is a column [Vector](Vector.md) of constants
 
 # Interpretations
 The solution to a system of linear equations can be interpreted as the intersection of three planes (or hyperplanes if there are more variables). Each equation (or row) specifies a plane, and the solution set is the intersection of all the planes

@@ -5,11 +5,11 @@
 [Linear Function](Linear%20Function.md)  
 [Contour Diagram](Contour%20Diagram.md)
 
-[Vector](Vector.md)  
+[Vector](../MAT223%20Notes/Vector.md)  
 	[Unit Vector](Unit%20Vector.md)  
-	[Components](Components.md)  
+	[Components](../MAT223%20Notes/Components.md)  
 [Cross Product](Cross%20Product.md)  
-[Dot Product](Dot%20Product.md)  
+[Dot Product](../MAT223%20Notes/Dot%20Product.md)  
 [Projection](Projection.md)
 
 [Partial Derivative](Partial%20Derivative.md)  

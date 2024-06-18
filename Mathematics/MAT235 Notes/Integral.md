@@ -30,18 +30,18 @@ For non-rectangular area, we can set the inside to a variable of the outer integ
 > See below for an example of reversing the order of integration over a non-rectangular region
 #### Examples
 > Example of a Iterated Integral over a non-rectangular area  
-> ![450](Pasted%20image%2020240205164354.png)![475](Pasted%20image%2020240205164407.png)  
+> ![450](attachments/Pasted%20image%2020240205164354.png)![475](attachments/Pasted%20image%2020240205164407.png)  
 > Note: This example bounds only the top limit
 
 >  Example of an Iterated Integral Bounding the Top and Bottom  
-> ![375](Pasted%20image%2020240205164614.png)
+> ![375](attachments/Pasted%20image%2020240205164614.png)
 
 #### Reversing the Order of Integration
-![Pasted image 20240412172956](Pasted%20image%2020240412172956.png)
+![Pasted image 20240412172956](attachments/Pasted%20image%2020240412172956.png)
 ## Triple Integrals
 [Functions of Three Variables](Function%20of%20Three%20Variables) can be **integrated** much the same as functions of two variables  
 For a box $W$ with the shape:  
-	![Pasted image 20240205175730](Pasted%20image%2020240205175730.png)
+	![Pasted image 20240205175730](attachments/Pasted%20image%2020240205175730.png)
 
 A **Triple Integral** as an iterated integral can be set up as: $$\int_{W}f dV = \int_{p}^{q}(\int_{c}^{d}(\int_{a}^{b}f(x,y,z)dx)dy)dz$$ Where $y$ and $z$ are constants in the center integral, and $z$ is a constant in the middle integral
 

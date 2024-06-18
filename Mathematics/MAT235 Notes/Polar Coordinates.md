@@ -25,5 +25,5 @@ When computing $\int_{R}f(x,y)dA$ in polar coordinates:
 > The second part of the requirements above dictate the order of integration
 
 >  Calculating the area of shapes using polar coordinates  
-> 	![Pasted image 20240205181433](Pasted%20image%2020240205181433.png)
+> 	![Pasted image 20240205181433](attachments/Pasted%20image%2020240205181433.png)
 

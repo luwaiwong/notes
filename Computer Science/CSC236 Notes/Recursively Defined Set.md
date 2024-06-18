@@ -1,11 +1,11 @@
 #computer-science  
 #uoft/csc236 
 
-A [Set](Set.md) can be defined [Recursively](Recursive) using several strategies
+A [Set](../../Mathematics/MAT223%20Notes/Set.md) can be defined [Recursively](Recursive) using several strategies
 
 ---
 # How?
-To define a [Set](Set.md) using [Recursion](Recursion), first define a base starting value, and then use recursion to propagate along all values that you want
+To define a [Set](../../Mathematics/MAT223%20Notes/Set.md) using [Recursion](Recursion), first define a base starting value, and then use recursion to propagate along all values that you want
 
 For example, a recursive definition of $\mathbb{N}$, all natural numbers is:
  - $0\in \mathbb{N}$
@@ -30,4 +30,4 @@ Structural Induction is the technique of using the Recursive Definition of a set
 
 > An example of using [Structural Induction](Structural%20Induction.md) to prove that every non-empty binary tree has one more node than edge  
 > (Using the recursive definition of the set of all non-empty binary trees shown above)  
-> ![349](Pasted%20image%2020240612153053.png)
+> ![349](attachments/Pasted%20image%2020240612153053.png)

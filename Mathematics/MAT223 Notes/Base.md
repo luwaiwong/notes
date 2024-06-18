@@ -6,7 +6,7 @@ A **Base** or **Basis**, for any [Subspace](Subspace.md) is any [Set](Set.md) of
 ---
 # Definition
 
-A subset $S$ of a [Vector Space](Vector%20Space.md)  $V$ is a [Base](.md), or **Basis** of $V$ if:  
+A subset $S$ of a [Vector Space](../MAT224%20Notes/Vector%20Space.md)  $V$ is a [Base](.md), or **Basis** of $V$ if:  
 	$V=Span(S)$  
 	$S$ is [Linearly Independent](Linear%20Independence.md)
 
@@ -28,7 +28,7 @@ Other Properties
 
 ## Finding Bases 
 
-To convert any [Vector](Vector.md) or [Transformation](Transformation.md) to a different **Base**, you can use a [Change of Base Matrix](Change%20of%20Base%20Matrix.md) 
+To convert any [Vector](Vector.md) or [Transformation](Transformation.md) to a different **Base**, you can use a [Change of Base Matrix](../MAT224%20Notes/Change%20of%20Base%20Matrix.md) 
 
 # Bases
 The [Standard Basis](Standard%20Basis.md) for $\mathbb{R}^n$ is the set $\{\vec{e}_{1},...,\vec{e}_n\}$ where $$\vec{e}_1=\begin{bmatrix}1\\0\\0\\\vdots\end{bmatrix} \vec{e}_2=\begin{bmatrix}0\\1\\0\\\vdots\end{bmatrix}\vec{e}_3=\begin{bmatrix}0\\0\\1\\\vdots\end{bmatrix}$$That is, $\vec{e}_i$ is the vector with a 1 in its ith coordinate and zeros elsewhere.  

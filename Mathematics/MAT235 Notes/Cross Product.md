@@ -1,7 +1,7 @@
 #mathematics  
 #uoft/mat235 
 ## Definition
-The **Cross Product** combines two [Vector](Vector.md)s and returns the vector perpendicular to both vectors.
+The **Cross Product** combines two [Vector](../MAT223%20Notes/Vector.md)s and returns the vector perpendicular to both vectors.
 
 The **cross product** has two equivalent definitions  
 Geometric  
@@ -11,9 +11,9 @@ Algebraic $$\vec{v}\times\vec{w}=(v_2w_2-v_3w_3)\vec{i}+(v_3w_1-v_1w_3)\vec{j}+(
 The **cross product** can be used to calculate the area of a parallelogram with the sides of its inputs. We say that $\vec{v}\times\vec{w}$ is the *area vector* of the parallelogram, and $||\vec{v}\times\vec{w}||$ is the area of the parallelogram  
 The **volume** of a parallelepiped with edges $\vec{a}\vec{b},\vec{c}$ is given by $|(\vec{b}\times\vec{c}\cdot\vec{a})$
 
-![Pasted image 20240412145112](Pasted%20image%2020240412145112.png)
+![Pasted image 20240412145112](attachments/Pasted%20image%2020240412145112.png)
 ## Properties
-For vectors $\vec{u},\vec{v},\vec{w}$ and [Scalar](Scalar.md) $\lambda$,
+For vectors $\vec{u},\vec{v},\vec{w}$ and [Scalar](../MAT223%20Notes/Scalar.md) $\lambda$,
 1. $\vec{w}\times\vec{v}=-(\vec{v}\times\vec{w})$
 2. $(\lambda\vec{v})\times\vec{w}=\lambda(\vec{v}\times\vec{w})=\vec{v}\times(\lambda\vec{w})$
 3. $\vec{u}\times(\vec{v}+\vec{w})=\vec{u}\times\vec{v}+\vec{u}\times\vec{w}$

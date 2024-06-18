@@ -1,6 +1,6 @@
 #mathematics #uoft/mat223
 
-A **Transformation** (or [Map](Map)) is another form of a [Function](Function.md). **Transformations** show up when one wants to describe vectors changing
+A **Transformation** (or [Map](Map)) is another form of a [Function](../MAT235%20Notes/Function.md). **Transformations** show up when one wants to describe vectors changing
 
 ---
 # Notation

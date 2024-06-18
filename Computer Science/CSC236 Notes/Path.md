@@ -7,4 +7,4 @@ A **Path** is a [Trail](Trail.md) with no repeated *internal vertices*
 	A $u, v$-path is a [Path](.md) with endpoints $u$ and $v$
 
 > Example  
-> 	![Pasted image 20240529155616](Pasted%20image%2020240529155616.png)
+> 	![Pasted image 20240529155616](attachments/Pasted%20image%2020240529155616.png)

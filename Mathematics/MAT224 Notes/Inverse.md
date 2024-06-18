@@ -1,12 +1,12 @@
 #mathematics  
 #uoft/mat224 
 
-The **Inverse** of a [Function](Function.md) $F$, $F^{-1}$ is the function where $F^{-1}(F(x))=x$ 
+The **Inverse** of a [Function](../MAT235%20Notes/Function.md) $F$, $F^{-1}$ is the function where $F^{-1}(F(x))=x$ 
 
 ---
 # Linear Transformations
 
-Let $T:V\rightarrow W$ be a [Linear Transformation](Linear%20Transformation.md)
+Let $T:V\rightarrow W$ be a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md)
 
 If $T$ has an [Inverse](.md) linear transformation $S$, then we say $T$ is [Invertible](Invertible.md), and we denote the inverse of $T$ by $T^{-1}$
 
@@ -19,7 +19,7 @@ If $T:V\rightarrow W$ has an invertible linear transformation, $T$ is called an 
 
 
 ## Properties
-- A [Matrix](Matrix.md) and its corresponding [Transformation](Transformation.md) is [Invertible](Invertible.md) if and only if $det(T)\neq 0$
+- A [Matrix](Matrix.md) and its corresponding [Transformation](../MAT223%20Notes/Transformation.md) is [Invertible](Invertible.md) if and only if $det(T)\neq 0$
 - $T$  has an inverse, if it is [Injective](Injective.md) and [Surjective](Surjective.md)
 - A linear transformation $T$ has an inverse $S$ if and only if $T$ is **injective** and **surjective**]]
 - The inverse transformation $S:W\rightarrow V$ is also a linear transformation

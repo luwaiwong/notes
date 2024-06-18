@@ -1,6 +1,6 @@
 #statistics #uoft/sta237 
 
-A **Hypergeometric experiment** samples $n$ individuals/objects from a [Set](Set.md) of $N$ individuals/objects where:
+A **Hypergeometric experiment** samples $n$ individuals/objects from a [Set](../../Mathematics/MAT223%20Notes/Set.md) of $N$ individuals/objects where:
 1. $N$ is finite
 2. Each individual/object can be categorized as "success" or "failure"
 3. $M$ "successes" in the population

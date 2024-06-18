@@ -12,17 +12,17 @@ $Q_X$ and $Q_Y$ are the quantities of the two goods
 
 > [!Example]  
 > Budget Constraint Graph  
-Say Sarah wants to purchase burritos and lattes. Sarah has an income of $50 to spend on burritos ($10 each) and lattes ($5 each). The budget constraint for Sarah's purchase could be: ![Pasted image 20231011000329](Pasted%20image%2020231011000329.png)
+Say Sarah wants to purchase burritos and lattes. Sarah has an income of $50 to spend on burritos ($10 each) and lattes ($5 each). The budget constraint for Sarah's purchase could be: ![Pasted image 20231011000329](attachments/Pasted%20image%2020231011000329.png)
 
 # Feasible Bundles
 Combination of goods on or below the budget constraint is a **feasible bundle**. Anything else is an **infeasible bundle**
 > [!Example]+  
 > Feasible Bundles  
-> ![Pasted image 20231107183830](Pasted%20image%2020231107183830.png)
+> ![Pasted image 20231107183830](attachments/Pasted%20image%2020231107183830.png)
 
 # Quantity Discounts
 Often, when you buy more of something, you get a discount. The **Quantity Discounts** can affect the budget constraint graph  
-**Quantity Discount Graph Example**![Pasted image 20231011001624](Pasted%20image%2020231011001624.png)
+**Quantity Discount Graph Example**![Pasted image 20231011001624](attachments/Pasted%20image%2020231011001624.png)
 
 **Quantity Limits** are also sometimes imposed on products  
-**Quantity Limit Graph Example**![Pasted image 20231011002425](Pasted%20image%2020231011002425.png)
+**Quantity Limit Graph Example**![Pasted image 20231011002425](attachments/Pasted%20image%2020231011002425.png)

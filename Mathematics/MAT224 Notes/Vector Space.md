@@ -2,12 +2,12 @@
 #uoft/mat224 
 
 
-A **Vector Space** $\mathbb{V}$ is a [Set](Set.md), whose elements are called [Vectors](Vector.md), and satisfies the requirements:  
+A **Vector Space** $\mathbb{V}$ is a [Set](../MAT223%20Notes/Set.md), whose elements are called [Vectors](../MAT223%20Notes/Vector.md), and satisfies the requirements:  
 	The set has the operations of vector addition and vector multiplication  
-	The set follows a set of [](Vector.md#^a7e263|axioms) (The properties of vector addition and multiplication)
+	The set follows a set of [](../MAT223%20Notes/Vector.md#^a7e263|axioms) (The properties of vector addition and multiplication)
 
 The elements of a vector space can be anything which fulfill its definitions  
-	For example, the set of all [Functions](Function.md) fulfill the definition of a **Vector Space**
+	For example, the set of all [Functions](../MAT235%20Notes/Function.md) fulfill the definition of a **Vector Space**
 
 ---
 # Properties

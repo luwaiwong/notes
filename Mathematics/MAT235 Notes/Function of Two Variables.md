@@ -29,7 +29,7 @@ The [Tangent Plane](Tangent%20Plane.md) $z=L(x,y)$ is the tangent plane of $f(x,
 Assuming $f$ is differentiable at $(a,b)$, the equation of the **tangent plane** is: $$z=f(a,b)+f_{x}(a,b)(x-a)+f_{y}(a,b)(y-b)$$  
 This is also called the **Local Linearization** of $f$ near $x=a, y=b$
 >  Tangent Plane Graph Example  
-![Pasted image 20231101131455](Pasted%20image%2020231101131455.png)
+![Pasted image 20231101131455](Images/Pasted%20image%2020231101131455.png)
 
 ---
 # Critical Points

@@ -1,7 +1,7 @@
 #mathematics  
 #uoft/csc236 
 
-A **Relation** between two [Set](Set.md)s is an *association* or [Relationship](Relationship.md) between the elements of the two sets
+A **Relation** between two [Set](../../Mathematics/MAT223%20Notes/Set.md)s is an *association* or [Relationship](Relationship.md) between the elements of the two sets
 
 A **Relation** itself is a set, which contains all the [Relationships](Relationship.md) between the elements of the two sets
 # 

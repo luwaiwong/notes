@@ -8,4 +8,4 @@
 $$AFC = \frac{VC}{Q}$$
 # Properties
 **Average Variable Costs** tend to follow a "*U*" shape, and can go up or down as quantity changes  
-	![Pasted image 20240110220021](Pasted%20image%2020240110220021.png)
+	![Pasted image 20240110220021](attachments/Pasted%20image%2020240110220021.png)

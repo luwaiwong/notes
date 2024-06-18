@@ -26,7 +26,7 @@ The gradient vector can also be written as: $$grad f = \triangledown f$$
 ## Function of Two Variables
 If $f$ is a [Differentiable](Differentiable) function at the point $(a,b)$ and $grad \ f(a,b) \neq \vec{0}$, then the **gradient** has the following properties
 - The direction of $grad \ f(a,b)$ is 
-	- [Orthogonal](Orthogonal.md) to the contour of $f$ through $(a,b)$
+	- [Orthogonal](../MAT223%20Notes/Orthogonal.md) to the contour of $f$ through $(a,b)$
 	- In the direction of the maximum rate of increase of $f$
 - The magnitude of the gradient vector $||grad \ f||$ is  
 	- The maximum rate of change of $f$ at that point
@@ -34,7 +34,7 @@ If $f$ is a [Differentiable](Differentiable) function at the point $(a,b)$ and $
 
 ## Function of Three Variables
 **Properties**
--  $grad(f)(a,b,c)$ is  [Orthogonal](Orthogonal.md) to the level surface of $f$ at $(a,b,c)$
+-  $grad(f)(a,b,c)$ is  [Orthogonal](../MAT223%20Notes/Orthogonal.md) to the level surface of $f$ at $(a,b,c)$
 -  $grad(f)(a,b,c)$ is in the direction of the greatest rate of increase if $f$
 -  $||grad(f)(a,b,c)||$ is the maximum rate of change of $f$ at $(a,b,c)$
 

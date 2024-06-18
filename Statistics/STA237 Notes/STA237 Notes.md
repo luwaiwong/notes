@@ -15,7 +15,7 @@
 [Probability](Probability.md)  
 [Conditional Probability](Conditional%20Probability.md)  
 [Independence](Independence.md)  
-[Quantile(Percentile)](Quantile(Percentile).md)
+[Quantile(Percentile)](Percentile)).md)
 
 ### Random Variables and their Functions
 [Discrete Random Variable](Discrete%20Random%20Variable.md)  
@@ -131,7 +131,7 @@ Some experiments take values on a **continuous scale**, for example, the [Probab
 ### Continuous Random Variable
 A [Discrete Random Variable](Discrete%20Random%20Variable.md) describes the probability that events that can be described with discrete numbers, such as rolling a number on a dice. But [Continuous Random Variable](Continuous%20Random%20Variable.md)s describe experiments that can be described on a **continuous scale**.  
 	The [Probability Density Function](Probability%20Density%20Function.md) for a [Continuous Random Variable](Continuous%20Random%20Variable.md) is 0 at a single point, but has a value over an interval  
-	The [Cumulative Distribution Function](Cumulative%20Distribution%20Function.md) is the [Integral](Integral.md) of the [Probability Mass Function](Probability%20Mass%20Function.md)  
+	The [Cumulative Distribution Function](Cumulative%20Distribution%20Function.md) is the [Integral](../../Mathematics/MAT235%20Notes/Integral.md) of the [Probability Mass Function](Probability%20Mass%20Function.md)  
 The probability of a value occurring over an interval $(a,b)$ can be determined as the integral from $a$ to $b$
 
 ### Distributions
@@ -143,7 +143,7 @@ An [Exponential Distribution](Exponential%20Distribution.md) models an experimen
 A [Normal Distribution](Normal%20Distribution.md) is the most common distribution, it has a bell curved shape
 
 ### Quantiles and Percentiles
-A [Quantile(Percentile|[Percentile)](Percentile)](Percentile)).md) describes the value at which the [Cumulative Distribution Function](Cumulative%20Distribution%20Function.md) up to that point, equals a certain percentage value  
+A [[Percentile)](Percentile|Quantile(Percentile|[Percentile)](Percentile)](Percentile)).md) describes the value at which the [Cumulative Distribution Function](Cumulative%20Distribution%20Function.md) up to that point, equals a certain percentage value  
 For example  
 	The value $q$ at which a [Continuous Random Variable](Continuous%20Random%20Variable.md) $T$ has $$P(T\leq q)=0.1$$Is called the 0.1th *quantile*, or 10th *percentile* of the distribution
 
@@ -179,7 +179,7 @@ The [Joint Probability Density Function](Joint%20Probability%20Density%20Functio
 The [Marginal Probability Density Function](Marginal%20Probability%20Density%20Function.md) describes the probability of one of the [Continuous Random Variable](Continuous%20Random%20Variable.md)s in a  [Joint Continuous Distribution](Joint%20Continuous%20Distribution.md) occurring
 >Let $f$ be the [Joint Probability Mass Function](Joint%20Probability%20Mass%20Function.md) for [Continuous Random Variable](Continuous%20Random%20Variable.md)s of $X$ and $Y$. The **Marginal Probability Densities** of $X$ and $Y$ are: $$f_{X}(x)=\int_{-\infty}^{\infty}f(x,y)dy \ \text{ and } \ f_{Y}(y)=\int_{-\infty}^{\infty}f(x,y)dx$$
 
-The equations of [Joint Distribution](Joint%20Distribution.md)s for Discrete Random Variables and Continuous Random Variables are very similar in idea, but continuous random variables use [Integral](Integral.md)s to sum the [Probability Density Function](Probability%20Density%20Function.md)
+The equations of [Joint Distribution](Joint%20Distribution.md)s for Discrete Random Variables and Continuous Random Variables are very similar in idea, but continuous random variables use [Integral](../../Mathematics/MAT235%20Notes/Integral.md)s to sum the [Probability Density Function](Probability%20Density%20Function.md)
 ### Joint Cumulative Distribution
 The [Joint Cumulative Distribution Function](Joint%20Cumulative%20Distribution%20Function.md) is like the [Cumulative Distribution Function](Cumulative%20Distribution%20Function.md), it describes the probability that an event <= the input occurs
 >The **Joint CDF** of [Discrete Random Variable](Discrete%20Random%20Variable.md)s $X$ and $Y$ is: $$P_{X,Y}(x,y)=P(X\leq x,Y\leq y)$$
@@ -215,7 +215,7 @@ The [Correlation Coefficient](Correlation%20Coefficient.md) describes the correl
 > Let $X$ and $Y$ be two *random variables*. The [Correlation Coefficient](Correlation%20Coefficient.md) $\rho(X,Y)$ is defined to be $0$ if $Var(X)=0$ or $Var(Y)=0$, and otherwise: $$\rho(X,Y)=\frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}$$ 
 
 ==Note this down sometime==  
-![Pasted image 20231125204119](Pasted%20image%2020231125204119.png) 
+![Pasted image 20231125204119](Attachments/Pasted%20image%2020231125204119.png) 
 
 
 ---

@@ -8,7 +8,7 @@ One coordinate ($\rho$) represents the distance from $(0,0)$, one coordinate ($\
 > This system of coordinates is useful when there is spherical symmetry with respect to the origin, either in the region of integration or in the integrand.  
  >How Spherical Coordinates work  
 > 	Red = $\theta$, Green = $\rho$, Orange = $\phi$  
-> 	![Pasted image 20240205183752](Pasted%20image%2020240205183752.png)
+> 	![Pasted image 20240205183752](attachments/Pasted%20image%2020240205183752.png)
 
 ---
 ## Conversion
@@ -24,4 +24,4 @@ Since **Spherical Coordinates** exist in 3-Space, most integration done with sph
 When computing triple integrals in spherical coordinates, covert the *integrand* to be in terms of $\rho, \theta, \phi$, and set $dV=\rho^{2}\sin \phi d \rho d \phi d \theta$
 
 > Example of Triple Integration with spherical coordinates  
-> 	![Pasted image 20240412215350](Pasted%20image%2020240412215350.png)
+> 	![Pasted image 20240412215350](attachments/Pasted%20image%2020240412215350.png)

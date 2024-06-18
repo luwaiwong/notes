@@ -8,16 +8,16 @@ Linear Transformations include
 - Shears
 - And More
 
->A **Linear Transformation** is one which *preserves the algebraic structure of [Vector Spaces](Vector%20Space.md)*  
->So, putting a [Vector Space](Vector%20Space.md) through a **Linear Transformation**, will always still result in a [Vector Space](Vector%20Space.md) 
+>A **Linear Transformation** is one which *preserves the algebraic structure of [Vector Spaces](../MAT224%20Notes/Vector%20Space.md)*  
+>So, putting a [Vector Space](../MAT224%20Notes/Vector%20Space.md) through a **Linear Transformation**, will always still result in a [Vector Space](../MAT224%20Notes/Vector%20Space.md) 
 
 ---
 # Definition
 
-Let $V$ and $W$ be [Subspace](Subspace.md)s. A [Function](Function.md) $T:V\rightarrow W$ is called a **Linear Transformation** if $$T(\vec{u}+\vec{v})=T(\vec{u})+T(\vec{v}) \ \text{ and } \ T(a\vec{v}) = aT(\vec{v})$$  
+Let $V$ and $W$ be [Subspace](Subspace.md)s. A [Function](../MAT235%20Notes/Function.md) $T:V\rightarrow W$ is called a **Linear Transformation** if $$T(\vec{u}+\vec{v})=T(\vec{u})+T(\vec{v}) \ \text{ and } \ T(a\vec{v}) = aT(\vec{v})$$  
 For all vectors $\vec{u},\vec{v} \in V$ and all scalars $a$
 
-> Note how this definition is similar to that of a [Vector Space](Vector%20Space.md) and [Subspace](Subspace.md)  
+> Note how this definition is similar to that of a [Vector Space](../MAT224%20Notes/Vector%20Space.md) and [Subspace](Subspace.md)  
 > Here, $V$ is called the [Domain](../../CS/CSC236/Domain.md) of $T$, and $W$ is called the [Target](Target)  of $T$
 
 **Linear Transformations** have the same notation as [Transformation](Transformation.md)s  
@@ -26,7 +26,7 @@ For **linear** transformation, it is traditional to use **capital letters** to d
 
 ## Properties
 - The [Image](Image.md) of a **Linear Transformation** is the *result* of the linear transformation
-- The [Kernel](Kernel.md) of a **Linear Transformation** is the set of all vectors $v$ such that $T(v)=0$  
+- The [Kernel](../MAT224%20Notes/Kernel.md) of a **Linear Transformation** is the set of all vectors $v$ such that $T(v)=0$  
 	The Kernel can be thought as representing how much the linear transformation "squashes" the definition
 
 Linear Transformations
@@ -44,7 +44,7 @@ Linear Transformations
 ^04984c  
 ^ffce73
 
-We can define a **Linear Transformation** *uniquely* using a [System of Linear Equations](System%20of%20Linear%20Equations.md), and by extension, a [Matrix](Matrix.md)
+We can define a **Linear Transformation** *uniquely* using a [System of Linear Equations](../MAT224%20Notes/System%20of%20Linear%20Equations.md), and by extension, a [Matrix](../MAT224%20Notes/Matrix.md)
 
 ## Definition
 Let $T:V\rightarrow W$ be a **Linear Transformation** between the finite dimensional vectors $V$ and $W$, and let $\alpha=\{v_{1},...,v_{k}\}$ and $\beta=\{w_{1},...,w_{l}\}$, respectively, be any bases for $V$ and $W$.  
@@ -52,14 +52,14 @@ Let $a_{ij},1\leq i \leq l$ and $1\leq j \leq k$ be the $l\cdot k$ scalars that 
 	This matrix is denoted by $[T]_\alpha^\beta$ 
 
 >This definition just describes how a linear transformation can be uniquely defined using a matrix  
->Just take away that Linear Transformations can be represented by a [Matrix](Matrix.md), representing a [System of Linear Equations](System%20of%20Linear%20Equations.md).  
+>Just take away that Linear Transformations can be represented by a [Matrix](../MAT224%20Notes/Matrix.md), representing a [System of Linear Equations](../MAT224%20Notes/System%20of%20Linear%20Equations.md).  
 > We can use this matrix representation to do calculations and other operations 
 
 > All [Matrix Transformation](Matrix%20Transformation.md)s are linear transformations, and *most* linear transformations are matrix transformations  
 > No idea what the exception is
 
 ### Properties
-- The assignment of a matrix to a transformation is [Injective](Injective.md) and [Surjective](Surjective.md)
+- The assignment of a matrix to a transformation is [Injective](../MAT224%20Notes/Injective.md) and [Surjective](../MAT224%20Notes/Surjective.md)
 - The assignment of a matrix to a transformation depends on the choice of bases, if the bases are different, the matrix representation will be different
 - If the number of columns of the matrix $A$ is not equal to the number of entries in the column vector $x$, [Matrix-Vector Multiplication](Matrix-Vector%20Multiplication.md) $Ax$ is not defined
 - The $i$th row of $Ax$ can be thought of the product of the $i$th row of $A$
@@ -77,14 +77,14 @@ Process of finding a matrix for $T$
 
 ## Transformations As Matrices
 
-- The [Identity Transformation](Identity%20Transformation.md) $T:V\rightarrow V$, is the $k\times k$ matrix $\begin{bmatrix} 1 \\  & . \\  &   & .\\ &   &   &  1\end{bmatrix}$
+- The [Identity Transformation](../MAT224%20Notes/Identity%20Transformation.md) $T:V\rightarrow V$, is the $k\times k$ matrix $\begin{bmatrix} 1 \\  & . \\  &   & .\\ &   &   &  1\end{bmatrix}$
 - A **Rotation** of the angle $\theta$ for an arbitrary vector $v=(v_{1},v_{2})$can be defined by the equation:  
 	$R_\theta(v)=(v_{1}\cos(\theta-v_{2})\sin(\theta),v_{2}\sin(\theta)+v_{2}\cos(\theta))$  
 	Thus, $R_\theta(e_{1})=(\cos(\theta),sin(\theta))$ and $R_\theta(e_{2})=(-\sin(\theta),\cos(\theta))$  
 	And $[R_{a}]_\alpha^{\alpha}= \begin{bmatrix} cos(\theta) & -sin(\theta) \\ sin(\theta)  & cos(\theta)\end{bmatrix}$  
 	Where $\alpha$ is the standard basis in $\mathbb{R}^{2}$
 - A **Projection** on a vector $a$ in $\mathbb{R^{2}}$ can be defined by $[P_{a}]_{\alpha}^{\alpha}= \frac{1}{a_{1}^{2}+a_{2}^{2}}\begin{bmatrix} a^{2}_{1} & a_{1}a_{2} \\ a_{1}a_{2} & a^{2}_{2}\end{bmatrix}$  
-	Try to solve for this using the equation for [Projection](Projection.md), look back at 2.1
+	Try to solve for this using the equation for [Projection](../MAT235%20Notes/Projection.md), look back at 2.1
 
 To apply a matrix to a vector, and apply a linear transformation represented by a matrix to a vector, you must perform *matrix vector multiplication*  
 	Let $A$ be an $l\times k$ matrix, and let $x$ be a column vector with $k$ entries, then the *product of the vector $x$ by the matrix $A$* is defined as:  

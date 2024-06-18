@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/CSC236 Notes/CSC236 Notes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/CSC236 Notes/CSC236 Notes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/CSC236 Notes/CSC236 Notes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/CSC236 Notes/CSC236 Notes.md"
+                "file": "README.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "0351d490fddd436b",
   "lastOpenFiles": [
-    "Computer Science/CSC236 Notes/Induction.md",
     "Computer Science/CSC236 Notes/CSC236 Notes.md",
+    "Computer Science/CSC236 Notes/Induction.md",
     "Computer Science/CSC236 Notes/attachments/CSC236 Week 1 Slides.pdf",
     "README.md",
     "Statistics/STA237 Notes/STA237 Notes.md",

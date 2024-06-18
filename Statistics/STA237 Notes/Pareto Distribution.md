@@ -15,4 +15,4 @@ Given $\alpha$ and $\beta$,
 [Variance](Variance.md):$$Var(X)=\frac{\alpha\beta^{2}}{(\alpha-1)^{2}(\alpha-2)} \text{ if } \alpha>2$$
 
 # Graph Example
-![Pasted image 20231027103125](Pasted%20image%2020231027103125.png)
+![Pasted image 20231027103125](Attachments/Pasted%20image%2020231027103125.png)

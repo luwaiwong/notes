@@ -19,4 +19,4 @@ Given $\alpha > 0$ and $\lambda > 0$:
 [Moment Generating Function](Moment%20Generating%20Function.md): $$M_X(t)=(\frac{\lambda}{\lambda-t})^{\alpha}, t<\lambda$$
 
 # Examples
-![Pasted image 20231027105210](Pasted%20image%2020231027105210.png)
+![Pasted image 20231027105210](Attachments/Pasted%20image%2020231027105210.png)

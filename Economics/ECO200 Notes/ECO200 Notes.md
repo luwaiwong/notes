@@ -43,7 +43,7 @@ A [Price Floor](Price%20Floor) sets a limit on is the *lowest* price that can be
 
 A [Quota](Quota) can either force firms to produce a certain amount of a good, or limit the amount of a good to be sold
 
-All cause [DWL(Deadweight Loss|[Deadweight Loss)](Deadweight%20Loss)](Deadweight%20Loss))), which is the difference between the maximum total **surplus** that consumers could gain from market, and the combined gains they actually make after a price regulation. **DWL** reflects the inefficiency of the price ceiling.
+All cause [[Deadweight Loss)](Deadweight Loss|DWL(Deadweight Loss|[Deadweight Loss)](Deadweight%20Loss)](Deadweight%20Loss))), which is the difference between the maximum total **surplus** that consumers could gain from market, and the combined gains they actually make after a price regulation. **DWL** reflects the inefficiency of the price ceiling.
 
 ---
 ## Chapter 4: Consumer Behaviour
@@ -81,18 +81,18 @@ An [Indifference Curve](Indifference%20Curve.md) represents the combination of a
 - Flatter indifference curves mean the consumer is not as willing to substitute the goods
 
 > [!Example]-  
-> ![Pasted image 20231010233718](Pasted%20image%2020231010233718.png)
+> ![Pasted image 20231010233718](attachments/Pasted%20image%2020231010233718.png)
 
 
 ### Marginal Rate of Substitution
 The [Marginal Rate of Substitution](Marginal%20Rate%20of%20Substitution.md) represents the rate at which a consumer is willing to trade off or substitute exactly 1 unity of good X (good on horizontal axis) for more of good Y (the good on the vertical axis) and feel equally well off, with [Utility](Utility.md) held constant
 > Marginal Rate of Substitution $$MRS_{XY}=-\frac{\Delta Y}{\Delta X}$$  
-> The Marginal Rate of Substitution is the slope/[Derivative](Derivative.md) at a point of of the [Indifference Curve](Indifference%20Curve.md)  
+> The Marginal Rate of Substitution is the slope/[Derivative](../../Mathematics/MAT235%20Notes/Derivative.md) at a point of of the [Indifference Curve](Indifference%20Curve.md)  
 > Defined with Marginal Utility $$MRS_{XY}=\frac{MU_{X}}{MU_{X}}$$
 
 > [!Example]-  
 > Marginal Rate of Substitution on Indifference curve  
-> ![Pasted image 20231107182231](Pasted%20image%2020231107182231.png)
+> ![Pasted image 20231107182231](attachments/Pasted%20image%2020231107182231.png)
 
 
 A [Budget Constraint](Budget%20Constraint.md) describes all the [Consumption Bundle](Consumption%20Bundle.md)s a consumer can purchase by spending all income. 
@@ -100,7 +100,7 @@ A [Budget Constraint](Budget%20Constraint.md) describes all the [Consumption Bun
 
 > [!Example]-  
 > Budget Constraint Graph  
->Say Sarah wants to purchase burritos and lattes. Sarah has an income of $50 to spend on burritos ($10 each) and lattes ($5 each). The budget constraint for Sarah's purchase could be: ![Pasted image 20231011000329](Pasted%20image%2020231011000329.png)
+>Say Sarah wants to purchase burritos and lattes. Sarah has an income of $50 to spend on burritos ($10 each) and lattes ($5 each). The budget constraint for Sarah's purchase could be: ![Pasted image 20231011000329](attachments/Pasted%20image%2020231011000329.png)
 
 ### Utility Optimization
 Combining all of these concepts, we want to find the **optimal bundle** a **consumer** should purchase at a given **budget constraint/income level**, to give the highest **utility**
@@ -161,11 +161,11 @@ When the price of a good changes, the demand curve tells us how much consumption
 The total effect of change is $$\text{Total Effect = Substitution Effect + Income Effect}$$
 > [!example]+ Graphical Example of the Substitution Effect VS. Income Effect  
 ![Pasted image 20231102111428](attachments/Pasted%20image%2020231102111428.png)  
-[](Pasted%20image%2020231102111428.png)rmal goods can be either [Necessity Goods](Necessity%20Goods.md) or [Luxury Goods](Luxury%20Goods.md)  
+[Pasted image 20231102111428](attachments/Pasted%20image%2020231102111428.png)rmal goods can be either [Necessity Goods](Necessity%20Goods.md) or [Luxury Goods](Luxury%20Goods.md)  
 A good for which **consumption decreases when income rises** is an [Inferior Good](Inferior%20Good.md)  
 > [!example]- Example of Substitution And Income Effect for an Inferior Good  
 > ![Pasted image 20231108200712](attachments/Pasted%20image%2020231108200712.png)  
-[](Pasted%20image%2020231108200712.png)Income Elasticity](Income%20Elasticity.md) measures the *percentage change in the quantity consumed of a good* in response to a given *percentage change in income*
+[Pasted image 20231108200712](attachments/Pasted%20image%2020231108200712.png)Income Elasticity](Income%20Elasticity.md) measures the *percentage change in the quantity consumed of a good* in response to a given *percentage change in income*
 
 ### Various Graphs and Helpful Tools
 The [Income Expansion Path](Income%20Expansion%20Path.md) is a curve that *connects a consumer's optimal bundles at each income level*. It depicts how the consumption between two goods changes over different income levels.
@@ -173,19 +173,19 @@ The [Income Expansion Path](Income%20Expansion%20Path.md) is a curve that *conne
 The [Engel Curve](Engel%20Curve.md) is a graph that shows only the relationship between **Income** and **Quantity Consumed** for a single good.
 >[!example]- Engel Curve Example  
 >![Pasted image 20231108174115](attachments/Pasted%20image%2020231108174115.png)  
->[](Pasted%20image%2020231108174115.png)](Utility%20Optimization.md) given as many prices of a good as possible.  
+>[Pasted image 20231108174115](attachments/Pasted%20image%2020231108174115.png)](Utility%20Optimization.md) given as many prices of a good as possible.  
 >[!example]- Constructing a Demand Curve Example  
 ![Pasted image 20231018231121](attachments/Pasted%20image%2020231018231121.png)  
-[](Pasted%20image%2020231018231121.png)zontally of all the individual demand curves  
+[Pasted image 20231018231121](attachments/Pasted%20image%2020231018231121.png)zontally of all the individual demand curves  
 > [!example]- Summing Demand Curves  
 > ![Pasted image 20231108202545](attachments/Pasted%20image%2020231108202545.png)  
-[](Pasted%20image%2020231108202545.png)er  
+[Pasted image 20231108202545](attachments/Pasted%20image%2020231108202545.png)er  
 	When the price of one good of a **substitute** rises, the quantity consumed of its **substitute** increases  
 Two goods are [Complements](Complements.md) when they are purchased and used in combination with another good  
 	When the price of one good of a **complement** rises, the quantity consumed of its **complement** also decreases
 
 > A Graphical Explanation  
-> ![Pasted image 20231108201814](Pasted%20image%2020231108201814.png)
+> ![Pasted image 20231108201814](attachments/Pasted%20image%2020231108201814.png)
 
 
 The shape of an [Indifference Curve](Indifference%20Curve.md) is related to whether two goods are **substitutes** or **complements**  
@@ -220,7 +220,7 @@ We can use the [Lagrangian Method](Lagrangian%20Method.md) with [Expenditure Min
 such that:  
 $$U_{1}=X^{\alpha}Y^{1-\alpha}$$
 
-Finding the [Partial Derivatives](Partial%20Derivative.md) and then solving for the system of equations for the quantity of goods purchased, we can then find the quantity purchased solely from the substitution effect
+Finding the [Partial Derivatives](../../Mathematics/MAT235%20Notes/Partial%20Derivative.md) and then solving for the system of equations for the quantity of goods purchased, we can then find the quantity purchased solely from the substitution effect
 
 ### Income Effect
 To find the **income Effect**, use the result gained from the **Substitution Effect**, and since $$\text{Total Effect} = \text{Income Effect} + \text{Substitution Effect}$$Then  
@@ -236,7 +236,7 @@ These curves are "[Hicksian Demand Curves](Hicksian%20Demand%20Curves)", or *com
 
 > [!quote]- Solving for Hicksian Demand  
 > ![Pasted image 20231110163239](attachments/Pasted%20image%2020231110163239.png)  
-[](Pasted%20image%2020231110163239.png)t, or non-profit uses inputs to create a good or service for which others are willing to pay*
+[Pasted image 20231110163239](attachments/Pasted%20image%2020231110163239.png)t, or non-profit uses inputs to create a good or service for which others are willing to pay*
 
 [Capital](Capital.md) is money  
 [Labour](Labour.md) is people
@@ -257,7 +257,7 @@ Firms make [Final Goods](Final%20Goods) or [Intermediate Goods](Intermediate%20G
 The [Production Function](Production%20Function.md) describes how much output can be made from different combinations of inputs  
 	In the **short run**, capital is essentially fixed, so the [Production Function](Production%20Function.md) is a one variable function.  
 	In the **long run**, firm can control capital and labour,,so the **production function** is two variable function  
-	One popular production function is the [Cobb-Douglas Production Function](Cobb-Douglas%20Production%20Function.md)
+	One popular production function is the [Cobb-Douglas Production Function](../../Mathematics/MAT235%20Notes/Cobb-Douglas%20Production%20Function.md)
 > [!example]- Example of a Production Function  
 > $$Q=f(K,L)$$  
 > Where $Q$ is *quantity*, $K$ is *capital* and $L$ is *labour*
@@ -299,7 +299,7 @@ The [Isocost](Isocost.md) line is the curve that shows the combination of inputs
 ### Returns to Scale
 [Returns to Scale](Returns%20to%20Scale.md) describes a change in the *amount of output in response to a proportional increase in all the inputs*
 
-Improvements in technology which change a firms production, such that it gets more output from the same amount of inputs is [Total Factor Productivity Growth(Technological Change|[Technological Change)](Technological%20Change)](Technological%20Change)).md). When there is **technological change**, a production function changes over times so that a fixed amount of inputs can produce more input. 
+Improvements in technology which change a firms production, such that it gets more output from the same amount of inputs is [[Technological Change)](Technological Change|Total Factor Productivity Growth(Technological Change|[Technological Change)](Technological%20Change)](Technological%20Change)).md). When there is **technological change**, a production function changes over times so that a fixed amount of inputs can produce more input. 
 
 A firm's [Expansion Path](Expansion%20Path.md) is a curve that illustrates how the optimal mix of inputs varies with total output. It shows the optimal input combinations at each output quantity. Plotting the total cost from the [Isocost](Isocost.md) and the **output quantity**, we can get the  [Total Cost Curve](Total%20Cost%20Curve.md), a curve which shoes a firm's cost of producing different quantities
 
@@ -309,7 +309,7 @@ A [Production Function](Production%20Function.md) must have:
 1. Positive marginal product of labour and capital (Adding more labour and capital will always increase production)
 2. Labour and Capital exhibit *diminishing marginal returns*
 
-Mathematically, the [Marginal Product](Marginal%20Product.md) of capital is the [Partial Derivative](Partial%20Derivative.md) of the *Production Function* with respect to capital  
+Mathematically, the [Marginal Product](Marginal%20Product.md) of capital is the [Partial Derivative](../../Mathematics/MAT235%20Notes/Partial%20Derivative.md) of the *Production Function* with respect to capital  
 	Labour is the same, but with respect to labour
 
 Proving Assumptions
@@ -317,11 +317,11 @@ Proving Assumptions
 2. To show that *diminishing marginal returns* holds true, the marginal products of capital and labour must **decrease as the amounts of those inputs increase**. To do this, we can find the *second partial derivative* of the production function, and prove that it is negative
 
 ### Cost Minimization Using Calculus
->A common production function is the  [Cobb-Douglas Production Function](Cobb-Douglas%20Production%20Function.md)  
+>A common production function is the  [Cobb-Douglas Production Function](../../Mathematics/MAT235%20Notes/Cobb-Douglas%20Production%20Function.md)  
 	Mathematically, it is:$$Q=AK^{\alpha}L^{1-\alpha} $$  
 		Where:  
 		$Q$ is Quantity  
-		$A$ is [Total Factor Productivity Growth(Technological Change|[Technological Change)](Technological%20Change)](Technological%20Change)).md)  
+		$A$ is [[Technological Change)](Technological Change|Total Factor Productivity Growth(Technological Change|[Technological Change)](Technological%20Change)](Technological%20Change)).md)  
 		$K$ is Capital  
 		$L$ is Labour  
 	This production function will be used as an example
@@ -331,7 +331,7 @@ With [Cost Minimization](Cost%20Minimization.md), we are given a fixed quantity 
 There are two approaches to solving the cost-minimization problem.
 1. Apply cost minimization condition  
 	At the optimal cost minimization, the [Marginal Rate of Technical Substitution](Marginal%20Rate%20of%20Technical%20Substitution.md) equals the ratio of the input prices (Remember utility optimization from chapter 4). Thus we want to find: $$MRTS_{LK}=\frac{MP_{L}}{MP_{K}}=\frac{W}{R}$$  
-	Given the [Cobb-Douglas Production Function](Cobb-Douglas%20Production%20Function.md), we can plug those values in for [Marginal Product](Marginal%20Product.md), giving us: $$\frac{MP_{L}}{MP_{K}}=\frac{(1-\alpha)K}{\alpha L}=\frac{W}{R}$$Which can be rearranged to derive$$K=[\frac{\alpha}{1-\alpha}\frac{W}{R}]L$$  
+	Given the [Cobb-Douglas Production Function](../../Mathematics/MAT235%20Notes/Cobb-Douglas%20Production%20Function.md), we can plug those values in for [Marginal Product](Marginal%20Product.md), giving us: $$\frac{MP_{L}}{MP_{K}}=\frac{(1-\alpha)K}{\alpha L}=\frac{W}{R}$$Which can be rearranged to derive$$K=[\frac{\alpha}{1-\alpha}\frac{W}{R}]L$$  
 	This can then be substituted back into the original production function $$\overline{Q}=AK^{\alpha}L^{1-\alpha}$$  
 	Which we can then use to derive the optimal capital and labour
 
@@ -344,7 +344,7 @@ There are two approaches to solving the cost-minimization problem.
 ### Expansion Path
 To plot the expansion path of a firm, we can calculate the cost minimization at various quantities, and plot them on a graph
 
-For a [Cobb-Douglas Production Function](Cobb-Douglas%20Production%20Function.md), we know that for the optimal cost: $$K=[\frac{\alpha}{1-\alpha}\frac{W}{R}]L$$Thus the expansion path will be linear with the slope: $$\frac{\alpha}{1-\alpha}\frac{W}{R}$$  
+For a [Cobb-Douglas Production Function](../../Mathematics/MAT235%20Notes/Cobb-Douglas%20Production%20Function.md), we know that for the optimal cost: $$K=[\frac{\alpha}{1-\alpha}\frac{W}{R}]L$$Thus the expansion path will be linear with the slope: $$\frac{\alpha}{1-\alpha}\frac{W}{R}$$  
 This is a property of the *Cobb-Douglas Production Functional Form*
 
 ### Isoquants
@@ -485,7 +485,7 @@ The **Maximin Strategy** is where the player minimizes their exposure to risk. T
 	This strategy is good for unpredictable or "stupid" players
 
 > Examples of **Nash Equilibrium**  
-> ![400](Pasted%20image%2020240305132607.png) ![400](Pasted%20image%2020240305132812.png) ![350](Pasted%20image%2020240305134453.png)  
+> ![400](attachments/Pasted%20image%2020240305132607.png) ![400](attachments/Pasted%20image%2020240305132812.png) ![350](attachments/Pasted%20image%2020240305134453.png)  
 > 	For Table 12.2  
 > 		The options with checks are best decisions given the other player's moves  
 > 		Here, when blue selects RS, and red selects CI, selecting another option would decrease their profit, thus, the **Nash Equilibrium** is the box with two checks  
@@ -501,7 +501,7 @@ Sometimes there may be **Multiple Nash Equilibria**
 	In that case, then we don't know which the companies will settle on, it is essentially random
  
 > Multiple Nash Equilibrium Example  
-> ![400](Pasted%20image%2020240305134248.png)  
+> ![400](attachments/Pasted%20image%2020240305134248.png)  
 > 	Here, for both companies, *March* is a **dominated strategy**  
 > 	The companies will never pick March
 
@@ -524,7 +524,7 @@ The **Tit-for-tat Strategy** is when:
 	Involves solving the last step and then working backward
 
 > Why finite repeated games do not induce cooperation  
->![500](Pasted%20image%2020240305140307.png)  
+>![500](attachments/Pasted%20image%2020240305140307.png)  
 >	This logic carries for as many repeated games there are.  
 >	If there are 50 played games, the players will realize that its best to cheat on the 50th game, meaning that it would be the best to cheat on the 49th game, and so on and so on  
 >	This is an example of **Backwards Induction**
@@ -535,7 +535,7 @@ The **Tit-for-tat Strategy** is when:
 Sequential games eliminates the **Multiple Equilibriums**, but the outcome is still a **Nash Equilibrium**
 
 > Decision Tree Examples  
-> ![425](Pasted%20image%2020240305141621.png) ![450](Pasted%20image%2020240305142328.png) ![400](Pasted%20image%2020240305142824.png)  
+> ![425](attachments/Pasted%20image%2020240305141621.png) ![450](attachments/Pasted%20image%2020240305142328.png) ![400](attachments/Pasted%20image%2020240305142824.png)  
 > 	Example 1  
 > 		The first example is the same as the one before with multiple equilibrium  
 > 		Now, since the game is sequential, *Warner Brothers* has a **First Movers Advantage**  
@@ -556,13 +556,13 @@ One application of strategic moves is a company trying to deter new competitors 
 	Thus players are incentivized not to join the market, as they will be priced out in a price war
 
 > Example of Side Payments  
-> ![400](Pasted%20image%2020240305142824.png) ![500](Pasted%20image%2020240305142945.png) ![450](Pasted%20image%2020240305143025.png)  
+> ![400](attachments/Pasted%20image%2020240305142824.png) ![500](attachments/Pasted%20image%2020240305142945.png) ![450](attachments/Pasted%20image%2020240305143025.png)  
 > 	In Example 1, The best move is for *Danica* to do play.  
 > 	Example 2 shows the change in dominant strategy with a promised side payment  
 > 	Example 3 shows a punishment for non-cooperation
 
 > Example of **Commitments**  
-> ![Pasted image 20240305143527](Pasted%20image%2020240305143527.png) ![400](Pasted%20image%2020240305155408.png) ![425](Pasted%20image%2020240305155430.png)  
+> ![Pasted image 20240305143527](attachments/Pasted%20image%2020240305143527.png) ![400](attachments/Pasted%20image%2020240305155408.png) ![425](attachments/Pasted%20image%2020240305155430.png)  
 > 	Example 1  
 > 		For both players, both opening in may would be detrimental, so there were two **Nash Equilibrium** for May, and December.  
 > 		One player however, makes a commitment, threatening to do May no matter what.  
@@ -577,10 +577,10 @@ One application of strategic moves is a company trying to deter new competitors 
 Calculating if players want to cheat in infinitely repeating games
 
 Taking this game as example  
-	![425](Pasted%20image%2020240305141018.png)
+	![425](attachments/Pasted%20image%2020240305141018.png)
 
 A firm would want to cheat in an infinitely repeating game depending on how much they value the future  
-	![550](Pasted%20image%2020240305141118.png) ![450](Pasted%20image%2020240305141205.png)  
+	![550](attachments/Pasted%20image%2020240305141118.png) ![450](attachments/Pasted%20image%2020240305141205.png)  
 	$d$ represents how much they value future games
 
 ## Chapter 13 Factor Markets
@@ -608,7 +608,7 @@ Changes in any variables that affects labor demand will show up as shifts in the
 At the optimal hiring level $MR=\frac{W}{MP_{L}}$ where $MP_{L}$ is the marginal revenue product of labor
 
 > Example Labor Market  
-> ![450](Pasted%20image%2020240305162444.png)
+> ![450](attachments/Pasted%20image%2020240305162444.png)
 
 
 In a perfectly competitive market **Labor Supply** is perfectly elastic, a firm can hire as much labor as it wants at the market wage  
@@ -621,7 +621,7 @@ An individuals labor supply is determined by the trade off between an individual
 		But, since leisure tends to be a [Normal Good](Normal%20Good.md), as wage gets higher, an individual will value leisure higher. This leads to **Backward Bending Labor Supply Curves**
 
 > Individual labor utility chart examples  
-> 	![450](Pasted%20image%2020240305185209.png)![425](Pasted%20image%2020240305195405.png)  
+> 	![450](attachments/Pasted%20image%2020240305185209.png)![425](attachments/Pasted%20image%2020240305195405.png)  
 > 	Example 2:  
 > 		An example of the **Backward Bending Labor Supply Curve**
 

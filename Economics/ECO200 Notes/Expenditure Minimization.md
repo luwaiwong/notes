@@ -24,4 +24,4 @@ Our objective in **Expenditure Minimization** is: $$\min_{X,Y}I=P_{X}X+P_{Y}Y$$
 Constrained, such that: $$ \overline{U}=U(X,Y)$$
 
 To solve for this, we can use the [Lagrangian Method](Lagrangian%20Method.md) and rewrite the equation as: $$\min_{X,Y,\lambda}L(X,Y,\lambda)=P_{X}X+P_{Y}Y+\lambda(\overline{U}-U(X,Y))$$  
-Then, we can find the [Partial Derivative](Partial%20Derivative.md) of all variables involved, and solve for the system of equations.
+Then, we can find the [Partial Derivative](../../Mathematics/MAT235%20Notes/Partial%20Derivative.md) of all variables involved, and solve for the system of equations.

@@ -2,7 +2,7 @@
 #uoft/mat235  
 #statistics 
 
-A **Function** from [Set](Set.md) X to a [Set](Set.md) Y assigns to each element of X exactly one element of Y. Put simply, a **function** takes in inputs, and assigns them to *exactly one* output.
+A **Function** from [Set](../MAT223%20Notes/Set.md) X to a [Set](../MAT223%20Notes/Set.md) Y assigns to each element of X exactly one element of Y. Put simply, a **function** takes in inputs, and assigns them to *exactly one* output.
 
 ---
 # Functions

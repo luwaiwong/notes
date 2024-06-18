@@ -25,4 +25,4 @@ A **Contour Diagram** for a function $f(x,y)$ is a graph of several contours for
 
 
 Example of a contour diagram for a Function  
-	![Pasted image 20230919221716](Pasted%20image%2020230919221716.png)
+	![Pasted image 20230919221716](Images/Pasted%20image%2020230919221716.png)

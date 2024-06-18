@@ -21,7 +21,7 @@ Critical points are **Local Max/Mins**, **Global Max/Mins**, or **Neither**
 > [!example]- A critical point that is neither a local max or min  
 >  ![Pasted image 20240205135527](attachments/Pasted%20image%2020240205135527.png)
 
-[](Pasted%20image%2020240205135527.png)> **The Second Derivative Test**  
+[Pasted image 20240205135527](attachments/Pasted%20image%2020240205135527.png)> **The Second Derivative Test**  
 Suppose $(x,y)$ is a point where $grad f(x,y) = \vec{0}$  
 Let $D=f_{xx}(x,y)f_{yy}(x,y)-(f_{xy}(x,y))^{2}$
 >  - $D > 0$ && $f_{xx}(x,y) > 0$  $\implies$ $f$ has a **local minimum** at $(x,y)$

@@ -1,7 +1,7 @@
 #mathematics/linear-algebra #uoft/mat224 
 
 A **matrix** is a grid of numbers.  
-**Matrices** can be used to represent [Linear Transformation](Linear%20Transformation.md)
+**Matrices** can be used to represent [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md)
 
 ---
 
@@ -10,7 +10,7 @@ A **matrix** is a grid of numbers.
 How to do matrix addition? (its pretty simple)
 
 ## Matrix-Vector Multiplication
-[Matrix-Vector Multiplication](Matrix-Vector%20Multiplication.md) is multiplication between a matrix and vector  
+[Matrix-Vector Multiplication](../MAT223%20Notes/Matrix-Vector%20Multiplication.md) is multiplication between a matrix and vector  
 Properties
 - If the number of columns of a matrix $A$ is not equal to the number of rows in the vector $x$, matrix multiplication $Ax$ is not defined
 - Let A be $l\times k$ matrix, and $u$ and $v$ be column vectors with $k$ entries. For every pair of real number $a$ and $b$ $$A(au+bv)=aAu+bAv$$
@@ -22,12 +22,12 @@ Multiplying a matrix with another matrix
 - $(A+B)C=AC+BC$
 
 # Interpretations
-For a [Linear Transformation](Linear%20Transformation.md) $T:V\rightarrow W$, with $[T]$
+For a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) $T:V\rightarrow W$, with $[T]$
 
-The [Dimension](Dimension.md) of $W$ is the number of **Basic** variables in echelon form  
-The [Dimension](Dimension.md) of the [Kernel](Kernel.md) of $T$ is the number of **Free** variables
+The [Dimension](../MAT223%20Notes/Dimension.md) of $W$ is the number of **Basic** variables in echelon form  
+The [Dimension](../MAT223%20Notes/Dimension.md) of the [Kernel](Kernel.md) of $T$ is the number of **Free** variables
 
-For a [Linear Transformation](Linear%20Transformation.md) with the [Basis](Base.md) $\alpha$, where $[T]_{\alpha}^{\alpha}$  
+For a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) with the [Basis](../MAT223%20Notes/Base.md) $\alpha$, where $[T]_{\alpha}^{\alpha}$  
 Each **Column** can be seen as the result of the corresponding basis vector being inputted into the transformation
 
 > So, for $T=\begin{bmatrix} 1 & 1 & 1 \\ 0 & 1 &  1\\0 & 0 & 1 \end{bmatrix}$, Feeding the first basis, which would be $\begin{bmatrix} 1 \\ 0 \\ 0\end{bmatrix}$ will just result in $T(\begin{bmatrix} 1 \\ 0 \\ 0\end{bmatrix})=\begin{bmatrix} 1 \\ 0 \\ 0\end{bmatrix}$  
