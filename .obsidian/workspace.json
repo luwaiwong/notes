@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/CSC236/CSC236 Notes.md",
+                "file": "Computer Science/CSC236 Notes/CSC236 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/CSC236/CSC236 Notes.md",
+                "file": "Computer Science/CSC236 Notes/CSC236 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/CSC236/CSC236 Notes.md",
+                "file": "Computer Science/CSC236 Notes/CSC236 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/CSC236/CSC236 Notes.md"
+                "file": "Computer Science/CSC236 Notes/CSC236 Notes.md"
               }
             }
           }
@@ -156,9 +156,16 @@
   },
   "active": "0351d490fddd436b",
   "lastOpenFiles": [
-    "Math/MAT224 Notes/MAT224 Notes.md",
+    "Computer Science/CSC236 Notes/Induction.md",
+    "Computer Science/CSC236 Notes/CSC236 Notes.md",
+    "Computer Science/CSC236 Notes/attachments/CSC236 Week 1 Slides.pdf",
     "README.md",
+    "Statistics/STA237 Notes/STA237 Notes.md",
+    "Mathematics/MAT224 Notes/MAT224 Notes.md",
+    "Mathematics/MAT224 Notes",
+    "Mathematics",
     "CS/CSC236/CSC236 Notes.md",
+    "CS/CSC236",
     "CS/CSC236/attachments/Pasted image 20240612160719.png",
     "CS/CSC236/attachments/Pasted image 20240612153053.png",
     "CS/CSC236/attachments/Pasted image 20240529155616.png",
@@ -173,10 +180,6 @@
     "CS/CSC236/attachments/CSC236 Week 4 Slides Completed.pdf",
     "CS/CSC236/attachments/CSC236 Week 4 Slides.pdf",
     "CS/CSC236/attachments/CSC236 Week 1 Slides.pdf",
-    "CS/CSC236/attachments/CSC236 Week 3 Slides Completed.pdf",
-    "CS/CSC236/attachments/CSC236 Week 2 Slides.pdf",
-    "CS/CSC236/attachments/CSC236 Week 3 Slides.pdf",
-    "CS/CSC236/attachments/CSC236 Textbook Hadzilacos.pdf",
     "CS/CSC236/Well Ordering.md",
     "CS/CSC236/Well Ordering Theorem.md",
     "CS/CSC236/Well Ordering Principle.md",
@@ -193,14 +196,11 @@
     "CS/CSC236/Domain.md",
     "CS/CSC236/Complete Induction.md",
     "CS/CSC236/Arity.md",
-    "CS/CSC236 Notes/attachments/Pasted image 20240612160719.png",
-    "CS/CSC236 Notes/attachments/Pasted image 20240612153053.png",
-    "CS/CSC236 Notes/Well Ordering.md",
-    "CS/CSC236 Notes/Well Ordering Theorem.md",
-    "CS/CSC236 Notes/Well Ordering Principle.md",
-    "CS/CSC236 Notes/Total Ordering.md",
-    "CS/CSC236 Notes/Strong Induction.md",
-    "CS/CSC236 Notes/Simple Induction.md",
-    "CS/CSC236 Notes/Relationship.md"
+    "Computer Science/CSC236 Notes/attachments/Pasted image 20240612160719.png",
+    "Computer Science/CSC236 Notes/attachments/Pasted image 20240612153053.png",
+    "Computer Science/CSC236 Notes/Well Ordering.md",
+    "Computer Science/CSC236 Notes/Well Ordering Theorem.md",
+    "Computer Science/CSC236 Notes/Well Ordering Principle.md",
+    "Computer Science/CSC236 Notes/Total Ordering.md"
   ]
 }
