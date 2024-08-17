@@ -8,23 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0351d490fddd436b",
+            "id": "68d2a16ef5e51fce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Statistics/STA237 Notes/STA237 Notes.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "68d2a16ef5e51fce",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -93,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Statistics/STA237 Notes/STA237 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Statistics/STA237 Notes/STA237 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Statistics/STA237 Notes/STA237 Notes.md"
               }
             }
           }
@@ -154,53 +146,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0351d490fddd436b",
+  "active": "68d2a16ef5e51fce",
   "lastOpenFiles": [
-    "Computer Science/CSC236 Notes/CSC236 Notes.md",
-    "Computer Science/CSC236 Notes/Induction.md",
-    "Computer Science/CSC236 Notes/attachments/CSC236 Week 1 Slides.pdf",
+    "Statistics/STA237 Notes/Joint Cumulative Distribution Function.md",
+    "Statistics/STA237 Notes/Joint Continuous Distribution.md",
+    "Statistics/STA237 Notes/Independence.md",
+    "Statistics/STA237 Notes/Cumulative Distribution Function.md",
     "README.md",
-    "Statistics/STA237 Notes/STA237 Notes.md",
-    "Mathematics/MAT224 Notes/MAT224 Notes.md",
-    "Mathematics/MAT224 Notes",
-    "Mathematics",
-    "CS/CSC236/CSC236 Notes.md",
-    "CS/CSC236",
-    "CS/CSC236/attachments/Pasted image 20240612160719.png",
-    "CS/CSC236/attachments/Pasted image 20240612153053.png",
-    "CS/CSC236/attachments/Pasted image 20240529155616.png",
-    "CS/CSC236/attachments/Pasted image 20240517203833.png",
-    "CS/CSC236/attachments/Pasted image 20240517204035.png",
-    "CS/CSC236/attachments/Pasted image 20240517203945.png",
-    "CS/CSC236/attachments/Pasted image 20240508182232.png",
-    "CS/CSC236/attachments/CSC236 Week 6 Slides Completed.pdf",
-    "CS/CSC236/attachments/Pasted image 20240517173143.png",
-    "CS/CSC236/attachments/CSC236 Week 5 Slides.pdf",
-    "CS/CSC236/attachments/CSC236 Week 5 Slides Completed.pdf",
-    "CS/CSC236/attachments/CSC236 Week 4 Slides Completed.pdf",
-    "CS/CSC236/attachments/CSC236 Week 4 Slides.pdf",
-    "CS/CSC236/attachments/CSC236 Week 1 Slides.pdf",
-    "CS/CSC236/Well Ordering.md",
-    "CS/CSC236/Well Ordering Theorem.md",
-    "CS/CSC236/Well Ordering Principle.md",
-    "CS/CSC236/Total Ordering.md",
-    "CS/CSC236/Strong Induction.md",
-    "CS/CSC236/Simple Induction.md",
-    "CS/CSC236/Relationship.md",
-    "CS/CSC236/Predicate.md",
-    "CS/CSC236/Relation.md",
-    "CS/CSC236/Ordering.md",
-    "CS/CSC236/Non Empty.md",
-    "CS/CSC236/Induction.md",
-    "CS/CSC236/Induction Hypothesis.md",
-    "CS/CSC236/Domain.md",
-    "CS/CSC236/Complete Induction.md",
-    "CS/CSC236/Arity.md",
-    "Computer Science/CSC236 Notes/attachments/Pasted image 20240612160719.png",
-    "Computer Science/CSC236 Notes/attachments/Pasted image 20240612153053.png",
-    "Computer Science/CSC236 Notes/Well Ordering.md",
-    "Computer Science/CSC236 Notes/Well Ordering Theorem.md",
-    "Computer Science/CSC236 Notes/Well Ordering Principle.md",
-    "Computer Science/CSC236 Notes/Total Ordering.md"
+    "Stats/STA238 Notes/attachments/STA237+238 Dekking Textbook.pdf",
+    "Stats/STA238 Notes/attachments/STA238 Textbook Rosenthal.pdf",
+    "Stats/STA238 Notes/attachments/STA238 Lecture 9 Slides Annotated.pdf",
+    "Stats/STA238 Notes/attachments/STA238 Lecture 8 Slides Annotated.pdf",
+    "Stats/STA238 Notes/attachments/STA238 Lecture 7 Slides Annotated.pdf",
+    "Stats/STA238 Notes/attachments/STA238 Lecture 6 Slides Annotated.pdf",
+    "Stats/STA238 Notes/attachments/STA238 Lecture 5 Slides Annotated.pdf",
+    "Stats/STA238 Notes/attachments/STA238 Lecture 4 Slides.pdf",
+    "Stats/STA238 Notes/attachments/STA238 Lecture 4 Annotated.pdf",
+    "Stats/STA238 Notes/attachments/STA238 Lecture 3 Slides.pdf",
+    "Stats/STA238 Notes/attachments/Pasted image 20240817114430.png",
+    "Stats/STA238 Notes/attachments/Pasted image 20240816164341.png",
+    "Stats/STA238 Notes/attachments/Pasted image 20240815090436.png",
+    "Stats/STA238 Notes/attachments/Pasted image 20240719112018.png",
+    "Stats/STA238 Notes/attachments/Pasted image 20240812162630.png",
+    "Stats/STA238 Notes/attachments/Pasted image 20240719174619.png",
+    "Stats/STA238 Notes/attachments/Pasted image 20240708171358.png",
+    "Stats/STA238 Notes/attachments/Pasted image 20240708171156.png",
+    "Stats/STA238 Notes/attachments/Pasted image 20240708155231.png",
+    "Stats/STA238 Notes/attachments/Pasted image 20240708124747.png",
+    "Stats/STA238 Notes/Standard Error of the Mean.md",
+    "Stats/STA238 Notes/STA238 Notes.md",
+    "Stats/STA238 Notes/STA238 Definitions.md",
+    "Stats/STA238 Notes/Sample Mean.md",
+    "Stats/STA238 Notes/Sampling Distribution.md",
+    "Stats/STA238 Notes/Regression Line.md",
+    "Stats/STA238 Notes/Random Variable.md",
+    "Stats/STA238 Notes/Quartile.md",
+    "Stats/STA238 Notes/Quantitative.md",
+    "Stats/STA238 Notes/Probability Distribution.md",
+    "Stats/STA238 Notes/Mode.md",
+    "Stats/STA238 Notes/Median Absolute Deviation.md",
+    "Stats/STA238 Notes/Median.md",
+    "Stats/STA238 Notes/Mean.md",
+    "Stats/STA238 Notes/Mean Squared Error.md",
+    "Stats/STA238 Notes/Maximum Likelihood Principle.md",
+    "Stats/STA238 Notes/Likelihood Function.md",
+    "Stats/STA238 Notes/Maximum Likelihood Estimator.md",
+    "Stats/STA238 Notes/Maximum Likelihood Estimate.md",
+    "Stats/STA238 Notes/Kernel Density Estimate.md",
+    "Stats/STA238 Notes/Law of Large Numbers.md"
   ]
 }

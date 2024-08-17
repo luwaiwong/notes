@@ -4,7 +4,7 @@ A **Joint Continuous Distribution** is a [Joint Distribution](Joint%20Distributi
 
 ---
 # Definition
-Two [Random Variable](Random%20Variable)s $X$ and $Y$ have a **Joint Continuous Distribution** if for some [Function](../../Mathematics/MAT235%20Notes/Function.md) $f:\mathbb{R}^{2}\rightarrow \mathbb{R}$ and for all numbers $a_{1},a_{2}$ and $b_{1},b_{2}$ with $a_{1}\leq b_{1}$ and $a_{2}\leq b_{2}$,  
+Two [Random Variable](../STA238%20Notes/Random%20Variable.md)s $X$ and $Y$ have a **Joint Continuous Distribution** if for some [Function](../../Math/MAT235%20Notes/Function.md) $f:\mathbb{R}^{2}\rightarrow \mathbb{R}$ and for all numbers $a_{1},a_{2}$ and $b_{1},b_{2}$ with $a_{1}\leq b_{1}$ and $a_{2}\leq b_{2}$,  
 $$P(a_{1}\leq X \leq b_{1}, a_{2}\leq Y \leq b_{2})=\int_{a_{1}}^{b_{1}} \int_{a_{2}}^{b_{2}}f(x,y)dxdy$$  
 Where $f(x,y)$ must satisfy
 - $f(x,y)\geq 0$ for all $x$ and $y$

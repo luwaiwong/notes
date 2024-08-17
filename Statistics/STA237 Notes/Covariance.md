@@ -1,6 +1,6 @@
 #statistics #uoft/sta237 
 
-The [Covariance](.md) of two [Random Variable](Random%20Variable)s is a measure of their *joint variability*, or their *degree of association*
+The [Covariance](.md) of two [Random Variable](../STA238%20Notes/Random%20Variable.md)s is a measure of their *joint variability*, or their *degree of association*
 
 ---
 

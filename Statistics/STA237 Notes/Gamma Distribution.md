@@ -7,7 +7,7 @@ A [Continuous Random Variable](Continuous%20Random%20Variable.md) $X$ has a **Ga
 This distribution is denoted $Gam(\alpha , \lambda)$
 
 # Gamma Function
-$\Gamma (\alpha)$ is the **Gamma Function**, where $$\Gamma (\alpha)=\int_{0}^{\infty}x^{\alpha-1}e^{-x}dx$$
+$\Gamma (\alpha)$ is the [Gamma Function](Gamma%20Function), where $$\Gamma (\alpha)=\int_{0}^{\infty}x^{\alpha-1}e^{-x}dx$$
 ## Properties
 - For $\alpha$ > 1, $\Gamma$($\alpha$)=$(\alpha - 1)\Gamma(\alpha-1)$
 - If $k$ is a positive integer, $\Gamma(k)=(k-1)!$
