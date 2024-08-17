@@ -5,7 +5,7 @@ Notes for [STA238](STA238)
 [STA238 Definitions](STA238%20Definitions.md)  
 Textbooks:  
     [STA237+238 Dekking Textbook](STA237+238%20Dekking%20Textbook.pdf)  
-	[STA238 Textbook Rosenthal](attachments/STA238%20Textbook%20Rosenthal.pdf)
+	[STA238 Textbook Rosenthal](STA238%20Textbook%20Rosenthal.pdf)
 
 
 ---
@@ -13,14 +13,14 @@ Textbooks:
 # Table of Contents
 [#Lecture 1](#Lecture%201)  
 	Slides  
-		[STA238 Lecture 1 Slides](attachments/STA238%20Lecture%201%20Slides.pdf)  
+		[STA238 Lecture 1 Slides](STA238%20Lecture%201%20Slides.pdf)  
 	[#Observations](#Observations)  
 	[#Bivariate Data](#Bivariate%20Data)  
 	[#Sample Probability](#Sample%20Probability)  
 [#Lecture 2+3](#Lecture%202+3)  
 	Slides  
-		[STA238 Lecture 2 Slides](attachments/STA238%20Lecture%202%20Slides.pdf)  
-		[STA238 Lecture 3 Slides](attachments/STA238%20Lecture%203%20Slides.pdf)  
+		[STA238 Lecture 2 Slides](STA238%20Lecture%202%20Slides.pdf)  
+		[STA238 Lecture 3 Slides](STA238%20Lecture%203%20Slides.pdf)  
 	[#Random Variables (Review)](#Random%20Variables%20(Review))  
 	[#Statistical Models & Samples](#Statistical%20Models%20&%20Samples)  
 	[#Parametric Models and Estimating Parameters](#Parametric%20Models%20and%20Estimating%20Parameters)  
@@ -30,17 +30,17 @@ Textbooks:
 	[#Other](#Other)  
 [#Lecture 4](#Lecture%204)  
 	Slides  
-		[STA238 Lecture 4 Slides](attachments/STA238%20Lecture%204%20Slides.pdf)  
+		[STA238 Lecture 4 Slides](STA238%20Lecture%204%20Slides.pdf)  
 	[#Estimator Efficiency](#Estimator%20Efficiency)  
 	[#Moments & Constructing Estimators](#Moments%20&%20Constructing%20Estimators)  
 [#Lecture 5](#Lecture%205)  
 	Slides  
-		[STA238 Lecture 5 Slides Annotated](attachments/STA238%20Lecture%205%20Slides%20Annotated.pdf)  
+		[STA238 Lecture 5 Slides Annotated](STA238%20Lecture%205%20Slides%20Annotated.pdf)  
 	[#Maximum Likelihood Principle](#Maximum%20Likelihood%20Principle)  
 [#Lecture 6+7](#Lecture%206+7)  
 	Slides  
-		[STA238 Lecture 6 Slides Annotated](attachments/STA238%20Lecture%206%20Slides%20Annotated.pdf)  
-		[STA238 Lecture 7 Slides Annotated](attachments/STA238%20Lecture%207%20Slides%20Annotated.pdf)  
+		[STA238 Lecture 6 Slides Annotated](STA238%20Lecture%206%20Slides%20Annotated.pdf)  
+		[STA238 Lecture 7 Slides Annotated](STA238%20Lecture%207%20Slides%20Annotated.pdf)  
 	[#Bootstrapping](#Bootstrapping)  
 	[#Confidence Intervals](#Confidence%20Intervals)  
 		[#Normal Distribution, Variance Known](#Normal%20Distribution,%20Variance%20Known)  
@@ -48,8 +48,8 @@ Textbooks:
 	[#More on Confidence Intervals](#More%20on%20Confidence%20Intervals)  
 [#Lecture 8+9](#Lecture%208+9)  
 	Slides  
-		[STA238 Lecture 8 Slides Annotated](attachments/STA238%20Lecture%208%20Slides%20Annotated.pdf)  
-		[STA238 Lecture 9 Slides Annotated](attachments/STA238%20Lecture%209%20Slides%20Annotated.pdf)  
+		[STA238 Lecture 8 Slides Annotated](STA238%20Lecture%208%20Slides%20Annotated.pdf)  
+		[STA238 Lecture 9 Slides Annotated](STA238%20Lecture%209%20Slides%20Annotated.pdf)  
 	[#Hypothesis Terms](#Hypothesis%20Terms)  
 	[#P-Value](#P-Value)  
 	[#Controlling Error](#Controlling%20Error)  
@@ -67,7 +67,7 @@ Study Strategy
   >	Dekking et al., Chapters 15 and 16  
   >	Evans & Rosenthal, Sections 5.4.3, 5.5  
 >[Online Material](https://awstringer1.github.io/sta238-book/section-introduction-to-data-analysis-data-input-and-basic-summaries.html)  
->[STA238 Lecture 1 Slides Annotated](attachments/STA238%20Lecture%201%20Slides%20Annotated.pdf)
+>[STA238 Lecture 1 Slides Annotated](STA238%20Lecture%201%20Slides%20Annotated.pdf)
 
 
 > STA238 is about deriving and estimating information from collected datasets
@@ -94,13 +94,13 @@ To construct a Histogram:
 - Each bin's height is the proportion of data values, divided by the width $b$
 
 > Some common shapes of distributions, which histograms can help in identifying are:  
-> ![500](attachments/Pasted%20image%2020240708171156.png)
+> ![500](Pasted%20image%2020240708171156.png)
 
 #### Kernel Density Estimates
 > Histograms produce blocky broken graphs, which may make it harder to discern information.  
 > Instead, we can use **Kernel Density Estimates (KDE)** in order to produce smoother graphs which convey the same information as a histogram  
 > An example of a Histogram VS a KDE for the same given set of data  
-> ![475](attachments/Pasted%20image%2020240708171358.png)
+> ![475](Pasted%20image%2020240708171358.png)
 
 A [Kernel Density Estimate](Kernel%20Density%20Estimate.md) is another way of representing sets of data, like a [Histogram](Histogram.md)  
 The **KDE** is different from a [Histogram](Histogram.md) in that it:
@@ -123,12 +123,12 @@ A [Kernel](../../Math/MAT224%20Notes/Kernel.md) is a function $K:\mathbb{R} \rig
 - $K(u)=0$ for $|u|>1$
 
 > Examples of different Kernels  
-> ![500](attachments/Pasted%20image%2020240708102514.png)
+> ![500](Pasted%20image%2020240708102514.png)
 
 Constructing the KDE graph:
 
 >How a KDE Graph is constructed:  
->![Pasted image 20240708103036](attachments/Pasted%20image%2020240708103036.png)
+>![Pasted image 20240708103036](Pasted%20image%2020240708103036.png)
 
 To construct a [Kernel Density Estimate](Kernel%20Density%20Estimate.md) graph, given a [Data Set](Data%20Set.md), and after selecting a [Kernel](../../Math/MAT224%20Notes/Kernel.md) $K$ and [Bandwidth](Bandwidth.md) $h$ we need to:
 1. Scale the Kernel, according to the bandwidth. To do this, we want to scale the width and the height with  
@@ -155,7 +155,7 @@ To construct a [Kernel Density Estimate](Kernel%20Density%20Estimate.md) graph, 
 	The shape of the points on the scatter plot help us view the correlation/relationship between the values
 
 > Scatter plot correlations  
-> 	![475](attachments/Pasted%20image%2020240708122756.png)
+> 	![475](Pasted%20image%2020240708122756.png)
 
 ### Sample Probability
 >Different values we can calculate given a random set of data
@@ -219,7 +219,7 @@ The [Five Number Summary](Five%20Number%20Summary.md) is:
  To create a [Box and Whisker Plot](Box%20and%20Whisker%20Plot.md), the main box is the [Interquartile Range (IQR)](Interquartile%20Range%20(IQR)), and the whiskers are the closest observation within a distance of 1.5 times the **IQR**, with dots indicating outliers
 
 > Example of Box and Whisker Plots  
-> 	![500](attachments/Pasted%20image%2020240708155231.png)
+> 	![500](Pasted%20image%2020240708155231.png)
 
 The box and whisker plot represents the [Five Number Summary](Five%20Number%20Summary.md) the best
 
@@ -228,8 +228,8 @@ The box and whisker plot represents the [Five Number Summary](Five%20Number%20Su
 >	Dekking et al., Chapter 13, 14, 17, 19  
 >	Evans & Rosenthal, Sections 4.4, 4.6, 5.1, 5.2, 5.3, 6.4.1 except the discussions on confidence intervals  
 >Slides:  
->	[STA238 Lecture 2 Slides Annotated](attachments/STA238%20Lecture%202%20Slides%20Annotated.pdf)  
->	[STA238 Lecture 3 Slides Annotated](attachments/STA238%20Lecture%203%20Slides%20Annotated.pdf)  
+>	[STA238 Lecture 2 Slides Annotated](STA238%20Lecture%202%20Slides%20Annotated.pdf)  
+>	[STA238 Lecture 3 Slides Annotated](STA238%20Lecture%203%20Slides%20Annotated.pdf)  
 >[Download Annotated](https://q.utoronto.ca/courses/345688/files/32362563/download?download_frd=1)  
 >Suggested Questions from Textbook:  
 >	Dekking et al., Chapter 13 Exercises (13.11, 13.12 is optional)  
@@ -274,7 +274,7 @@ A [Statistical Model](Statistical%20Model) is our predictive model of an observe
 >	\Our models are not infallible, and are affected by all the errors we make when collecting data, because we construct our models based off of collected data
 
 > Reality vs Model  
-> 	![325](attachments/Pasted%20image%2020240708124747.png)
+> 	![325](Pasted%20image%2020240708124747.png)
 
 > Our use case is that we have a real world event that we want to be able to predict.  
 > We take random samples of this real world event, and we use those random samples to either try to figure out what probability distribution they belong to, or to figure out its value  
@@ -459,7 +459,7 @@ The **Principle of Least Squares** is:
 		$y=\hat b_{0} + \hat b_{1} x$
 
 > Some parameters to remember  
-> 	![Pasted image 20240719174619](attachments/Pasted%20image%2020240719174619.png)
+> 	![Pasted image 20240719174619](Pasted%20image%2020240719174619.png)
 
 > Also remember, when doing calculations with estimators, **Linearity of Expectations**  
 > Where $E[x_{1}+x_{2}]=E[x_{1}]+E[x_{2}]$
@@ -467,7 +467,7 @@ The **Principle of Least Squares** is:
 ## Lecture 4
 > Chapter 20, Dekking et al  
 > Slides:  
-> 	[STA238 Lecture 4 Annotated](attachments/STA238%20Lecture%204%20Annotated.pdf)  
+> 	[STA238 Lecture 4 Annotated](STA238%20Lecture%204%20Annotated.pdf)  
 > Lecture 4 Topics  
 > 	Evaluating Estimators, determining which ones are better if they are both *unbiased*
 
@@ -531,7 +531,7 @@ The [Method of Moments](Method%20of%20Moments) constructs an estimator for a par
 >Textbook  
 >	Chapter 21 Dekking et al  
 >Slides  
->	[STA238 Lecture 5 Slides Annotated](attachments/STA238%20Lecture%205%20Slides%20Annotated.pdf)
+>	[STA238 Lecture 5 Slides Annotated](STA238%20Lecture%205%20Slides%20Annotated.pdf)
 
 ### Maximum Likelihood Principle
 The [Maximum Likelihood Principle](Maximum%20Likelihood%20Principle.md) says that:  
@@ -589,7 +589,7 @@ $$l(\theta)=\log(L(\theta))$$
 >	Dekking et al., Chapter 18 Exercises (18.11 to 18.13 are optional)  
 >	Dekking et al., Chapter 23  (23.9 is optional)  
 >Slides  
->	[STA238 Lecture 6 Slides Annotated](attachments/STA238%20Lecture%206%20Slides%20Annotated.pdf)
+>	[STA238 Lecture 6 Slides Annotated](STA238%20Lecture%206%20Slides%20Annotated.pdf)
 
 ### Bootstrapping
 >Bootstrapping is a way to generate more data given a finite [Random Sample](Random%20Sample)  
@@ -735,8 +735,8 @@ you can also do one sided confidence intervals
 >	Dekking et al., Chapter 24 Exercises (24.10 is optional)  
 >	Dekking et al., Chapter 25 & 26 Exercises (These questions seem quite straight forward, let me know if any of them is too hard)  
 >Slides  
->	[STA238 Lecture 8 Slides Annotated](attachments/STA238%20Lecture%208%20Slides%20Annotated.pdf)  
->	[STA238 Lecture 9 Slides Annotated](attachments/STA238%20Lecture%209%20Slides%20Annotated.pdf)  
+>	[STA238 Lecture 8 Slides Annotated](STA238%20Lecture%208%20Slides%20Annotated.pdf)  
+>	[STA238 Lecture 9 Slides Annotated](STA238%20Lecture%209%20Slides%20Annotated.pdf)  
 >Topics  
 >	Covers more confidence interval stuff, but mostly Statistical Testing and Hypothesis Testing topics
 
@@ -791,7 +791,7 @@ Right-Tail, and Left-Tail probability are terms used to describe how we calculat
 
 > [Right Tail and Left Tail](Right%20Tail%20and%20Left%20Tail) Testing  
 > A Visual example of what "Right Tail" and "Left Tail" mean  
-> 	![500](attachments/Pasted%20image%2020240815090436.png)  
+> 	![500](Pasted%20image%2020240815090436.png)  
 > 	The distribution above, is the distribution of possible values to observe, if $H_{0}$ is true.  
 > 	If the real value we observe, falls beyond $\alpha$, then we reject $H_{0}$  
 > 	*Left tail testing would be the same thing, on the other side*
@@ -817,7 +817,7 @@ A [Type 2 Error](Type%202%20Error) is when we reject the alternative hypothesis,
 This value is more difficult to solve for, see graph for what values we are solving for, and depends on the alternative hypothesis $H_{1}$
 
 > Type 1 and Type 2 errors  
-> 	![Pasted image 20240816164341](attachments/Pasted%20image%2020240816164341.png)  
+> 	![Pasted image 20240816164341](Pasted%20image%2020240816164341.png)  
 > 	The darker shaded region on the right, is where we are committing [Type 1 Errors](Type%201%20Error)  
 > 	The shaded region on the left, is where we are committing [Type 2 Errors](Type%202%20Error)  
 > 	The Line separating them, is set by the [Significance Level](Significance%20Level)  
@@ -859,7 +859,7 @@ After we calculate a value using the *Likelihood Ratio Test*, we can transform i
 > 		So the assumed "real likelihood" of observing the data we did, based on a Maximum Likelihood Estimator created from the probabilities of our observed data
 
 >Example of calculating values for the Likelihood Ratio Test  
->	![Pasted image 20240817114430](attachments/Pasted%20image%2020240817114430.png)  
+>	![Pasted image 20240817114430](Pasted%20image%2020240817114430.png)  
 >	In this example, we are testing if a dice is fair.  
 >		 $\hat \theta_{i}$ is the constructed [Maximum Likelihood Estimator](Maximum%20Likelihood%20Estimator.md) based on the real observed frequencies of the dice  
 >		 $\theta_{i}|H_{0}$ is the distribution/probability that we would expect if the dice was fair  
@@ -884,7 +884,7 @@ After we calculate a value using the *Likelihood Ratio Test*, we can transform i
 	$P(B|A)= \frac{P(A|B)P(B)}{P(A)}$  
 	Where $A$ and $B$ are two different [Events](../STA237%20Notes/Event.md)
 
-The [Law of total probability](../STA237%20Notes/Law%20of%20total%20probability.md) is further derived from [Bayes Rule](../STA237%20Notes/Bayes%20Rule.md) and states that:  
+The [Law of total probability](Law%20of%20total%20probability.md) is further derived from [Bayes Rule](../STA237%20Notes/Bayes%20Rule.md) and states that:  
 	$P(A)=\sum\limits_{i=1}^{m}P(A|B_{i})P(B_{i})$  
 	Where $B_{1},B_{2},...,B_{m}$ are disjoint events whose [Union](Union) make up the [Sample Space](../STA237%20Notes/Sample%20Space.md)
 

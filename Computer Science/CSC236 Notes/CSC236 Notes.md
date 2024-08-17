@@ -200,9 +200,9 @@ A [Combination](../../Statistics/STA237%20Notes/Combination.md) is the number of
 
 ### Probability
 Stats Recap:  
-	[Random Variables](Random%20Variable) represent an experiment, think of a random variable as a [Function](../../Mathematics/MAT235%20Notes/Function.md) that takes in the sample space of the experiment (For example, the different ways you can roll a dice), and returns the outcome (If the dice lands on an even number)
+	[Random Variables](Random%20Variable.md) represent an experiment, think of a random variable as a [Function](../../Mathematics/MAT235%20Notes/Function.md) that takes in the sample space of the experiment (For example, the different ways you can roll a dice), and returns the outcome (If the dice lands on an even number)
 	
-	[Probability Distributions](Probability%20Distribution), and [Probability Functions](../../Statistics/STA237%20Notes/Probability%20Function.md) return a [Probability](../../Statistics/STA237%20Notes/Probability.md) from 0-1 of the probability of any event occurring for a [Random Variable](Random%20Variable)  
+	[Probability Distributions](Probability%20Distribution.md), and [Probability Functions](../../Statistics/STA237%20Notes/Probability%20Function.md) return a [Probability](../../Statistics/STA237%20Notes/Probability.md) from 0-1 of the probability of any event occurring for a [Random Variable](Random%20Variable.md)  
 	
 	[Expected Value](../../Statistics/STA237%20Notes/Expected%20Value.md)
 	[Variance](../../Statistics/STA237%20Notes/Variance.md)

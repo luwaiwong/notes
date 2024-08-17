@@ -23,7 +23,7 @@ When we create a Kernel Density Estimate plot,we choose
 	- A parameter that determines how wide the kernel in the KDE is
 
 > Examples of different Kernels, and how a **KDE** graph is constructed  
-> ![225](attachments/Pasted%20image%2020240708102514.png) ![325](attachments/Pasted%20image%2020240708103036.png)
+> ![225](Pasted%20image%2020240708102514.png) ![325](Pasted%20image%2020240708103036.png)
 
 
 To construct a [Kernel Density Estimate](.md) graph, given a [Data Set](Data%20Set.md), and after selecting a [Kernel](../../Math/MAT224%20Notes/Kernel.md) $K$ and [Bandwidth](Bandwidth.md) $h$ we need to:

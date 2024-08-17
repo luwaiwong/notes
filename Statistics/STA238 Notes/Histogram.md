@@ -12,7 +12,7 @@ To construct a Histogram:
 - Each bin's height is the proportion divided by $b$, or the density
 
 > Some common shapes of distributions, which histograms can help in identifying are:  
-> ![500](attachments/Pasted%20image%2020240708171156.png)
+> ![500](Pasted%20image%2020240708171156.png)
 
 
 Related:  

@@ -336,7 +336,7 @@ Maximizing Profit/Minimizing Cost
 	Then maximize for profit with the variables $p$ and $q$  
 	Follow steps for finding global max or min
 
-A [Regression Line](Regression%20Line) is the best fit line for a set of data/points  
+A [Regression Line](Regression%20Line.md) is the best fit line for a set of data/points  
 	A linear regression line would have the formula $y=mx+b$, where we are looking for $m$ and $b$
 
  **How to find a regression line**  

@@ -13,7 +13,7 @@ For the best experience, open in [Obsidian](https://obsidian.md/)
 
 ## Stats
 - [STA237 Notes](Stats/STA237%20Notes/STA237%20Notes.md)
-- [STA238 Notes](Stats/STA238%20Notes/STA238%20Notes.md)
+- [STA238 Notes](STA238%20Notes.md)
 
 ## Econ
 - [ECO200 Notes](Economics/ECO200%20Notes/ECO200%20Notes.md)

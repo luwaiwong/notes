@@ -8,6 +8,6 @@ It is denoted $F_{n}$, and is defined as $F_{n}(x)=\frac{\text{number of element
 The **eCDF** provides an estimate of the unknown CDF under which the data values were generated
 
 > **Empirical Cumulative Distribution Function** example with five data points  
-> ![Pasted image 20240719112018](attachments/Pasted%20image%2020240719112018.png)
+> ![Pasted image 20240719112018](Pasted%20image%2020240719112018.png)
 
 For 

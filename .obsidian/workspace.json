@@ -11,12 +11,8 @@
             "id": "68d2a16ef5e51fce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/STA237 Notes/STA237 Notes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/STA237 Notes/STA237 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/STA237 Notes/STA237 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Statistics/STA237 Notes/STA237 Notes.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,51 +140,51 @@
   },
   "active": "68d2a16ef5e51fce",
   "lastOpenFiles": [
+    "Statistics/STA237 Notes/STA237 Notes.md",
     "Statistics/STA237 Notes/Joint Cumulative Distribution Function.md",
     "Statistics/STA237 Notes/Joint Continuous Distribution.md",
     "Statistics/STA237 Notes/Independence.md",
     "Statistics/STA237 Notes/Cumulative Distribution Function.md",
     "README.md",
-    "Stats/STA238 Notes/attachments/STA237+238 Dekking Textbook.pdf",
-    "Stats/STA238 Notes/attachments/STA238 Textbook Rosenthal.pdf",
-    "Stats/STA238 Notes/attachments/STA238 Lecture 9 Slides Annotated.pdf",
-    "Stats/STA238 Notes/attachments/STA238 Lecture 8 Slides Annotated.pdf",
-    "Stats/STA238 Notes/attachments/STA238 Lecture 7 Slides Annotated.pdf",
-    "Stats/STA238 Notes/attachments/STA238 Lecture 6 Slides Annotated.pdf",
-    "Stats/STA238 Notes/attachments/STA238 Lecture 5 Slides Annotated.pdf",
-    "Stats/STA238 Notes/attachments/STA238 Lecture 4 Slides.pdf",
-    "Stats/STA238 Notes/attachments/STA238 Lecture 4 Annotated.pdf",
-    "Stats/STA238 Notes/attachments/STA238 Lecture 3 Slides.pdf",
-    "Stats/STA238 Notes/attachments/Pasted image 20240817114430.png",
-    "Stats/STA238 Notes/attachments/Pasted image 20240816164341.png",
-    "Stats/STA238 Notes/attachments/Pasted image 20240815090436.png",
-    "Stats/STA238 Notes/attachments/Pasted image 20240719112018.png",
-    "Stats/STA238 Notes/attachments/Pasted image 20240812162630.png",
-    "Stats/STA238 Notes/attachments/Pasted image 20240719174619.png",
-    "Stats/STA238 Notes/attachments/Pasted image 20240708171358.png",
-    "Stats/STA238 Notes/attachments/Pasted image 20240708171156.png",
-    "Stats/STA238 Notes/attachments/Pasted image 20240708155231.png",
-    "Stats/STA238 Notes/attachments/Pasted image 20240708124747.png",
-    "Stats/STA238 Notes/Standard Error of the Mean.md",
-    "Stats/STA238 Notes/STA238 Notes.md",
-    "Stats/STA238 Notes/STA238 Definitions.md",
-    "Stats/STA238 Notes/Sample Mean.md",
-    "Stats/STA238 Notes/Sampling Distribution.md",
-    "Stats/STA238 Notes/Regression Line.md",
-    "Stats/STA238 Notes/Random Variable.md",
-    "Stats/STA238 Notes/Quartile.md",
-    "Stats/STA238 Notes/Quantitative.md",
-    "Stats/STA238 Notes/Probability Distribution.md",
-    "Stats/STA238 Notes/Mode.md",
-    "Stats/STA238 Notes/Median Absolute Deviation.md",
-    "Stats/STA238 Notes/Median.md",
-    "Stats/STA238 Notes/Mean.md",
-    "Stats/STA238 Notes/Mean Squared Error.md",
-    "Stats/STA238 Notes/Maximum Likelihood Principle.md",
-    "Stats/STA238 Notes/Likelihood Function.md",
-    "Stats/STA238 Notes/Maximum Likelihood Estimator.md",
-    "Stats/STA238 Notes/Maximum Likelihood Estimate.md",
-    "Stats/STA238 Notes/Kernel Density Estimate.md",
-    "Stats/STA238 Notes/Law of Large Numbers.md"
+    "Statistics/STA238 Notes/attachments/STA237+238 Dekking Textbook.pdf",
+    "Statistics/STA238 Notes/attachments/STA238 Textbook Rosenthal.pdf",
+    "Statistics/STA238 Notes/attachments/STA238 Lecture 9 Slides Annotated.pdf",
+    "Statistics/STA238 Notes/attachments/STA238 Lecture 8 Slides Annotated.pdf",
+    "Statistics/STA238 Notes/attachments/STA238 Lecture 7 Slides Annotated.pdf",
+    "Statistics/STA238 Notes/attachments/STA238 Lecture 6 Slides Annotated.pdf",
+    "Statistics/STA238 Notes/attachments/STA238 Lecture 5 Slides Annotated.pdf",
+    "Statistics/STA238 Notes/attachments/STA238 Lecture 4 Slides.pdf",
+    "Statistics/STA238 Notes/attachments/STA238 Lecture 4 Annotated.pdf",
+    "Statistics/STA238 Notes/attachments/STA238 Lecture 3 Slides.pdf",
+    "Statistics/STA238 Notes/attachments/Pasted image 20240817114430.png",
+    "Statistics/STA238 Notes/attachments/Pasted image 20240816164341.png",
+    "Statistics/STA238 Notes/attachments/Pasted image 20240815090436.png",
+    "Statistics/STA238 Notes/attachments/Pasted image 20240719112018.png",
+    "Statistics/STA238 Notes/attachments/Pasted image 20240812162630.png",
+    "Statistics/STA238 Notes/attachments/Pasted image 20240719174619.png",
+    "Statistics/STA238 Notes/attachments/Pasted image 20240708171358.png",
+    "Statistics/STA238 Notes/attachments/Pasted image 20240708171156.png",
+    "Statistics/STA238 Notes/attachments/Pasted image 20240708155231.png",
+    "Statistics/STA238 Notes/attachments/Pasted image 20240708124747.png",
+    "Statistics/STA238 Notes/Standard Error of the Mean.md",
+    "Statistics/STA238 Notes/STA238 Notes.md",
+    "Statistics/STA238 Notes/STA238 Definitions.md",
+    "Statistics/STA238 Notes/Sample Mean.md",
+    "Statistics/STA238 Notes/Sampling Distribution.md",
+    "Statistics/STA238 Notes/Regression Line.md",
+    "Statistics/STA238 Notes/Random Variable.md",
+    "Statistics/STA238 Notes/Quartile.md",
+    "Statistics/STA238 Notes/Quantitative.md",
+    "Statistics/STA238 Notes/Probability Distribution.md",
+    "Statistics/STA238 Notes/Mode.md",
+    "Statistics/STA238 Notes/Median Absolute Deviation.md",
+    "Statistics/STA238 Notes/Median.md",
+    "Statistics/STA238 Notes/Mean.md",
+    "Statistics/STA238 Notes/Mean Squared Error.md",
+    "Statistics/STA238 Notes/Maximum Likelihood Principle.md",
+    "Statistics/STA238 Notes/Likelihood Function.md",
+    "Statistics/STA238 Notes/Maximum Likelihood Estimator.md",
+    "Statistics/STA238 Notes/Maximum Likelihood Estimate.md",
+    "Statistics/STA238 Notes/Kernel Density Estimate.md"
   ]
 }
