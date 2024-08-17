@@ -1,6 +1,6 @@
 #statistics #uoft/sta237 
 
-The [Correlation Coefficient](.md) describes the correlation between two [Random Variable](Random%20Variable)s
+The [Correlation Coefficient](.md) describes the correlation between two [Random Variable](../STA238%20Notes/Random%20Variable.md)s
 
 ---
 

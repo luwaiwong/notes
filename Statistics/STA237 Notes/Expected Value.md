@@ -33,4 +33,4 @@ $E(X^{i})$ is called the $i^{th}$ moment of X
 What does this mean?  
 Is just the expected value, if you squared(exponent to the power of whatever moment) every possible event/value in the random variable
 
-[Moment Generating Function](Moment%20Generating%20Function.md)s are functions which generate the **Moments** of a [Random Variable](Random%20Variable)
+[Moment Generating Function](Moment%20Generating%20Function.md)s are functions which generate the **Moments** of a [Random Variable](../STA238%20Notes/Random%20Variable.md)

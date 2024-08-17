@@ -1,6 +1,10 @@
 #uoft/sta237 #statistics 
 
+<<<<<<< Updated upstream:Statistics/STA237 Notes/Cumulative Distribution Function.md
 The **Cumulative Distribution Function** is a [Function](../../Mathematics/MAT235%20Notes/Function.md) that describes the [Probability](Probability.md) in a [Random Variable](Random%20Variable) that an [Event](Event.md) <= to the input will occur
+=======
+The **Cumulative Distribution Function** is a [Function](../../Math/MAT235%20Notes/Function.md) that describes the [Probability](Probability.md) in a [Random Variable](../STA238%20Notes/Random%20Variable.md) that an [Event](Event.md) <= to the input will occur
+>>>>>>> Stashed changes:Stats/STA237 Notes/Cumulative Distribution Function.md
 
 Some [Continuous Random Variable](Continuous%20Random%20Variable.md)s cannot be specified with a **probability mass function**, so, the **Cumulative Distribution Function** of a random variable X lets us treat both discrete and continuous random variables the same way
 

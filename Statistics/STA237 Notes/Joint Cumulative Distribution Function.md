@@ -4,7 +4,11 @@ The **Joint Cumulative Distribution Function** is like the [Cumulative Distribut
 
 ---
 # Definition
+<<<<<<< Updated upstream:Statistics/STA237 Notes/Joint Cumulative Distribution Function.md
 The **Joint Distribution Function** $F$ of two [Random Variable](Random%20Variable)s $X$ and $Y$ is the [Function](../../Mathematics/MAT235%20Notes/Function.md) $F:\mathbb{R}^{2}\rightarrow[0,1]$ defined by $$F(a,b)= P(X\leq a, Y\leq b) \ \text{ for } \ -\infty$$
+=======
+The **Joint Distribution Function** $F$ of two [Random Variable](../STA238%20Notes/Random%20Variable.md)s $X$ and $Y$ is the [Function](../../Math/MAT235%20Notes/Function.md) $F:\mathbb{R}^{2}\rightarrow[0,1]$ defined by $$F(a,b)= P(X\leq a, Y\leq b) \ \text{ for } \ -\infty$$
+>>>>>>> Stashed changes:Stats/STA237 Notes/Joint Cumulative Distribution Function.md
 ## Discrete Random Variables
 The **Joint CDF** of [Discrete Random Variable](Discrete%20Random%20Variable.md)s $X$ and $Y$ is: $$P_{X,Y}(x,y)=P(X\leq x,Y\leq y)$$
 
