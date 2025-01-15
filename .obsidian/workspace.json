@@ -11,8 +11,14 @@
             "id": "68d2a16ef5e51fce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -35,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -50,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
             }
           },
           {
@@ -97,9 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -110,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -118,7 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
             }
           }
         ],
@@ -140,12 +164,15 @@
   },
   "active": "68d2a16ef5e51fce",
   "lastOpenFiles": [
+    "Mathematics/MAT224 Notes/MAT224 Notes.md",
+    "README.md",
+    "Mathematics/MAT244/MAT244 Notes/MAT244 Notes.md",
+    "Mathematics/MAT246/MAT246 Notes/MAT246 Notes.md",
     "Statistics/STA237 Notes/STA237 Notes.md",
     "Statistics/STA237 Notes/Joint Cumulative Distribution Function.md",
     "Statistics/STA237 Notes/Joint Continuous Distribution.md",
     "Statistics/STA237 Notes/Independence.md",
     "Statistics/STA237 Notes/Cumulative Distribution Function.md",
-    "README.md",
     "Statistics/STA238 Notes/attachments/STA237+238 Dekking Textbook.pdf",
     "Statistics/STA238 Notes/attachments/STA238 Textbook Rosenthal.pdf",
     "Statistics/STA238 Notes/attachments/STA238 Lecture 9 Slides Annotated.pdf",
@@ -182,9 +209,6 @@
     "Statistics/STA238 Notes/Mean.md",
     "Statistics/STA238 Notes/Mean Squared Error.md",
     "Statistics/STA238 Notes/Maximum Likelihood Principle.md",
-    "Statistics/STA238 Notes/Likelihood Function.md",
-    "Statistics/STA238 Notes/Maximum Likelihood Estimator.md",
-    "Statistics/STA238 Notes/Maximum Likelihood Estimate.md",
-    "Statistics/STA238 Notes/Kernel Density Estimate.md"
+    "Statistics/STA238 Notes/Likelihood Function.md"
   ]
 }

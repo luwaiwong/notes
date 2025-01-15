@@ -1,0 +1,16 @@
+#statistics #uoft/sta237 
+
+Two [[Random Variable]]s $X$ and $Y$ are **Independent** if the probability of one does not influence the other
+
+---
+# Definition
+Given two [[Event]]s, *A* and *B*, they are **independent** if one of the following is satisfied
+- *$P(A|B) = P(A)$
+- $P(B|A) = P(B)$
+- $P(A\cap B) = P(A)P(B)$ 
+
+[[Random Variable]]s $X$ and $Y$ are *Independent* if $$P(X\leq a,Y\leq b)=P(X\leq a)P(Y\leq b)$$or, $$F(a,b)=F_{X}(a)F_{Y}(b)$$For all possible values $a$ and $b$ 
+
+# Mutually Exclusive
+Independent is different from being [[Mutually Exclusive(Disjoint)]], independent events can happen at the same times, but have the same chance of occurring regardless
+

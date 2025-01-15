@@ -1,0 +1,27 @@
+---
+title: "Analyzing the petal length of iris flowers"
+author: "{NAME HERE}"
+---
+
+# Introduction
+
+Measurements (cm) of the sepal length, sepal width along with the petal length and width for 50 flowers from each of 3 species of iris (setosa, versicolor, virginica).
+
+# Regression model choice
+
+We choose the linear regression model for the iris data set:
+
+{MODEL HERE}
+
+We fit the iris data with a linear regression model using R:
+
+```{r}
+data(iris)
+fit = lm({ENTER YOUR MODEL HERE}, 
+        data = iris)
+summary(fit)
+```
+
+# Regression diagnostics
+
+# Conclusions

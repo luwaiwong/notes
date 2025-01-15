@@ -1,0 +1,1 @@
+A **Transposition** is a [[Permutation]] which moves just two points

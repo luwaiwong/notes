@@ -1,0 +1,85 @@
+---
+title: "Module 8 Activity"
+author: "Student"
+---
+
+
+
+
+```{r}
+load("module8.Rdata")
+y = data$y
+x = data$x
+n = length(y)
+
+fit = lm(y ~ x)
+summary(fit)
+```
+
+```{r}
+# Plot data
+par(mfrow=c(1, 2))
+plot(y, 
+     xlab="Observation number",
+     ylab = "Response values")
+text(y - .4, labels=1:n, 
+     col="cadetblue", cex=.5)
+
+plot(x, y, 
+     xlab="Predictor values",
+     ylab = "Response values")
+text(x, y - .4, labels=1:n, 
+     col="brown3", cex=.5)
+```
+
+```{r}
+# Plot the regression diagnostics
+par(mfrow=c(2, 2))
+plot(fit, which = c(1, 2, 3, 4))
+
+# Plot leverage and standardized residuals
+sresids = rstandard(fit)
+hats = hatvalues(fit)
+```
+
+```{r}
+par(mfrow=c(2, 2))
+plot(sresids, 
+     xlab="Observation number",
+     ylab = "Standardized residuals")
+text(sresids - .4, labels=1:n, 
+     col="cadetblue", cex=.5)
+boxplot(sresids, ylab = "Standardized residuals")
+
+plot(hats, 
+     xlab="Observation number",
+     ylab = "Hat values")
+text(hats -.01, labels=1:n, 
+     col="cadetblue", cex=.5)
+boxplot(hats, ylab = "Hat values")
+```
+
+```{r}
+# Plot more influence diagnostics
+
+dbeta_im = abs(dfbetas(fit)[, 2])
+dffits_im = abs(dffits(fit))
+
+par(mfrow=c(2, 2))
+plot(dbeta_im, 
+     xlab="Observation number",
+     ylab = "DFBETA values")
+text(dbeta_im - .1, labels=1:100, 
+     col="cadetblue", cex=.5)
+boxplot(dbeta_im, ylab = "DFBETA values")
+
+plot(dffits_im, 
+     xlab="Observation number",
+     ylab = "DFFITS values")
+text(dffits_im - .1, labels=1:100, 
+     col="cadetblue", cex=.5)
+boxplot(dffits_im, ylab = "DFFITS values")
+```
+
+
+

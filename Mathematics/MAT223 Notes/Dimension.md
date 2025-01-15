@@ -1,16 +1,16 @@
-#mathematics  
+#mathematics
 #uoft/mat223 #uoft/mat224 
 
-The **Dimension** is a numerical value that describes the size of a [Subspace](Subspace.md) 
+The **Dimension** is a numerical value that describes the size of a [[Subspace]] 
 
 ---
 # Definition
 
-The [Dimension](.md) of a finite-dimensional vector space $V$ is the number of vectors in any [Base](Base.md) of $V$ 
+The [[Dimension]] of a finite-dimensional vector space $V$ is the number of vectors in any [[Base (Basis)]] of $V$ 
 
->For a [Vector Space](../MAT224%20Notes/Vector%20Space.md) $W$ defined by a System of Linear Equations, the [Dimension](.md) of $W$ is the number of free variables in echelon form
+>For a [[Vector Space]] $W$ defined by a System of Linear Equations, the [[Dimension]] of $W$ is the number of free variables in echelon form
 
->Since [Base](Base.md)s are the most simple form for a [Subspace](Subspace.md), and all **bases** for a **subspace** have the same number of elements ([](Base.md#^7d8441)), The **Dimension** describes this number of elements
+>Since [[Base (Basis)]]s are the most simple form for a [[Subspace]], and all **bases** for a **subspace** have the same number of elements ([[Base (Basis)#^7d8441]]), The **Dimension** describes this number of elements
 
 ## Properties
 - The subspace $W$ of a vector space $V$ has $dim(W) \leq dim(V)$

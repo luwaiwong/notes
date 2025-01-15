@@ -1,15 +1,15 @@
 #mathematics #uoft/mat235 
 
-**Contour Diagrams** are created with the [Cross Sections](Cross%20Section.md) of a [Function](Function.md), usually a [Function of Two Variables](Function%20of%20Two%20Variables.md), held at different points
+**Contour Diagrams** are created with the [[Cross Section|Cross Sections]] of a [[Function]], usually a [[Function of Two Variables]], held at different points
 
 ---
 ## Definition
-A **Contour** of a function $f(x,y)$ is the set of points in the $xy$-plane satisfying $f(x,y)=\text{constant}$, or also known as a [Cross Section](Cross%20Section.md)
+A **Contour** of a function $f(x,y)$ is the set of points in the $xy$-plane satisfying $f(x,y)=\text{constant}$, or also known as a [[Cross Section]]
 
-A **Contour Diagram**, such as a topographical map, is a graph of several contours for a selection of constants  
-It can help us visualize the surface of a function and its behaviour.  
-	Example of a Contour Diagram:  
-	![Pasted image 20230919221020](Images/Pasted%20image%2020230919221020.png)
+A **Contour Diagram**, such as a topographical map, is a graph of several contours for a selection of constants
+It can help us visualize the surface of a function and its behaviour. 
+	Example of a Contour Diagram:
+	![[Pasted image 20230919221020.png]]
 
 > Contour Diagrams are essentially depicting the cross section of a function at certain intervals on an axis. The closer lines are together on the contour diagram, the faster the rate of change for the function at that point.
 
@@ -18,5 +18,5 @@ You can find contours for a function *f* algebraically as long as you have a for
 
 ## Different Shapes of Contour Diagrams
 
-Common Shapes of Contour Diagrams![277](attachments/Pasted%20image%2020240412135518.png)  
-	![Pasted image 20230919221716](Images/Pasted%20image%2020230919221716.png)
+Common Shapes of Contour Diagrams![[Pasted image 20240412135518.png|277]]
+	![[Pasted image 20230919221716.png]]

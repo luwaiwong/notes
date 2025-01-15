@@ -1,4 +1,4 @@
-#statistics  
+#statistics 
 #uoft/sta238 
 
 **Empirical** is a term which means that a value is calculated based on observed data.

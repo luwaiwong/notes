@@ -1,0 +1,90 @@
+---
+title: "Predicting magazine advertisement revenue template"
+author: "{NAME HERE}"
+---
+
+# Introduction
+
+The data consists of the 204 observations and we use 1 response and 2 predictor variables listed below. Information on each variable is provided below:
+
+- AdRevenue = Revenue from advertising (in thousands USD)
+
+- AdPages = Number of pages of paid advertising
+
+- SubRevenue = Revenue from paid subscriptions (in thousands of USD) 
+
+- NewsRevenue = Revenue from newsstand sales (in thousands of USD) 
+
+
+# Basic data exploration and cleaning
+
+We load in the New York City Italian menu data and output the first 6 observations.
+
+```{r}
+magazine_data = read.csv("https://gattonweb.uky.edu/sheather/book/docs/datasets/magazines.csv", header=T)
+```
+
+We plot each variable against each other.
+
+```{r}
+plot(magazine_data[, c(2, 3, 4, 5)], col="cadetblue")
+```
+
+# Fitting the multiple linear regression model
+
+We fit the multiple linear regression model.
+The summary of the linear regression fit is provided below.
+
+```{r}
+fit = lm(AdRevenue ~ AdPages + SubRevenue + NewsRevenue, data = magazine_data)
+summary(fit)
+```
+
+We now plot the residuals versus the fitted values, and a QQ plot and other for this regression model fit.
+
+```{r}
+plot(fit, which = 1)
+```
+
+```{r}
+plot(fit, which = 2)
+```
+
+```{r}
+hist(rstandard(fit), xlab = "Standardized residuals", main = "Standardized residuals histogram")
+```
+We now plot the residuals versus the predictors.
+
+```{r}
+residuals = resid(fit)
+
+plot(magazine_data$AdPages, residuals,
+     main = "Residuals versus AdPages",
+     xlab = "AdPages", ylab = "Residuals")
+```
+
+```{r}
+plot(magazine_data$SubRevenue, residuals,
+     main = "Residuals versus SubRevenue",
+     xlab = "SubRevenue", ylab = "Residuals")
+```
+
+```{r}
+plot(magazine_data$NewsRevenue, residuals,
+     main = "Residuals versus NewsRevenue",
+     xlab = "NewsRevenue", ylab = "Residuals")
+```
+
+# Searching for a transformation
+
+We look for a transformation of the response using the Box-Cox transformation.
+
+```{r}
+library(MASS)
+
+bc = boxcox(fit)
+```
+
+# Conclusions
+
+

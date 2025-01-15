@@ -1,0 +1,95 @@
+---
+title: "Module 3"
+author: "Austin Brown"
+---
+
+## Lecture 2: Residuals
+
+```{r}
+nyc_restaurant_data = read.csv("https://gattonweb.uky.edu/sheather/book//docs/datasets/nyc.csv", header = T)
+
+fit = lm(Price ~ East + Food + Decor + Service, 
+         data = nyc_restaurant_data)
+```
+
+```{r}
+resid(fit)
+```
+
+```{r}
+rstandard(fit)
+```
+
+```{r}
+fitted_values = fitted(fit)
+residual_values = resid(fit)
+     
+plot(fitted_values, residual_values, 
+     main = "NYC restaurants: fitted versus residual values", 
+     xlab = "Fitted", 
+     ylab = "Residuals")
+```
+
+
+```{r}
+plot(fit, which=1)
+```
+
+
+```{r}
+fitted_values = fitted(fit)
+sresidual_values = rstandard(fit)
+     
+plot(fitted_values, sresidual_values, 
+     main = "NYC restaurants: fitted versus residual values", 
+     xlab = "Fitted", 
+     ylab = "Residuals")
+```
+
+
+```{r}
+plot(fit, which=3)
+```
+
+```{r}
+hist(sresidual_values,
+     main = "Standardized residuals histogram",
+     xlab = "Standardized residuals")
+```
+
+## Lecture 2: Checking the linearity assumption
+
+```{r}
+plot(nyc_restaurant_data[, c(3, 4, 5, 6, 7)], col="cadetblue")
+```
+
+```{r}
+price_values = nyc_restaurant_data$Price
+fitted_values = fitted(fit)
+
+plot(fitted_values, price_values,
+     main = "Price versus regression fit",
+     xlab = "Fitted values", ylab = "Price (USD)")
+abline(0, 1, 
+       col=c("blue"), lty=1)
+legend("bottomright", legend=c("y = x line"),
+       col=c("blue"), lty=1)
+```
+
+```{r}
+par(mfrow=c(1, 2))
+plot(fit, which = 1)
+plot(fit, which = 3)
+```
+
+## Lecture 3
+
+```{r}
+par(mfrow=c(1, 2))
+
+hist(rstandard(fit),
+     main = "Standardized residuals histogram",
+     xlab = "Standardized residuals")
+
+plot(fit, which=2)
+```

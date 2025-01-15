@@ -1,24 +1,24 @@
-[Function of Two Variables](Function%20of%20Two%20Variables.md)  
-	[Types of Functions of Two Variables](Types%20of%20Functions%20of%20Two%20Variables.md)  
-[Function of Three Variables](Function%20of%20Three%20Variables)  
-[Cross Section](Cross%20Section.md)  
-[Linear Function](Linear%20Function.md)  
-[Contour Diagram](Contour%20Diagram.md)
+[[Function of Two Variables]]
+	[[Types of Functions of Two Variables]]
+[[Function of Three Variables]]
+[[Cross Section]]
+[[Linear Function]]
+[[Contour Diagram]]
 
-[Vector](../MAT223%20Notes/Vector.md)  
-	[Unit Vector](Unit%20Vector.md)  
-	[Components](../MAT223%20Notes/Components.md)  
-[Cross Product](Cross%20Product.md)  
-[Dot Product](../MAT223%20Notes/Dot%20Product.md)  
-[Projection](Projection.md)
+[[Vector]]
+	[[Unit Vector]]
+	[[Components]]
+[[Cross Product]]
+[[Dot Product]]
+[[Projection]]
 
-[Partial Derivative](Partial%20Derivative.md)  
-	[Differential](Differential.md)  
-	[Directional Derivative](Directional%20Derivative.md)  
-	[Gradient Vector](Gradient%20Vector.md)  
-	[](Partial%20Derivative.md#^8b3bce|Second%20Order%20Partial%20Derivatives)  
-[Local Linearization](Local%20Linearization.md)  
-[Tangent Plane](Tangent%20Plane.md)  
-[Taylor Approximations](Taylor%20Approximations.md)
+[[Partial Derivative]]
+	[[Differential]]
+	[[Directional Derivative]]
+	[[Gradient Vector]]
+	[[Partial Derivative#^8b3bce|Second Order Partial Derivatives]]
+[[Local Linearization]]
+[[Tangent Plane]]
+[[Taylor Approximations]]
 
-[Chain Rule](Chain%20Rule.md)
+[[Chain Rule]]

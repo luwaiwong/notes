@@ -1,0 +1,182 @@
+---
+title: "Analysis of the NYC Italian Menu Data"
+author: "{Your name/group}"
+---
+
+## Introduction
+
+The data consists of the 168 observations with 5 variables. Information on each variable is provided below:
+
+- Price, price (in USD) of dinner (including one drink and a tip), 
+- Food = customer rating of the food (out of 30)
+- Décor = customer rating of the decor (out of 30)
+- Service = customer rating of the service (out of 30)
+- East = 1 (0) if the restaurant is east (west) of Fifth Avenue
+
+We choose Price as our response and the remaining 4 variables: Food, Décor, Service, East to be used as predictors.
+
+## Exploratory data analysis (Lecture 2)
+
+We load in the New York City Italian menu data and output the first 6 observations.
+
+```{r}
+nyc_restaurant_data = read.csv("https://gattonweb.uky.edu/sheather/book//docs/datasets/nyc.csv", header = T)
+head(nyc_restaurant_data)
+```
+
+{Comment on how we are going to use the variables. We going to use Food, Decor, Service as continuous? Does this make sense and why?}
+
+We list summaries of the data. We see we have more restaurants in the dataset east of Fifth Avenue than West.
+We don't seem to have any missing or problematic values.
+
+```{r}
+summary(nyc_restaurant_data)
+```
+
+{Comment on the summary}
+
+We create boxplots of each predictor variable. We observe the food rating and service ratings have a larger spread. 
+
+```{r}
+par(mfrow = c(2, 2))
+boxplot(nyc_restaurant_data$Decor, xlab = "Décor")
+boxplot(nyc_restaurant_data$Food, xlab = "Food")
+boxplot(nyc_restaurant_data$Service, xlab = "Service")
+boxplot(nyc_restaurant_data$Price, xlab = "Price")
+```
+
+{Comment on the boxplots}
+
+{Comment on unusual observations from the boxplots}
+
+We plot a scatter plot matrix for each variable against each other to identify possible collinearity and other possible problematic relationships.
+
+```{r}
+nyc_restaurant_data_subset = nyc_restaurant_data[, c(3, 4, 5, 6)]
+plot(nyc_restaurant_data_subset, col="cadetblue")
+```
+
+{Comment on the scatterplots of response versus predictors}
+
+{Comment on the scatterplots of predictors versus predictors}
+
+```{r}
+cor(nyc_restaurant_data_subset) 
+```
+
+{Comment on the correlation}
+
+Investigate the correlation in the predictors.
+
+```{r}
+fit_service = lm(Service ~ Food + Decor, 
+         data = nyc_restaurant_data)
+par(mfrow = c(2, 2))
+plot(fit_service)
+```
+
+{Comment on diagnostics}
+
+```{r}
+summary(fit_service)
+summary(fit_service)$r.squared
+```
+
+{Comment on summary output and coefficient of determination}
+
+We investigate the relationship of only food and decor ratings.
+
+```{r}
+fit_food = lm(Food ~ Decor, 
+         data = nyc_restaurant_data)
+par(mfrow = c(2, 2))
+plot(fit_food)
+```
+
+{Comment on diagnostics}
+
+```{r}
+summary(fit_food)
+summary(fit_food)$r.squared
+```
+
+{ comment on coefficient of determination. Do we have evidence of high correlation? }
+
+
+## Fitting the linear regression model (Lecture 3)
+
+We fit the multiple linear regression model using foot, decor, service ratings and the categorical variable to identify if the restaurant is on the east or west of Fifth Avenue.
+The summary of the linear regressin fit is provided below.
+
+```{r}
+fit = lm(Price ~ East + Food + Decor + Service, 
+         data = nyc_restaurant_data)
+
+par(mfrow = c(2, 2))
+plot(fit)
+```
+
+{Comment on diagnostics}
+
+```{r}
+summary(fit)
+summary(fit)$r.squared
+```
+
+{Comment on overall F test}
+
+{Possibly comment on the coefficient of determination and t-tests}
+
+Fit the reduced model and check diagnostics.
+
+```{r}
+fit_reduced = lm(Price ~ East + Food + Decor, data = nyc_restaurant_data)
+par(mfrow = c(2, 2))
+plot(fit_reduced)
+```
+
+{comment on diagnostics}
+
+```{r}
+summary(fit_reduced)
+summary(fit_reduced)$r.squared
+```
+
+{ comment on the difference of the coefficient of determination of the reduced model and the full model }
+
+{comment on if we should we reduce the model any further}
+
+{Determine a final model}
+
+```{r}
+summary(fit_reduced)
+
+confint(fit_reduced, level = .95)
+```
+
+{interpret coeffficients and comment on intervals}
+
+We predict the new restaurant.
+
+```{r}
+predict(fit_reduced, data.frame(Food = 25, Decor = 25, East = 1), interval="confidence")
+
+predict(fit_reduced, data.frame(Food = 25, Decor = 15, East = 1), interval="confidence")
+```
+
+{comment on the comparison}
+
+{interpret the intervals}
+
+## Conclusions
+
+Our analysis provides evidence to maximumize the menu price, the location of the restaurant should 
+{Comment on east or west of Fifth Avenue?}
+
+{Comment on how much this location benefits the menu price}
+
+
+{Comment on which variables should be focused on to maximize the menu price. Take into account correlation of the predictors in your interpration}
+
+
+{ Do you recommend a price premium for “setting a new standard for high-quality service in Manhattan” for Italian restaurants? why or why not?}
