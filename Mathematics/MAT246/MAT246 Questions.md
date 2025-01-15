@@ -1,32 +1,32 @@
 
 TO REMEMBER  
-	Trig Identities  
-		$\cos(a)\cos(b)=\frac{1}{2}(\cos(a-b)+\cos(a+b))$  
-		$\sin(a)\sin(b)=\frac{1}{2}(\cos(a-b)-\cos(a+b))$  
-		$\cos(a)\sin(b)=\frac{1}{2}(\sin(a+b)+\sin(a-b))$  
-		$\sin(a)\cos(b)=\frac{1}{2}(\sin(a+b)-\sin(a-b))$  
-		$\int_{-\pi}^{\pi} \sin(kx)dx= \int_{-\pi}^{\pi}\cos(kx)dx=0$  
-	[Dot Product](../MAT223%20Notes/Dot%20Product.md)  
-	[Cauchy-Schwarz Inequality](Cauchy-Schwarz%20Inequality.md)  
-		$|\langle u,v \rangle| \leq ||u|| \ ||v||$  
-		Or equivalently  
-		$\left( \sum_{k=1}^{n} u_{k}v_{k} \right)^{2}\leq\left( \sum_{k=1}^{n} u_{k}^{2} \right)\left( \sum_{k=1}^{n}v_{k}^{2} \right)$  
-	$e^{iy}=(\cos y+i\sin y)$  
-	$\overline {\langle u,v \rangle}+ \langle u,v \rangle= 2\mathrm{Re}\langle u,v \rangle$  
-	$\sin(a+bi)=\sin a\cosh b+i\cos a\sinh b$  
-	$\cos(a+bi)= \cos a\cosh b-i\sin a\sinh b$  
-	$\overline{\frac{z_{1}}{z_{2}}}=\frac{\overline z_{1}}{\overline z_{2}}$  
-	$| \frac{z_{1}}{z_{2}} | = \frac{|z_{1}|}{|z_{2}|}$  
-	 If $T$ is a linear transformation, and $v_{j}$ is a basis vector, $Tv_{j} = \sum_{k=1}^{n}M_{b}(T)_{k,j}$  
-	 Resolution of the identity, for any vector $v$ and orthonormal basis $w$, $v=\sum \langle w_{i}, v \rangle w_{i}$, and $w_{i}=\sum_{j=1} \langle v_{j}, w_{i} \rangle v_{j}$  
-	[Norm](../MAT224%20Notes/Norm.md) definition  
-		$||x+y|| \leq ||x||+||y||$  
-		$||x||=0$ if and only if $x=0$  
-		$||av||=|a| \ ||v||$  
-		Parallelogram Law:  
-			 $||x+y||^{2}+||x-y||^{2}=2(||u||^{2}+||v||^{2})$  
-		$||u||^{2}=\langle u,u \rangle$  
-	[Complex Numbers](../MAT224%20Notes/Complex%20Numbers.md)
+- Trig Identities  
+    - $\cos(a)\cos(b)=\frac{1}{2}(\cos(a-b)+\cos(a+b))$  
+    - $\sin(a)\sin(b)=\frac{1}{2}(\cos(a-b)-\cos(a+b))$  
+    - $\cos(a)\sin(b)=\frac{1}{2}(\sin(a+b)+\sin(a-b))$  
+    - $\sin(a)\cos(b)=\frac{1}{2}(\sin(a+b)-\sin(a-b))$  
+    - $\int_{-\pi}^{\pi} \sin(kx)dx= \int_{-\pi}^{\pi}\cos(kx)dx=0$  
+- [Dot Product](../MAT223%20Notes/Dot%20Product.md)  
+- [Cauchy-Schwarz Inequality](Cauchy-Schwarz%20Inequality.md)  
+    - $|\langle u,v \rangle| \leq ||u|| \ ||v||$  
+    - Or equivalently  
+    - $\left( \sum_{k=1}^{n} u_{k}v_{k} \right)^{2}\leq\left( \sum_{k=1}^{n} u_{k}^{2} \right)\left( \sum_{k=1}^{n}v_{k}^{2} \right)$  
+- $e^{iy}=(\cos y+i\sin y)$  
+- $\overline {\langle u,v \rangle}+ \langle u,v \rangle= 2\mathrm{Re}\langle u,v \rangle$  
+- $\sin(a+bi)=\sin a\cosh b+i\cos a\sinh b$  
+- $\cos(a+bi)= \cos a\cosh b-i\sin a\sinh b$  
+- $\overline{\frac{z_{1}}{z_{2}}}=\frac{\overline z_{1}}{\overline z_{2}}$  
+- $| \frac{z_{1}}{z_{2}} | = \frac{|z_{1}|}{|z_{2}|}$  
+ - If $T$ is a linear transformation, and $v_{j}$ is a basis vector, $Tv_{j} = \sum_{k=1}^{n}M_{b}(T)_{k,j}$  
+ - Resolution of the identity, for any vector $v$ and orthonormal basis $w$, $v=\sum \langle w_{i}, v \rangle w_{i}$, and $w_{i}=\sum_{j=1} \langle v_{j}, w_{i} \rangle v_{j}$  
+- [Norm](../MAT224%20Notes/Norm.md) definition  
+    - $||x+y|| \leq ||x||+||y||$  
+    - $||x||=0$ if and only if $x=0$  
+    - $||av||=|a| \ ||v||$  
+    - Parallelogram Law:  
+         - $||x+y||^{2}+||x-y||^{2}=2(||u||^{2}+||v||^{2})$  
+    - $||u||^{2}=\langle u,u \rangle$  
+- [Complex Numbers](../MAT224%20Notes/Complex%20Numbers.md)
 
 # Weeks
 ## Week 1
