@@ -1,19 +1,19 @@
 #mathematics 
 #uoft/mat235 
 
-The **Integral** is the opposite of the [[Derivative]]
+The **Integral** is the opposite of the [Derivative](Derivative.md)
 
 > Simplified definition I know, This entire note is pretty low-effort
 
 Also see:
-	[[Integration]]
+	[Integration](Integration.md)
 
 --- 
 ## Iterated Integrals
 An **Iterated Integral** is an **Integral** in the typical form. 
-For a [[Function of One Variable]] $f$, $$\int_{a}^{b}f(x)dx$$
+For a [Function of One Variable](Function%20of%20One%20Variable.md) $f$, $$\int_{a}^{b}f(x)dx$$
 ## Double Integrals
-If $R$ is the rectangle $a \leq x \leq b, c \leq y \leq d$ , and $f$ is a continuous [[Function of Two Variables]] on $R$, then the integral of $f$ over $R$ exists and is equal to the **iterated integral** $$\int_{R}fdA=\int_{y=c}^{y=d}(\int_{x=a}^{x=b}f(x,y)dx)dy$$
+If $R$ is the rectangle $a \leq x \leq b, c \leq y \leq d$ , and $f$ is a continuous [Function of Two Variables](Function%20of%20Two%20Variables.md) on $R$, then the integral of $f$ over $R$ exists and is equal to the **iterated integral** $$\int_{R}fdA=\int_{y=c}^{y=d}(\int_{x=a}^{x=b}f(x,y)dx)dy$$
 >In this example, x is integrated first before y (x is the inside integral)
 This does not have to always be the case, and the y integral can be inside of x instead
 	For most integrals, the order of integration can be switched, giving the same result
@@ -33,18 +33,18 @@ For non-rectangular area, we can set the inside to a variable of the outer integ
 > See below for an example of reversing the order of integration over a non-rectangular region
 #### Examples
 > Example of a Iterated Integral over a non-rectangular area
-> ![[Pasted image 20240205164354.png|450]]![[Pasted image 20240205164407.png|475]]
+> ![450](attachments/Pasted%20image%2020240205164354.png)![475](attachments/Pasted%20image%2020240205164407.png)
 > Note: This example bounds only the top limit
 
 >  Example of an Iterated Integral Bounding the Top and Bottom
-> ![[Pasted image 20240205164614.png|375]]
+> ![375](attachments/Pasted%20image%2020240205164614.png)
 
 #### Reversing the Order of Integration
-![[Pasted image 20240412172956.png]]
+![Pasted image 20240412172956](attachments/Pasted%20image%2020240412172956.png)
 ## Triple Integrals
-[[Function of Three Variables|Functions of Three Variables]] can be **integrated** much the same as functions of two variables
+[Functions of Three Variables](Function%20of%20Three%20Variables) can be **integrated** much the same as functions of two variables
 For a box $W$ with the shape: 
-	![[Pasted image 20240205175730.png]]
+	![Pasted image 20240205175730](attachments/Pasted%20image%2020240205175730.png)
 
 A **Triple Integral** as an iterated integral can be set up as: $$\int_{W}f dV = \int_{p}^{q}(\int_{c}^{d}(\int_{a}^{b}f(x,y,z)dx)dy)dz$$ Where $y$ and $z$ are constants in the center integral, and $z$ is a constant in the middle integral
 

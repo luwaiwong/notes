@@ -1,22 +1,22 @@
 #uoft/sta304 
 
-Notes for [[STA304]]
+Notes for [STA304](../STA304.md)
 
 ---
 # Table of Contents
-[[STA304 Textbook - Samping Theory & Practice.pdf]]
-[[#Week 1]]
-	[[#Survey Design]]
-	[[#Populations vs. Sample]]
-	[[#Bias & Error]]
-	[[#R & R Studio]]
+[STA304 Textbook - Samping Theory & Practice](attachments/STA304%20Textbook%20-%20Samping%20Theory%20&%20Practice.pdf)
+[#Week 1](#Week%201)
+	[#Survey Design](#Survey%20Design)
+	[#Populations vs. Sample](#Populations%20vs.%20Sample)
+	[#Bias & Error](#Bias%20&%20Error)
+	[#R & R Studio](#R%20&%20R%20Studio)
 
 ---
 # Notes
 
 ## Week 1
 > Slides
-> 	[[STA304 Week 1 Slides.pdf]]
+> 	[STA304 Week 1 Slides](attachments/STA304%20Week%201%20Slides.pdf)
 
 ### Survey Design
 Tips on designing a survey
@@ -36,35 +36,35 @@ Tips on designing a survey
 		- If you have "Other" category that is selected a lot, maybe you need to expand options
 
 ### Populations vs. Sample
-A [[Population]] is the entire group that we want to study/make an inference about
+A [Population](Population.md) is the entire group that we want to study/make an inference about
 There are 3 populations
 - Target Population
 	- The entire group that a researcher intends to study
 	- The broader group that we want our findings to apply to
 - Frame Population
-	- The list from which our [[Sample]] is actually drawn from
+	- The list from which our [Sample](Sample.md) is actually drawn from
 	- Is a practical representation of the target popluation
 	- May not fully capture everyone in target, due to limitations in access or records
 - Sample Population
-	- The group selected from the Frame Population to be in the [[Sample]]
+	- The group selected from the Frame Population to be in the [Sample](Sample.md)
 	- The actual group which we collect data from]]
 
-A [[Sample]] is the group which we collect data on, the members of the population of which we have data 
+A [Sample](Sample.md) is the group which we collect data on, the members of the population of which we have data 
 - A sample is a subset of the population
 
 ### Bias & Error
-[[Selection Bias]] is when individuals in a study/analysis are not representative of the target population
+[Selection Bias](Selection%20Bias.md) is when individuals in a study/analysis are not representative of the target population
 Possible Causes
 - Non-Random Sampling: Choosing participants based on certain characteristics
 - Loss to follow up: In long studies, if certain groups drop out of the study at higher rates than other, may lead to bias
 - Exclusion of certain groups
 
-[[Measurement Error]] is the difference between the true value of a quantity and the value actually measured
+[Measurement Error](Measurement%20Error.md) is the difference between the true value of a quantity and the value actually measured
 Two types
-- Systematic Error/Bias ([[Measurement Bias]])
-- Random Error ([[Precision Error]])
+- Systematic Error/Bias ([Measurement Bias](Measurement%20Bias.md))
+- Random Error ([Precision Error](Precision%20Error.md))
 
-[[Measurement Bias]] is a type of error which consistently skews measurements in one direction, and is reproducible
+[Measurement Bias](Measurement%20Bias.md) is a type of error which consistently skews measurements in one direction, and is reproducible
 Factors which cause bias
 - Faulty equipment calibration
 - Biased measurement process
@@ -73,7 +73,7 @@ Factors which cause bias
 > Notes
 > 	Measurement bias can often be identified and corrected
 
-[[Precision Error]] is error which occurs unpredictably 
+[Precision Error](Precision%20Error.md) is error which occurs unpredictably 
 - Varies in magnitude and direction with each measurement
 - Cased by uncontrollable factors
 	- Slight variations in environment
@@ -81,19 +81,19 @@ Factors which cause bias
 	- Minor inconsistencies in technique
 - Can be reduced by averaging multiple measurements
 
-[[Sampling Error]] is error caused because a sample is not fully representative of the entire population
+[Sampling Error](Sampling%20Error.md) is error caused because a sample is not fully representative of the entire population
 - There is always some level of variability between sample and population
 - Is random and arise due to chance, difference samples drawn from same population could yield difference results
 - Can be reduced by increasing sample size (usually infeasible)
 
-[[Non-Sampling Error]] is error from sample, but not due to the variability between sample and population
+[Non-Sampling Error](Non-Sampling%20Error.md) is error from sample, but not due to the variability between sample and population
 - Arise due to issues like improper data collection methods, mismeasurement, respondent bias, data processing mistakes
 - Often systematic (bias results in one direction)
 - Can be minimized with careful survey design
 - More difficult to correct than sampling bias
 
 ### R & R Studio
-The [[R Programming Language]] is an open source programming language used for statistics and modeling
+The [R Programming Language](R%20Programming%20Language) is an open source programming language used for statistics and modeling
 	R Studio is an editor for R
 
 Types in R
@@ -160,11 +160,11 @@ arrange(desc(variable)) # If you want to sort decending
 
 ## Week 2
 > Slides
-> 	[[STA304 Week 2 Slides.pdf]]
+> 	[STA304 Week 2 Slides](attachments/STA304%20Week%202%20Slides.pdf)
 
 ### Sampling
 
-[[Sampling]] is the process of selecting a subset/sample from a larger population or data set, to make inferences or draw conclusions about that population
+[Sampling](Sampling) is the process of selecting a subset/sample from a larger population or data set, to make inferences or draw conclusions about that population
 - It is often impractical or impossible to collect data from every individual
 - Thus we need to *sample* a smaller, manageable group
 - Two categories of sampling

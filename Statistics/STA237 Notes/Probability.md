@@ -1,5 +1,5 @@
 #statistics
 #uoft/sta237 
-[[Statistics]]
+[Statistics](Statistics.md)
 
-A number between 0-1 expressing the likelihood of an [[Event]]
+A number between 0-1 expressing the likelihood of an [Event](Event.md)

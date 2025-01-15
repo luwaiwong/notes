@@ -1,7 +1,7 @@
 #mathematics 
 #uoft/mat224 
 
-[[Cramer's Rule]] says that: $x=A^{-1}b=\frac{1}{det(A)}A'b$
+[Cramer's Rule](.md) says that: $x=A^{-1}b=\frac{1}{det(A)}A'b$
 	  Or, a solution $x$ to the system of equations $Ax=b$ can be found the vector whose $j$th entry is the quotient $\frac{det(B_{j})}{det(A)}$
 	Where $B_{j}$ is the matrix obtained from $A$  by replacing the $j$th column of $A$ by the vector $b$ 
 

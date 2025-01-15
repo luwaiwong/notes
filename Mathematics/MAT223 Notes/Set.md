@@ -21,7 +21,7 @@ $A^{c}\cap B^c$ (**Not** A and **Not** B)
 ### Sets
 - Empty Set: $\varnothing$ `\varnothing`
 
-[[Set Operations]] can be used to express traits of sets and to manipulate sets
+[Set Operations](Set%20Operations) can be used to express traits of sets and to manipulate sets
 
 # Common Sets
 $\emptyset = \{\} =$ the empty set

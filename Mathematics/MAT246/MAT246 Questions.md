@@ -6,8 +6,8 @@ TO REMEMBER
 		$\cos(a)\sin(b)=\frac{1}{2}(\sin(a+b)+\sin(a-b))$
 		$\sin(a)\cos(b)=\frac{1}{2}(\sin(a+b)-\sin(a-b))$
 		$\int_{-\pi}^{\pi} \sin(kx)dx= \int_{-\pi}^{\pi}\cos(kx)dx=0$
-	[[Dot Product]]
-	[[Cauchy-Schwarz Inequality]]
+	[Dot Product](../MAT223%20Notes/Dot%20Product.md)
+	[Cauchy-Schwarz Inequality](Cauchy-Schwarz%20Inequality.md)
 		$|\langle u,v \rangle| \leq ||u|| \ ||v||$
 		Or equivalently
 		$\left( \sum_{k=1}^{n} u_{k}v_{k} \right)^{2}\leq\left( \sum_{k=1}^{n} u_{k}^{2} \right)\left( \sum_{k=1}^{n}v_{k}^{2} \right)$
@@ -19,14 +19,14 @@ TO REMEMBER
 	$| \frac{z_{1}}{z_{2}} | = \frac{|z_{1}|}{|z_{2}|}$
 	 If $T$ is a linear transformation, and $v_{j}$ is a basis vector, $Tv_{j} = \sum_{k=1}^{n}M_{b}(T)_{k,j}$
 	 Resolution of the identity, for any vector $v$ and orthonormal basis $w$, $v=\sum \langle w_{i}, v \rangle w_{i}$, and $w_{i}=\sum_{j=1} \langle v_{j}, w_{i} \rangle v_{j}$
-	[[norm]] definition
+	[Norm](../MAT224%20Notes/Norm.md) definition
 		$||x+y|| \leq ||x||+||y||$
 		$||x||=0$ if and only if $x=0$
 		$||av||=|a| \ ||v||$
 		Parallelogram Law:
 			 $||x+y||^{2}+||x-y||^{2}=2(||u||^{2}+||v||^{2})$
 		$||u||^{2}=\langle u,u \rangle$
-	[[Complex Numbers]]
+	[Complex Numbers](../MAT224%20Notes/Complex%20Numbers.md)
 
 # Weeks
 ## Week 1
@@ -35,7 +35,7 @@ TO REMEMBER
 > Exercises for Chapter 4 starting on p. 46
 > 	Calculational Exercises: #1 through #5 
 > 	Proof-Writing Exercises: #1 and #2
-> [[MAT246 Week 1 Answers.pdf]]
+> [MAT246 Week 1 Answers](attachments/MAT246%20Week%201%20Answers.pdf)
 
 Notation
 - $C(\mathbb{R})$ is the set of all continuous functions on $\mathbb{R}$
@@ -101,7 +101,7 @@ Proof Exercises
 >Exercises for Chapter 5 starting on p. 61
 >	Calculational Exercises: #1,  #4, #5(b-e)
 >	Proof-Writing Exercises: #1 through #3 
->[[MAT246 Week 2 Answers.pdf]]
+>[MAT246 Week 2 Answers](attachments/MAT246%20Week%202%20Answers.pdf)
 
 Calculational Exercises
 1. Show that the vectors $v_{1}=(1,1,1), v_{2}=(1,2,3,)$ and $v_{3}=(2,-1,1)$ are linearly independent in $\mathbb{R}^{3}$. Write $v=(1,-2,5)$ as a linear combination of $v_{1},v_{2},v_{3}$
@@ -151,13 +151,13 @@ Proof Exercises
 > 	Proof-Writing Exercises: #5, 6
 >Exercises for Chapter 9 starting on p. 136  
 > 	Proof-Writing Exercises: #1, 2, 4
-> [[MAT246 Week 3 Answers.pdf]]
+> [MAT246 Week 3 Answers](MAT246%20Notes/MAT246%20Week%203%20Answers.pdf)
 
 Notes:
-	[[Norm]]
+	[Norm](../MAT224%20Notes/Norm.md)
 		$||u||^{2}=\langle u,u \rangle$
-	[[Dot Product]]
-	[[Cauchy-Schwarz Inequality]]
+	[Dot Product](../MAT223%20Notes/Dot%20Product.md)
+	[Cauchy-Schwarz Inequality](Cauchy-Schwarz%20Inequality.md)
 		$|\langle u,v \rangle| \leq ||u|| \ ||v||$
 		Or equivalently
 		$\left( \sum_{k=1}^{n} u_{k}v_{k} \right)^{2}\leq\left( \sum_{k=1}^{n} u_{k}^{2} \right)\left( \sum_{k=1}^{n}v_{k}^{2} \right)$
@@ -202,14 +202,14 @@ Proof Exercises
 	b) $||u|| \leq ||u+av||$  for every $a\in \mathbb{F}$
 	**Solutions:**
 		a) $\implies$ b) is easy, not going to cover
-			Write out what $||u+ab||^{2}$ is, and remember properties of [[Dot Product]]
+			Write out what $||u+ab||^{2}$ is, and remember properties of [Dot Product](../MAT223%20Notes/Dot%20Product.md)
 		b) $\implies$ a) 
 			Solve out $||u||^{2} \leq ||u+av||^{2}$
 
 2. Let $n=\mathbb{Z}_{+}$ be a positive integer, and let $a_{1},\dots,a_{n},b_{1},\dots,b_{n}\in \mathbb{R}$ be any collection of $2n$ real numbers, Prove that 
 $$\left( \sum_{k+1}^{n}a_{k}b_{k} \right)^{2}\leq \left( \sum_{k=1}^{n}ka_{k}^{2} \right)\left( \sum_{k=1}^{n} \frac{b^{2}_{k}}{k} \right)$$
 	**Solution:** 
-		Use [[Cauchy-Schwarz Inequality]]
+		Use [Cauchy-Schwarz Inequality](Cauchy-Schwarz%20Inequality.md)
 
 4. Let $V$ be a finite-dimensional inner product space over $\mathbb{R}$. Given $u,v\in V$, prove that $\langle u,v \rangle = \frac{||u+v||^{2}-||u-v||^{2}}{4}$
 	**Solution:** Write 
@@ -220,10 +220,10 @@ $$\left( \sum_{k+1}^{n}a_{k}b_{k} \right)^{2}\leq \left( \sum_{k=1}^{n}ka_{k}^{2
 >Exercises for Chapter 9 starting on p. 136
 > 	Calculational Exercises: #1, 2, 3, 4
 > 	Proof-Writing Exercises: #1, 2, 3, 4 (Note, #1, 2 and 4 were assigned last week)
-> [[MAT246 Week 4 Answers.pdf]]
+> [MAT246 Week 4 Answers](attachments/MAT246%20Week%204%20Answers.pdf)
 
 Notes:
-	[[Gram-Schmidt Process]]
+	[Gram-Schmidt Process](../MAT224%20Notes/Gram-Schmidt%20Process.md)
 	Trig Identities
 		$\cos(a)\cos(b)=\frac{1}{2}(\cos(a-b)+\cos(a+b))$
 		$\sin(a)\sin(b)=\frac{1}{2}(\cos(a-b)-\cos(a+b))$
@@ -238,7 +238,7 @@ Calculational Exercises
 	a) Apply the Gram-Schmidt process to the basis $(f_{1},f_{2},f_{3})$
 	b) What do you obtain if you instead applied the Gram-Schmidt Process to the basis $(f_{3},f_{2},f_{1})$?
 	**Solutions:**
-		a) Follow [[Gram-Schmidt Process]]
+		a) Follow [Gram-Schmidt Process](../MAT224%20Notes/Gram-Schmidt%20Process.md)
 			Result is $v_{1}=\frac{1}{\sqrt{ 3 }}(e_{1}+e_{2}+e_{3})$, $v_{2}=\frac{1}{\sqrt{ 6 }}(e_{2}+e_{3}-2e_{1})$, and $v_{3}=\frac{1}{\sqrt{2}}(e_{3}-e_{2})$
 		b) $v_{1}=e_{3}, v_{2}=e_{2}, v_{3}=e_{1}$
 
@@ -266,13 +266,13 @@ Proof Exercises
 3. Prove or disprove the following claim
 	Claim: There is an inner product $\langle  .,. \rangle$ on $\mathbb{R}^{2}$ whose associated norm $|| \ . ||$ is given by the formula $||(x_{1},x_{2})|| = |x_{1}|+|x_{2}|$, for every vector $(x_{1},x_{2})\in \mathbb{R}^{2}$, where $| \ . |$ denotes the absolute value function on $RR$
 	**Solution:**
-		The claim is false, show that [[Parallelogram Law]] cannot be satisfied
+		The claim is false, show that [Parallelogram Law](Parallelogram%20Law) cannot be satisfied
 ## Week 5
 >Readings: Chapter 6
 >Exercises for Chapter 6 starting on p. 82
 >	Calculational Exercises: #1 (a), (b), 2 (c), (d), 4
 >	Proof-Writing Exercises: #2, 3, 4
->[[MAT246 Week 5 Answers.pdf]]
+>[MAT246 Week 5 Answers](MAT246%20Notes/MAT246%20Week%205%20Answers.pdf)
 
 
 Calculational Exercises
@@ -311,7 +311,7 @@ Proof Exercises
 >Exercises for Chapter 6 starting on p. 82
 >	Calculational Exercises: #1 (d), (e), (f) 
 >	Proof-Writing Exercises: #1, 5, 8
->[[MAT246 Week 6 Answers.pdf]]
+>[MAT246 Week 6 Answers](MAT246%20Notes/MAT246%20Week%206%20Answers.pdf)
 
 Calculational Exercises
 1. Define the map $T:\mathbb{R}^{2}\to \mathbb{R}^{2}$ by $T(x,y)=(x+y,x)$
@@ -341,7 +341,7 @@ Proof Exercises
 > Exercises for Chapter 10 starting on p. 145  
 	Calculational Exercises: #1, 3(a)  
 	Proof-Writing Exercises: #1, 2
-> [[MAT246 Week 7 Answers.pdf]]'
+> [MAT246 Week 7 Answers](MAT246%20Notes/MAT246%20Week%207%20Answers.pdf)'
 
 Calculational Exercises
 1. Consider $\mathbb{R}^{2}$ with two orthonormal bases: the canonical basis $e=(e_{1},e_{2},e_{3})$ and the basis $f=(f_{1}, f_{2}, f_{3},)$ where
@@ -383,7 +383,7 @@ Proof Exercises
 > 		Calculational Exercises: #2 
 > 	Exercises for Chapter 9 starting on p. 136  
 > 		Proof-Writing Exercises: #5
-> [[MAT246 Week 8 Answers.pdf]]
+> [MAT246 Week 8 Answers](attachments/MAT246%20Week%208%20Answers.pdf)
 
 Notes:
 	$e^{iy}=(\cos y+i\sin y)$
@@ -465,8 +465,8 @@ Proof Exercises
 > Readings: Chapter 6
 > Exercises for Chapter 6 starting on p. 24  
 > 	Calculational Exercises: #3
-> 	[[MAT301 DSProblems.pdf]]
-> [[MAT246 Week 9 Answers.pdf]]
+> 	[MAT301 DSProblems](MAT246%20Notes/MAT301%20DSProblems.pdf)
+> [MAT246 Week 9 Answers](attachments/MAT246%20Week%209%20Answers.pdf)
 
 Worksheet Questions
 1. Let $f:[0,1]\to \mathbb{C}$ such that $f(x)=\frac{1}{i-x}$. Find the real and imaginary parts of $f$. Compute $f'(x)$ and $\int_{0}^{1}f(x)dx$
@@ -493,11 +493,11 @@ Worksheet Questions
 Chapter 6 Questions
 3. Consider the complex vector spaces $\mathbb{C}^{2}$ and $\mathbb{C}^{3}$ with their canonical bases, and let $S\in L(\mathbb{C}^{3},\mathbb{C}^{2})$ be the linear map defined by $S(v)=Av, \forall v\in \mathbb{C}^{3}$ where $A$ is the matrix $A=M(S)=\begin{pmatrix}i & 1& 1 \\2i & -1 & -1\end{pmatrix}$. Find a basis for $\text{null}(S)$
 ## Week 10
-> Readings: Section 3F from [[MAT246 Lin Alg Done Right Textbook.pdf]]
-> Exercises from [[MAT246 Lin Alg Done Right Textbook.pdf]]
+> Readings: Section 3F from [MAT246 Lin Alg Done Right Textbook](MAT246%20Notes/MAT246%20Lin%20Alg%20Done%20Right%20Textbook.pdf)
+> Exercises from [MAT246 Lin Alg Done Right Textbook](MAT246%20Notes/MAT246%20Lin%20Alg%20Done%20Right%20Textbook.pdf)
 > 	Section 3F starting on p.115 (11 Questions)
 > 		#1, 3, 5, 8, 9, 11, 12, 13, 16, 25, 32
-> [[MAT246 Week 10 Answers.pdf]]
+> [MAT246 Week 10 Answers](attachments/MAT246%20Week%2010%20Answers.pdf)
 
 Notation Notes:
 	$p_{m}$ is the set of polynomials
@@ -511,13 +511,13 @@ Questions
 3. Suppose $V$ is finite-dimensional and $v\in V$ with $v\neq 0$ Prove that there exists $\varphi\in V'$ such that $\varphi(v)=1$
 	**Solution**
 	- ChatGPT solution is to create a $\varphi$ which satisfies this relationship
-	- Alternatively, construct a basis using $v$, the [[Dual Basis]] created for $V'$ will include a $\varphi\in V'$ such that $\varphi(v)=1$
+	- Alternatively, construct a basis using $v$, the [Dual Basis](MAT246%20Notes/Dual%20Basis.md) created for $V'$ will include a $\varphi\in V'$ such that $\varphi(v)=1$
 5. Suppose $T\in L(V,W)$ and $w_{1},...,w_{m}$ is a basis of range $T$. Hence for each $v\in V$ there exist unique numbers $\varphi_{1}(v),...,\varphi_{m}(v)$ such that 
 $$Tv=\varphi_{1}(v)w_{1}+...+\varphi_{m}(v)w_{m}$$
 	thus defining functions $\varphi_{1},...,\varphi_{m}$ from $V$ to $F$. Show that each of the functions $\varphi_{1},...,\varphi_{m}$ is a linear functional on $V$
 	**Solution**
 	- We already know $\varphi: V\rightarrow F$
-	- Need to show that $\varphi_{1},\dots,\varphi_{m}$ are [[Linear Transformation|Linear]] functions
+	- Need to show that $\varphi_{1},\dots,\varphi_{m}$ are [Linear](../MAT223%20Notes/Linear%20Transformation.md) functions
 	- Is true because of linearity of $T$
 
 8. Suppose $v_{1},...,v_{n}$ is a basis of $V$ and $\varphi_{1},...,\varphi_{n}$ is the dual basis of $V'$. Define $\Gamma:V\rightarrow F^{n}$ and $\Delta:F^{n}\rightarrow V$ by
@@ -544,7 +544,7 @@ $$\psi=\psi(v_{1})\varphi_{1}+...+\psi(v_{n})\varphi_{n}$$
 - Prove that $(\lambda T)'=\lambda T'$ for all $\lambda\in F$
 	This exercise asks you to verify $(a)$ and $(b)$ in 3.120
 	**Solution**
-	- Use definition of [[Dual Map]], where for $\varphi\in W'$ $S'=\varphi(S(v))$ 
+	- Use definition of [Dual Map](MAT246%20Notes/Dual%20Map.md), where for $\varphi\in W'$ $S'=\varphi(S(v))$ 
 	- These are true because of linearity of $\varphi \in W'$
 
 13. Show that the dual map of the identity operator on $V$ is the identity operator on $V'$
@@ -562,7 +562,7 @@ $$\psi=\psi(v_{1})\varphi_{1}+...+\psi(v_{n})\varphi_{n}$$
 	**Solution** 
 	1. Prove Injective
 		- If $\varphi_{1},\dots , \varphi_{m}$ span $V'$, then if $\Gamma(v)=0$, then all $\varphi_{1}(v)=\dots = \varphi_{m}(v)=0$, but since $\varphi_{1},\dots , \varphi_{m}$ span $V'$, this is only possible if $v=0$, so kernel of $\Gamma(v)$ is 0 
-		- If $\Gamma$ is injective, but $\varphi_{1},\dots , \varphi_{m}$ does not span $V'$, then there exists a $\varphi$ in [[Dual Basis]] of $V$ which is not represented, and for some $v$, $\varphi_{1}(v)=\dots = \varphi_{m}(v)=0$, thus $\Gamma$ cannot be injective
+		- If $\Gamma$ is injective, but $\varphi_{1},\dots , \varphi_{m}$ does not span $V'$, then there exists a $\varphi$ in [Dual Basis](MAT246%20Notes/Dual%20Basis.md) of $V$ which is not represented, and for some $v$, $\varphi_{1}(v)=\dots = \varphi_{m}(v)=0$, thus $\Gamma$ cannot be injective
 	2. Prove Surjective
 		- If $\varphi_{1},...,\varphi_{m}$ is linearly independent, then the rank of $\Gamma$ is $m$, and $\Gamma$ is surjective
 		- If $\Gamma$ is surjective, then for all $v\in V$, there exists some $c_{1},\dots ,c_{m}$ where $v=c_{1}\varphi_{1}(v)+\dots+c_{m}\varphi_{m}(v)$. If $\varphi_{1},...,\varphi_{m}$ are linearly dependent, then that implies there is some $v\neq 0$ where $v=c_{1}\varphi_{1}(v)+\dots+c_{m}\varphi_{m}(v)=0$, which is a contradiction and $\varphi_{1},...,\varphi_{m}$ must be linearly independent
@@ -576,8 +576,8 @@ $$(\Lambda v)(\varphi)=\varphi(v)$$
 		Suppose $V$ is finite-dimensional. Then $V$ and $V'$ are isomorphic. but finding an isomorphism from $V$ onto $V'$ generally requires choosing a basis of $V$. But the isomorphism $\Lambda$ from $V$ onto $V''$ does not require a choice of basis and thus is considered more *natural*
 	**Solution:**
 ## Week 11
-> Readings: Section 3E and 9D from [[MAT246 Lin Alg Done Right Textbook.pdf]]
-> Exercises from [[MAT246 Lin Alg Done Right Textbook.pdf]]
+> Readings: Section 3E and 9D from [MAT246 Lin Alg Done Right Textbook](MAT246%20Notes/MAT246%20Lin%20Alg%20Done%20Right%20Textbook.pdf)
+> Exercises from [MAT246 Lin Alg Done Right Textbook](MAT246%20Notes/MAT246%20Lin%20Alg%20Done%20Right%20Textbook.pdf)
 > 	Section 3E starting on p.103
 > 		#1, 5
 > 	Section 9D starting on p.380

@@ -5,7 +5,7 @@ Coverage: Modules 1-5
 
 
 [Quercus Link](https://q.utoronto.ca/courses/354754/pages/mid-term-exam-information?module_item_id=6161322)
-[[STA302 Midterm Formula Sheet.pdf]]
+[STA302 Midterm Formula Sheet](STA302%20Midterm%20Formula%20Sheet.pdf)
 
 ---
 

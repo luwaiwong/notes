@@ -25,7 +25,7 @@ In this form, addition and multiplication of complex numbers become
 - Every polynomial with complex numbers of the form $p(z)=z^{n}-z_{0}, z_{0}\in \mathbb{C}$ has $n$ distinct roots
 
 ## Conjugate
-The [[Conjugate]] of a complex number $z=a+bi$, is $\overline z=a-bi$
+The [Conjugate](Conjugate.md) of a complex number $z=a+bi$, is $\overline z=a-bi$
 	Denoted $\overline z$
 
 The Conjugate of a fraction is $\overline{\frac{z_{1}}{z_{2}}}=\frac{\overline z_{1}}{\overline z_{2}}$
@@ -41,7 +41,7 @@ $|z|^{2}-z\overline z$
 > 		For example $\sqrt[3]{1}$ has one real solution, $1$, but as a complex number has $3$ solutions
 
 ## Real Numbers
-The set of [[Real Numbers]] $\mathbb{R}$, is a [[Subset]] of [[Complex Numbers|Complex Numbers]], where the second value is $0$.
+The set of [Real Numbers](Real%20Numbers.md) $\mathbb{R}$, is a [Subset](Subset) of [Complex Numbers](.md), where the second value is $0$.
 	So, $a\in \mathbb{R}$ is $(a,0)\in \mathbb{C}$
 		We can see that:
 		Addition:
@@ -97,7 +97,7 @@ The **Polar Coordinate** representation of a **Complex Number** $z$ is:
 	Where $z=a+bi$
 		Here, $\theta$ is the *angle* from the *x-axis* of the 2D conceptualization of the complex number
 
-The [[Argument]] of a **Complex Number** is its polar coordinate angle
+The [Argument](Argument) of a **Complex Number** is its polar coordinate angle
 	$\theta=Arg(z)$
 	$\theta=\tan^{-1}\frac{b}{a}$ 
 ## Properties of Polar Coordinates

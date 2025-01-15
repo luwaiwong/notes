@@ -1,18 +1,18 @@
 #computer-science 
 #uoft/csc236 
 
-For a [[Function]]/**Program**, **Program Correctness** determines if it behaves as expected, delivers the correct result.
+For a [Function](../../../Mathematics/MAT235%20Notes/Function.md)/**Program**, **Program Correctness** determines if it behaves as expected, delivers the correct result.
 
-A **Function** $f$ is **Correct** if for every input $I$ to $f$, if $I$ satisfies the [[Precondition|Preconditions]], then $f(I)$ terminates, and all the [[Postcondition|Postconditions]] hold after it terminates
+A **Function** $f$ is **Correct** if for every input $I$ to $f$, if $I$ satisfies the [Preconditions](Precondition.md), then $f(I)$ terminates, and all the [Postconditions](Postcondition.md) hold after it terminates
 
 ---
 # Definition
 
-For every input $I$ to $f$, if $I$ satisfies the [[Precondition|Preconditions]], then $f(I)$ terminates, and all the [[Postcondition|Postconditions]] hold after it terminates
+For every input $I$ to $f$, if $I$ satisfies the [Preconditions](Precondition.md), then $f(I)$ terminates, and all the [Postconditions](Postcondition.md) hold after it terminates
 
 
  >An example of the preconditions and the postcondition of a function
-> ![[Pasted image 20240612160719.png|650]]
+> ![650](attachments/Pasted%20image%2020240612160719.png)
 > This code is correct, its **Statement of Correctness** is such:
 > 	For all $a,b\in \mathbb{Z}^{+}$ such that $a\geq b$, `gcd_rec(a,b)` terminates and returns `gcd(a,b)`
 
@@ -27,7 +27,7 @@ For each program path from the first line to a *return* statement, show that it 
 - For loops, use a "loop invariant"
 
 > Example of analyzing program correctness
-> Check [[CSC236 Textbook Hadzilacos.pdf|Hadzilacos]] page 50 for an example of a program correctness proof
+> Check [Hadzilacos](attachments/CSC236%20Textbook%20Hadzilacos.pdf) page 50 for an example of a program correctness proof
 > Proving that the `gcd_rec(a,b)` above is correct
 > 	- Path 1: the program terminates at line 7. If the program goes into this block, then a = 1 or b = 1. But in these cases, gcd(a, b) = 1, because gcd(x, 1) = 1 for all x. Then the postcondition holds, since at line 7 the program returns 1. 
 > 	- Path 2: the program terminates at line 9. If the program goes into this block, b divides a. Since b is the greatest possible divisor of itself, this means that gcd(a, b) = b, and b is returned at line 9.
@@ -35,9 +35,9 @@ For each program path from the first line to a *return* statement, show that it 
 > 	Therefore when the call completes, it returns gcd(b, a mod b). Now we use the identity that gcd(a, b) = gcd(b,a mod b) to conclude that the original call returns the correct answer
 
 ## Proving
-The Structure of a [[Program Correctness]] proof would be
+The Structure of a [Program Correctness](.md) proof would be
 1. Find the appropriate post-condition (if not given)
-2. If there are loops in your algorithm, give an appropriate [[Loop Invariant]] (LI) for the loop, and prove your loop invariant
+2. If there are loops in your algorithm, give an appropriate [Loop Invariant](Loop%20Invariant.md) (LI) for the loop, and prove your loop invariant
 3. Use your LI and the loop exit condition to prove partial correctness
 4. Define an appropriate loop measure to prove termination of the loop
 5. Running time analysis

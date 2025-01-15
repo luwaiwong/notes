@@ -1,9 +1,9 @@
 #mathematics/linear-algebra 
 #uoft/mat224 
 
-In [[Group Theory]], the **Conjugate** of any element $x$, is another element of the form $gxg^{-1}$ or $g^{-1}xg$, where $g$ is another element
+In [Group Theory](Group%20Theory), the **Conjugate** of any element $x$, is another element of the form $gxg^{-1}$ or $g^{-1}xg$, where $g$ is another element
 
-In [[Linear Algebra]], the **Conjugate** of a [[Complex Numbers|Complex Number]], notated $\overline z$ of a complex number $z=a+bi$, is $\overline z=a-bi$
+In [Linear Algebra](Linear%20Algebra), the **Conjugate** of a [Complex Number](Complex%20Numbers.md), notated $\overline z$ of a complex number $z=a+bi$, is $\overline z=a-bi$
 
 ---
 # Group Theory
@@ -11,11 +11,11 @@ In [[Linear Algebra]], the **Conjugate** of a [[Complex Numbers|Complex Number]]
 ## Definition
 Any expression involving $g$ on one side and $g^{-1}$ on the other is an instance of *conjugation*
 - $x$ and $gxg^{-1}$ and $g^{-1}x g$ are *Conjugate* elements
-- $H$ and $gHg^{-1}$ are *Conjugate* [[Subgroup|Subgroups]]
+- $H$ and $gHg^{-1}$ are *Conjugate* [Subgroups](../MAT301%20Notes/Subgroup.md)
 
 > Example of Conjugates:
 > Symmetric Groups
-> 	Let $\sigma=(1 \ 2\ 3)(4 \ 5) \in S_5$ (Remember [[Symmetric Group|Symmetric Groups]]) 
+> 	Let $\sigma=(1 \ 2\ 3)(4 \ 5) \in S_5$ (Remember [Symmetric Groups](../MAT301%20Notes/Symmetric%20Group.md)) 
 > 	Let $f=\begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 5 & 4 & 3 & 2 & 1\end{pmatrix}$
 > 		What permutation is $f\sigma f^{-1}$?
 > 	$f\sigma f^{-1}=(1 \ 2)(3 \ 5 \ 4)$
@@ -34,7 +34,7 @@ Any expression involving $g$ on one side and $g^{-1}$ on the other is an instanc
 - For all $k-$cycles and all $f$'s $f(a_{1} \ \dots \ a_{k})f^{-1}=(f(a_{1}) \ \dots \ f(a_{k}))$
 	- Conjugacy in $S_{n}$ amounts to *relabeling*
 - If $a,b\in S_n$ have the same *cycle type*, they are conjugate in $S_n$
-- For each $g$ in $G$, the function $c_{g}(x)=gxg^{-1}$ is an [[Automorphism]] of $G$
+- For each $g$ in $G$, the function $c_{g}(x)=gxg^{-1}$ is an [Automorphism](../MAT301%20Notes/Automorphism.md) of $G$
 	- If $G$ is abelian, then $c_g(x)=x$ for all $x\in G$
 - Conjugation moves subgroups to other subgroups
 - If two elements are conjugate, then they have the same order

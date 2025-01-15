@@ -9,8 +9,8 @@ A **vector** is a value representing the relationship between two points.
 
 ### Linear Algebra
 A **Vector** is a directed line segment or "arrow", with one point distinguished  as the "head", and the other distinguished as the "tail"
-	Vectors have two operations which can be done on them are **vector addition**, and **vector multiplication** (See [[#^1828f1|Vector Operations]])
-	These operations give rise to various [[Vector#^a7e263|properties]] of vectors
+	Vectors have two operations which can be done on them are **vector addition**, and **vector multiplication** (See [Vector Operations](#^1828f1))
+	These operations give rise to various [](.md#^a7e263|properties) of vectors
 
 > Vectors are a mathematical object, with the above operations, following a specific set of properties 
 > Any object which satisfies those properties, can be considered a vector
@@ -22,7 +22,7 @@ A **displacement vector** from one point to another is an arrow with the tail at
 The **magnitude**(length) of the displacement vector is the distance between the points, represented by length of the arrow
 The **direction** of the **vector** is the direction of the arrow
 
-- Two vectors are **parallel** if one is a [[#^6a18a3|scalar multiple]] of the other. 
+- Two vectors are **parallel** if one is a [scalar multiple](#^6a18a3) of the other. 
 - A displacement vector whose **tail is at the origin** is called a *position vector*
 
 ## Calculations
@@ -31,17 +31,17 @@ $$cos(\theta)=\frac{\vec{a}\cdot\vec{b}}{||\vec{a}|| \ ||\vec{b}||}$$
 To calculate the length of a vector $\vec v$:
 $$||\vec{v}||=\sqrt{v_{1}^{2}+v_{2}^{2}+v_{3}^{2}}$$
 ## Notation
-Vectors can be written with an arrow over them $\vec{v}$ to distinguish them from [[Scalar]]s, or a bold **v** to denote a vector, or the notation $\vec{PQ}$ to denote the **displacement vector** from a point P to a point Q. (first and last most common) 
+Vectors can be written with an arrow over them $\vec{v}$ to distinguish them from [Scalar](Scalar.md)s, or a bold **v** to denote a vector, or the notation $\vec{PQ}$ to denote the **displacement vector** from a point P to a point Q. (first and last most common) 
 
 Vectors can also be written as $\vec{v} = (v_{1},v_{2},v_{3})$, or $\vec{v}=v_{1}\vec{i}+ v_{2}\vec{j} + v_{3}\vec{k}$ (components)
 
-The **magnitude**/length of a vector $\vec{v}$ is written $||\vec{v}||$. This value is a [[Scalar]]
+The **magnitude**/length of a vector $\vec{v}$ is written $||\vec{v}||$. This value is a [Scalar](Scalar.md)
 
 
 ## Components 
 The **component vectors** $\vec{i}, \vec{j}, \vec{k}$ are unit vectors that point in the direction of the positive x,y, and z-axes, respectively
 
-Vectors can be resolved to [[Components]]. Resolving vectors onto components parallel to the axes converts a vector from its **magnitude** and **direction** into a direction defined by points in a Cartesian Coordinates System.
+Vectors can be resolved to [Components](Components.md). Resolving vectors onto components parallel to the axes converts a vector from its **magnitude** and **direction** into a direction defined by points in a Cartesian Coordinates System.
 
 
 ---

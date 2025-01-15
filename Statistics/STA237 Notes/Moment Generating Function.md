@@ -1,7 +1,7 @@
 #statistics #uoft/sta237 
 
-The **[[Moment]] Generating function** of a [[Discrete Random Variable]] $X$ is $$M_x(t)=E(e^{tX})= \Sigma_{\forall x}e^{tX}p_{X}(x), \text{ or } \int_{-\infty}^{\infty}e^{tX}P_{X}(x)dx
-$$Or, the [[Expected Value]] of the [[Discrete Random Variable|random variable]] function $e^{tX}$, instead of the **expected value** of $X$ like we were looking at before
+The **[Moment](../STA238%20Notes/Moment.md) Generating function** of a [Discrete Random Variable](Discrete%20Random%20Variable.md) $X$ is $$M_x(t)=E(e^{tX})= \Sigma_{\forall x}e^{tX}p_{X}(x), \text{ or } \int_{-\infty}^{\infty}e^{tX}P_{X}(x)dx
+$$Or, the [Expected Value](Expected%20Value.md) of the [random variable](Discrete%20Random%20Variable.md) function $e^{tX}$, instead of the **expected value** of $X$ like we were looking at before
 
 The **MGF** exists if $M_{X}(t)$ is defined for an interval of $t$ around 0 ($-h<0<+h$)
 
@@ -21,5 +21,5 @@ M tells us
 X is the random variable
 # MGF of Distributions
 
-## [[Binomial Distribution]]
+## [Binomial Distribution](Binomial%20Distribution.md)
 The **mgf** of $X~BIN(n,p)$ is $$M_{X}(t)=(pe^{t}+(1-p))^n$$

@@ -5,21 +5,21 @@
 ---
 
 ## Definition
-**Conjugation** is the [[Action]]  
+**Conjugation** is the [Action](Action.md)  
 $$g.x=gxg^{-1}$$
-Of a [[Group]] $g\in G$ on a set $X$
+Of a [Group](Group.md) $g\in G$ on a set $X$
 
-The orbits of this conjugation are called [[Conjugacy Class|Conjugacy Classes]], and The [[Index|Number]] of these classes is called the *class number* of $G$
+The orbits of this conjugation are called [Conjugacy Classes](Conjugacy%20Class.md), and The [Number](Index.md) of these classes is called the *class number* of $G$
 	Denoted $k(G)$
 
-If two elements are related by conjugation, we call them [[Conjugate]]
-- $x$ and $gxg^{-1}$ and $g^{-1}x g$ are [[Conjugate]] elements
-- $H$ and $gHg^{-1}$ are *Conjugate* [[Subgroup|Subgroups]]
+If two elements are related by conjugation, we call them [Conjugate](../MAT224%20Notes/Conjugate.md)
+- $x$ and $gxg^{-1}$ and $g^{-1}x g$ are [Conjugate](../MAT224%20Notes/Conjugate.md) elements
+- $H$ and $gHg^{-1}$ are *Conjugate* [Subgroups](Subgroup.md)
 
 If a subgroup $H\leq G$ is self conjugate where $gHg^{-1}=H$ , the following are equivalent
-- $H\trianglelefteq G$. That is, $gHg^{-1}\subseteq H$ for all $g\in G$ [[Normal|Normality]]
-- $gH = Hg$ for all $g\in G$ (left and right [[Coset|Cosets]] are equal)
-- $G/H$ is a group under *coset multiplication* ([[Quotient Group]])
+- $H\trianglelefteq G$. That is, $gHg^{-1}\subseteq H$ for all $g\in G$ [Normality](../MAT235%20Notes/Normal.md)
+- $gH = Hg$ for all $g\in G$ (left and right [Cosets](Coset.md) are equal)
+- $G/H$ is a group under *coset multiplication* ([Quotient Group](Quotient%20Group.md))
 
 > Notes:
 > 	Informally, conjugacy can be see as a "change in perspective"
@@ -27,7 +27,7 @@ If a subgroup $H\leq G$ is self conjugate where $gHg^{-1}=H$ , the following are
 
 > Example of Conjugates:
 > Symmetric Groups
-> 	Let $\sigma=(1 \ 2\ 3)(4 \ 5) \in S_5$ (Remember [[Symmetric Group|Symmetric Groups]]) 
+> 	Let $\sigma=(1 \ 2\ 3)(4 \ 5) \in S_5$ (Remember [Symmetric Groups](Symmetric%20Group.md)) 
 > 	Let $f=\begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 5 & 4 & 3 & 2 & 1\end{pmatrix}$
 > 		What permutation is $f\sigma f^{-1}$?
 > 	$f\sigma f^{-1}=(1 \ 2)(3 \ 5 \ 4)$
@@ -48,7 +48,7 @@ If a subgroup $H\leq G$ is self conjugate where $gHg^{-1}=H$ , the following are
 - For all $k-$cycles and all $f$'s $f(a_{1} \ \dots \ a_{k})f^{-1}=(f(a_{1}) \ \dots \ f(a_{k}))$
 	- Conjugacy in $S_{n}$ amounts to *relabeling*
 - If $a,b\in S_n$ have the same *cycle type*, they are conjugate in $S_n$
-- For each $g$ in $G$, the function $c_{g}(x)=gxg^{-1}$ is an [[Automorphism]] of $G$
+- For each $g$ in $G$, the function $c_{g}(x)=gxg^{-1}$ is an [Automorphism](Automorphism.md) of $G$
 	- If $G$ is abelian, then $c_g(x)=x$ for all $x\in G$
 - Conjugation moves subgroups to other subgroups
 - Normal subgroups are *self-conjugate*, $gHg^{-1}=H$ for all $g\in G$

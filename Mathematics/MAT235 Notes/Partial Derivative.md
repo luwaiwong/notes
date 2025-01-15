@@ -1,6 +1,6 @@
 #mathematics #uoft/mat235 
 
-**Partial Derivative** of a [[Function]] of several variables is its [[Derivative]] with respect to one of those variables, with the others held constant
+**Partial Derivative** of a [Function](Function.md) of several variables is its [Derivative](Derivative.md) with respect to one of those variables, with the others held constant
 
 ---
 # Formal Definition & Notation
@@ -13,7 +13,7 @@ If $z=f(x,y)$, $$\begin{aligned} f_x(x,y)=\frac{\partial z}{\partial x} \text{ a
 - The *signs* of the partial derivatives indicate increase or decrease of the function in the x or y direction
 - The *units* of a partial derivative are the units of the output divided by the units of the direction variable. 
 	- If $z=f(x,y)$, the units of $f_z=\frac{\Delta z}{\Delta x}$ are $\frac{\text{Units of z}}{\text{Units of x}}$ 
-- If a function $f$ is [[Continuous]] with all higher-order partial derivatives, then we say that $f$ if [[Smooth|Smooth]] at $(a,b)$
+- If a function $f$ is [Continuous](Continuous.md) with all higher-order partial derivatives, then we say that $f$ if [Smooth](Smooth) at $(a,b)$
 
 # Computations
 ^1b9c97
@@ -23,10 +23,10 @@ To calculate  $f_x(x,y)$ or **the partial derivative with respect to x**, think 
 To calculate $f_{y}(x,y)$, or **the partial derivative with respect to y**, think of $x$ as a constant, and differentiate with respect to $y$ normally
 
 > Computation Example
-![[Pasted image 20231101122426.png]]
+![Pasted image 20231101122426](Images/Pasted%20image%2020231101122426.png)
 
 >Graph Example
->![[Pasted image 20231011101848.png]]
+>![Pasted image 20231011101848](Images/Pasted%20image%2020231011101848.png)
 
 ---
 # Second-Order Partial Derivatives
@@ -34,7 +34,7 @@ To calculate $f_{y}(x,y)$, or **the partial derivative with respect to y**, thin
 ^8b3bce
 
 Related
-	[[Taylor Approximations]]
+	[Taylor Approximations](Taylor%20Approximations.md)
 
 The **Second-Order Partial Derivatives** are the derivatives of the partial derivatives of a function $f$
 A two-variable function has *two* **first-order partial derivatives**, and *four* **second-order partial derivatives**

@@ -1,7 +1,7 @@
 #computer-science 
 #uoft/csc236 
 
-A [[Loop Variant]] is a formal method of proving Loop [[Termination]]
+A [Loop Variant](.md) is a formal method of proving Loop [Termination](Termination.md)
 
 ---
 # Definition
@@ -9,7 +9,7 @@ A [[Loop Variant]] is a formal method of proving Loop [[Termination]]
 > This idea is analogous to inputs for recursive calls but for iterative loops, where inputs get smaller and smaller until a recursive call can no longer happen
 
 
-A [[Loop Variant]] $v$ is an has two properties
+A [Loop Variant](.md) $v$ is an has two properties
 - $v$ decreases with each iteration of the loop
 - $v$ is always a natural number at the beginning of each loop iteration
 

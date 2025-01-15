@@ -1,14 +1,14 @@
 #computer-science 
 #uoft/csc236 
 
-A **Vertex** is a node in a [[Graph]]
+A **Vertex** is a node in a [Graph](Graph.md)
 
-It can be connected to other [[Vertex|Vertices]] through [[Edge|Edges]]
+It can be connected to other [Vertices](.md) through [Edges](Edge.md)
 
 ---
 
 ## Properties
 
-The [[Degree]] of a [[Vertex]] is the *number of neighbors* it has, or the amount of edges it has connecting it to other vertices
+The [Degree](Degree.md) of a [Vertex](.md) is the *number of neighbors* it has, or the amount of edges it has connecting it to other vertices
  
- A [[Leaf]] is a [[Vertex]] with degree 1 in a tree
+ A [Leaf](Leaf.md) is a [Vertex](.md) with degree 1 in a tree

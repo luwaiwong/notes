@@ -1,23 +1,23 @@
 #mathematics/group-theory #uoft/mat301 
 
-The **Symmetric Group** on the set $X$ is the set of all [[Permutation|Permutations]] on $X$ under *composition*
+The **Symmetric Group** on the set $X$ is the set of all [Permutations](../../Statistics/STA237%20Notes/Permutation.md) on $X$ under *composition*
 
 
 ---
 ## Definition
-The **Symmetric Group** $S_{X}$ on the set $X$ is the set of all [[Permutation|Permutations]] on $X$ under [[Composition]]
+The **Symmetric Group** $S_{X}$ on the set $X$ is the set of all [Permutations](../../Statistics/STA237%20Notes/Permutation.md) on $X$ under [Composition](../MAT224%20Notes/Composition.md)
 	An element of $S_{X}$ is typically denoted as $\sigma \in S_{X}$
 
-The [[Inverse]] of a *permutation* $\sigma \in S_{X}$ in two-line notation can be found by swapping the lines, and sorting the columns so the top line matches the original
-	![[Two Line Notation Inverse Example.png]]
+The [Inverse](../MAT224%20Notes/Inverse.md) of a *permutation* $\sigma \in S_{X}$ in two-line notation can be found by swapping the lines, and sorting the columns so the top line matches the original
+	![Two Line Notation Inverse Example](Two%20Line%20Notation%20Inverse%20Example.png)
 
 > The symmetric group is a group of bijective *functions* $X\rightarrow X$.
 > Thus *composition* here is the composition of functions
 > 	An example of function composition in two-line notation
-> 		![[Symmetric Group Function Composition.png]]
+> 		![Symmetric Group Function Composition](Symmetric%20Group%20Function%20Composition.png)
 
 
-A **Symmetric Group** has an [[Action]] on its set $X$ by function evaluation
+A **Symmetric Group** has an [Action](Action.md) on its set $X$ by function evaluation
 	$S_{X} \curvearrowright X$ for any set in the way $\sigma . x=\sigma(x)$
 
 ### Notation
@@ -27,17 +27,17 @@ A **Symmetric Group** has an [[Action]] on its set $X$ by function evaluation
 - A element $i$ is **moved** under a permutation $\sigma$ if $\sigma(i)\neq i$ 
 - An element is **fixed** if $\sigma(i)=i$. 
 - A *transposition* is a permutation that moves just two points
-- A [[Permutation Group]] is any [[Subgroup]] of a symmetric group
-- $(a_{1} \ a_{2} \ ... \ a_{k})$ denotes a [[#^b70f6f|k-cycle]]
+- A [Permutation Group](Permutation%20Group.md) is any [Subgroup](Subgroup.md) of a symmetric group
+- $(a_{1} \ a_{2} \ ... \ a_{k})$ denotes a [k-cycle](#^b70f6f)
 
-[[Two Line Notation]] is often used to represent elements of a symmetric groups  
+[Two Line Notation](Two%20Line%20Notation) is often used to represent elements of a symmetric groups  
 	A permutation $\sigma \in S_X$ can be written in *two-line notation* as:
 	$\sigma=\begin{pmatrix} a & b& c&d&e&f&g&h&i&\dots \\ b& c&a&g&d&h&i&e&f&\dots\end{pmatrix}$
 	Where $\sigma(a)=b, \sigma(g)=i$, etc...
 
 >Elements of a symmetric groups are usually denoted by *Greek Letters* and sometimes called *Substitutions*, while elements of underlying set $X$ are sometimes called *letters*
 ### Subgroups
-[[Cayley's Theorem]] says that that every  [[Group]] is [[Isomorphic]] to some [[Permutation Group]]
+[Cayley's Theorem](Cayley's%20Theorem.md) says that that every  [Group](Group.md) is [Isomorphic](../MAT224%20Notes/Isomorphic.md) to some [Permutation Group](Permutation%20Group.md)
 	The reason this is true, is because every group can have as many *permutations* as elements
 	And a map can be created which maps elements from the group, to permutations of that group?
 
@@ -48,7 +48,7 @@ And thus by extension, every subgroup of a symmetric group is still a symmetric 
 ### Properties
 - If $X$ has $n$ elements, then $S_{X}$ has $n!$ elements
 
-[[Conjugate]] Properties
+[Conjugate](../MAT224%20Notes/Conjugate.md) Properties
 - For all $k-$cycles and all $f$'s $f(a_{1} \ \dots \ a_{k})f^{-1}=(f(a_{1}) \ \dots \ f(a_{k}))$
 	- Conjugacy in $S_{n}$ amounts to *relabeling*
 - If $a,b\in S_n$ have the same *cycle type*, they are conjugate in $S_n$
@@ -64,15 +64,15 @@ And thus by extension, every subgroup of a symmetric group is still a symmetric 
 ## Cycles
 ^b70f6f
 
-A [[Cycle]] in a [[Permutation]], is a set of elements which *loops back on itself* as the permutation is applied
+A [Cycle](../../Computer%20Science/CSC236/CSC236%20Notes/Cycle.md) in a [Permutation](../../Statistics/STA237%20Notes/Permutation.md), is a set of elements which *loops back on itself* as the permutation is applied
 
-A  $k$-*cycle* (with $k\geq 2$), denoted $(a_{1} \ a_{2} \ ... \ a_{k})$, is a [[Permutation]] which
+A  $k$-*cycle* (with $k\geq 2$), denoted $(a_{1} \ a_{2} \ ... \ a_{k})$, is a [Permutation](../../Statistics/STA237%20Notes/Permutation.md) which
 - *Moves* $a_{i}$ to $a_{i+1}$ for $1\leq i\leq k$, 
 - *Moves* $a_{k}$ to $a_1$, and
 - *Fixes* everything else
 
-We can also define the action and accompanying [[Orbit]] below, and use it to help formally define a cycle
-	Let $X$ be a set and let $\sigma\in S_{X}$. Define $x\sim y$ [[IFF]] $\sigma^{k}(x)=y$ for some integer $k$. Then $\sigma$ is an [[Equivalence Relation]]
+We can also define the action and accompanying [Orbit](Orbit.md) below, and use it to help formally define a cycle
+	Let $X$ be a set and let $\sigma\in S_{X}$. Define $x\sim y$ [IFF](IFF) $\sigma^{k}(x)=y$ for some integer $k$. Then $\sigma$ is an [Equivalence Relation](Equivalence%20Relation.md)
 Properties
 - This relation relates two elements if they are in the same *cycle
 - The orbit of a particular $x\in X$ under this action is denoted $\langle \sigma\rangle x$
@@ -83,7 +83,7 @@ Properties
 Then, A **Cycle** is a *permutation* with just one nontrivial orbit. If that orbit has size $k$, the cycle is called a $k$-*cycle* and $k$ is called the *length
 
 > Example of a Cycle
-> 	![[Cycle Example Image.png]]
+> 	![Cycle Example Image](Cycle%20Example%20Image.png)
 > 	In this example, there are the cycles:
 > 		$\uptau: 1\rightarrow 4\rightarrow 3\rightarrow 2\rightarrow 1 \rightarrow ...$  
 > 		$\rho:1\rightarrow 2\rightarrow 3\rightarrow 4\rightarrow 5\rightarrow 1 \rightarrow ...$
@@ -94,9 +94,9 @@ Then, A **Cycle** is a *permutation* with just one nontrivial orbit. If that orb
 > 		$\overline 3 = (1 \ 3 \ 2 \ 6 \ 4\ 5)$
 > 	Note that cycles can be written in multiple ways, by "rotating" the elements
 > 	They are all equally valid, but we prefer to write the "smallest" element first
-> 		![[Cycle Rotation Example Image.png]]
+> 		![Cycle Rotation Example Image](Cycle%20Rotation%20Example%20Image.png)
 
-The [[Cycle Type]] of a [[Permutation]] is a list of the number of cycles of every possible length, for that permutation
+The [Cycle Type](Cycle%20Type.md) of a [Permutation](../../Statistics/STA237%20Notes/Permutation.md) is a list of the number of cycles of every possible length, for that permutation
 Formally, Let $\sigma\in S_{X}$ for each $k=1,2,\dots,\infty$ let $c_{k}$ be the number of orbits of size $k$. The *Cycle Type* of $\sigma$ is the ordered list of the $c_{k}$'s
 Properties
 - When $X$ is finite of order $n$, then so is every orbit, and $\sum\limits_{k\geq 1}kc_{k}=n$
@@ -106,7 +106,7 @@ Properties
 > 	The cycle type of $\uptau=\begin{pmatrix}1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 4 & 7 & 1 & 3 & 8 & 6 & 2 & 5 \end{pmatrix}$ is $(1,2,1,0,0,0,0,0)$
 
 ### Properties of Cycles
-- $\sigma$ is a *transposition* [[IFF]] $\sigma$ is a 2-cycle
+- $\sigma$ is a *transposition* [IFF](IFF) $\sigma$ is a 2-cycle
 - The *inverse* of a cycle can be obtained by writing it backwards such that $(a \ b \ c \ d \ e)^{-1}=(e\ d \ c\ b\ a)=(a\ e\ d\ c\ b)$
 	- The *inverse* of a cycle is **always** a cycle
 	- The composition of any cycle with its inverse is the *identity map*, which is not a cycle
@@ -128,7 +128,7 @@ Properties
 
 ### Cycle Decomposition Theorem
 
-[[Cycle Decomposition Theorem]] says that every permutation can be written as a product of *disjoint cycles*, and each decomposition is *unique*
+[Cycle Decomposition Theorem](Cycle%20Decomposition%20Theorem) says that every permutation can be written as a product of *disjoint cycles*, and each decomposition is *unique*
 
 > Examples of breaking up permutations in terms of cycles
 > 	Take the permutation $\sigma = \begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 2 & 1 & 4 & 5 & 3\end{pmatrix}$
@@ -147,5 +147,5 @@ Moreover, this decomposition into cycles is unique up to reordering. That is, if
 ## Permutations
 - The identity map is denoted $\epsilon$, and **fixes** every element
 	- Is the only element in any symmetric group to do so
-- Permutation of [[Dihedral Group|Dihedral Groups]]
-	- ![[Permutation of Dihedral Group image.png]]
+- Permutation of [Dihedral Groups](Dihedral%20Group.md)
+	- ![Permutation of Dihedral Group image](Permutation%20of%20Dihedral%20Group%20image.png)

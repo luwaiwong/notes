@@ -9,18 +9,18 @@ Coverage & Format
 		- Conceptual or interpretation 
 	- Will not be asked to write code, but must understand what code is doing and what output means
 
-[[STA302F2024_formula_sheet.pdf|Formula Sheet]]
-[[STA302 Cheat Sheet]]
+[Formula Sheet](attachments/STA302F2024_formula_sheet.pdf)
+[STA302 Cheat Sheet](STA302%20Notes/STA302%20Cheat%20Sheet.md)
 Final Exam Review: 
- 	[[STA302 Week 13 Exam Review.pdf]]
- 	[[STA302 Katherine Final Exam Review.pdf]]
+ 	[STA302 Week 13 Exam Review](STA302%20Notes/STA302%20Week%2013%20Exam%20Review.pdf)
+ 	[STA302 Katherine Final Exam Review](STA302%20Notes/attachments/STA302%20Katherine%20Final%20Exam%20Review.pdf)
 Past Exams
-	[[STA302W2021 Term Test.pdf]]
-	[[STA302F2022 Term Test.pdf]]
-	[[STA302W2022 Term Test Question.pdf]]
+	[STA302W2021 Term Test](attachments/STA302W2021%20Term%20Test.pdf)
+	[STA302F2022 Term Test](attachments/STA302F2022%20Term%20Test.pdf)
+	[STA302W2022 Term Test Question](attachments/STA302W2022%20Term%20Test%20Question.pdf)
 Midterms
-	[[STA302F2024_solutions.pdf]]
-	[[Makeup_STA302F2024_solutions.pdf]]
+	[STA302F2024_solutions](attachments/STA302F2024_solutions.pdf)
+	[Makeup_STA302F2024_solutions](attachments/Makeup_STA302F2024_solutions.pdf)
 
 
 Recommended Practice Problems:

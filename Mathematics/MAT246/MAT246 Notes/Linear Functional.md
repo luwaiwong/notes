@@ -9,7 +9,7 @@ A **Linear Functional** on $V$ is a *linear map* from $V$ to $F$.
 A **Linear Functional** on $V$ is a *linear map* from $V$ to $F$. 
 	A linear functional is an element of $L(V,F)$
 
-The [[Dual Space]] of $V$, denoted $V'$ is the vector space of *all linear functionals* on $V$
+The [Dual Space](Dual%20Space.md) of $V$, denoted $V'$ is the vector space of *all linear functionals* on $V$
 	$V'=L(V,F)$
 
 > Examples of Linear Functionals
@@ -20,7 +20,7 @@ The [[Dual Space]] of $V$, denoted $V'$ is the vector space of *all linear funct
 > 	Remember that $P$ refers to the set of all *polynomials*
 
 ## Notation
- $L(V,F)$ defines the set of all [[Linear Transformation|Linear Transformations]] from $V$ to $F$
+ $L(V,F)$ defines the set of all [Linear Transformations](../../MAT223%20Notes/Linear%20Transformation.md) from $V$ to $F$
  $F$ is the set of all *scalars* (all real numbers, and complex numbers)
 
  

@@ -1,34 +1,34 @@
 #uoft/nfs284
 
-Notes for [[NFS284]]
+Notes for [NFS284](../NFS284.md)
 
 [Nutrition, Science and Applications Textbook Source](https://archive.org/details/nutrition-science-and-applications-3rd-canadian-edition-lori-a.-smolin-mary-b.-g)
 
 ---
 # Table of Contents
-[[NFS284 Nutrition Science & Applications Textbook.pdf]]
-[[NFS284 Worksheets]]
+[NFS284 Nutrition Science & Applications Textbook](attachments/NFS284%20Nutrition%20Science%20&%20Applications%20Textbook.pdf)
+[NFS284 Worksheets](NFS284%20Worksheets.md)
 
-[[#Week 1]]
-	[[#Canadian Diets]]
-	[[#Macronutrients]]
-		[[#Lipids or Dietary Fats]]
-		[[#Carbohydrates]]
-		[[#Proteins]]
-	[[#Micronutrients]]
-	[[#Phytochemicals]]
-	[[#Nutrition in Diet]]
+[#Week 1](#Week%201)
+	[#Canadian Diets](#Canadian%20Diets)
+	[#Macronutrients](#Macronutrients)
+		[#Lipids or Dietary Fats](#Lipids%20or%20Dietary%20Fats)
+		[#Carbohydrates](#Carbohydrates)
+		[#Proteins](#Proteins)
+	[#Micronutrients](#Micronutrients)
+	[#Phytochemicals](#Phytochemicals)
+	[#Nutrition in Diet](#Nutrition%20in%20Diet)
 
 ---
 # Notes
 ## Week 1
 > Slides
-> 	[[NFS284 Week 1 Course Overview Slides.pdf]]
-> 	[[NFS284 Week 1 Intro Slides.pdf]]
-> 	[[NFS284 Week 1 DRIs Slides.pdf]]
+> 	[NFS284 Week 1 Course Overview Slides](attachments/NFS284%20Week%201%20Course%20Overview%20Slides.pdf)
+> 	[NFS284 Week 1 Intro Slides](attachments/NFS284%20Week%201%20Intro%20Slides.pdf)
+> 	[NFS284 Week 1 DRIs Slides](attachments/NFS284%20Week%201%20DRIs%20Slides.pdf)
 > Questions
-> 	[[NFS284-DRI-Self-Assessment-8Q.pdf]]
-> 	[[NFS284-DRI self assessment-8Q-ANSWERS.pdf]]
+> 	[NFS284-DRI-Self-Assessment-8Q](attachments/NFS284-DRI-Self-Assessment-8Q.pdf)
+> 	[NFS284-DRI self assessment-8Q-ANSWERS](attachments/NFS284-DRI%20self%20assessment-8Q-ANSWERS.pdf)
 > Required Readings
 > 	Nutrition Science & Applications pg 443-449 3e
 
@@ -42,11 +42,11 @@ Food provides nutrients, which are essential to human life
 - If essential nutrients are absent from diet, deficiency symptoms/illness will arise, leading to death
 
 Macronutrients provide energy to support basal metabolism and physical activity, and include:
-- [[Carbohydrates]]
+- [Carbohydrates](Carbohydrates)
 	- Provides 4 kcal/g
-- [[Lipids]]/Fat
+- [Lipids](Lipids)/Fat
 	- Provides 9 kcal/g
-- [[Protein]]
+- [Protein](Protein)
 	- When excess is present in diet, is used as a source of energy
 	- Provides 4 kcal/g
 
@@ -63,7 +63,7 @@ Macronutrients provide energy to support basal metabolism and physical activity,
 The major chemical lipids in food takes the form of *Triglycerides*
 	It is an *ester* of *glycerol* and three fatty acids
 
-Types of [[Lipids (Fats)]]
+Types of [Lipids (Fats)](Lipids%20(Fats))
 - Unsaturated fatty acids
 	- Fatty acids that contain double bonds
 	- Considered to be beneficial to health, reduces risk of cardiovascular disease
@@ -103,7 +103,7 @@ Essential Fatty acids
 
 #### Carbohydrates
 
-Two types of [[Carbohydrates]]
+Two types of [Carbohydrates](Carbohydrates)
 Digestible
 - Starch
 	- from rice, wheat, corn, potatoes, cassava, etc.
@@ -128,7 +128,7 @@ Proteins are *amino acids*, joined by peptide bonds
 Some amino acids are essential/indispensable and some are non essential
 
 ### Micronutrients
-Micronutrients are [[Vitamins]] and [[Minerals]]
+Micronutrients are [Vitamins](Vitamins) and [Minerals](Minerals)
 
 Vitamins are:
 - Organic Compounds
@@ -155,7 +155,7 @@ Minerals are:
 ### Phytochemicals
 > READ IN TEXTBOOK pg 443-449 TO FINISH
 
-[[Phytochemicals]] are the biologically active non-nutritive chemicals found in plants
+[Phytochemicals](Phytochemicals) are the biologically active non-nutritive chemicals found in plants
 - Chemicals which provide biological functions for plants
 - When we say "phytochemicals", we generally refer to chemicals which have health promoting properties
 
@@ -206,8 +206,8 @@ Two approaches for planning diets
 - Food-based approach
 	- The types and amounts of food to maintain health
 
-[[Dietary Reference Intakes]] are official documents, determined by the Institude of Medicine, with Canadian and American scientists, which recommend foods and nutrient intakes
-- [Official Canadian DRI](https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/dietary-reference-intakes/tables.html#abb)
+[Dietary Reference Intakes](Dietary%20Reference%20Intakes) are official documents, determined by the Institude of Medicine, with Canadian and American scientists, which recommend foods and nutrient intakes
+- [](https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/dietary-reference-intakes/tables.html#abb)
 - DRIs should be used for planning and assessing diets of healthy individuals
 - Includes values for different life stages, males or females
 - Info includes
@@ -237,9 +237,9 @@ How do we determine the Estimated Average Requirement (EAR) for a nutrient
 
 > Interpreting DRIs
 > 	DRIs are *probability distributions*, of the amount of nutrient intake, and the percentage of people which meets their requirement with that amount, in a specific group (sex, age)
-> 	![[NSF284 Example of EAR Image.png]]
+> 	![NSF284 Example of EAR Image](attachments/NSF284%20Example%20of%20EAR%20Image.png)
 > 	DRIs tend to look like normal distributions
-> 	The [[Cumulative Distribution Function|Cumulative Probability]] of the value of an individuals intake, is the probability that they are meeting their nutrient intake
+> 	The [Cumulative Probability](../../../Statistics/STA237%20Notes/Cumulative%20Distribution%20Function.md) of the value of an individuals intake, is the probability that they are meeting their nutrient intake
 
 An RDA is the *Recommended Dietary Allowance*
 - The nutrient intake, which ensures a 98% probability of any individual meeting their requirement (based on the interpretation above)
@@ -275,9 +275,9 @@ Acceptable Macronutrient Distribution Ranges
 - Protein: 10-35%
 ## Week 2
 > Slides
-> 	[[NFS284 Week 1 DRIs Slides.pdf]]
-> 	[[NFS284 Week 2 Canadas Food Guide.pdf]]
-> 	[[NFS284 Week 2 FoodLabelling-full.pdf]]
+> 	[NFS284 Week 1 DRIs Slides](attachments/NFS284%20Week%201%20DRIs%20Slides.pdf)
+> 	[NFS284 Week 2 Canadas Food Guide](attachments/NFS284%20Week%202%20Canadas%20Food%20Guide.pdf)
+> 	[NFS284 Week 2 FoodLabelling-full](attachments/NFS284%20Week%202%20FoodLabelling-full.pdf)
 
 First lecture continues DRI Slides
 

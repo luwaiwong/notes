@@ -10,8 +10,8 @@
 - [ ] Watch Review Recordings
 - [ ] Do practice quizzes
 # Past Midterms
-[[CSC207 Summer Midterm.pdf]]
-[[CSC207 Summer Midterm Solutions.pdf]]
+[CSC207 Summer Midterm](CSC207%20Summer%20Midterm.pdf)
+[CSC207 Summer Midterm Solutions](CSC207%20Summer%20Midterm%20Solutions.pdf)
 
 ## Summer Midterm 
 1. 

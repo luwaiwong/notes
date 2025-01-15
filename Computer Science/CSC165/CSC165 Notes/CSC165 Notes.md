@@ -1,32 +1,32 @@
 #uoft/csc165
 
-Notes for [[CSC165]]
+Notes for [CSC165](../CSC165.md)
 
 
 ---
 # Table of Contents
 
 ### Notes
-[[CSC165 Cheat Sheet]]
-[[CSC165 Worksheets]]
+[CSC165 Cheat Sheet](CSC165%20Cheat%20Sheet.md)
+[CSC165 Worksheets](CSC165%20Worksheets.md)
 
 ### Course Materials
-[[CSC165 Past Course Notes.pdf]]
-[[CSC165 Numeric Types.pdf]]
+[CSC165 Past Course Notes](attachments/CSC165%20Past%20Course%20Notes.pdf)
+[CSC165 Numeric Types](attachments/CSC165%20Numeric%20Types.pdf)
 
 ### Weeks
-[[#Week 1]]
-[[#Week 2]]
+[#Week 1](#Week%201)
+[#Week 2](#Week%202)
 
 ---
 # Notes
 ## Week 1
 > Worksheets
-> 	[[CSC165 WS01Mon.pdf]]
-> 	[[CSC165 WS01Wed.pdf]]
+> 	[CSC165 WS01Mon](attachments/CSC165%20WS01Mon.pdf)
+> 	[CSC165 WS01Wed](attachments/CSC165%20WS01Wed.pdf)
 > Worksheet Solutions
-> 	[[CSC165 WS01Mon-solution.pdf]]
-> 	[[CSC165 WS01Wed-solution.pdf]]
+> 	[CSC165 WS01Mon-solution](attachments/CSC165%20WS01Mon-solution.pdf)
+> 	[CSC165 WS01Wed-solution](attachments/CSC165%20WS01Wed-solution.pdf)
 
 
 Course Notation
@@ -56,7 +56,7 @@ Course Notation
 > Examples of set builder notation
 > 	Set of all numbers less than 165 $\{ z\in \mathbb{Z}, z<165 \}$
 
-A [[Predicate]] is a function which produces booleans
+A [Predicate](../../CSC236/CSC236%20Notes/Predicate.md) is a function which produces booleans
 	For example, $\forall v\in \{x_{0},x_{1},x_{2},\dots  \}, c_{v}$ produces either true or false, depending on the value of the set $\{ x_{0},x_{1},x_{2},\dots \}$ and the value of $c_{v}$
 
 
@@ -96,6 +96,6 @@ Proof Techniques
 	- Examples where a universal statement holds, are witnesses, and where the statement does not hold, are counterexamples
 ## Week 2
 > Worksheets
-> 	[[CSC165 WS02Mon.pdf]]
+> 	[CSC165 WS02Mon](attachments/CSC165%20WS02Mon.pdf)
 > Worksheet Solutions
-> 	[[CSC165 WS02Mon-solution.pdf]]
+> 	[CSC165 WS02Mon-solution](attachments/CSC165%20WS02Mon-solution.pdf)

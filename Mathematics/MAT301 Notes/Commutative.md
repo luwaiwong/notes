@@ -2,4 +2,4 @@
 
 An operation is **Commutative**, if $a*b=b*a$ for all $a$ and $b$
 
-A [[Group]] with a **Commutative** [[Composition Law]] is called [[Abelian]]
+A [Group](Group.md) with a **Commutative** [Composition Law](Composition%20Law.md) is called [Abelian](Abelian.md)

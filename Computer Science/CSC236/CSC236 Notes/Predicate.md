@@ -10,7 +10,7 @@ A **Predicate** is a *parameterized logical statement*
 ---
 ## Properties
 
-[[Predicate|Predicates]] have a [[Domain]], the set of all its possible input values
+[Predicates](.md) have a [Domain](Domain.md), the set of all its possible input values
 
 ## Uses
 

@@ -2,7 +2,7 @@
 #uoft/sta238 
 
 
-The **Bias** of an [[Estimator]] is the difference from the [[Expected Value]] of an **Estimator**, to its actual value.
+The **Bias** of an [Estimator](Estimator.md) is the difference from the [Expected Value](../STA237%20Notes/Expected%20Value.md) of an **Estimator**, to its actual value.
 
 ---
 # Definition

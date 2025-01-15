@@ -1,20 +1,20 @@
 #mathematics 
 #uoft/mat223 #uoft/mat224 
 
-A **Base** or **Basis**, for any [[Subspace]] is any [[Set]] of [[Vector|Vectors]] which can fully describe that subspace 
+A **Base** or **Basis**, for any [Subspace](Subspace.md) is any [Set](Set.md) of [Vectors](Vector.md) which can fully describe that subspace 
 
 ---
 # Definition
 
-A subset $S$ of a [[Vector Space]] $V$ is a [[Base (Basis)]], or **Basis** of $V$ if: 
+A subset $S$ of a [Vector Space](../MAT224%20Notes/Vector%20Space.md) $V$ is a [Base (Basis)](.md), or **Basis** of $V$ if: 
 	$V=Span(S)$
-	$S$ is [[Linear Independence|Linearly Independent]]
+	$S$ is [Linearly Independent](Linear%20Independence.md)
 
-> A set of vectors is a **Basis**, only if the [[Span]] of that set, is the same as the vector space
+> A set of vectors is a **Basis**, only if the [Span](Span.md) of that set, is the same as the vector space
 
 ## Properties
-1. Bases are not unique. Every subspace (except for the [[Trivial Subspace]]) has multiple bases
-2. Every vector in the base of a subspace can be written as a *unique* [[Linear Combination]] of vectors in that basis ([[Dimension]])
+1. Bases are not unique. Every subspace (except for the [Trivial Subspace](Trivial%20Subspace.md)) has multiple bases
+2. Every vector in the base of a subspace can be written as a *unique* [Linear Combination](Linear%20Combination.md) of vectors in that basis ([Dimension](Dimension.md))
 3. Any 2 bases for the same subspace have the same number of elements ^7d8441
 
 Other Properties
@@ -33,11 +33,11 @@ Other Properties
 
 ## Finding Bases 
 
-To convert any [[Vector]] or [[Transformation]] to a different **Base**, you can use a [[Change of Base Matrix]] 
+To convert any [Vector](Vector.md) or [Transformation](Transformation.md) to a different **Base**, you can use a [Change of Base Matrix](../MAT224%20Notes/Change%20of%20Base%20Matrix.md) 
 
 # Bases
-The [[Standard Basis]] for $\mathbb{R}^n$ is the set $\{\vec{e}_{1},...,\vec{e}_n\}$ where $$\vec{e}_1=\begin{bmatrix}1\\0\\0\\\vdots\end{bmatrix} \vec{e}_2=\begin{bmatrix}0\\1\\0\\\vdots\end{bmatrix}\vec{e}_3=\begin{bmatrix}0\\0\\1\\\vdots\end{bmatrix}$$That is, $\vec{e}_i$ is the vector with a 1 in its ith coordinate and zeros elsewhere. 
+The [Standard Basis](Standard%20Basis.md) for $\mathbb{R}^n$ is the set $\{\vec{e}_{1},...,\vec{e}_n\}$ where $$\vec{e}_1=\begin{bmatrix}1\\0\\0\\\vdots\end{bmatrix} \vec{e}_2=\begin{bmatrix}0\\1\\0\\\vdots\end{bmatrix}\vec{e}_3=\begin{bmatrix}0\\0\\1\\\vdots\end{bmatrix}$$That is, $\vec{e}_i$ is the vector with a 1 in its ith coordinate and zeros elsewhere. 
 The **Standard basis** can describe all the elements in $R^n$
 
 > Example of finding two different bases 
-> 	![[Pasted image 20231012132714.png]]
+> 	![Pasted image 20231012132714](Pasted%20image%2020231012132714.png)

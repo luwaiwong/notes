@@ -1,6 +1,6 @@
 #mathematics/group-theory #uoft/mat301 
 
-The **Cycle Type** of a [[Permutation]] is a list of the number of cycles of every possible length, for that permutation
+The **Cycle Type** of a [Permutation](../../Statistics/STA237%20Notes/Permutation.md) is a list of the number of cycles of every possible length, for that permutation
 
 Formally, Let $\sigma\in S_{X}$ for each $k=1,2,\dots,\infty$ let $c_{k}$ be the number of orbits of size $k$. The *Cycle Type* of $\sigma$ is the ordered list of the $c_{k}$'s
 **Properties**

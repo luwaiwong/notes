@@ -1,10 +1,10 @@
 #mathematics/linear-algebra 
 #uoft/mat224 
 
-A set $S$ has a **Linear Dependence** if for the [[Vector|Vectors]] of $S$:
+A set $S$ has a **Linear Dependence** if for the [Vectors](../MAT223%20Notes/Vector.md) of $S$:
 	$a_{1}x_{1}+...a_{n}x_{n}=0$ , where $a_i \in \mathbb{R}$ are not all zero
 
-A **Linear Dependence** in a set, means that one or more of the [[Vector|Vectors]], can be made up by [[Linear Combination]] of the other vectors
+A **Linear Dependence** in a set, means that one or more of the [Vectors](../MAT223%20Notes/Vector.md), can be made up by [Linear Combination](../MAT223%20Notes/Linear%20Combination.md) of the other vectors
 
 ---
 # Properties
@@ -14,7 +14,7 @@ A **Linear Dependence** in a set, means that one or more of the [[Vector|Vectors
 
 Let $S$ be *subset* of a *vector space* $V$
 
-Think of $Span(S)$. If the [[Span]] of a subset of $S$ results in the same value as $Span(S)$, then that means that there are unused vectors in $S$, the vectors in $S$ are not being used in the most "economical" way, and there is a set with less elements than $S$ which can be used to convey the same information
+Think of $Span(S)$. If the [Span](../MAT223%20Notes/Span.md) of a subset of $S$ results in the same value as $Span(S)$, then that means that there are unused vectors in $S$, the vectors in $S$ are not being used in the most "economical" way, and there is a set with less elements than $S$ which can be used to convey the same information
 
 If this trait is true, then there exists a set of scalars, which can result in $a_{1}x_{1}+...a_{n}x_{n}=0$ , where $a_i \in \mathbb{R}$ are not all zero
 

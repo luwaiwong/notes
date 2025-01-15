@@ -18,7 +18,7 @@ Yes, it is possible to find a $\Delta$ such that $f_{approx}(t)>0$.
 
 Experimentally, we can pick $\Delta=0.5$, and simulate with the initial conditions $y_{0}=1$, until $t=50$ and find that $y>0$ for all $t$
 Graphing $f_{approx}$ using the conditions listed above
->	![[Pasted image 20240922132351.png]]
+>	![Pasted image 20240922132351](attachments/Pasted%20image%2020240922132351.png)
 
 Analytically, for all $t$, $y' = -y$, and so for each step using Euler's Method, as long as $\Delta < 1$, $y$ will decrease by less than its own value, such that if $y > 0$, $y-y' > 0$. Thus it is possible to find a $\Delta$ such that $f_{approx}(t)>0$ for all $t$
 
@@ -55,7 +55,7 @@ This is because if we define $y'$ with the proportionality constant as $y'=-(p\c
 Since this is true, following the same logic as above, since $y$ is always decreasing while $y>0$, we can find a point $t=t_{0}$ where $y < \sqrt{p}$, because $\forall y \ \ s.t. \ \ 0<y<\sqrt{p}, y' < -y$, it is guaranteed that at some time after this point, $y < 0$
 
 We can illustrate this by simulating an extremely low proportionality constant, and a very small initial value.
-	![[Pasted image 20240922145950.png]]
+	![Pasted image 20240922145950](attachments/Pasted%20image%2020240922145950.png)
 Note in the resulting simulation, how even with such a low proportionality constant, $y$ eventually reaches a negative number
 
 ### c)

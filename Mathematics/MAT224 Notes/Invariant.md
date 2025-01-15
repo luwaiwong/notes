@@ -2,7 +2,7 @@
 #uoft/mat224 
 
 
-A [[Subspace]] $W\subset V$ is **Invariant, or Stable** under $T$ if $T(W)\subset W$
+A [Subspace](../MAT223%20Notes/Subspace.md) $W\subset V$ is **Invariant, or Stable** under $T$ if $T(W)\subset W$
 
 > Invariant means that, the subspace is "contained" under $T$, Any vector from $W$ is still in $W$ after being transformed
 

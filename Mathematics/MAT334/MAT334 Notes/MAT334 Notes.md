@@ -1,10 +1,10 @@
 #uoft/mat334 
 
-Notes for [[MAT334]]
+Notes for [MAT334](../MAT334.md)
 
 ---
 # Table of Contents
-[[#Week 1]]
+[#Week 1](#Week%201)
 
 ---
 # Notes
@@ -15,7 +15,7 @@ Notes for [[MAT334]]
 > 	Ablowitz and Fokas: 1.1: 1-3
 
 ### Definition of Complex Numbers
-A [[Complex Numbers|Complex Number]] is a "number" of the form $z=x+iy$, where $i$ is the square root of $-1$
+A [Complex Number](../../MAT224%20Notes/Complex%20Numbers.md) is a "number" of the form $z=x+iy$, where $i$ is the square root of $-1$
 - $x$ is the *real part*, denoted $Re(z)$
 - $y$ is the *imaginary part*, denoted $Im(z)$
 - Complex numbers have the operations
@@ -25,7 +25,7 @@ A [[Complex Numbers|Complex Number]] is a "number" of the form $z=x+iy$, where $
 	- Multiplication
 		- $z_{1}z_{2}=x_{1}x_{2}+ix_{1}y_{2}+iy_{1}x_{2}+i^{2}y_{1}y_{2}= x_{1}x_{2}-y_{1}y_{2}+i(x_{1}y_{2}+y_{1}x_{2})$ 
 		- Note that multiplication of two complex numbers results in another complex number, while you cannot typically multiply two vectors, and get another vector
-	- [[Norm]]/Absolute value 
+	- [Norm](../../MAT224%20Notes/Norm.md)/Absolute value 
 		- The *norm* of $z$ is $|z| =\sqrt{ x^{2}+y^{2} }$
 		- Norm of complex numbers is *multiplicative*
 			- $|z_{1}z_{2}|=|z_{1}||z_{2}|$
@@ -82,7 +82,7 @@ If you want to find the "orthogonal" complex numbers to the number $z$, we can u
 
 
 > Rough Notes
-> 	When representing complex numbers geometrically, the [[Eigenvalue]] of the transformation matrix from multiplying $z$ by a complex number, is that complex number. 
+> 	When representing complex numbers geometrically, the [Eigenvalue](Eigenvalue.md) of the transformation matrix from multiplying $z$ by a complex number, is that complex number. 
 > 	For multiplication by $1+i$, matrix created is $\begin{pmatrix}1 & -1 \\ 1 & 1\end{pmatrix}$, eigenvalue of that matrix is $1\pm i$
 > 	line represented as $z(a-bi)+\overline z(a+bi)=2c$, $w=(a-bi), \overline w=(a+bi)$, 
 > 	equation of a line is $\mathrm{Re}(wz)=C$

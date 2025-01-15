@@ -1,1 +1,1 @@
-A **Transposition** is a [[Permutation]] which moves just two points
+A **Transposition** is a [Permutation](Permutation.md) which moves just two points

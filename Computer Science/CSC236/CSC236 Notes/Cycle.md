@@ -1,21 +1,21 @@
 #computer-science 
 #uoft/csc236 
 
-A **Cycle** in a [[Permutation]], is a set of elements which *loops back on itself* as the permutation is applied
+A **Cycle** in a [Permutation](../../../Statistics/STA237%20Notes/Permutation.md), is a set of elements which *loops back on itself* as the permutation is applied
 
 ---
 # Group Theory
 ## Definition
 
-A [[Cycle]] in a [[Permutation]], is a set of elements which *loops back on itself* as the permutation is applied
+A [Cycle](.md) in a [Permutation](../../../Statistics/STA237%20Notes/Permutation.md), is a set of elements which *loops back on itself* as the permutation is applied
 
-A  $k$-*cycle* (with $k\geq 2$), denoted $(a_{1} \ a_{2} \ ... \ a_{k})$, is a [[Permutation]] which
+A  $k$-*cycle* (with $k\geq 2$), denoted $(a_{1} \ a_{2} \ ... \ a_{k})$, is a [Permutation](../../../Statistics/STA237%20Notes/Permutation.md) which
 - *Moves* $a_{i}$ to $a_{i+1}$ for $1\leq i\leq k$, 
 - *Moves* $a_{k}$ to $a_1$, and
 - *Fixes* everything else
 
-We can also define the action and accompanying [[Orbit]] below, and use it to help formally define a cycle
-	Let $X$ be a set and let $\sigma\in S_{X}$. Define $x\sim y$ [[IFF]] $\sigma^{k}(x)=y$ for some integer $k$. Then $\sigma$ is an [[Equivalence Relation]]
+We can also define the action and accompanying [Orbit](../../../Mathematics/MAT301%20Notes/Orbit.md) below, and use it to help formally define a cycle
+	Let $X$ be a set and let $\sigma\in S_{X}$. Define $x\sim y$ [IFF](IFF) $\sigma^{k}(x)=y$ for some integer $k$. Then $\sigma$ is an [Equivalence Relation](../../../Mathematics/MAT301%20Notes/Equivalence%20Relation.md)
 Properties
 - This relation relates two elements if they are in the same *cycle
 - The orbit of a particular $x\in X$ under this action is denoted $\langle \sigma\rangle x$
@@ -26,7 +26,7 @@ Properties
 Then, A **Cycle** is a *permutation* with just one nontrivial orbit. If that orbit has size $k$, the cycle is called a $k$-*cycle* and $k$ is called the *length
 
 > Example of a Cycle
-> 	![[Cycle Example Image.png]]
+> 	![Cycle Example Image](../../../Mathematics/MAT301%20Notes/Cycle%20Example%20Image.png)
 > 	In this example, there are the cycles:
 > 		$\uptau: 1\rightarrow 4\rightarrow 3\rightarrow 2\rightarrow 1 \rightarrow ...$  
 > 		$\rho:1\rightarrow 2\rightarrow 3\rightarrow 4\rightarrow 5\rightarrow 1 \rightarrow ...$
@@ -37,9 +37,9 @@ Then, A **Cycle** is a *permutation* with just one nontrivial orbit. If that orb
 > 		$\overline 3 = (1 \ 3 \ 2 \ 6 \ 4\ 5)$
 > 	Note that cycles can be written in multiple ways, by "rotating" the elements
 > 	They are all equally valid, but we prefer to write the "smallest" element first
-> 		![[Cycle Rotation Example Image.png]]
+> 		![Cycle Rotation Example Image](../../../Mathematics/MAT301%20Notes/Cycle%20Rotation%20Example%20Image.png)
 
-The [[Cycle Type]] of a [[Permutation]] is a list of the number of cycles of every possible length, for that permutation
+The [Cycle Type](../../../Mathematics/MAT301%20Notes/Cycle%20Type.md) of a [Permutation](../../../Statistics/STA237%20Notes/Permutation.md) is a list of the number of cycles of every possible length, for that permutation
 Formally, Let $\sigma\in S_{X}$ for each $k=1,2,\dots,\infty$ let $c_{k}$ be the number of orbits of size $k$. The *Cycle Type* of $\sigma$ is the ordered list of the $c_{k}$'s
 Properties
 - When $X$ is finite of order $n$, then so is every orbit, and $\sum\limits_{k\geq 1}kc_{k}=n$
@@ -49,7 +49,7 @@ Properties
 > 	The cycle type of $\uptau=\begin{pmatrix}1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 4 & 7 & 1 & 3 & 8 & 6 & 2 & 5 \end{pmatrix}$ is $(1,2,1,0,0,0,0,0)$
 
 ### Properties of Cycles
-- $\sigma$ is a *transposition* [[IFF]] $\sigma$ is a 2-cycle
+- $\sigma$ is a *transposition* [IFF](IFF) $\sigma$ is a 2-cycle
 - The *inverse* of a cycle can be obtained by writing it backwards such that $(a \ b \ c \ d \ e)^{-1}=(e\ d \ c\ b\ a)=(a\ e\ d\ c\ b)$
 	- The *inverse* of a cycle is **always** a cycle
 	- The composition of any cycle with its inverse is the *identity map*, which is not a cycle
@@ -71,7 +71,7 @@ Properties
 
 ### Cycle Decomposition Theorem
 
-[[Cycle Decomposition Theorem]] says that every permutation can be written as a product of *disjoint cycles*, and each decomposition is *unique*
+[Cycle Decomposition Theorem](Cycle%20Decomposition%20Theorem) says that every permutation can be written as a product of *disjoint cycles*, and each decomposition is *unique*
 
 > Examples of breaking up permutations in terms of cycles
 > 	Take the permutation $\sigma = \begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 2 & 1 & 4 & 5 & 3\end{pmatrix}$
@@ -89,7 +89,7 @@ $$\sigma=\prod_{i}\sigma_{i}$$
 Moreover, this decomposition into cycles is unique up to reordering. That is, if $\uptau_{j}\in S_{X}$ are any other pairwise-disjoint cycles whose product is $\sigma$, then there exists a bijection $\varphi$ such that $\uptau_{j}=\sigma_{\varphi(j)}$ for all $j$
 
 # Graph Theory
-A **Cycle** is a $u,u$-[[Path]], or one which starts, and ends on the same [[Vertex]]
+A **Cycle** is a $u,u$-[Path](Path.md), or one which starts, and ends on the same [Vertex](Vertex.md)
 
 > Example
-> 	![[Pasted image 20240529155616.png|444]]
+> 	![444](attachments/Pasted%20image%2020240529155616.png)

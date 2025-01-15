@@ -1,12 +1,12 @@
 #mathematics/group-theory #uoft/mat301 
 
-The **Alternating [[Group]]** is the set of [[Permutation|Permutations]] in $S_{n}$ ([[Symmetric Group]]), with even [[Parity]]
+The **Alternating [Group](Group.md)** is the set of [Permutations](../../Statistics/STA237%20Notes/Permutation.md) in $S_{n}$ ([Symmetric Group](Symmetric%20Group.md)), with even [Parity](Parity.md)
 $$A_{n}=\{\sigma\in S_{n}: sgn(\sigma)= 1\}$$
 
 ---
 ## Definition
 
-The **Alternating [[Group]]** is the set of [[Permutation|Permutations]] in $S_{n}$ ([[Symmetric Group]]), with even [[Parity]]
+The **Alternating [Group](Group.md)** is the set of [Permutations](../../Statistics/STA237%20Notes/Permutation.md) in $S_{n}$ ([Symmetric Group](Symmetric%20Group.md)), with even [Parity](Parity.md)
 $$A_{n}=\{\sigma\in S_{n}: sgn(\sigma)= 1\}$$
 ### Properties 
 - $A_{n}\trianglelefteq S_{n}$

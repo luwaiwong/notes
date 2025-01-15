@@ -1,7 +1,7 @@
 #computer-science 
 #uoft/csc236 
 
-The [[Pigeonhole Principle]] (Also known as the **Dirichlet Drawer Principle**) states that:
+The [Pigeonhole Principle](.md) (Also known as the **Dirichlet Drawer Principle**) states that:
 	If $k+1$ or more objects are placed into $k$ boxes, then there is as least one box containing two or more of the objects
 
 > This property is quite obvious. 
@@ -14,6 +14,6 @@ The [[Pigeonhole Principle]] (Also known as the **Dirichlet Drawer Principle**) 
 
 ---
 ## Generalized Pigeonhole Principle
-This definition of the [[Pigeonhole Principle]] only says that that there must be at least two objects in the same box, we can generalize the principle to work for more possibilities
+This definition of the [Pigeonhole Principle](.md) only says that that there must be at least two objects in the same box, we can generalize the principle to work for more possibilities
 **Generalized Pigeonhole Principle**: 
 	If $N$ objects are placed into $k$ boxes, then there is at least one box containing at least $[\frac{N}{k}]$ objects

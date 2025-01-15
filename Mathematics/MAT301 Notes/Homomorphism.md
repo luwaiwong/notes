@@ -5,7 +5,7 @@ A **Homomorphism** is a function $f:G\rightarrow H$ where $f(a\cdot_{G}b )=f(a)\
 ---
 ## Definition
 Let $G$ and $H$ be groups with composition laws $\cdot_{G}$ and $\cdot_{H}$ respectively.
-A function $f:G\rightarrow H$ is called a [[Homomorphism]] if 
+A function $f:G\rightarrow H$ is called a [Homomorphism](.md) if 
 $$f(a\cdot_{G}b )=f(a)\cdot_{H}f(b)$$
 	For all $a,b\in G$ 
 
@@ -20,14 +20,14 @@ Many properties of homomorphisms are written differently to functions
 
 | function terms | homomorphism terms | Symbols                                      |     |
 | -------------- | ------------------ | -------------------------------------------- | --- |
-| Injection      | [[Monomorphism]]   | $\hookrightarrow$ `\hookrightarrow`          |     |
+| Injection      | [Monomorphism](Monomorphism.md)   | $\hookrightarrow$ `\hookrightarrow`          |     |
 | Injective      | Monic              |                                              |     |
-| Surjection     | [[Epimorphism]]    | $\twoheadrightarrow$ `\twoheadrightarrow`    |     |
+| Surjection     | [Epimorphism](Epimorphism.md)    | $\twoheadrightarrow$ `\twoheadrightarrow`    |     |
 | Surjective     | Epic               |                                              |     |
-| Bijection      | [[Isomorphism]]    | $\overset{\sim}{\to}$  `\overset{\sim}{\to}` |     |
+| Bijection      | [Isomorphism](../MAT224%20Notes/Isomorphism.md)    | $\overset{\sim}{\to}$  `\overset{\sim}{\to}` |     |
 | Bijective      | Isomorphic?        |                                              |     |
-| Self-Map       | [[Endomorphism]]   |                                              |     |
-| Permutation    | [[Automorphism]]   |                                              |     |
+| Self-Map       | [Endomorphism](Endomorphism)   |                                              |     |
+| Permutation    | [Automorphism](Automorphism.md)   |                                              |     |
 | Constant       | Trivial            |                                              |     |
 > Note:
 > 	Since monic and epic are dumb terms, many people don't use them, and use the function versions instead
@@ -40,30 +40,30 @@ Many properties of homomorphisms are written differently to functions
 ### Properties
 - The image of a homomorphism $f:G\to H$ is the set $im \ f=\{f(a):a\in G\}$  
 	- The image is a subgroup of $H$, $im \ f\leq H$
-- The [[Kernel]] of $f:G\to H$ is the set $ker \ f=\{a\in G: f(a)=e\}$
-	- A homomorphism is *injective* [[IFF]] its kernel is trivial
+- The [Kernel](../MAT224%20Notes/Kernel.md) of $f:G\to H$ is the set $ker \ f=\{a\in G: f(a)=e\}$
+	- A homomorphism is *injective* [IFF](IFF) its kernel is trivial
 	- the kernel is a subgroup of $G$, $ker \ f\leq G$
 - Composition of two injective (or surjective or bijective) homomorphisms is again an injective (or surjective or bijective) homomorphism
 - Let $G$ and $H$ be groups with identity elements $e_{G}$ and $e_{H}$ respectively, and let $f:G\to H$ be a homomorphism. 
 	- $f(e_{G})=e_{H}$
 	- $f(x^{-1})=f(x)^{-1}$ for all $x$ in $G$
 - Every homomorphism is an epimorphism onto its image, or $f:G\twoheadrightarrow f(G)$
-- Every [[Monomorphism]] $f_{1}:G\hookrightarrow H$ yields an [[Isomorphism]] onto its image $f_{2}: G\overset{\sim}{\to} f_{1}(G)$
+- Every [Monomorphism](Monomorphism.md) $f_{1}:G\hookrightarrow H$ yields an [Isomorphism](../MAT224%20Notes/Isomorphism.md) onto its image $f_{2}: G\overset{\sim}{\to} f_{1}(G)$
 	- Because of this, monomorphisms are also called *embeddings*
-- ==Kernels of Homomorphisms are [[Normal]]== 
+- ==Kernels of Homomorphisms are [Normal](../MAT235%20Notes/Normal.md)== 
 - Let $f:G\to H$ be a Homomorphism, suppose $G$ is finite. $o(G)=o(im \ f)o(ker \ f)$
 
 ### Relation to Normal Subgroups
 The single more important source of normal subgroups is kernels of homomorphisms
 
-Kernels of Homomorphisms are [[Normal]], and the [[First Isomorphism Theorem]], which states that If $f:G\to H$ is a [[Homomorphism]], then 
+Kernels of Homomorphisms are [Normal](../MAT235%20Notes/Normal.md), and the [First Isomorphism Theorem](First%20Isomorphism%20Theorem.md), which states that If $f:G\to H$ is a [Homomorphism](.md), then 
 $$G /ker \ f \cong im \ f$$
 
 > Simplification:
 > 	The *Group of Cosets*  of the kernel of the homomorphism $f$, is isomorphic to the image of $f$
 
 ### Relation to Actions
-Given any [[Action]] of a [[Group]] $G$ on $X$ we can get a Homomorphism $\phi:G\to Sym(X)$ as $\phi(g)=x\to g \ .x$
+Given any [Action](Action.md) of a [Group](Group.md) $G$ on $X$ we can get a Homomorphism $\phi:G\to Sym(X)$ as $\phi(g)=x\to g \ .x$
 	Informally, $\phi(g)=g \ .-$ for all $g\in G$
 **Properties**
 - If $G$ is any group, then a *Homomorphism* from $G$ to a symmetric group is termed a *permutation representation*

@@ -1,13 +1,13 @@
 #mathematics/group-theory #uoft/mat301 
 
-The [[Parity]] (Or **Sign**) of a [[Permutation]] is the *parity* of the number of factors, in any decomposition of $\sigma$ into [[Transposition|Transpositions]]. If:
+The [Parity](.md) (Or **Sign**) of a [Permutation](../../Statistics/STA237%20Notes/Permutation.md) is the *parity* of the number of factors, in any decomposition of $\sigma$ into [Transpositions](../../Statistics/STA237%20Notes/Transposition.md). If:
 $$\sigma = \sigma_{1}\dots\sigma_{m}$$
 	Then $sgn(\sigma)=(-1)^{m}= \begin{cases} \ \ \ 1  \text{ if } m \text{ is even} \\ -1 \text{ if } m \text{ is odd} \end{cases}$
 
 ---
 
 ## Definition
-The [[Parity]] (Or **Sign**) of a [[Permutation]] is the *parity* of the number of factors, in any decomposition of $\sigma$ into [[Transposition|Transpositions]]. If:
+The [Parity](.md) (Or **Sign**) of a [Permutation](../../Statistics/STA237%20Notes/Permutation.md) is the *parity* of the number of factors, in any decomposition of $\sigma$ into [Transpositions](../../Statistics/STA237%20Notes/Transposition.md). If:
 $$\sigma = \sigma_{1}\dots\sigma_{m}$$
 	Then $sgn(\sigma)=(-1)^{m}= \begin{cases} \ \ \ 1  \text{ if } m \text{ is even} \\ -1 \text{ if } m \text{ is odd} \end{cases}$
 
@@ -17,7 +17,7 @@ $$\sigma = \sigma_{1}\dots\sigma_{m}$$
 - In general, the parity of a k-cycle is *opposite* the parity of $k$-cycle is *opposite* the parity of $k$
 	- Cycles of even length are odd
 	- Cycles of odd length are even
-- $sgn: S_{n}\rightarrow \mu_{2}=\{1, -1\}$ is a [[Homomorphism]]
+- $sgn: S_{n}\rightarrow \mu_{2}=\{1, -1\}$ is a [Homomorphism](Homomorphism.md)
 
 > Recall:
 > 	The *parity* of a number, is whether its even, or odd

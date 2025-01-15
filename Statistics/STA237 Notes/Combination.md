@@ -1,6 +1,6 @@
 #statistics #uoft/sta237 
 
-The **Combination** of a [[Set]] is the number of ways $r$ unordered elements can be organized from a set of $n$ distinct elements
+The **Combination** of a [Set](../../Mathematics/MAT223%20Notes/Set.md) is the number of ways $r$ unordered elements can be organized from a set of $n$ distinct elements
 
 Can be thought of as the *number of ways to select $r$ objects from $n$ objects*, and can be called *"n Choose r"*
 

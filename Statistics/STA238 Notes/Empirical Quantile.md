@@ -1,9 +1,9 @@
 #statistics 
 #uoft/sta238 
 
-The [[Empirical]] [[Quantile(Percentile)]] is the [[Quantile(Percentile)]] of a defined [[Data Set]]
+The [Empirical](Empirical.md) [Quantile(Percentile)](../STA237%20Notes/Quantile(Percentile).md) is the [Quantile(Percentile)](../STA237%20Notes/Quantile(Percentile).md) of a defined [Data Set](Data%20Set.md)
 
-To compute the [[Empirical Quantile]], we use:
+To compute the [Empirical Quantile](.md), we use:
 	$q_{n}(p)=x_{(k)}+\alpha(x_{(k+1)}-x_{(k)})$
 	Where $k=\lfloor{p(n+1)} \rfloor$ and $\alpha=p(n+1)-k$
 

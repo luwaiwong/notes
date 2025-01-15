@@ -1,6 +1,6 @@
 #uoft/csc209 #notes 
 
-Notes for [[CSC209]]
+Notes for [CSC209](CSC209)
 
 Links
 	[Syllabus](https://q.utoronto.ca/courses/353468/pages/course-syllabus)
@@ -16,51 +16,51 @@ Links
 # Table of Contents
 
 Textbooks
-	[[CSC209 C Programming, A Modern Approach King.pdf]]
-	[[CSC209 The Linux Programming Interface, Michael Kerrisk.pdf]]
-[[#Week 1]]
-	[[#Course Overview]]
-	[[#Files, Permissions, and Ethics]]
-[[#Week 2]]
-	[[#Pointers]]
-	[[#Arrays]]
-	[[#Syntax]]
-[[#Week 3]]
-	[[#Memory]]
-[[#Week 4]]
-	[[#Strings]]
-	[[#Structs]]
-[[#Week 5]]
-	[[#Compilation]]
-	[[#Compiling with multiple files]]
-	[[#Make]]
-[[#Week 6]]
-	[[#C Preprocessor]]
-	[[#Typedef]]
-	[[#Function Pointers]]
-	[[#System Calls vs. Library Calls]]
-[[#Week 7]]
-	[[#Forks]]
-	[[#Running Executables]]
-[[#Week 8]]
-	[[#Pipes]]
-		[[#File Descriptors]]
-	[[#Dup2]]
-[[#Week 9]]
-[[#Week 10]]
-	[[#Bit Manipulation]]
-	[[#Multiplexing]]
-		[[#Why use select?]]
-	[[#Sockets]]
-[[#Week 11]]
-[[# Week 12]]
+	[CSC209 C Programming, A Modern Approach King](attachments/CSC209%20C%20Programming,%20A%20Modern%20Approach%20King.pdf)
+	[CSC209 The Linux Programming Interface, Michael Kerrisk](attachments/CSC209%20The%20Linux%20Programming%20Interface,%20Michael%20Kerrisk.pdf)
+[#Week 1](#Week%201)
+	[#Course Overview](#Course%20Overview)
+	[#Files, Permissions, and Ethics](#Files,%20Permissions,%20and%20Ethics)
+[#Week 2](#Week%202)
+	[#Pointers](#Pointers)
+	[#Arrays](#Arrays)
+	[#Syntax](#Syntax)
+[#Week 3](#Week%203)
+	[#Memory](#Memory)
+[#Week 4](#Week%204)
+	[#Strings](#Strings)
+	[#Structs](#Structs)
+[#Week 5](#Week%205)
+	[#Compilation](#Compilation)
+	[#Compiling with multiple files](#Compiling%20with%20multiple%20files)
+	[#Make](#Make)
+[#Week 6](#Week%206)
+	[#C Preprocessor](#C%20Preprocessor)
+	[#Typedef](#Typedef)
+	[#Function Pointers](#Function%20Pointers)
+	[#System Calls vs. Library Calls](#System%20Calls%20vs.%20Library%20Calls)
+[#Week 7](#Week%207)
+	[#Forks](#Forks)
+	[#Running Executables](#Running%20Executables)
+[#Week 8](#Week%208)
+	[#Pipes](#Pipes)
+		[#File Descriptors](#File%20Descriptors)
+	[#Dup2](#Dup2)
+[#Week 9](#Week%209)
+[#Week 10](#Week%2010)
+	[#Bit Manipulation](#Bit%20Manipulation)
+	[#Multiplexing](#Multiplexing)
+		[#Why use select?](#Why%20use%20select?)
+	[#Sockets](#Sockets)
+[#Week 11](#Week%2011)
+[# Week 12](#%20Week%2012)
 
 # Notes
 ## Week 1
 > Readings: Kerrisk 2.1-2.6
 > Lectures:
-> 	[[CSC209 Lecture 1.pdf]]
-> 	[[CSC209 Lecture 2.pdf]]
+> 	[CSC209 Lecture 1](attachments/CSC209%20Lecture%201.pdf)
+> 	[CSC209 Lecture 2](attachments/CSC209%20Lecture%202.pdf)
 
 ### Course Overview
 The goal of this course is to "open the trunk" of a computer and learn how programs work
@@ -77,12 +77,12 @@ Unix Principles
 - Simple output formats
 	- Be able to input into another tool 
 
-An [[Operating System]] commonly refers to two different concepts
+An [Operating System](Operating%20System) commonly refers to two different concepts
 - The entire package consisting of the central software managing a computer's resources and all of the accompanying standard software tools, like terminal emulators, guis, file editors. etc. Or alternatively,
 - Just the central software that manages and allocates computer resources (i.e., CPU, RAM, and devices)
-The second definition is often referred to also as the [[Kernel]], and is the definition of [[Operating System]] the [[CSC209 The Linux Programming Interface, Michael Kerrisk.pdf|Kerrisk Textbook]] and these notes refer to.
+The second definition is often referred to also as the [Kernel](../../Mathematics/MAT224%20Notes/Kernel.md), and is the definition of [Operating System](Operating%20System) the [Kerrisk Textbook](attachments/CSC209%20The%20Linux%20Programming%20Interface,%20Michael%20Kerrisk.pdf) and these notes refer to.
 
-[[Kernel|Kernels]] perform the following tasks:
+[Kernels](../../Mathematics/MAT224%20Notes/Kernel.md) perform the following tasks:
 - Process scheduling
 - Memory management
 - Provision of file system
@@ -91,7 +91,7 @@ The second definition is often referred to also as the [[Kernel]], and is the de
 - Networking
 - Provision of system call API
 
-A [[Shell]] is a program to read commands typed by a user and execute programs 
+A [Shell](Shell) is a program to read commands typed by a user and execute programs 
 Some common shells are
 - Bourne Shell (sh)
 - Bourne again shell (bash)
@@ -102,12 +102,12 @@ Every file and directory has a **user owner**, and a **group**
 
 > How to set/read permissions
 > 	An example of how permissions to various files and directories would be listed
-> 		![[Pasted image 20240906170728.png]]
+> 		![Pasted image 20240906170728](attachments/Pasted%20image%2020240906170728.png)
 > 	How to read those permissions
-> 		![[Pasted image 20240906170718.png|500]]
+> 		![500](attachments/Pasted%20image%2020240906170718.png)
 > 		So a directory where the user has full permissions, group has read and execute permission, and everyone else has no permissions, than it would read: "-rwxr-x---"
 
-[[Linux Commands]] 
+[Linux Commands](Linux%20Commands) 
 ```
 ls // Lists files and directories in current location
 cd // "changd directory"
@@ -135,12 +135,12 @@ chmod // "Change Mode"
 > Textbook: 
 > 	King, Ch. 1-7
 > Worksheets:
-> 	[[CSC209 array_and_pointer_basics_solution.pdf]]
-> 	[[CSC209 calls_and_pointers_solution.pdf]]
-> 	[[arrs.c]]
+> 	[CSC209 array_and_pointer_basics_solution](CSC209%20array_and_pointer_basics_solution.pdf)
+> 	[CSC209 calls_and_pointers_solution](CSC209%20calls_and_pointers_solution.pdf)
+> 	[arrs](arrs.c)
 
 ### Pointers
-[[C Pointers]] are variables with memory size 8, which store a memory location to another variable
+[C Pointers](C%20Pointers.md) are variables with memory size 8, which store a memory location to another variable
 - Arrays are actually pointers
 - You can pass them into functions, where in the function you can change the original variable outside the function
 
@@ -149,7 +149,7 @@ We use * to *dereference* a pointer, and get the *value of the memory location i
 We use & to mean the *location of* a variable
 	If you use & on a pointer, you get the memory location, of the stored memory location that the pointer points to
 ### Arrays
-Arrays in the [[C Language]] are really just pointers, which point to the start of the array
+Arrays in the [C Language](C%20Language) are really just pointers, which point to the start of the array
 
 >When you define an array, you are defining a pointer, where afterwards C allocates space the size of the array after that pointer
 
@@ -170,21 +170,21 @@ a[0] = i; // How to access different values of a pointer array
 > Textbook:
 > 	King, Ch. 8, 11, 12, 17
 > Practice Problems 
->	[[CSC209 malloc_basics_solution.pdf]]
->	[[stack_vs_heap_solution.pdf]]
+>	[CSC209 malloc_basics_solution](CSC209%20malloc_basics_solution.pdf)
+>	[stack_vs_heap_solution](stack_vs_heap_solution.pdf)
 
 ### Memory 
-Whenever a variable is created in [[C Memory|C]], memory is allocated for that variable
+Whenever a variable is created in [C](C%20Memory), memory is allocated for that variable
 
 Memory diagrams show the state of memory for a program
 - Each address represents 4 bytes of data
 > Example of a Memory Diagram
-> 	![[Pasted image 20241105155512.png]]
+> 	![Pasted image 20241105155512](Pasted%20image%2020241105155512.png)
 > 	Memory Diagrams help us visualize how memory is being allocated and deallocated in a program
 
 There are two ways memory is allocated in C
-- A [[Stack]] frame for a function, is memory allocated for variables in a function, which is deallocated after the function ends
-- The [[Heap]], is where memory allocated using *malloc* is allocated, and is not deallocated unless explicitly done so using *free*
+- A [Stack](Stack) frame for a function, is memory allocated for variables in a function, which is deallocated after the function ends
+- The [Heap](Heap), is where memory allocated using *malloc* is allocated, and is not deallocated unless explicitly done so using *free*
 
 > Remember:
 > 	Bit is a 0 or 1
@@ -197,17 +197,17 @@ Size of different variable types
 - Character: 1 Byte per character
 
 > Example of the memory diagram of a program
-> 	![[Pasted image 20241106120522.png]]
+> 	![Pasted image 20241106120522](Pasted%20image%2020241106120522.png)
 
 ## Week 4
 > Textbook:
 > 	 King, Ch. 13, 17
 > Practice Problems:
-> 	[[strings_sol.pdf]]
-> 	[[structs_mem.pdf]]
+> 	[strings_sol](strings_sol.pdf)
+> 	[structs_mem](structs_mem.pdf)
 
 ### Strings
-"Strings" don't exist as they typically do in [[C Language|C]], instead, all strings are *lists of characters*, where the end is defined by the *null terminator* `\0`
+"Strings" don't exist as they typically do in [C](C%20Language), instead, all strings are *lists of characters*, where the end is defined by the *null terminator* `\0`
 
 ```
 // Creating strings
@@ -227,7 +227,7 @@ method2 = "string"
 
 
 ### Structs
-A [[C Struct]] is a way of creating custom datatypes
+A [C Struct](C%20Struct) is a way of creating custom datatypes
 
 Struct Example
 ```
@@ -252,9 +252,9 @@ Structs are stored in the stack, unless allocated with malloc
 >	King: 14.1-2, 15, 16
 >	Kerrisk: 6.1-6.6
 >Slides:
->	[[CSC209 Streams.pdf]]
+>	[CSC209 Streams](CSC209%20Streams.pdf)
 >Worksheets:
->	[[CSC209 io_conversions_sol.pdf]]
+>	[CSC209 io_conversions_sol](CSC209%20io_conversions_sol.pdf)
 >Topics:
 >	Low Level I/O
 
@@ -338,7 +338,7 @@ gcc file1.c file2.c
 // File 2 will call the function from file 1
 ```
 
-[[C Header Files]] are a way to maintain type safety and make this process easier
+[C Header Files](C%20Header%20Files) are a way to maintain type safety and make this process easier
 Instead of having to manually reference all the functions from a particular file, we define a *Header File* (.h)
 	The header file includes all the functions that file1 must provide, and that file2 can use
 
@@ -396,9 +396,9 @@ clean:
 >	L6.2: Header Files, Function Pointers, System Calls
 >	L6.2: Make
 >Worksheets:
->	[[CSC209 qsort_example.c]]
->	[[CSC209 makefiles_sol.pdf]]
->	[[CSC209 func_ptrs_errors_sol.pdf]]
+>	[CSC209 qsort_example](CSC209%20qsort_example.c)
+>	[CSC209 makefiles_sol](CSC209%20makefiles_sol.pdf)
+>	[CSC209 func_ptrs_errors_sol](CSC209%20func_ptrs_errors_sol.pdf)
 
 ### C Preprocessor
 Macros are variables in C code which can be set on compilation, and changes what code is compiled
@@ -477,10 +477,10 @@ Library calls do NOT
 > 	L7.1: Header Files, Make (from last week)
 > 	L7.2 Introduction to Processes
 > Worksheets
-> 	[[CSC209 fork.pdf]]
-> 		[[CSC209 fork_fruits.c]] 
-> 	[[CSC209 wait (2).pdf]]
-> 		[[CSC209 wait_sol.c]]
+> 	[CSC209 fork](CSC209%20fork.pdf)
+> 		[CSC209 fork_fruits](CSC209%20fork_fruits.c) 
+> 	[CSC209 wait (2)](CSC209%20wait%20(2).pdf)
+> 		[CSC209 wait_sol](CSC209%20wait_sol.c)
 
 ### Forks
 You can create a new process of your program (or thread) using `fork`
@@ -537,10 +537,10 @@ perror("exec")
 > Topics:
 > 	L8.1: Processes and Pipes
 > Worksheets:
-> 	[[CSC209 pipe.pdf]]
-> 	[[CSC209 pipes_sol.c]]
-> 	[[CSC209 Pipe_drawing.pdf]]
-> 	[[CSC290 redir-sol.c]]
+> 	[CSC209 pipe](CSC209%20pipe.pdf)
+> 	[CSC209 pipes_sol](CSC209%20pipes_sol.c)
+> 	[CSC209 Pipe_drawing](CSC209%20Pipe_drawing.pdf)
+> 	[CSC290 redir-sol](CSC290%20redir-sol.c)
 
 ### Pipes
 We learned how to created different processes above with `fork`, now we learn how we can use pipes to communicate between processes
@@ -627,7 +627,7 @@ if (read(0, &input, sizeof(int)) != sizeof(int)){
 When you call `pipe`, the operating system  creates a communication channel, and opens *two* file descriptors, one which reads to the pipe, and one which writes to the pipe
 
 > Pipe Diagram
-> 	![[Pipe Diagram.png|340]]
+> 	![340](Pipe%20Diagram.png)
 
 ### Dup2
 `dup2` can be used to redirect file descriptors into different channels
@@ -648,15 +648,15 @@ dup2(1, 2);
 > 	L9.1: Signals
 > 	L9.2: Term Test 2 
 > Worksheets
-> 	[[CSC209 Week 9 signals.pdf]]
-> 	[[CSC209 Week 9 greeting-start.c]]
+> 	[CSC209 Week 9 signals](attachments/CSC209%20Week%209%20signals.pdf)
+> 	[CSC209 Week 9 greeting-start](attachments/CSC209%20Week%209%20greeting-start.c)
 
 ### Signals
 Signals are a mechanism that allow a process or operating system, to inturrupt a currently running program, and notify it when an event is occurred
 Each signal is denoted by a number from 1-31
 
 > Small list of signals
-> 	![[CSC209 Notes Signals.png]]
+> 	![CSC209 Notes Signals](attachments/CSC209%20Notes%20Signals.png)
 
 Signals in terminal
 - ^C (Control C): Sends SIGINT, terminates program
@@ -706,12 +706,12 @@ Notes
 > 	L10.1: Sockets
 > 	L10.2: Select
 > Slides:
-> 	[[CSC209 Week 10 Intro Networking.pdf]]
-> 	[[CSC209 Week 10 Select.pdf]]
+> 	[CSC209 Week 10 Intro Networking](attachments/CSC209%20Week%2010%20Intro%20Networking.pdf)
+> 	[CSC209 Week 10 Select](attachments/CSC209%20Week%2010%20Select.pdf)
 > Worksheets:
-> 	[[CSC209 sockets.pdf]]
-> 	[[CSC209 select.pdf]]
-> 	[[CSC209 lego_game.c]]
+> 	[CSC209 sockets](attachments/CSC209%20sockets.pdf)
+> 	[CSC209 select](attachments/CSC209%20select.pdf)
+> 	[CSC209 lego_game](attachments/CSC209%20lego_game.c)
 ### Bit Manipulation
 > Recall that in C, true and false values are stored as 1 for true, and 0 for false
 > Also note that bits are counted right to left, starting at 0
@@ -1008,8 +1008,8 @@ close(soc)
 > 	L11.1: Introduction to Shell Programming
 > 	L11.2: Ethics Module 2: Hacking
 > Worksheets
-> 	[[CSC209 shell_worksheet.pdf]]
-> 	[[CSC209 login.c]]
+> 	[CSC209 shell_worksheet](attachments/CSC209%20shell_worksheet.pdf)
+> 	[CSC209 login](attachments/CSC209%20login.c)
 
 ### Shell Scripting
 Shell scripts automate shell commands
@@ -1143,9 +1143,9 @@ Single quotes suppress everything except for the single closing quote
 > 	L12.1: Shell Programming
 > 	L12.2: Course Wrap Up
 > Slides:
-> 	[[CSC209 Week12-review-karen-2024.key.pdf]]
+> 	[CSC209 Week12-review-karen-2024.key](attachments/CSC209%20Week12-review-karen-2024.key.pdf)
 > Worksheets
-> 	[[shell_worksheet2.pdf]]
-> 	[[run_time_reads.sh]]
-> 	[[run_floop.sh]]
-> 	[[run_fibonacci.sh]]
+> 	[shell_worksheet2](attachments/shell_worksheet2.pdf)
+> 	[run_time_reads](attachments/run_time_reads.sh)
+> 	[run_floop](attachments/run_floop.sh)
+> 	[run_fibonacci](attachments/run_fibonacci.sh)

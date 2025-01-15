@@ -6,4 +6,4 @@ $$|X/ G|=\frac{1}{o(G)}\sum\limits_{g\in G}|X^{g}|$$
 With this result, we can find that $k(G)=\frac{1}{o(G)}\sum\limits o(C_{G}(g))$
 
 > Recall:
-> 	$X^{g}$ is the [[Fix Set]] of $X$
+> 	$X^{g}$ is the [Fix Set](Fix%20Set.md) of $X$

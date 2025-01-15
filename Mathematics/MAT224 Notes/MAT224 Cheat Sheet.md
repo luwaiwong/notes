@@ -5,7 +5,7 @@ One stop shop for everything MAT224
 
 ---
 # Definitions
-A [[Vector Space]] is a [[Set]], whose elements are called  [[[Vector|Vectors]], with the operations of vector addition and multiplication, following the axioms:
+A [Vector Space](Vector%20Space.md) is a [Set](../MAT223%20Notes/Set.md), whose elements are called  [Vectors]([Vector), with the operations of vector addition and multiplication, following the axioms:
 - For all vectors $x,y$ and $z\in \mathbb{V}, (x,y)+z=x+(y+z)$
 - For all vectors $x$ and $y\in \mathbb{V}, x+y=y+x$
 - There exists a vector $0\in \mathbb{V}$ with the property that $x+0=x$ for all vectors $x\in \mathbb{V}$
@@ -15,25 +15,25 @@ A [[Vector Space]] is a [[Set]], whose elements are called  [[[Vector|Vectors]],
 - For all vectors $x\in \mathbb{V}$ and all $c,d\in \mathbb{R}, (cd)x=c(dx)$
 - For all vectors $x\in \mathbb{V},1x=x$
 
-A [[Subspace]] is a subset of a [[Vector Space]], that is also a vector space
+A [Subspace](../MAT223%20Notes/Subspace.md) is a subset of a [Vector Space](Vector%20Space.md), that is also a vector space
 If the following properties hold, then a subspace is also a vector space
 - $\vec{u}+\vec{v}\in V$(also called being *closed with respect to vector addition*, and
 - $k\vec{u}\in V$(also called being *closed with respect to scalar multiplication*)
 - $\vec 0 \in V$ 
 
-A [[Span]] of a set of [[Vector|Vectors]] is the set of all possible [[Linear Combination|Linear Combinations]] of those vectors
+A [Span](../MAT223%20Notes/Span.md) of a set of [Vectors](../MAT223%20Notes/Vector.md) is the set of all possible [Linear Combinations](../MAT223%20Notes/Linear%20Combination.md) of those vectors
 - $W_{1}+W_{2}=\{x\in V \  | \ x = x_{1}, \text{ for some }x_{1}\in W_{2} \}$ 
 - If $W_{1}=Span(S_{1})$, and $W_{2}=Span(S_{2})$, $W_{1}+W_{2}=Span(S_{1}\cup S_{2})$
 - Let $W \supseteq W_{1}\cup W_{2}$ , then $W\supseteq W_{1}+W_{2}$
 
-The [[Dimension]] of a [[Vector Space]] is the number of vectors in any [[Base (Basis)]]
+The [Dimension](../MAT223%20Notes/Dimension.md) of a [Vector Space](Vector%20Space.md) is the number of vectors in any [Base (Basis)](../MAT223%20Notes/Base%20(Basis).md)
 
-A [[Linear Transformation|Linear Transformation]] is one where:
+A [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) is one where:
 -  $T(u+v)=T(u)+T(v), \forall u,v \in V$, and
 -  $T(av)=aT(v), \forall a\in \mathbb{R}, v\in V$
 	$T(au+bv)=aT(u)+bT(v)$
 
-The [[Dot Product]], or **Inner Product** has two definitions, both of which are equivalent:
+The [Dot Product](../MAT223%20Notes/Dot%20Product.md), or **Inner Product** has two definitions, both of which are equivalent:
 Geometric Definition
 	$\vec{v}\cdot \vec{w} = || \vec{v}|| \ ||\vec{w}||cos\theta$
 Algebraic Definition
@@ -46,18 +46,18 @@ Transformation as Matrices
 	And $[R_{a}]_\alpha^{\alpha}= \begin{bmatrix} cos(\theta) & -sin(\theta) \\ sin(\theta)  & cos(\theta)\end{bmatrix}$
 	Where $\alpha$ is the standard basis in $\mathbb{R}^{2}$
 - A **Projection** on a vector $a$ in $\mathbb{R^{2}}$ can be defined by $[P_{a}]_{\alpha}^{\alpha}= \frac{1}{a_{1}^{2}+a_{2}^{2}}\begin{bmatrix} a^{2}_{1} & a_{1}a_{2} \\ a_{1}a_{2} & a^{2}_{2}\end{bmatrix}$ 
-	Try to solve for this using the equation for [[Projection]], look back at 2.1
+	Try to solve for this using the equation for [Projection](../MAT235%20Notes/Projection.md), look back at 2.1
 
 
-The [[Transpose]] of a [[Matrix]] is the matrix with its rows and columns swapped 
+The [Transpose](Transpose.md) of a [Matrix](Matrix.md) is the matrix with its rows and columns swapped 
 	If $A$ is the $m\times n$ matrix with entries $a_{ij}$, then $B=T(A)$ is the $n\times n$ matrix with entries $b_{ji}=a_{ij}$ The rows of $A$ are the columns of $B$, and vice versa
 
-The [[Image]] is the result of the linear transformation of $W$
+The [Image](../MAT223%20Notes/Image.md) is the result of the linear transformation of $W$
 - The dimension of $Im(T)$ is:
-	- The [[Rank]] of $A$ (Number of linearly independent columns)
+	- The [Rank](../MAT223%20Notes/Rank.md) of $A$ (Number of linearly independent columns)
 	-  $dim(Im(T))\leq dim(V)$ 
 
-The [[Kernel]] is the space of all vectors, where $T(x)=0$
+The [Kernel](Kernel.md) is the space of all vectors, where $T(x)=0$
 - The dimension of $Ker(T)$ is the number of basic variables
 
 if $V$ is a finite-dimensional vector space and $T:V\rightarrow W$ is a linear transformation, then:
@@ -66,15 +66,15 @@ if $V$ is a finite-dimensional vector space and $T:V\rightarrow W$ is a linear t
 ---
 # How To's (Condensed)
 ### Check if a Set is a Vector Space/Subspace
-For a [[Vector Space]], verifies that the set follows the [[Vector#^a7e263|axioms]]
-For a [[Subspace]] $V$ of a Vector Space
+For a [Vector Space](Vector%20Space.md), verifies that the set follows the [](../MAT223%20Notes/Vector.md#^a7e263|axioms)
+For a [Subspace](../MAT223%20Notes/Subspace.md) $V$ of a Vector Space
 Verify that the following are true, or check that $V$ follows all axioms too
 	$\vec{u}+\vec{v}\in V$(also called being *closed with respect to vector addition*, and
 	$k\vec{u}\in V$(also called being *closed with respect to scalar multiplication*)
 	$\vec 0 \in V$ 
 Or use this to check both at once
 	Let $V$ be a vector space, $W$ be nonempty subset of $V$
-	$W$ is a [[Subspace]] of $V$ if and only if: 
+	$W$ is a [Subspace](../MAT223%20Notes/Subspace.md) of $V$ if and only if: 
 		$\forall x,y \in W, \forall c \in \mathbb{R}, cx+y \in W$ 
 
 ### Check if a Set is Linearly Independent
@@ -144,7 +144,7 @@ $A(au+bv)=aAu+bAv$
 - A **Projection** on a vector $a$ in $\mathbb{R^{2}}$ can be defined by $[P_{a}]_{\alpha}^{\alpha}= \frac{1}{a_{1}^{2}+a_{2}^{2}}\begin{bmatrix} a^{2}_{1} & a_{1}a_{2} \\ a_{1}a_{2} & a^{2}_{2}\end{bmatrix}$ 
 
 ### Transpose
-The [[Transpose]] of a [[Matrix]] is the matrix with its rows and columns swapped 
+The [Transpose](Transpose.md) of a [Matrix](Matrix.md) is the matrix with its rows and columns swapped 
 	If $A$ is the $m\times n$ matrix with entries $a_{ij}$, then $B=T(A)$ is the $n\times n$ matrix with entries $b_{ji}=a_{ij}$ The rows of $A$ are the columns of $B$, and vice versa
 
 ### Find Kernel
@@ -157,7 +157,7 @@ Solve matrix to row-reduced echelon form
 Find the columns in the original matrix, where the row-reduced form has leading 1's
 Those columns are the basis for the image of $A$
 
-The dimension of the image is also equal to the number of linearly independent columns, or the [[Rank]] of $A$
+The dimension of the image is also equal to the number of linearly independent columns, or the [Rank](../MAT223%20Notes/Rank.md) of $A$
 
 Number of basic variables in homogenous system $Ax=0$ is $dim(Im(T))$
 
@@ -193,15 +193,15 @@ To check if transformation has transformation, check that it is injective and su
 To check matrix has
 For a $2\times 2$ Matrix $\begin{bmatrix} a & b \\ c & d\end{bmatrix}$, the inverse is $\frac{1}{ad-cd}\begin{bmatrix} d & -b \\ -c & a\end{bmatrix}$
 
-A $2\times 2$ matrix $A$ is [[Invertible]] if and only if $det(A)\neq 0$
+A $2\times 2$ matrix $A$ is [Invertible](Invertible.md) if and only if $det(A)\neq 0$
 Then,
-If $T:V\rightarrow V$ is a linear transformation of a two-dimensional [[Vector Space]] $V$, $T$ is an [[Isomorphism]] if and only if $det([T]_{a}^{a})\neq 0$
+If $T:V\rightarrow V$ is a linear transformation of a two-dimensional [Vector Space](Vector%20Space.md) $V$, $T$ is an [Isomorphism](Isomorphism.md) if and only if $det([T]_{a}^{a})\neq 0$
 
 If $A$ is an invertible $n\times n$ matrix, then $A^{-1}$ is the matrix whose $ij$th entry is $(-1)^{i+j}\frac{det(A_{ji})}{det(A)}$ **(3.3.2,154)**
 	$A^{-1}A=I$
 And $A^{-1}=\frac{1}{det(A)}A'$
 #### Gauss Jordan
-[[Gauss-Jordan Method]]
+[Gauss-Jordan Method](Gauss-Jordan%20Method.md)
 	To do the **Gauss-Jordan Method**, start with the augmented matrix
 	$[T|I]=\begin{bmatrix} t_{11} & \dots & t_{1n} & | & 1 \\ \vdots &   & \vdots  & | &   & \ddots\\ a_{n1} & \dots & a_{nn}  &  | &   &   & 1\end{bmatrix}$, Where the left matrix is the matrix representation of $T$, and the right matrix is the Identity Matrix
 	Then, perform row operations until the left side is the identity matrix.
@@ -237,15 +237,15 @@ The **Determinant** of a $3\times 3$ matrix $A$ is:
 	$\begin{bmatrix} a & b & c \\ d & e & f \\ g & h &i\end{bmatrix}=a*det(\begin{bmatrix} e & f \\ h & i\end{bmatrix})-b*det(\begin{bmatrix} d & f \\ g & i\end{bmatrix})+c*det(\begin{bmatrix} d & e \\ g & h\end{bmatrix})$
 
 Or,
-The [[Determinant]] of a $n\times n$ matrix $A$ is:
+The [Determinant](Determinant.md) of a $n\times n$ matrix $A$ is:
 	$det(A)=\sum\limits_{i=0}^{n}(-1^{i-1})a_{1i}det(A_{1i})$
 
 #### **Leibniz Formula**
-The [[Determinant]] of a $3\times 3$ matrix $A$ is:
+The [Determinant](Determinant.md) of a $3\times 3$ matrix $A$ is:
 	$\begin{bmatrix} a & b & c \\ d & e & f \\ g & h &i\end{bmatrix}=aei+bfg+cdh-ceg-bdi-afh$
 
 > Rule of Sarus
-> ![[Pasted image 20240308195525.png]]
+> ![Pasted image 20240308195525](attachments/Pasted%20image%2020240308195525.png)
 
 
 #### Elimination Algorithm
@@ -253,17 +253,17 @@ Simplify Matrix to an upper triangular matrix
 Determinant is the product of the diagonal elements
 
 ### Check if Function is a Valid Determinant 
-A function of the rows of a matrix $A$ is called [[Multilinear]] if:
+A function of the rows of a matrix $A$ is called [Multilinear](Multilinear) if:
 	If $f$ is a linear function of each of its rows when the remaining rows are held fixed, that is:
 	$f(a_{1},...,ba_{i}+b'a_{i}',...,a_{n})$
 	$=bf(a_{1},...,a_{i},...,a_{n})+b'f(a_{1},...,a_{i}',...,a_{n})$
 
-A function of the rows of a matrix $A$ is called [[Alternating]] if:
+A function of the rows of a matrix $A$ is called [Alternating](Alternating) if:
 	Whenever any two rows of $A$ are interchanged, $f$ changes sign:
 	$f(a_{1},...,a_{i},...,a_{j},...,a_{n})=-f(a_{1},...,a_{j},...,a_{i},...,a_{n})$
 
 ### Cramer's Rule
-The **Matrix of** [[Cofactor|Cofactors]] $A'$ is the matrix whose $ij$th entry is:
+The **Matrix of** [Cofactors](Cofactor) $A'$ is the matrix whose $ij$th entry is:
 	$(-1)^{i+j}det(A_{ji})$ 
 
 Cramer's Rule says that: $x=A^{-1}b=\frac{1}{det(A)}A'b$
@@ -299,14 +299,14 @@ Use $P_{W}(x)=\sum\limits_{i=1}\langle x, w_{i}\rangle w_{i}$, For each vector p
 ### Find Orthogonal Basis
 $P_{W_{i}}(v)=\sum\limits\frac{\langle v_{i},v\rangle}{\langle v_{i},v_{i}\rangle}v_{i}$ 
 
-[[Gram-Schmidt Process]]
+[Gram-Schmidt Process](Gram-Schmidt%20Process.md)
 - Start with $v_{1}=u_1$, set $W_{1}=Span(\{v_{1}\})$
 	Produce $v_{2}$ with $v_{2}=u_{2}-P_{W_{1}}(u_{2})$
 	This by definition, will be orthogonal to $v_{1}$
 - Define $W_{2}=Span(\{v_{1},v_{2}\})$, Produce $v_{3}$ with $v_{3}=u_{3}-P_{W_{2}}(u_{3})$, 
 	This by definition will be orthogonal to $v_{1}$ and $v_{2}$ 
 - Continue this process for each $u_{i}$, set $W_{i}=Span(\{v_{1},...,v_{i}\})$, and define $v_{i+1}=u_{i+1}-P_{W_{i}}(u_{i+1})$
-- To make an [[Orthonormal]] basis, divide each $v_{i}$ by its [[Norm]] during the process to make a unit vector
+- To make an [Orthonormal](../MAT223%20Notes/Orthonormal.md) basis, divide each $v_{i}$ by its [Norm](Norm.md) during the process to make a unit vector
 
 ### Check if Matrix is Symmetric
 Check $A=A^{t}$, or $x,y\in \mathbb{R}^{n}, \langle Ax,y\rangle = \langle x, A^{t}y\rangle$
@@ -338,5 +338,5 @@ Using Hermitian Inner Product, check that $\langle T(u),v\rangle = \langle u,T(v
 	$\sqrt[3]{i}=\frac{\pm\sqrt{3}+i}{2}, (-i)$  
 
 ### Calculate Hermitian Inner Product
-For all $u,v\in V,\langle u,v\rangle=\overline{\langle v,u\rangle}$ ([[Conjugate]])w
+For all $u,v\in V,\langle u,v\rangle=\overline{\langle v,u\rangle}$ ([Conjugate](Conjugate.md))w
 	$\langle u,av\rangle=\overline{\langle av,u\rangle}=\overline{a\langle v,u\rangle}=\overline{a}\overline{\langle v,u\rangle}=\overline a \langle u,v\rangle$

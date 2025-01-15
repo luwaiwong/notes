@@ -1,6 +1,6 @@
 #uoft/mat244  #assignment 
 
-[[hw2.pdf]]
+[hw2](hw2.pdf)
 
 ---
 9 pages

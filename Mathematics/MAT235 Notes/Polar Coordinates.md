@@ -6,7 +6,7 @@ With one coordinate based on the angle from the x-axis, $\theta$, and the other 
 
 ---
 ## Related
-[[Cylindrical Coordinates]]
+[Cylindrical Coordinates](Cylindrical%20Coordinates.md)
 
 ## Conversion
 To convert from polar coordinates to typical Cartesian coordinates, use:
@@ -15,7 +15,7 @@ To convert from polar coordinates to typical Cartesian coordinates, use:
 	And $r=\sqrt{x^{2}+y^{2}}$
 
 ## Computing Integrals
-[[Integral|Integrals]] and **Double Integrals** can be computed basically normally, using $\theta$ and $r$ instead of $x$ and $y$
+[Integrals](Integral.md) and **Double Integrals** can be computed basically normally, using $\theta$ and $r$ instead of $x$ and $y$
 
 When computing $\int_{R}f(x,y)dA$ in polar coordinates:
 - Convert the integrand to $r,\theta$ by using $x=r \cos \theta, y = r \sin \theta$
@@ -25,5 +25,5 @@ When computing $\int_{R}f(x,y)dA$ in polar coordinates:
 > The second part of the requirements above dictate the order of integration
 
 >  Calculating the area of shapes using polar coordinates
-> 	![[Pasted image 20240205181433.png]]
+> 	![Pasted image 20240205181433](attachments/Pasted%20image%2020240205181433.png)
 

@@ -1,7 +1,7 @@
 #mathematics 
 #uoft/mat235 
 
-A plane is a [[Linear Function]] of a [[Function of Two Variables]] in 3-Space
+A plane is a [Linear Function](Linear%20Function.md) of a [Function of Two Variables](Function%20of%20Two%20Variables.md) in 3-Space
 
 ---
 # Formula

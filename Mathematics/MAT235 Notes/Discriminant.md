@@ -5,7 +5,7 @@ The **Discriminat** is a formula which helps in determining if a critical point 
 
 ---
 ## Function of Two Variables
-For a [[Function of Two Variables]] $f$, and its [[Gradient Vector]] $gradf(x,y)$
+For a [Function of Two Variables](Function%20of%20Two%20Variables.md) $f$, and its [Gradient Vector](Gradient%20Vector.md) $gradf(x,y)$
 Suppose $(x,y)$ is a point where $grad f(x,y) = \vec{0}$ 
 The **Discriminant** $D=f_{xx}(x,y)f_{yy}(x,y)-(f_{xy}(x,y))^{2}$
   - $D > 0$ && $f_{xx}(x,y) > 0$  $\implies$ $f$ has a **local minimum** at $(x,y)$

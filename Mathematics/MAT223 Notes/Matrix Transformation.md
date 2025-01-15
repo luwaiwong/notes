@@ -1,5 +1,5 @@
 #uoft/mat223  #mathematics 
 
-A [[Linear Transformation|Linear Transformation]] defined by a [[Matrix]] via [[Matrix-Vector Multiplication]]
+A [Linear Transformation](Linear%20Transformation.md) defined by a [Matrix](../MAT224%20Notes/Matrix.md) via [Matrix-Vector Multiplication](Matrix-Vector%20Multiplication.md)
 
-[[Linear Transformation#^ffce73|Matrix Transformations]]
+[](Linear%20Transformation.md#^ffce73|Matrix%20Transformations)

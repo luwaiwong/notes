@@ -1,21 +1,21 @@
 #mathematics/group-theory  #uoft/mat301 
 
 
-The **Center** of a [[Group]] $G$ is the set
+The **Center** of a [Group](Group.md) $G$ is the set
 $$Z(G)=\{g\in G:gh=hg \ \text{ for all $h$ in $G$ }\}$$
 Elements in the center of a group are called **central**
 
 
 >Explanation:
->	The center of the group is the group of elements in $G$ which [[Commutative|Commute]] with one another
->	Its a way to measure the "non-[[Abelian|Abelianness]]" of a group
+>	The center of the group is the group of elements in $G$ which [Commute](Commutative.md) with one another
+>	Its a way to measure the "non-[Abelianness](Abelian.md)" of a group
 >	The less elements in the *center* of a group, the less abelian it is
 
 ---
 
 ## Properties
-- $Z(G)\leq G$, with equality if and only if $G$ is [[Abelian]]
-- If a group's center is [[Trivial]], we say the group is **centerless**
+- $Z(G)\leq G$, with equality if and only if $G$ is [Abelian](Abelian.md)
+- If a group's center is [Trivial](Trivial.md), we say the group is **centerless**
 
 ## Centers of Groups
 ### $D_{n}$

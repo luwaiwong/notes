@@ -1,11 +1,11 @@
 #uoft/csc165 #assignment 
 ## Week 1
 > Worksheets
-> 	[[CSC165 WS01Mon.pdf]]
-> 	[[CSC165 WS01Wed.pdf]]
+> 	[CSC165 WS01Mon](attachments/CSC165%20WS01Mon.pdf)
+> 	[CSC165 WS01Wed](attachments/CSC165%20WS01Wed.pdf)
 > Worksheet Solutions
-> 	[[CSC165 WS01Mon-solution.pdf]]
-> 	[[CSC165 WS01Wed-solution.pdf]]
+> 	[CSC165 WS01Mon-solution](attachments/CSC165%20WS01Mon-solution.pdf)
+> 	[CSC165 WS01Wed-solution](attachments/CSC165%20WS01Wed-solution.pdf)
 
 #### Mon
 - Obvious, no notes

@@ -9,10 +9,10 @@ A **Population** is the entire population/group that we want to study/make an in
 - The broader group that we want our findings to apply to
 
 ### Frame Population
-- The list from which our [[Sample]] is actually drawn from
+- The list from which our [Sample](Sample.md) is actually drawn from
 - Is a practical representation of the target population
 - May not fully capture everyone in target, due to limitations in access or records
 
 ### Sample Population
-- The group selected from the Frame Population to be in the [[Sample]]
+- The group selected from the Frame Population to be in the [Sample](Sample.md)
 - The actual group which we collect data from

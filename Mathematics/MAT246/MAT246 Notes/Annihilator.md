@@ -9,5 +9,5 @@ Properties
 - $U^{0}=V'\iff U=\{0\}$
 
 See also:
-	[[Dual Space]]
-	[[Linear Functional]]
+	[Dual Space](Dual%20Space.md)
+	[Linear Functional](Linear%20Functional.md)

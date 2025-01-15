@@ -1,6 +1,6 @@
 #mathematics/group-theory #uoft/mat301 
 
-The **Orbit Stabilizer Theorem** states the relationship between [[Orbit|Orbits]] and [[Stabilizer]], where if $G\curvearrowright X$ and $x\in X$
+The **Orbit Stabilizer Theorem** states the relationship between [Orbits](Orbit.md) and [Stabilizer](Stabilizer.md), where if $G\curvearrowright X$ and $x\in X$
 $$[G:G_{x}]=|Gx|$$
 In particular, $G$ is finite iff both $Gx$ and $G_{x}$ are finite, in which case
 $$o(G)=|Gx|\cdot o(G_{x})$$

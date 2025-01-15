@@ -1,6 +1,6 @@
 #documentation/c #uoft/csc209 
 
-In the [[C Language]], pointers are a *variable* which points to a memory location
+In the [C Language](C%20Language), pointers are a *variable* which points to a memory location
 
 ---
 ## Properties

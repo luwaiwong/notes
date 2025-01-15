@@ -2,7 +2,7 @@
 
 
 # UML Class Diagram
-![[Pasted image 20231125214945.png]]
+![Pasted image 20231125214945](Pasted%20image%2020231125214945.png)
 
 
 ---

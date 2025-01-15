@@ -20,7 +20,7 @@ We know $P_{W_{i}}(v)=\sum\limits\frac{\langle v_{i},v\rangle}{\langle v_{i},v_{
 Given bases for a subspace $\{u_{1},..u_{k}\}$, an orthogonal basis $\{v_{1},...,v_{k}\}$ will have the values
 	$\begin{aligned} v_{1}&=u_{1}\\v_{2}&=u_{2}-\langle v_{1},u_{2}\rangle v_{1} \\\vdots\\v_{i}&=u_{i}-\sum\limits_{j=1}\langle v_{j},u_{i}\rangle v_{i}\text{  (The projection of } u_{i} \text{ on all the vectors before it } v_{1},v_{2}...)\end{aligned}$
 
-To find a [[Orthonormal]] Basis, normalize by applying
+To find a [Orthonormal](../MAT223%20Notes/Orthonormal.md) Basis, normalize by applying
 	$\begin{align} v'_{1}&=\frac{1}{||v_{1}||}v_{1} \\  &\vdots \\ v'_{n}&=\frac{1}{||v_{n}||}v_{n}\end{align}$
 
 

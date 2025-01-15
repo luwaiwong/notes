@@ -1,13 +1,13 @@
 #statistics #uoft/sta237 
 
-A [[Set]] containing **all the possible [[Outcomes]]** of an experiment
+A [Set](../../Mathematics/MAT223%20Notes/Set.md) containing **all the possible [Outcomes](Outcomes.md)** of an experiment
 
 ---
 
 # Notation
 Use $\Omega$ as symbol for sample space
 
-Subsets of sample space are [[Event]]s
+Subsets of sample space are [Event](Event.md)s
 
 # Example
 Sample set of tossing a coin would be $\Omega = \{H,T\}$

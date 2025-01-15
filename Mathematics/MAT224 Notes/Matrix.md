@@ -1,19 +1,19 @@
 #mathematics/linear-algebra #uoft/mat224 
 
 
-An $m$-by-$n$ [[Matrix]] over $\mathbb{R}$ is an array of real numbers with $m$ rows and $n$ columns
+An $m$-by-$n$ [Matrix](.md) over $\mathbb{R}$ is an array of real numbers with $m$ rows and $n$ columns
 
-**Matrices** can be used to represent [[Linear Transformation]]
+**Matrices** can be used to represent [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md)
 
 ---
 
 # Interpretations
-For a [[Linear Transformation|Linear Transformation]] $T:V\rightarrow W$, with $[T]$
+For a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) $T:V\rightarrow W$, with $[T]$
 
-The [[Dimension]] of $W$ is the number of **Basic** variables in echelon form
-The [[Dimension]] of the [[Kernel]] of $T$ is the number of **Free** variables
+The [Dimension](../MAT223%20Notes/Dimension.md) of $W$ is the number of **Basic** variables in echelon form
+The [Dimension](../MAT223%20Notes/Dimension.md) of the [Kernel](Kernel.md) of $T$ is the number of **Free** variables
 
-For a [[Linear Transformation|Linear Transformation]] with the [[Base (Basis)|Basis]] $\alpha$, where $[T]_{\alpha}^{\alpha}$
+For a [Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md) with the [Basis](../MAT223%20Notes/Base%20(Basis).md) $\alpha$, where $[T]_{\alpha}^{\alpha}$
 Each **Column** can be seen as the result of the corresponding basis vector being inputted into the transformation
 
 > So, for $T=\begin{bmatrix} 1 & 1 & 1 \\ 0 & 1 &  1\\0 & 0 & 1 \end{bmatrix}$, Feeding the first basis, which would be $\begin{bmatrix} 1 \\ 0 \\ 0\end{bmatrix}$ will just result in $T(\begin{bmatrix} 1 \\ 0 \\ 0\end{bmatrix})=\begin{bmatrix} 1 \\ 0 \\ 0\end{bmatrix}$
@@ -25,7 +25,7 @@ Each **Row** can be seen as the result for one of the variables of the output ve
 How to do matrix addition? (its pretty simple)
 
 ### Matrix-Vector Multiplication
-[[Matrix-Vector Multiplication]] is multiplication between a matrix and vector
+[Matrix-Vector Multiplication](../MAT223%20Notes/Matrix-Vector%20Multiplication.md) is multiplication between a matrix and vector
 Properties
 - If the number of columns of a matrix $A$ is not equal to the number of rows in the vector $x$, matrix multiplication $Ax$ is not defined
 - Let A be $l\times k$ matrix, and $u$ and $v$ be column vectors with $k$ entries. For every pair of real number $a$ and $b$ $$A(au+bv)=aAu+bAv$$
@@ -37,10 +37,10 @@ Multiplying a matrix with another matrix involves multiplying each row of the fi
 - $A(B+C)=AB+AC$
 - $(A+B)C=AC+BC$
 ### Transpose
-The [[Transpose]] of $m\times n$ matrix $A$ is the $n\times m$ matrix whose rows are columns of $A$
+The [Transpose](Transpose.md) of $m\times n$ matrix $A$ is the $n\times m$ matrix whose rows are columns of $A$
 
 > Example of Transpose of matrix
-	![[Pasted image 20241015182712.png]]
+	![Pasted image 20241015182712](Pasted%20image%2020241015182712.png)
 
 
 # Matrix Forms

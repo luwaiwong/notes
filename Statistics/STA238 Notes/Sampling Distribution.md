@@ -1,7 +1,7 @@
 #statistics 
 #uoft/sta238 
 
-A **Sampling Distribution** is the [[Probability Distribution]] for an [[Estimator]]
+A **Sampling Distribution** is the [Probability Distribution](Probability%20Distribution.md) for an [Estimator](Estimator.md)
 
 ---
 # Sampling Distributions

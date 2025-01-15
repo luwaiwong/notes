@@ -2,7 +2,7 @@
 #uoft/mat301 
 
 
-The **Totient** of a number $n$ is the number of integers between 1 and $n$ which are [[Coprime]] to $n$
+The **Totient** of a number $n$ is the number of integers between 1 and $n$ which are [Coprime](Coprime.md) to $n$
 	Denoted $\varphi$
 
 > Recall:

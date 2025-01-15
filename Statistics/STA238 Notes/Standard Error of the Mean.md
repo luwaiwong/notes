@@ -1,6 +1,6 @@
 #statistics #uoft/sta238 
 
-The **Standard Error of the Mean** refers to the [[Standard Deviation]] of a set of [[Mean|means]] from a set of experiments
+The **Standard Error of the Mean** refers to the [Standard Deviation](../STA237%20Notes/Standard%20Deviation.md) of a set of [means](Mean.md) from a set of experiments
 
 ---
 
@@ -11,4 +11,4 @@ If we take many different samples of a population and do the experiment to achie
 Here, $\overline{y}$ refers to a random value of the mean, taken from our set
 
 The standard deviation of $\overline{y}, \sigma_{\overline{y}}=\frac{\sigma}{\sqrt{n}}$
-	This is called the [[Standard Error of the Mean]]
+	This is called the [Standard Error of the Mean](.md)

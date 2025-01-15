@@ -9,5 +9,5 @@ Or equivalently
 $$\left( \sum_{k=1}^{n} u_{k}v_{k} \right)^{2}\leq\left( \sum_{k=1}^{n} u_{k}^{2} \right)\left( \sum_{k=1}^{n}v_{k}^{2} \right)$$
 
 See: 
-	[[Dot Product]]
-	[[Norm]]
+	[Dot Product](../MAT223%20Notes/Dot%20Product.md)
+	[Norm](../MAT224%20Notes/Norm.md)

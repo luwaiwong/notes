@@ -1,6 +1,6 @@
 #mathematics/group-theory #uoft/mat301 
 
-The **First Isomorphism Theorem** states that if $f:G\to H$ is a [[Homomorphism]], then $G /ker \ f \cong im \ f$
+The **First Isomorphism Theorem** states that if $f:G\to H$ is a [Homomorphism](Homomorphism.md), then $G /ker \ f \cong im \ f$
 
 The **Second Isomorphism Theorem** or also known as **Diamond Theorem**
 
@@ -9,5 +9,5 @@ The **Second Isomorphism Theorem** or also known as **Diamond Theorem**
 > 	(See page 117 in the lecture notes)
 
 See also
-	[[Kernel]]
-	[[Image]]
+	[Kernel](../MAT224%20Notes/Kernel.md)
+	[Image](../MAT223%20Notes/Image.md)

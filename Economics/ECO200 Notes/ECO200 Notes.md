@@ -43,7 +43,7 @@ A [Price Floor](Price%20Floor) sets a limit on is the *lowest* price that can be
 
 A [Quota](Quota) can either force firms to produce a certain amount of a good, or limit the amount of a good to be sold
 
-All cause [[Deadweight Loss)](Deadweight Loss|DWL(Deadweight Loss|[Deadweight Loss)](Deadweight%20Loss)](Deadweight%20Loss))), which is the difference between the maximum total **surplus** that consumers could gain from market, and the combined gains they actually make after a price regulation. **DWL** reflects the inefficiency of the price ceiling.
+All cause [DWL(Deadweight Loss|[Deadweight Loss|[Deadweight Loss)](Deadweight%20Loss)](Deadweight%20Loss)](Deadweight%20Loss))), which is the difference between the maximum total **surplus** that consumers could gain from market, and the combined gains they actually make after a price regulation. **DWL** reflects the inefficiency of the price ceiling.
 
 ---
 ## Chapter 4: Consumer Behaviour
@@ -299,7 +299,7 @@ The [Isocost](Isocost.md) line is the curve that shows the combination of inputs
 ### Returns to Scale
 [Returns to Scale](Returns%20to%20Scale.md) describes a change in the *amount of output in response to a proportional increase in all the inputs*
 
-Improvements in technology which change a firms production, such that it gets more output from the same amount of inputs is [[Technological Change)](Technological Change|Total Factor Productivity Growth(Technological Change|[Technological Change)](Technological%20Change)](Technological%20Change)).md). When there is **technological change**, a production function changes over times so that a fixed amount of inputs can produce more input. 
+Improvements in technology which change a firms production, such that it gets more output from the same amount of inputs is [Total Factor Productivity Growth(Technological Change|[Technological Change|[Technological Change)](Technological%20Change)](Technological%20Change)](Technological%20Change)).md). When there is **technological change**, a production function changes over times so that a fixed amount of inputs can produce more input. 
 
 A firm's [Expansion Path](Expansion%20Path.md) is a curve that illustrates how the optimal mix of inputs varies with total output. It shows the optimal input combinations at each output quantity. Plotting the total cost from the [Isocost](Isocost.md) and the **output quantity**, we can get the  [Total Cost Curve](Total%20Cost%20Curve.md), a curve which shoes a firm's cost of producing different quantities
 
@@ -321,7 +321,7 @@ Proving Assumptions
 	Mathematically, it is:$$Q=AK^{\alpha}L^{1-\alpha} $$  
 		Where:  
 		$Q$ is Quantity  
-		$A$ is [[Technological Change)](Technological Change|Total Factor Productivity Growth(Technological Change|[Technological Change)](Technological%20Change)](Technological%20Change)).md)  
+		$A$ is [Total Factor Productivity Growth(Technological Change|[Technological Change|[Technological Change)](Technological%20Change)](Technological%20Change)](Technological%20Change)).md)  
 		$K$ is Capital  
 		$L$ is Labour  
 	This production function will be used as an example

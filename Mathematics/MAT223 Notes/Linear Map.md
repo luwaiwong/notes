@@ -1,5 +1,5 @@
 #mathematics/linear-algebra 
 
-Another term for [[Linear Transformation]]
+Another term for [Linear Transformation](Linear%20Transformation.md)
 
-![[Linear Transformation]]
+![Linear Transformation](Linear%20Transformation.md)

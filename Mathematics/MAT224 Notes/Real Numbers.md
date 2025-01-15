@@ -4,4 +4,4 @@
 **Real Numbers** are the typical numbering system most people are accustomed to.
 
 Related:
-[[Complex Numbers]]
+[Complex Numbers](Complex%20Numbers.md)

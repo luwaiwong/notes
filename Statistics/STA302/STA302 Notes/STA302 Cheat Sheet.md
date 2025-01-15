@@ -1,6 +1,6 @@
 #notes #uoft/sta302 
 
-How to do problems for [[STA302]] and [[STA302 Notes]]
+How to do problems for [STA302](../STA302.md) and [STA302 Notes](STA302%20Notes.md)
 
 ---
 # Table of Content
@@ -17,13 +17,13 @@ How to do problems for [[STA302]] and [[STA302 Notes]]
 
 ## Creating Linear Model
 ### Estimating Coefficients of Linear Regression
-[[Method of Least Squares]]
+[Method of Least Squares](Method%20of%20Least%20Squares.md)
 Simple Linear Regression:
 $$b_{1}^{*}=\frac{\sum\limits_{i=1}^{n}(y-\overline{y})(x_{i}-\overline x)}{\sum\limits_{i=1}^{n}(x_{i}-\overline x)^{2}} = \frac{\sum\limits_{i=1}^{n}x_{i}y_{i}-n\overline x\overline y}{\sum\limits_{i=1}^{n}x^{2}_{i}-n\overline x^{2}}$$
 $$b_{0}^{*}=\overline y-b_{1}^{*}\overline x$$
 - $x_{i}, y_{i}$ are observed values
 - $\overline y, \overline x$ are means of observed values
-Or $b_{1}^{*}=  \frac{\text{Sample Covariance}}{\text{Sample Variance}}$  [[Covariance]]/[[Variance]] 
+Or $b_{1}^{*}=  \frac{\text{Sample Covariance}}{\text{Sample Variance}}$  [Covariance](../../STA237%20Notes/Covariance.md)/[Variance](../../STA237%20Notes/Variance.md) 
 
 Multiple Linear Regression:
 $$(X^{T}X)^{-1}X^{T}Y$$
@@ -65,7 +65,7 @@ Depending on our problems with assumptions with the linear regression model, we 
 - Issues with linearity
 	- Transform predictors
 - Issues with normality
-	- Use [[Box-Cox Method]] to suggest power transformation for response variable
+	- Use [Box-Cox Method](Box-Cox%20Method.md) to suggest power transformation for response variable
 
 Otherwise, just trial and error different transformations and see what works?
 #### How to use Box-Cox Model
@@ -109,7 +109,7 @@ $$\hat\beta \sim N(\beta,\sigma^{2}(X^{T}X)^{-1})$$
 - $\hat\beta$ represents the random variable, of different value for coefficients we get given different samples of the dataset
 - $\beta$ is the fitted coefficients we calculate
 
-Without the underlying population model, we use the estimated [[#Calculating Variance|Variance]] above and find the population model with T-Distribution as: 
+Without the underlying population model, we use the estimated [Variance](#Calculating%20Variance) above and find the population model with T-Distribution as: 
 $$\frac{\hat\beta-\beta}{\sqrt{\sigma^{2}(X^{T}X)^{-1}}}\sim T_{n-p-1}$$
 
 
@@ -294,7 +294,7 @@ $$E(X_{i}|X_{j}) = a_{0}+a_{1}X_{j}$$
 	Ideally is no relationship
 
 > Example of predictor-predictor plots which do, and do not violate condition:
-> 	![[STA302 Cheat Sheet Multicolinearity Image.png]]
+> 	![STA302 Cheat Sheet Multicolinearity Image](attachments/STA302%20Cheat%20Sheet%20Multicolinearity%20Image.png)
 
 **Measuring Correlation ($VIF$)**
 We can measure correlation between predictors
@@ -335,7 +335,7 @@ This section is focused on identifying problematic observations and understandin
 - Unless there is a contextual reason, do not remove problematic observations from data 
 
 > Identifying Problematic Observations
-> 	![[STA302 Cheat Sheet Problematic Observations.png]]
+> 	![STA302 Cheat Sheet Problematic Observations](attachments/STA302%20Cheat%20Sheet%20Problematic%20Observations.png)
 
 ### Leverage 
 
@@ -351,7 +351,7 @@ $$h_{ii}=\frac{1}{n}+\frac{(x_{i}-\overline x)^{2}}{\sum\limits_{j=1}^{n}(x_{j}-
 	The ratio of distance of own x-value from center, to total variation in predictor
 
 Hat Matrix Example, and how to read:
-	 ![[STA302 Cheat Sheet Hat Matrix.png|285]]
+	 ![285](attachments/STA302%20Cheat%20Sheet%20Hat%20Matrix.png)
 The diagonal elements $h_{ii}$ are the *leverage* of observation $i$, and tells us how much impact the value $y_{i}$ has on $\hat y_{i}$, vs the other responses
 
 Properties of Hat Matrix Elements
