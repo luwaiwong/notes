@@ -9,7 +9,7 @@ The **Dual Space** of a vector space $V$, is the vector space of all [Linear Fun
 The **Dual Space** of a vector space $V$, is denoted $V'$ 
 
 ## Definition
-The **Dual Space** of $V$ is the vector space of all [Linear Functionals](Linear%20Functional.md) on $V$
+The **Dual Space** of $V$ is the vector space of all [Linear Functionals](Linear%20Functional.md) on $V$  
 	$V'=L(V,F)$
 
 The [Dual Basis](Dual%20Basis.md) of any [Base (Basis)](../../MAT223%20Notes/Base%20(Basis).md) of $V$, is a basis of $V'$

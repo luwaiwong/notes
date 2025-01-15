@@ -1,6 +1,6 @@
 #uoft/mat224 #mathematics/linear-algebra 
 
-In Group Theory, an **Isomorphism** is a [Function](../MAT235%20Notes/Function.md) $\phi$ which is [Bijective](../MAT301%20Notes/Bijective.md), and such that
+In Group Theory, an **Isomorphism** is a [Function](../MAT235%20Notes/Function.md) $\phi$ which is [Bijective](../MAT301%20Notes/Bijective.md), and such that  
 $$\phi(ab)=\phi(a)\phi(b)$$
 
 ---
@@ -10,13 +10,13 @@ In Linear Algebra, A Linear Transformation is an Isomorphism if it is Invertible
 
 If $T:V\rightarrow V$ is a linear transformation of a two-dimensional [Vector Space](Vector%20Space.md) $V$, $T$ is an [Isomorphism](.md) if and only if $det([T]_{a}^{a})\neq 0$
 
-Related
+Related  
 	[Isomorphic](Isomorphic.md)
 
 ---
 # Group Theory
-An **Isomorphism** is a [Function](../MAT235%20Notes/Function.md) $\phi: G\rightarrow H$ which is [Bijective](../MAT301%20Notes/Bijective.md), and such that
-$$\phi(ab)=\phi(a)\phi(b)$$
+An **Isomorphism** is a [Function](../MAT235%20Notes/Function.md) $\phi: G\rightarrow H$ which is [Bijective](../MAT301%20Notes/Bijective.md), and such that  
+$$\phi(ab)=\phi(a)\phi(b)$$  
 If there exists an *isomorphism* between [Groups](../MAT301%20Notes/Group.md) $G$ and $H$, then we can say $G$ and $H$ are [Isomorphic](Isomorphic.md)
 
 

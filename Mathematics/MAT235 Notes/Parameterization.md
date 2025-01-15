@@ -18,7 +18,7 @@ After creating **parametric equations**, we can rewrite them into a single **vec
 We notate this vector as $\vec r = \vec{xi} + \vec{yj}$, or in 3-space as $\vec{r} = \vec{xi} + \vec{yj}+ \vec{zk}$
 
 
-> Example
+> Example  
 > 	The circle of radius 1, with $x=\cos t, y=\sin t$, is **parameterized** by the vector-valued function as $\vec r_{1}(t)=cos \vec{ti} + sin \vec{tj}, 0 \leq t \leq 2\pi$
 
 

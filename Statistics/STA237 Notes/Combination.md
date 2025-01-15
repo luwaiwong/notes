@@ -9,7 +9,7 @@ Can be thought of as the *number of ways to select $r$ objects from $n$ objects*
 ### Without Replacement
 The number of ways to select $r$ objects from $n$ objects is $$_nC_{r}=\begin{pmatrix} n \\ r\end{pmatrix} = \frac{n!}{r!(n-r)!}$$
 ### With Replacement
-With replacement, the number of ways to select $r$ objects from $n$ objects is
+With replacement, the number of ways to select $r$ objects from $n$ objects is  
 $$\begin{pmatrix} r+n-1 \\ r\end{pmatrix}$$
 
 

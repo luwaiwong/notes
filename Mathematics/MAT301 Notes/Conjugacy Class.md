@@ -9,7 +9,7 @@ The [Conjugacy Class](.md) of an element $x\in G$ is the [Orbit](Orbit.md) of $x
 
 ### Notation
 - Denoted $cl(x)$
-- The number of conjugacy classes in $G$ is called the [Class Number](Class%20Number.md) of $G$, denoted $k(G)$
+- The number of conjugacy classes in $G$ is called the [Class Number](Class%20Number.md) of $G$, denoted $k(G)$  
 	Number of conjugacy classes in $G$, can also be reworded as
 	- the number of orbits in $G$ under conjugation
 

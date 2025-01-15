@@ -1,4 +1,4 @@
-#mathematics
+#mathematics  
 #uoft/mat223 #uoft/mat224 
 
 The **Dimension** is a numerical value that describes the size of a [Subspace](Subspace.md) 

@@ -1,10 +1,10 @@
-#mathematics 
+#mathematics  
 #uoft/mat301 
 
-The **Order** of a [Group](Group.md) $G$ is the number of elements in $G$
+The **Order** of a [Group](Group.md) $G$ is the number of elements in $G$  
 	Denoted $o(G)$, or $|G|$
 
-The **Order** of an element $g$, is the *least positive integer exponent $n$, such that $g^{n}=e$*
+The **Order** of an element $g$, is the *least positive integer exponent $n$, such that $g^{n}=e$*  
 	Denoted $o(g)$ or $|g|$
 - $o(g)=2$ if an only if $g$ is an [Involution](Involution.md), and not the identity 
 

@@ -7,25 +7,25 @@ Notes for [CSC165](../CSC165.md)
 # Table of Contents
 
 ### Notes
-[CSC165 Cheat Sheet](CSC165%20Cheat%20Sheet.md)
+[CSC165 Cheat Sheet](CSC165%20Cheat%20Sheet.md)  
 [CSC165 Worksheets](CSC165%20Worksheets.md)
 
 ### Course Materials
-[CSC165 Past Course Notes](attachments/CSC165%20Past%20Course%20Notes.pdf)
+[CSC165 Past Course Notes](attachments/CSC165%20Past%20Course%20Notes.pdf)  
 [CSC165 Numeric Types](attachments/CSC165%20Numeric%20Types.pdf)
 
 ### Weeks
-[#Week 1](#Week%201)
+[#Week 1](#Week%201)  
 [#Week 2](#Week%202)
 
 ---
 # Notes
 ## Week 1
-> Worksheets
-> 	[CSC165 WS01Mon](attachments/CSC165%20WS01Mon.pdf)
-> 	[CSC165 WS01Wed](attachments/CSC165%20WS01Wed.pdf)
-> Worksheet Solutions
-> 	[CSC165 WS01Mon-solution](attachments/CSC165%20WS01Mon-solution.pdf)
+> Worksheets  
+> 	[CSC165 WS01Mon](attachments/CSC165%20WS01Mon.pdf)  
+> 	[CSC165 WS01Wed](attachments/CSC165%20WS01Wed.pdf)  
+> Worksheet Solutions  
+> 	[CSC165 WS01Mon-solution](attachments/CSC165%20WS01Mon-solution.pdf)  
 > 	[CSC165 WS01Wed-solution](attachments/CSC165%20WS01Wed-solution.pdf)
 
 
@@ -53,10 +53,10 @@ Course Notation
 	- $\exists$: "Exists"
 		- $\exists v\in \{ x_{0},x_{1},x_{2},\dots \}, e_{v}=e_{x_{0}}\lor e_{x_{1}}\lor e_{x_{2}}\lor\dots$
 
-> Examples of set builder notation
+> Examples of set builder notation  
 > 	Set of all numbers less than 165 $\{ z\in \mathbb{Z}, z<165 \}$
 
-A [Predicate](../../CSC236/CSC236%20Notes/Predicate.md) is a function which produces booleans
+A [Predicate](../../CSC236/CSC236%20Notes/Predicate.md) is a function which produces booleans  
 	For example, $\forall v\in \{x_{0},x_{1},x_{2},\dots  \}, c_{v}$ produces either true or false, depending on the value of the set $\{ x_{0},x_{1},x_{2},\dots \}$ and the value of $c_{v}$
 
 
@@ -83,11 +83,11 @@ We can divide problems with predicate notation into parts to help better underst
 - Body
 	- The result of the quantification
 
-> Example of Quantification
-> 	Take $\forall v\in \{x_{0},x_{1},x_{2},\dots\}, e_{v}$
-> 	Quantification type is $\forall$
-> 	The quantified variable is $v$
-> 	The domain is $\{ x_{0},x_{1},x_{2},\dots \}$
+> Example of Quantification  
+> 	Take $\forall v\in \{x_{0},x_{1},x_{2},\dots\}, e_{v}$  
+> 	Quantification type is $\forall$  
+> 	The quantified variable is $v$  
+> 	The domain is $\{ x_{0},x_{1},x_{2},\dots \}$  
 > 	The body is $e_{v}$
 
 Proof Techniques
@@ -95,7 +95,7 @@ Proof Techniques
 	- If a counterexample is found, then a universal statement can be proven false
 	- Examples where a universal statement holds, are witnesses, and where the statement does not hold, are counterexamples
 ## Week 2
-> Worksheets
-> 	[CSC165 WS02Mon](attachments/CSC165%20WS02Mon.pdf)
-> Worksheet Solutions
+> Worksheets  
+> 	[CSC165 WS02Mon](attachments/CSC165%20WS02Mon.pdf)  
+> Worksheet Solutions  
 > 	[CSC165 WS02Mon-solution](attachments/CSC165%20WS02Mon-solution.pdf)

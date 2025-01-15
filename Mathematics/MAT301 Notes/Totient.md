@@ -1,15 +1,15 @@
-#mathematics 
+#mathematics  
 #uoft/mat301 
 
 
-The **Totient** of a number $n$ is the number of integers between 1 and $n$ which are [Coprime](Coprime.md) to $n$
+The **Totient** of a number $n$ is the number of integers between 1 and $n$ which are [Coprime](Coprime.md) to $n$  
 	Denoted $\varphi$
 
-> Recall:
-> 	An element is coprime with $n$ if its greatest common denominator is 1
+> Recall:  
+> 	An element is coprime with $n$ if its greatest common denominator is 1  
 > 	Or $a$ is coprime with $n$ if $gcd(a,n)=1$ 
 
-Formally,
+Formally,  
 $$\varphi(n)=|\{1\leq a \leq n:gcd(a,n)=1\}|$$
 
 ---

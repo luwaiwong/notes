@@ -1,7 +1,7 @@
 #mathematics/linear-algebra #uoft/mat246 
 
-The **Tensor** $V\otimes W$ is defined as $B(V', W')$ (Vector Space of Bilinear Functionals of the [Dual Space](Dual%20Space.md) of $V$ and $W$), where for any $v\in V$ and $w\in W$, $v\otimes w$ is the element of $V\otimes W$ defined by
-$$(v\otimes w)(\varphi,\uptau)=\varphi(v)\uptau(w)$$
+The **Tensor** $V\otimes W$ is defined as $B(V', W')$ (Vector Space of Bilinear Functionals of the [Dual Space](Dual%20Space.md) of $V$ and $W$), where for any $v\in V$ and $w\in W$, $v\otimes w$ is the element of $V\otimes W$ defined by  
+$$(v\otimes w)(\varphi,\uptau)=\varphi(v)\uptau(w)$$  
 	For all $(\varphi, \uptau)\in V'\times W'$
 
 ---
@@ -11,14 +11,14 @@ $$(v\otimes w)(\varphi,\uptau)=\varphi(v)\uptau(w)$$
 ## Definition
 The [Tensor](.md) of two vector spaces $V, W$ denoted $V\otimes W$ is defined as $B(V', W')$ (Vector Space of Bilinear Functionals of the [Dual Space](Dual%20Space.md) of $V$ and $W$)
 
-For any $v\in V$ and $w\in W$, $v\otimes w$ is the element of $V\otimes W$ defined by
-$$(v\otimes w)(\varphi,\uptau)=\varphi(v)\uptau(w)$$
+For any $v\in V$ and $w\in W$, $v\otimes w$ is the element of $V\otimes W$ defined by  
+$$(v\otimes w)(\varphi,\uptau)=\varphi(v)\uptau(w)$$  
 	For all $(\varphi, \uptau)\in V'\times W'$
 
-> Simplification:
-> 	The Tensor of two vector spaces, is the [Dual Space](Dual%20Space.md) for those two vector space
-> 	In other words, the tensor of two vector spaces, is the vector space of bilinear functionals of the two vector spaces, to a number in $\mathbb{F}$
-> 	So an element $v\in V\otimes W$, is a function which takes $(\varphi, \uptau)\in V'\times W'$
+> Simplification:  
+> 	The Tensor of two vector spaces, is the [Dual Space](Dual%20Space.md) for those two vector space  
+> 	In other words, the tensor of two vector spaces, is the vector space of bilinear functionals of the two vector spaces, to a number in $\mathbb{F}$  
+> 	So an element $v\in V\otimes W$, is a function which takes $(\varphi, \uptau)\in V'\times W'$  
 > 	$(v \otimes w)$
 ## Properties
 

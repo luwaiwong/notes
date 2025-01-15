@@ -1,4 +1,4 @@
-#statistics 
+#statistics  
 #uoft/sta238
 
 A data set is... a data set

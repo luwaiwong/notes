@@ -1,9 +1,9 @@
-#mathematics 
+#mathematics  
 #uoft/mat301 
 
 A **Subgroup** of a [Group](Group.md) $G$ is a subset $H\subset G$ with the same **Group Operation**
 
-Denoted $H\leq G$, if $H$ is a **subgroup** of $G$
+Denoted $H\leq G$, if $H$ is a **subgroup** of $G$  
 	$H\subseteq G$ means that $H$ is a **subset** of $G$
 
 ---

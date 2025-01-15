@@ -1,4 +1,4 @@
-#mathematics/linear-algebra 
+#mathematics/linear-algebra  
 #uoft/mat224 
 
 In [Group Theory](Group%20Theory), the **Conjugate** of any element $x$, is another element of the form $gxg^{-1}$ or $g^{-1}xg$, where $g$ is another element
@@ -13,21 +13,21 @@ Any expression involving $g$ on one side and $g^{-1}$ on the other is an instanc
 - $x$ and $gxg^{-1}$ and $g^{-1}x g$ are *Conjugate* elements
 - $H$ and $gHg^{-1}$ are *Conjugate* [Subgroups](../MAT301%20Notes/Subgroup.md)
 
-> Example of Conjugates:
-> Symmetric Groups
-> 	Let $\sigma=(1 \ 2\ 3)(4 \ 5) \in S_5$ (Remember [Symmetric Groups](../MAT301%20Notes/Symmetric%20Group.md)) 
-> 	Let $f=\begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 5 & 4 & 3 & 2 & 1\end{pmatrix}$
-> 		What permutation is $f\sigma f^{-1}$?
-> 	$f\sigma f^{-1}=(1 \ 2)(3 \ 5 \ 4)$
-> 	With a little rewriting, $f\sigma f^{-1}=(5 \ 4 \ 3)(2 \ 1)$
-> 		Which looks like $\sigma$ originally, but with the letters replaced by their images under $f$
-> 	This makes the "change in perspective" view make a little more sense
-> Dihedral Groups:
-> 	In $D_{n}$, $frf^{-1}=frf=r^{-1}$
-> 		In other words, observing a clockwise rotation from behind makes it look like a counterclockwise rotation
-> Linear Transformations
-> 	Say we have a transformation $T$ in a vector space with a given basis, and a change of basis vector $B$
-> 	To convert our linear transformation to the new basis, we compute $B^{-1}TB$ 
+> Example of Conjugates:  
+> Symmetric Groups  
+> 	Let $\sigma=(1 \ 2\ 3)(4 \ 5) \in S_5$ (Remember [Symmetric Groups](../MAT301%20Notes/Symmetric%20Group.md))  
+> 	Let $f=\begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 5 & 4 & 3 & 2 & 1\end{pmatrix}$  
+> 		What permutation is $f\sigma f^{-1}$?  
+> 	$f\sigma f^{-1}=(1 \ 2)(3 \ 5 \ 4)$  
+> 	With a little rewriting, $f\sigma f^{-1}=(5 \ 4 \ 3)(2 \ 1)$  
+> 		Which looks like $\sigma$ originally, but with the letters replaced by their images under $f$  
+> 	This makes the "change in perspective" view make a little more sense  
+> Dihedral Groups:  
+> 	In $D_{n}$, $frf^{-1}=frf=r^{-1}$  
+> 		In other words, observing a clockwise rotation from behind makes it look like a counterclockwise rotation  
+> Linear Transformations  
+> 	Say we have a transformation $T$ in a vector space with a given basis, and a change of basis vector $B$  
+> 	To convert our linear transformation to the new basis, we compute $B^{-1}TB$  
 > 		Or, *conjugation*, a "change in perspective"
 
 ### Properties

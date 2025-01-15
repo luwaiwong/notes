@@ -1,4 +1,4 @@
-#statistics 
+#statistics  
 #uoft/sta238 
 
 The **Standard Normal Distribution** is a [Normal Distribution](../STA237%20Notes/Normal%20Distribution.md) with the parameters $\mu=0$ and $\sigma=1$

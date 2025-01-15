@@ -1,4 +1,4 @@
-#mathematics/groups
+#mathematics/groups  
 #uoft/mat301 
 
 A **Residue Class** $[a]$ is an element in a [Cyclic Group](Cyclic%20Group.md), and also represents the set which can be generated with $[a]$

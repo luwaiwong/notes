@@ -1,7 +1,7 @@
-#mathematics 
+#mathematics  
 #uoft/mat301 
 
-An **Equivalence Relation** is a [Relation](../../Computer%20Science/CSC236/CSC236%20Notes/Relation.md) which is [Reflexive](Reflexive.md), [Symmetric](../../Computer%20Science/CSC236/CSC236%20Notes/Symmetric.md), and [Transitive](../../Computer%20Science/CSC236/CSC236%20Notes/Transitive.md)
+An **Equivalence Relation** is a [Relation](../../Computer%20Science/CSC236/CSC236%20Notes/Relation.md) which is [Reflexive](Reflexive.md), [Symmetric](../../Computer%20Science/CSC236/CSC236%20Notes/Symmetric.md), and [Transitive](../../Computer%20Science/CSC236/CSC236%20Notes/Transitive.md)  
 Denoted with $\sim$ 
 
 The [Equivalence Class](Equivalence%20Class.md) for an **Equivalence Relation** $\sim$ is the complete set of elements which are related to one another with $\sim$

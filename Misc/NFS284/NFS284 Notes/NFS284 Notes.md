@@ -6,30 +6,30 @@ Notes for [NFS284](../NFS284.md)
 
 ---
 # Table of Contents
-[NFS284 Nutrition Science & Applications Textbook](attachments/NFS284%20Nutrition%20Science%20&%20Applications%20Textbook.pdf)
+[NFS284 Nutrition Science & Applications Textbook](attachments/NFS284%20Nutrition%20Science%20&%20Applications%20Textbook.pdf)  
 [NFS284 Worksheets](NFS284%20Worksheets.md)
 
-[#Week 1](#Week%201)
-	[#Canadian Diets](#Canadian%20Diets)
-	[#Macronutrients](#Macronutrients)
-		[#Lipids or Dietary Fats](#Lipids%20or%20Dietary%20Fats)
-		[#Carbohydrates](#Carbohydrates)
-		[#Proteins](#Proteins)
-	[#Micronutrients](#Micronutrients)
-	[#Phytochemicals](#Phytochemicals)
+[#Week 1](#Week%201)  
+	[#Canadian Diets](#Canadian%20Diets)  
+	[#Macronutrients](#Macronutrients)  
+		[#Lipids or Dietary Fats](#Lipids%20or%20Dietary%20Fats)  
+		[#Carbohydrates](#Carbohydrates)  
+		[#Proteins](#Proteins)  
+	[#Micronutrients](#Micronutrients)  
+	[#Phytochemicals](#Phytochemicals)  
 	[#Nutrition in Diet](#Nutrition%20in%20Diet)
 
 ---
 # Notes
 ## Week 1
-> Slides
-> 	[NFS284 Week 1 Course Overview Slides](attachments/NFS284%20Week%201%20Course%20Overview%20Slides.pdf)
-> 	[NFS284 Week 1 Intro Slides](attachments/NFS284%20Week%201%20Intro%20Slides.pdf)
-> 	[NFS284 Week 1 DRIs Slides](attachments/NFS284%20Week%201%20DRIs%20Slides.pdf)
-> Questions
-> 	[NFS284-DRI-Self-Assessment-8Q](attachments/NFS284-DRI-Self-Assessment-8Q.pdf)
-> 	[NFS284-DRI self assessment-8Q-ANSWERS](attachments/NFS284-DRI%20self%20assessment-8Q-ANSWERS.pdf)
-> Required Readings
+> Slides  
+> 	[NFS284 Week 1 Course Overview Slides](attachments/NFS284%20Week%201%20Course%20Overview%20Slides.pdf)  
+> 	[NFS284 Week 1 Intro Slides](attachments/NFS284%20Week%201%20Intro%20Slides.pdf)  
+> 	[NFS284 Week 1 DRIs Slides](attachments/NFS284%20Week%201%20DRIs%20Slides.pdf)  
+> Questions  
+> 	[NFS284-DRI-Self-Assessment-8Q](attachments/NFS284-DRI-Self-Assessment-8Q.pdf)  
+> 	[NFS284-DRI self assessment-8Q-ANSWERS](attachments/NFS284-DRI%20self%20assessment-8Q-ANSWERS.pdf)  
+> Required Readings  
 > 	Nutrition Science & Applications pg 443-449 3e
 
 ### Canadian Diets
@@ -50,17 +50,17 @@ Macronutrients provide energy to support basal metabolism and physical activity,
 	- When excess is present in diet, is used as a source of energy
 	- Provides 4 kcal/g
 
-> Note:
-> 	Basal metabolism is the metabolic activity needed to maintain life at rest, without including energy used for physical activity
-> 	Units of energy for the human bodies are
-> 		Kcalories
-> 		Calories
-> 		Kilojoules
+> Note:  
+> 	Basal metabolism is the metabolic activity needed to maintain life at rest, without including energy used for physical activity  
+> 	Units of energy for the human bodies are  
+> 		Kcalories  
+> 		Calories  
+> 		Kilojoules  
 > 	Alcohol provides 7 kcal/g
 
 
 #### Lipids or Dietary Fats
-The major chemical lipids in food takes the form of *Triglycerides*
+The major chemical lipids in food takes the form of *Triglycerides*  
 	It is an *ester* of *glycerol* and three fatty acids
 
 Types of [Lipids (Fats)](Lipids%20(Fats))
@@ -103,7 +103,7 @@ Essential Fatty acids
 
 #### Carbohydrates
 
-Two types of [Carbohydrates](Carbohydrates)
+Two types of [Carbohydrates](Carbohydrates)  
 Digestible
 - Starch
 	- from rice, wheat, corn, potatoes, cassava, etc.
@@ -124,7 +124,7 @@ Indigestible
 	- High fibre diets may reduce risk of CVD and colon cancer
 
 #### Proteins
-Proteins are *amino acids*, joined by peptide bonds
+Proteins are *amino acids*, joined by peptide bonds  
 Some amino acids are essential/indispensable and some are non essential
 
 ### Micronutrients
@@ -235,10 +235,10 @@ How do we determine the Estimated Average Requirement (EAR) for a nutrient
 	- Helps us determine which populations are satisfying their requirement
 	- A population has adequate intake is proportion of population whose intake is below the EAR is 10% or less
 
-> Interpreting DRIs
-> 	DRIs are *probability distributions*, of the amount of nutrient intake, and the percentage of people which meets their requirement with that amount, in a specific group (sex, age)
-> 	![NSF284 Example of EAR Image](attachments/NSF284%20Example%20of%20EAR%20Image.png)
-> 	DRIs tend to look like normal distributions
+> Interpreting DRIs  
+> 	DRIs are *probability distributions*, of the amount of nutrient intake, and the percentage of people which meets their requirement with that amount, in a specific group (sex, age)  
+> 	![NSF284 Example of EAR Image](attachments/NSF284%20Example%20of%20EAR%20Image.png)  
+> 	DRIs tend to look like normal distributions  
 > 	The [Cumulative Probability](../../../Statistics/STA237%20Notes/Cumulative%20Distribution%20Function.md) of the value of an individuals intake, is the probability that they are meeting their nutrient intake
 
 An RDA is the *Recommended Dietary Allowance*
@@ -254,16 +254,16 @@ Tolerable Upper Intake Level (UL)
 
 ### Activity Levels and Macronutrients
 Activity Levels and Definitions
-- Sedentary
+- Sedentary  
 	Less than 30 min of intentional exercise/day
-- Low active
-	Walking 30 min at 6.5km/h every day
+- Low active  
+	Walking 30 min at 6.5km/h every day  
 	Consumes 135-165kcal
-- Active
-	Walking 1h 45min at 6.5km/h every day
+- Active  
+	Walking 1h 45min at 6.5km/h every day  
 	Consumes 470-580kcal
-- Very active
-	Walking 4h 15min at 6.5km/h every day
+- Very active  
+	Walking 4h 15min at 6.5km/h every day  
 	Consumes est1145-1405kcal
 
 Acceptable Macronutrient Distribution Ranges
@@ -274,14 +274,14 @@ Acceptable Macronutrient Distribution Ranges
 	- Trans Fat: <1% 
 - Protein: 10-35%
 ## Week 2
-> Slides
-> 	[NFS284 Week 1 DRIs Slides](attachments/NFS284%20Week%201%20DRIs%20Slides.pdf)
-> 	[NFS284 Week 2 Canadas Food Guide](attachments/NFS284%20Week%202%20Canadas%20Food%20Guide.pdf)
+> Slides  
+> 	[NFS284 Week 1 DRIs Slides](attachments/NFS284%20Week%201%20DRIs%20Slides.pdf)  
+> 	[NFS284 Week 2 Canadas Food Guide](attachments/NFS284%20Week%202%20Canadas%20Food%20Guide.pdf)  
 > 	[NFS284 Week 2 FoodLabelling-full](attachments/NFS284%20Week%202%20FoodLabelling-full.pdf)
 
 First lecture continues DRI Slides
 
-In 2019, Canada revised their food guide
+In 2019, Canada revised their food guide  
 Issues with the old 2007 food guide
 - Too prescriptive 
 	- Provided too many absolute amounts

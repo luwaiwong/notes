@@ -5,19 +5,19 @@ The **Symmetric Group** on the set $X$ is the set of all [Permutations](../../St
 
 ---
 ## Definition
-The **Symmetric Group** $S_{X}$ on the set $X$ is the set of all [Permutations](../../Statistics/STA237%20Notes/Permutation.md) on $X$ under [Composition](../MAT224%20Notes/Composition.md)
+The **Symmetric Group** $S_{X}$ on the set $X$ is the set of all [Permutations](../../Statistics/STA237%20Notes/Permutation.md) on $X$ under [Composition](../MAT224%20Notes/Composition.md)  
 	An element of $S_{X}$ is typically denoted as $\sigma \in S_{X}$
 
-The [Inverse](../MAT224%20Notes/Inverse.md) of a *permutation* $\sigma \in S_{X}$ in two-line notation can be found by swapping the lines, and sorting the columns so the top line matches the original
+The [Inverse](../MAT224%20Notes/Inverse.md) of a *permutation* $\sigma \in S_{X}$ in two-line notation can be found by swapping the lines, and sorting the columns so the top line matches the original  
 	![Two Line Notation Inverse Example](Two%20Line%20Notation%20Inverse%20Example.png)
 
-> The symmetric group is a group of bijective *functions* $X\rightarrow X$.
-> Thus *composition* here is the composition of functions
-> 	An example of function composition in two-line notation
+> The symmetric group is a group of bijective *functions* $X\rightarrow X$.  
+> Thus *composition* here is the composition of functions  
+> 	An example of function composition in two-line notation  
 > 		![Symmetric Group Function Composition](Symmetric%20Group%20Function%20Composition.png)
 
 
-A **Symmetric Group** has an [Action](Action.md) on its set $X$ by function evaluation
+A **Symmetric Group** has an [Action](Action.md) on its set $X$ by function evaluation  
 	$S_{X} \curvearrowright X$ for any set in the way $\sigma . x=\sigma(x)$
 
 ### Notation
@@ -31,14 +31,14 @@ A **Symmetric Group** has an [Action](Action.md) on its set $X$ by function eval
 - $(a_{1} \ a_{2} \ ... \ a_{k})$ denotes a [k-cycle](#^b70f6f)
 
 [Two Line Notation](Two%20Line%20Notation) is often used to represent elements of a symmetric groups  
-	A permutation $\sigma \in S_X$ can be written in *two-line notation* as:
-	$\sigma=\begin{pmatrix} a & b& c&d&e&f&g&h&i&\dots \\ b& c&a&g&d&h&i&e&f&\dots\end{pmatrix}$
+	A permutation $\sigma \in S_X$ can be written in *two-line notation* as:  
+	$\sigma=\begin{pmatrix} a & b& c&d&e&f&g&h&i&\dots \\ b& c&a&g&d&h&i&e&f&\dots\end{pmatrix}$  
 	Where $\sigma(a)=b, \sigma(g)=i$, etc...
 
 >Elements of a symmetric groups are usually denoted by *Greek Letters* and sometimes called *Substitutions*, while elements of underlying set $X$ are sometimes called *letters*
 ### Subgroups
-[Cayley's Theorem](Cayley's%20Theorem.md) says that that every  [Group](Group.md) is [Isomorphic](../MAT224%20Notes/Isomorphic.md) to some [Permutation Group](Permutation%20Group.md)
-	The reason this is true, is because every group can have as many *permutations* as elements
+[Cayley's Theorem](Cayley's%20Theorem.md) says that that every  [Group](Group.md) is [Isomorphic](../MAT224%20Notes/Isomorphic.md) to some [Permutation Group](Permutation%20Group.md)  
+	The reason this is true, is because every group can have as many *permutations* as elements  
 	And a map can be created which maps elements from the group, to permutations of that group?
 
 And thus by extension, every subgroup of a symmetric group is still a symmetric group
@@ -53,13 +53,13 @@ And thus by extension, every subgroup of a symmetric group is still a symmetric 
 	- Conjugacy in $S_{n}$ amounts to *relabeling*
 - If $a,b\in S_n$ have the same *cycle type*, they are conjugate in $S_n$
 
-> Example of Conjugates Under Symmetric Groups
-> 	Let $\sigma=(1 \ 2\ 3)(4 \ 5) \in S_5$ 
-> 	Let $f=\begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 5 & 4 & 3 & 2 & 1\end{pmatrix}$
-> 		What permutation is $f\sigma f^{-1}$?
-> 	$f\sigma f^{-1}=(1 \ 2)(3 \ 5 \ 4)$
-> 	With a little rewriting, $f\sigma f^{-1}=(5 \ 4 \ 3)(2 \ 1)$
-> 		Which looks like $\sigma$ originally, but with the letters replaced by their images under $f$
+> Example of Conjugates Under Symmetric Groups  
+> 	Let $\sigma=(1 \ 2\ 3)(4 \ 5) \in S_5$  
+> 	Let $f=\begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 5 & 4 & 3 & 2 & 1\end{pmatrix}$  
+> 		What permutation is $f\sigma f^{-1}$?  
+> 	$f\sigma f^{-1}=(1 \ 2)(3 \ 5 \ 4)$  
+> 	With a little rewriting, $f\sigma f^{-1}=(5 \ 4 \ 3)(2 \ 1)$  
+> 		Which looks like $\sigma$ originally, but with the letters replaced by their images under $f$  
 > 	This makes the "change in perspective" view make a little more sense
 ## Cycles
 ^b70f6f
@@ -71,8 +71,8 @@ A  $k$-*cycle* (with $k\geq 2$), denoted $(a_{1} \ a_{2} \ ... \ a_{k})$, is a [
 - *Moves* $a_{k}$ to $a_1$, and
 - *Fixes* everything else
 
-We can also define the action and accompanying [Orbit](Orbit.md) below, and use it to help formally define a cycle
-	Let $X$ be a set and let $\sigma\in S_{X}$. Define $x\sim y$ [IFF](IFF) $\sigma^{k}(x)=y$ for some integer $k$. Then $\sigma$ is an [Equivalence Relation](Equivalence%20Relation.md)
+We can also define the action and accompanying [Orbit](Orbit.md) below, and use it to help formally define a cycle  
+	Let $X$ be a set and let $\sigma\in S_{X}$. Define $x\sim y$ [IFF](IFF) $\sigma^{k}(x)=y$ for some integer $k$. Then $\sigma$ is an [Equivalence Relation](Equivalence%20Relation.md)  
 Properties
 - This relation relates two elements if they are in the same *cycle
 - The orbit of a particular $x\in X$ under this action is denoted $\langle \sigma\rangle x$
@@ -82,27 +82,27 @@ Properties
 
 Then, A **Cycle** is a *permutation* with just one nontrivial orbit. If that orbit has size $k$, the cycle is called a $k$-*cycle* and $k$ is called the *length
 
-> Example of a Cycle
-> 	![Cycle Example Image](Cycle%20Example%20Image.png)
-> 	In this example, there are the cycles:
+> Example of a Cycle  
+> 	![Cycle Example Image](Cycle%20Example%20Image.png)  
+> 	In this example, there are the cycles:  
 > 		$\uptau: 1\rightarrow 4\rightarrow 3\rightarrow 2\rightarrow 1 \rightarrow ...$  
-> 		$\rho:1\rightarrow 2\rightarrow 3\rightarrow 4\rightarrow 5\rightarrow 1 \rightarrow ...$
+> 		$\rho:1\rightarrow 2\rightarrow 3\rightarrow 4\rightarrow 5\rightarrow 1 \rightarrow ...$  
 > 		$\overline 3: 1\rightarrow 3\rightarrow 2\rightarrow 6\rightarrow 4 \rightarrow 5\rightarrow 1\rightarrow ...$  
-> 	Using $k$-*cycle* notation,
-> 		$\uptau = (1 \ 4 \ 3 \ 2)$
-> 		$\rho = (1 \ 2 \ 3 \ 4 \ 5)$
-> 		$\overline 3 = (1 \ 3 \ 2 \ 6 \ 4\ 5)$
-> 	Note that cycles can be written in multiple ways, by "rotating" the elements
-> 	They are all equally valid, but we prefer to write the "smallest" element first
+> 	Using $k$-*cycle* notation,  
+> 		$\uptau = (1 \ 4 \ 3 \ 2)$  
+> 		$\rho = (1 \ 2 \ 3 \ 4 \ 5)$  
+> 		$\overline 3 = (1 \ 3 \ 2 \ 6 \ 4\ 5)$  
+> 	Note that cycles can be written in multiple ways, by "rotating" the elements  
+> 	They are all equally valid, but we prefer to write the "smallest" element first  
 > 		![Cycle Rotation Example Image](Cycle%20Rotation%20Example%20Image.png)
 
-The [Cycle Type](Cycle%20Type.md) of a [Permutation](../../Statistics/STA237%20Notes/Permutation.md) is a list of the number of cycles of every possible length, for that permutation
-Formally, Let $\sigma\in S_{X}$ for each $k=1,2,\dots,\infty$ let $c_{k}$ be the number of orbits of size $k$. The *Cycle Type* of $\sigma$ is the ordered list of the $c_{k}$'s
+The [Cycle Type](Cycle%20Type.md) of a [Permutation](../../Statistics/STA237%20Notes/Permutation.md) is a list of the number of cycles of every possible length, for that permutation  
+Formally, Let $\sigma\in S_{X}$ for each $k=1,2,\dots,\infty$ let $c_{k}$ be the number of orbits of size $k$. The *Cycle Type* of $\sigma$ is the ordered list of the $c_{k}$'s  
 Properties
 - When $X$ is finite of order $n$, then so is every orbit, and $\sum\limits_{k\geq 1}kc_{k}=n$
 
-> Example of Cycle Type
-> 	The cycle type of $\sigma=\begin{pmatrix}1 & 2 & 3 & 4 & 5 \\ 2 & 1 & 4 & 5 & 3 \end{pmatrix}$ is $(0,1,1,0,0)$
+> Example of Cycle Type  
+> 	The cycle type of $\sigma=\begin{pmatrix}1 & 2 & 3 & 4 & 5 \\ 2 & 1 & 4 & 5 & 3 \end{pmatrix}$ is $(0,1,1,0,0)$  
 > 	The cycle type of $\uptau=\begin{pmatrix}1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 4 & 7 & 1 & 3 & 8 & 6 & 2 & 5 \end{pmatrix}$ is $(1,2,1,0,0,0,0,0)$
 
 ### Properties of Cycles
@@ -130,19 +130,19 @@ Properties
 
 [Cycle Decomposition Theorem](Cycle%20Decomposition%20Theorem) says that every permutation can be written as a product of *disjoint cycles*, and each decomposition is *unique*
 
-> Examples of breaking up permutations in terms of cycles
-> 	Take the permutation $\sigma = \begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 2 & 1 & 4 & 5 & 3\end{pmatrix}$
-> 		This permutation is obviously *not* a cycle, but it is a product of the cycles
-> 			$(1\ 2)$ and $(3\ 4\ 5)$ 
-> 		Such that $\sigma=(1 \ 2)(3\ 4\ 5)=(3\ 4\ 5)(1\ 2)$
-> 	Or take $\uptau=\begin{pmatrix}1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 4 & 7 & 1 & 3 & 8 & 6 & 2 & 5 \end{pmatrix}$
-> 		$\uptau=(1 \ 4\ 3)(2\ 7)(5\ 8)$ 
-> 	Note that we can technically break a permutation into cycles in multiple different ways, the important factor here is we are looking for *disjoint cycles*
+> Examples of breaking up permutations in terms of cycles  
+> 	Take the permutation $\sigma = \begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 2 & 1 & 4 & 5 & 3\end{pmatrix}$  
+> 		This permutation is obviously *not* a cycle, but it is a product of the cycles  
+> 			$(1\ 2)$ and $(3\ 4\ 5)$  
+> 		Such that $\sigma=(1 \ 2)(3\ 4\ 5)=(3\ 4\ 5)(1\ 2)$  
+> 	Or take $\uptau=\begin{pmatrix}1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 4 & 7 & 1 & 3 & 8 & 6 & 2 & 5 \end{pmatrix}$  
+> 		$\uptau=(1 \ 4\ 3)(2\ 7)(5\ 8)$  
+> 	Note that we can technically break a permutation into cycles in multiple different ways, the important factor here is we are looking for *disjoint cycles*  
 > 		Take for example $(1\ 2\ 3\ 4\ 5)=(1\ 2)(2\ 3)(3\ 4)(4\ 5)=(1\ 4\ 5)(1\ 2\ 3)$
 
-Formally, it says:
-Let $X$ be a set and let $\sigma\in S_{X}$. Then there exists pairwise-disjoint cycles $\sigma_{i}\in S_{X}$ such that 
-$$\sigma=\prod_{i}\sigma_{i}$$
+Formally, it says:  
+Let $X$ be a set and let $\sigma\in S_{X}$. Then there exists pairwise-disjoint cycles $\sigma_{i}\in S_{X}$ such that  
+$$\sigma=\prod_{i}\sigma_{i}$$  
 Moreover, this decomposition into cycles is unique up to reordering. That is, if $\uptau_{j}\in S_{X}$ are any other pairwise-disjoint cycles whose product is $\sigma$, then there exists a bijection $\varphi$ such that $\uptau_{j}=\sigma_{\varphi(j)}$ for all $j$
 ## Permutations
 - The identity map is denoted $\epsilon$, and **fixes** every element

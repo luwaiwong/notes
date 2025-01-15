@@ -1,14 +1,14 @@
 #mathematics/group-theory #uoft/mat301 
 
-The [Parity](.md) (Or **Sign**) of a [Permutation](../../Statistics/STA237%20Notes/Permutation.md) is the *parity* of the number of factors, in any decomposition of $\sigma$ into [Transpositions](../../Statistics/STA237%20Notes/Transposition.md). If:
-$$\sigma = \sigma_{1}\dots\sigma_{m}$$
+The [Parity](.md) (Or **Sign**) of a [Permutation](../../Statistics/STA237%20Notes/Permutation.md) is the *parity* of the number of factors, in any decomposition of $\sigma$ into [Transpositions](../../Statistics/STA237%20Notes/Transposition.md). If:  
+$$\sigma = \sigma_{1}\dots\sigma_{m}$$  
 	Then $sgn(\sigma)=(-1)^{m}= \begin{cases} \ \ \ 1  \text{ if } m \text{ is even} \\ -1 \text{ if } m \text{ is odd} \end{cases}$
 
 ---
 
 ## Definition
-The [Parity](.md) (Or **Sign**) of a [Permutation](../../Statistics/STA237%20Notes/Permutation.md) is the *parity* of the number of factors, in any decomposition of $\sigma$ into [Transpositions](../../Statistics/STA237%20Notes/Transposition.md). If:
-$$\sigma = \sigma_{1}\dots\sigma_{m}$$
+The [Parity](.md) (Or **Sign**) of a [Permutation](../../Statistics/STA237%20Notes/Permutation.md) is the *parity* of the number of factors, in any decomposition of $\sigma$ into [Transpositions](../../Statistics/STA237%20Notes/Transposition.md). If:  
+$$\sigma = \sigma_{1}\dots\sigma_{m}$$  
 	Then $sgn(\sigma)=(-1)^{m}= \begin{cases} \ \ \ 1  \text{ if } m \text{ is even} \\ -1 \text{ if } m \text{ is odd} \end{cases}$
 
 ### Properties
@@ -19,10 +19,10 @@ $$\sigma = \sigma_{1}\dots\sigma_{m}$$
 	- Cycles of odd length are even
 - $sgn: S_{n}\rightarrow \mu_{2}=\{1, -1\}$ is a [Homomorphism](Homomorphism.md)
 
-> Recall:
-> 	The *parity* of a number, is whether its even, or odd
-> Examples:
-> 	The Identity Permutation is even
-> 	The 4-cycle $(a \ b \ c\ d)$ can be written as $(a \ b)(b \ c)(c \ d)$ which has 3 factors, so it's odd
-> 	The 7-cycle $(1 \ 2 \ 3 \ 4 \ 5 \ 6 \ 7)=(1 \ 7)(1 \ 6)(1 \ 5)(1 \ 4)(1 \ 3)(1 \ 2)$ has 6 factors, so it's its even
+> Recall:  
+> 	The *parity* of a number, is whether its even, or odd  
+> Examples:  
+> 	The Identity Permutation is even  
+> 	The 4-cycle $(a \ b \ c\ d)$ can be written as $(a \ b)(b \ c)(c \ d)$ which has 3 factors, so it's odd  
+> 	The 7-cycle $(1 \ 2 \ 3 \ 4 \ 5 \ 6 \ 7)=(1 \ 7)(1 \ 6)(1 \ 5)(1 \ 4)(1 \ 3)(1 \ 2)$ has 6 factors, so it's its even  
 > 	In general, the parity of a k-cycle is *opposite* the parity of $k$-cycle is *opposite* the parity of $k$. 

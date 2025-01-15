@@ -15,6 +15,6 @@ If a set of vectors are **Orthogonal**, and are [Unit Vectors](../MAT235%20Notes
 ## Projection Matrix to Vectors Orthogonal to $n$
 ^62d748
 
-To project onto a plane in $\mathbb{R}^{3}$ that is perpendicular to $n$, use the formula
-$$P=I-\frac{nn^{T}}{||n||^{2}}$$
+To project onto a plane in $\mathbb{R}^{3}$ that is perpendicular to $n$, use the formula  
+$$P=I-\frac{nn^{T}}{||n||^{2}}$$  
 	Where $I$ is the  [Identity Matrix](../MAT224%20Notes/Identity%20Matrix.md)

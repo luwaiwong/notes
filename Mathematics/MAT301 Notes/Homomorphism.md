@@ -4,9 +4,9 @@ A **Homomorphism** is a function $f:G\rightarrow H$ where $f(a\cdot_{G}b )=f(a)\
 
 ---
 ## Definition
-Let $G$ and $H$ be groups with composition laws $\cdot_{G}$ and $\cdot_{H}$ respectively.
-A function $f:G\rightarrow H$ is called a [Homomorphism](.md) if 
-$$f(a\cdot_{G}b )=f(a)\cdot_{H}f(b)$$
+Let $G$ and $H$ be groups with composition laws $\cdot_{G}$ and $\cdot_{H}$ respectively.  
+A function $f:G\rightarrow H$ is called a [Homomorphism](.md) if  
+$$f(a\cdot_{G}b )=f(a)\cdot_{H}f(b)$$  
 	For all $a,b\in G$ 
 
 ### Notation
@@ -29,12 +29,12 @@ Many properties of homomorphisms are written differently to functions
 | Self-Map       | [Endomorphism](Endomorphism)   |                                              |     |
 | Permutation    | [Automorphism](Automorphism.md)   |                                              |     |
 | Constant       | Trivial            |                                              |     |
-> Note:
-> 	Since monic and epic are dumb terms, many people don't use them, and use the function versions instead
-> Examples of Homomorphisms:
-> 	For a real number $a$, the function $x\rightarrow a^{x}$ is a homomorphism $\mathbb{R}\rightarrow \mathbb{R}^{X}$
-> 		$a^{x+y}=a^{x}a^{y}$
-> 	For any real exponent $\alpha$, $x\to x^{a}$  is a homomorphism $\mathbb{R}_{>0}\to \mathbb{R}_{>0}$
+> Note:  
+> 	Since monic and epic are dumb terms, many people don't use them, and use the function versions instead  
+> Examples of Homomorphisms:  
+> 	For a real number $a$, the function $x\rightarrow a^{x}$ is a homomorphism $\mathbb{R}\rightarrow \mathbb{R}^{X}$  
+> 		$a^{x+y}=a^{x}a^{y}$  
+> 	For any real exponent $\alpha$, $x\to x^{a}$  is a homomorphism $\mathbb{R}_{>0}\to \mathbb{R}_{>0}$  
 > 		$(xy)^{a}=x^{a}y^{a}$
 
 ### Properties
@@ -56,15 +56,15 @@ Many properties of homomorphisms are written differently to functions
 ### Relation to Normal Subgroups
 The single more important source of normal subgroups is kernels of homomorphisms
 
-Kernels of Homomorphisms are [Normal](../MAT235%20Notes/Normal.md), and the [First Isomorphism Theorem](First%20Isomorphism%20Theorem.md), which states that If $f:G\to H$ is a [Homomorphism](.md), then 
+Kernels of Homomorphisms are [Normal](../MAT235%20Notes/Normal.md), and the [First Isomorphism Theorem](First%20Isomorphism%20Theorem.md), which states that If $f:G\to H$ is a [Homomorphism](.md), then  
 $$G /ker \ f \cong im \ f$$
 
-> Simplification:
+> Simplification:  
 > 	The *Group of Cosets*  of the kernel of the homomorphism $f$, is isomorphic to the image of $f$
 
 ### Relation to Actions
-Given any [Action](Action.md) of a [Group](Group.md) $G$ on $X$ we can get a Homomorphism $\phi:G\to Sym(X)$ as $\phi(g)=x\to g \ .x$
-	Informally, $\phi(g)=g \ .-$ for all $g\in G$
+Given any [Action](Action.md) of a [Group](Group.md) $G$ on $X$ we can get a Homomorphism $\phi:G\to Sym(X)$ as $\phi(g)=x\to g \ .x$  
+	Informally, $\phi(g)=g \ .-$ for all $g\in G$  
 **Properties**
 - If $G$ is any group, then a *Homomorphism* from $G$ to a symmetric group is termed a *permutation representation*
 - Every permutation representation gives rise to a left action $G\curvearrowright X$

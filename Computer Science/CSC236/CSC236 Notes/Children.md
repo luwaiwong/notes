@@ -1,4 +1,4 @@
-#computer-science 
+#computer-science  
 #uoft/csc236 
 
 In [Graph](Graph.md) Theory, [Vertices/Nodes](Vertex.md) in [Trees](Tree.md) can have **Parents** and [Children](.md)

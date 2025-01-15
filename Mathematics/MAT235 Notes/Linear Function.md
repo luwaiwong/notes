@@ -1,4 +1,4 @@
-#mathematics 
+#mathematics  
 #uoft/mat235 
 
 Geometrically, a **Linear Function** is the shape/element you get, when you zoom in infinitesimally small into a function of a [Dimension](../MAT223%20Notes/Dimension.md)
@@ -7,7 +7,7 @@ Geometrically, a **Linear Function** is the shape/element you get, when you zoom
 
 > This is a bad description and needs to be changed
 
-You might be looking for:
+You might be looking for:  
 	[Linear Transformation](../MAT223%20Notes/Linear%20Transformation.md)
 
 ---

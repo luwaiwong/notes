@@ -1,4 +1,4 @@
-#computer-science 
+#computer-science  
 #uoft/csc236 
 
 A **Vertex** is a node in a [Graph](Graph.md)

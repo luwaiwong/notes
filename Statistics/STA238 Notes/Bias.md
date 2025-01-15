@@ -1,4 +1,4 @@
-#statistics 
+#statistics  
 #uoft/sta238 
 
 
@@ -6,7 +6,7 @@ The **Bias** of an [Estimator](Estimator.md) is the difference from the [Expecte
 
 ---
 # Definition
-The **Bias** of an estimator $\hat \theta$ can be calculated by:
+The **Bias** of an estimator $\hat \theta$ can be calculated by:  
 	$B(\hat \theta)=E(\hat \theta)-\theta$
 
 > An **Estimator** $\hat \theta$ is said to be **Unbiased**, if $B(\hat \theta)=0$

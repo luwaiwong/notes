@@ -11,12 +11,12 @@ Yes, it seems possible that a solution $f(x)$ to $y'=-y^{\frac{1}{3}}$ could be 
 
 
 ### 3e)
-Can you find a delta such that f_approx(t)>0 and g_approx(t) > 0 for all t?
+Can you find a delta such that f_approx(t)>0 and g_approx(t) > 0 for all t?  
 **FOR F**
 
 Yes, it is possible to find a $\Delta$ such that $f_{approx}(t)>0$. 
 
-Experimentally, we can pick $\Delta=0.5$, and simulate with the initial conditions $y_{0}=1$, until $t=50$ and find that $y>0$ for all $t$
+Experimentally, we can pick $\Delta=0.5$, and simulate with the initial conditions $y_{0}=1$, until $t=50$ and find that $y>0$ for all $t$  
 Graphing $f_{approx}$ using the conditions listed above
 >	![Pasted image 20240922132351](attachments/Pasted%20image%2020240922132351.png)
 
@@ -51,11 +51,11 @@ Lets say for example, Jason and Bernardo have received an inheritance in the amo
 
 No, for any proportionality constant, given enough time, Jason and Bernardo will eventually bounce a cheque. 
 
-This is because if we define $y'$ with the proportionality constant as $y'=-(p\cdot y)^\frac{1}{3}$, given any proportionality constant $p$, $\exists y_{0}, s.t. \forall 0<y<y_{0}, y'<-y_{0}$. This value $y_{0}$ can be found as $\sqrt{p}$. 
+This is because if we define $y'$ with the proportionality constant as $y'=-(p\cdot y)^\frac{1}{3}$, given any proportionality constant $p$, $\exists y_{0}, s.t. \forall 0<y<y_{0}, y'<-y_{0}$. This value $y_{0}$ can be found as $\sqrt{p}$.  
 Since this is true, following the same logic as above, since $y$ is always decreasing while $y>0$, we can find a point $t=t_{0}$ where $y < \sqrt{p}$, because $\forall y \ \ s.t. \ \ 0<y<\sqrt{p}, y' < -y$, it is guaranteed that at some time after this point, $y < 0$
 
-We can illustrate this by simulating an extremely low proportionality constant, and a very small initial value.
-	![Pasted image 20240922145950](attachments/Pasted%20image%2020240922145950.png)
+We can illustrate this by simulating an extremely low proportionality constant, and a very small initial value.  
+	![Pasted image 20240922145950](attachments/Pasted%20image%2020240922145950.png)  
 Note in the resulting simulation, how even with such a low proportionality constant, $y$ eventually reaches a negative number
 
 ### c)

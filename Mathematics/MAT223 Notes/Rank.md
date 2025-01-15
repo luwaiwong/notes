@@ -1,6 +1,6 @@
 #mathematics #uoft/mat223 
 
-The **Rank** of a matrix is its maximum number of linearly independent columns
+The **Rank** of a matrix is its maximum number of linearly independent columns  
 The Rank of the matrix of a transformation, is the [Dimension](Dimension.md) of its [Image](Image.md)
 
 ---

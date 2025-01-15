@@ -1,4 +1,4 @@
-#mathematics #uoft/mat223 
+#mathematics #uoft/mat223  
 One of the [Fundamental Subspaces](Fundamental%20Subspaces.md)
 
 ---

@@ -1,4 +1,4 @@
-#mathematics #statistics #computer-science 
+#mathematics #statistics #computer-science  
 #uoft/mat235 
 
 
@@ -10,7 +10,7 @@ In computer science, a **Function** is a program which takes in **inputs**, and 
 # Mathematics
 A function $f:X\rightarrow Y$ is read as $f$, which *takes* $X$ to $Y$, function with [Domain](../../Computer%20Science/CSC236/CSC236%20Notes/Domain.md) $X$ and [Image](../MAT223%20Notes/Image.md) $Y$
 
-The [Domain](../../Computer%20Science/CSC236/CSC236%20Notes/Domain.md) is the set of inputs of a function
+The [Domain](../../Computer%20Science/CSC236/CSC236%20Notes/Domain.md) is the set of inputs of a function  
 The [Codomain](Codomain) is the entire set of outputs of a function
 
 The [Image](../MAT223%20Notes/Image.md) is output of a set, under a function
@@ -31,7 +31,7 @@ The [Inverse](../MAT224%20Notes/Inverse.md) of a function $f:X\rightarrow Y$, is
 - The *identity map* $x\to x$ is a self map
 	- Denoted $id$ or $id_{X}$
 
-> Example of Injective, Surjective, and Bijective on $\mathbb{R}\rightarrow \mathbb{R}$
+> Example of Injective, Surjective, and Bijective on $\mathbb{R}\rightarrow \mathbb{R}$  
 > 	![Pasted image 20240927112917](../MAT301%20Notes/attachments/Pasted%20image%2020240927112917.png)
 
 
@@ -40,11 +40,11 @@ A [Function of One Variable](Function%20of%20One%20Variable.md) is a functions w
 
 [Function of Two Variables](Function%20of%20Two%20Variables.md) are functions which take in *two inputs*, and return *one output*. A function of two variable represents a *3D graph*
 
-[Functions of Three Variables](Functions%20of%20Three%20Variables) take on **3** inputs, and returns **1** output. Functions of Three Variables represents an object in **4 dimensions**.
+[Functions of Three Variables](Functions%20of%20Three%20Variables) take on **3** inputs, and returns **1** output. Functions of Three Variables represents an object in **4 dimensions**.  
 	Since it is difficult to visualize 4-space, we often use contour diagrams to help us visualize functions of three variables
 
 ## Contour Diagram
-The [Contour Diagram](Contour%20Diagram.md) of a **function of three variables** is called a  **level surface**, or **level set**. 
+The [Contour Diagram](Contour%20Diagram.md) of a **function of three variables** is called a  **level surface**, or **level set**.  
 A **level surface** of a function of three variables, is a surface of the form $$f(x,y,z)=c$$Where $c$ is a constant.
 
 The function $f$ can be represented by the family of level surfaces obtained by allowing $c$ to vary.

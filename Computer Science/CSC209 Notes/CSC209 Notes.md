@@ -2,10 +2,10 @@
 
 Notes for [CSC209](CSC209)
 
-Links
-	[Syllabus](https://q.utoronto.ca/courses/353468/pages/course-syllabus)
-	[PCRS](https://pcrs.teach.cs.toronto.edu/csc209-2024-09/)
-	[Quercus](https://q.utoronto.ca/courses/353468)
+Links  
+	[Syllabus](https://q.utoronto.ca/courses/353468/pages/course-syllabus)  
+	[PCRS](https://pcrs.teach.cs.toronto.edu/csc209-2024-09/)  
+	[Quercus](https://q.utoronto.ca/courses/353468)  
 	[Markus](https://markus.teach.cs.toronto.edu/)
 
  
@@ -15,51 +15,51 @@ Links
 ---
 # Table of Contents
 
-Textbooks
-	[CSC209 C Programming, A Modern Approach King](attachments/CSC209%20C%20Programming,%20A%20Modern%20Approach%20King.pdf)
-	[CSC209 The Linux Programming Interface, Michael Kerrisk](attachments/CSC209%20The%20Linux%20Programming%20Interface,%20Michael%20Kerrisk.pdf)
-[#Week 1](#Week%201)
-	[#Course Overview](#Course%20Overview)
-	[#Files, Permissions, and Ethics](#Files,%20Permissions,%20and%20Ethics)
-[#Week 2](#Week%202)
-	[#Pointers](#Pointers)
-	[#Arrays](#Arrays)
-	[#Syntax](#Syntax)
-[#Week 3](#Week%203)
-	[#Memory](#Memory)
-[#Week 4](#Week%204)
-	[#Strings](#Strings)
-	[#Structs](#Structs)
-[#Week 5](#Week%205)
-	[#Compilation](#Compilation)
-	[#Compiling with multiple files](#Compiling%20with%20multiple%20files)
-	[#Make](#Make)
-[#Week 6](#Week%206)
-	[#C Preprocessor](#C%20Preprocessor)
-	[#Typedef](#Typedef)
-	[#Function Pointers](#Function%20Pointers)
-	[#System Calls vs. Library Calls](#System%20Calls%20vs.%20Library%20Calls)
-[#Week 7](#Week%207)
-	[#Forks](#Forks)
-	[#Running Executables](#Running%20Executables)
-[#Week 8](#Week%208)
-	[#Pipes](#Pipes)
-		[#File Descriptors](#File%20Descriptors)
-	[#Dup2](#Dup2)
-[#Week 9](#Week%209)
-[#Week 10](#Week%2010)
-	[#Bit Manipulation](#Bit%20Manipulation)
-	[#Multiplexing](#Multiplexing)
-		[#Why use select?](#Why%20use%20select?)
-	[#Sockets](#Sockets)
-[#Week 11](#Week%2011)
+Textbooks  
+	[CSC209 C Programming, A Modern Approach King](attachments/CSC209%20C%20Programming,%20A%20Modern%20Approach%20King.pdf)  
+	[CSC209 The Linux Programming Interface, Michael Kerrisk](attachments/CSC209%20The%20Linux%20Programming%20Interface,%20Michael%20Kerrisk.pdf)  
+[#Week 1](#Week%201)  
+	[#Course Overview](#Course%20Overview)  
+	[#Files, Permissions, and Ethics](#Files,%20Permissions,%20and%20Ethics)  
+[#Week 2](#Week%202)  
+	[#Pointers](#Pointers)  
+	[#Arrays](#Arrays)  
+	[#Syntax](#Syntax)  
+[#Week 3](#Week%203)  
+	[#Memory](#Memory)  
+[#Week 4](#Week%204)  
+	[#Strings](#Strings)  
+	[#Structs](#Structs)  
+[#Week 5](#Week%205)  
+	[#Compilation](#Compilation)  
+	[#Compiling with multiple files](#Compiling%20with%20multiple%20files)  
+	[#Make](#Make)  
+[#Week 6](#Week%206)  
+	[#C Preprocessor](#C%20Preprocessor)  
+	[#Typedef](#Typedef)  
+	[#Function Pointers](#Function%20Pointers)  
+	[#System Calls vs. Library Calls](#System%20Calls%20vs.%20Library%20Calls)  
+[#Week 7](#Week%207)  
+	[#Forks](#Forks)  
+	[#Running Executables](#Running%20Executables)  
+[#Week 8](#Week%208)  
+	[#Pipes](#Pipes)  
+		[#File Descriptors](#File%20Descriptors)  
+	[#Dup2](#Dup2)  
+[#Week 9](#Week%209)  
+[#Week 10](#Week%2010)  
+	[#Bit Manipulation](#Bit%20Manipulation)  
+	[#Multiplexing](#Multiplexing)  
+		[#Why use select?](#Why%20use%20select?)  
+	[#Sockets](#Sockets)  
+[#Week 11](#Week%2011)  
 [# Week 12](#%20Week%2012)
 
 # Notes
 ## Week 1
-> Readings: Kerrisk 2.1-2.6
-> Lectures:
-> 	[CSC209 Lecture 1](attachments/CSC209%20Lecture%201.pdf)
+> Readings: Kerrisk 2.1-2.6  
+> Lectures:  
+> 	[CSC209 Lecture 1](attachments/CSC209%20Lecture%201.pdf)  
 > 	[CSC209 Lecture 2](attachments/CSC209%20Lecture%202.pdf)
 
 ### Course Overview
@@ -79,7 +79,7 @@ Unix Principles
 
 An [Operating System](Operating%20System) commonly refers to two different concepts
 - The entire package consisting of the central software managing a computer's resources and all of the accompanying standard software tools, like terminal emulators, guis, file editors. etc. Or alternatively,
-- Just the central software that manages and allocates computer resources (i.e., CPU, RAM, and devices)
+- Just the central software that manages and allocates computer resources (i.e., CPU, RAM, and devices)  
 The second definition is often referred to also as the [Kernel](../../Mathematics/MAT224%20Notes/Kernel.md), and is the definition of [Operating System](Operating%20System) the [Kerrisk Textbook](attachments/CSC209%20The%20Linux%20Programming%20Interface,%20Michael%20Kerrisk.pdf) and these notes refer to.
 
 [Kernels](../../Mathematics/MAT224%20Notes/Kernel.md) perform the following tasks:
@@ -91,20 +91,20 @@ The second definition is often referred to also as the [Kernel](../../Mathematic
 - Networking
 - Provision of system call API
 
-A [Shell](Shell) is a program to read commands typed by a user and execute programs 
+A [Shell](Shell) is a program to read commands typed by a user and execute programs  
 Some common shells are
 - Bourne Shell (sh)
 - Bourne again shell (bash)
 ### Files, Permissions, and Ethics
-In Linux, anyone using the system is divided into **users**, and **users** are divided into **groups**
-Every file and directory has a **user owner**, and a **group**
+In Linux, anyone using the system is divided into **users**, and **users** are divided into **groups**  
+Every file and directory has a **user owner**, and a **group**  
 	This controls who can read, write, and execute files, and files in directories
 
-> How to set/read permissions
-> 	An example of how permissions to various files and directories would be listed
-> 		![Pasted image 20240906170728](attachments/Pasted%20image%2020240906170728.png)
-> 	How to read those permissions
-> 		![500](attachments/Pasted%20image%2020240906170718.png)
+> How to set/read permissions  
+> 	An example of how permissions to various files and directories would be listed  
+> 		![Pasted image 20240906170728](attachments/Pasted%20image%2020240906170728.png)  
+> 	How to read those permissions  
+> 		![500](attachments/Pasted%20image%2020240906170718.png)  
 > 		So a directory where the user has full permissions, group has read and execute permission, and everyone else has no permissions, than it would read: "-rwxr-x---"
 
 [Linux Commands](Linux%20Commands) 
@@ -132,11 +132,11 @@ chmod // "Change Mode"
 ```
 
 ## Week 2
-> Textbook: 
-> 	King, Ch. 1-7
-> Worksheets:
-> 	[CSC209 array_and_pointer_basics_solution](CSC209%20array_and_pointer_basics_solution.pdf)
-> 	[CSC209 calls_and_pointers_solution](CSC209%20calls_and_pointers_solution.pdf)
+> Textbook:  
+> 	King, Ch. 1-7  
+> Worksheets:  
+> 	[CSC209 array_and_pointer_basics_solution](CSC209%20array_and_pointer_basics_solution.pdf)  
+> 	[CSC209 calls_and_pointers_solution](CSC209%20calls_and_pointers_solution.pdf)  
 > 	[arrs](arrs.c)
 
 ### Pointers
@@ -146,7 +146,7 @@ chmod // "Change Mode"
 
 We use * to *dereference* a pointer, and get the *value of the memory location it points to*
 
-We use & to mean the *location of* a variable
+We use & to mean the *location of* a variable  
 	If you use & on a pointer, you get the memory location, of the stored memory location that the pointer points to
 ### Arrays
 Arrays in the [C Language](C%20Language) are really just pointers, which point to the start of the array
@@ -167,10 +167,10 @@ a[0] = i; // How to access different values of a pointer array
 
 
 ## Week 3 
-> Textbook:
-> 	King, Ch. 8, 11, 12, 17
-> Practice Problems 
->	[CSC209 malloc_basics_solution](CSC209%20malloc_basics_solution.pdf)
+> Textbook:  
+> 	King, Ch. 8, 11, 12, 17  
+> Practice Problems  
+>	[CSC209 malloc_basics_solution](CSC209%20malloc_basics_solution.pdf)  
 >	[stack_vs_heap_solution](stack_vs_heap_solution.pdf)
 
 ### Memory 
@@ -178,17 +178,17 @@ Whenever a variable is created in [C](C%20Memory), memory is allocated for that 
 
 Memory diagrams show the state of memory for a program
 - Each address represents 4 bytes of data
-> Example of a Memory Diagram
-> 	![Pasted image 20241105155512](Pasted%20image%2020241105155512.png)
+> Example of a Memory Diagram  
+> 	![Pasted image 20241105155512](Pasted%20image%2020241105155512.png)  
 > 	Memory Diagrams help us visualize how memory is being allocated and deallocated in a program
 
 There are two ways memory is allocated in C
 - A [Stack](Stack) frame for a function, is memory allocated for variables in a function, which is deallocated after the function ends
 - The [Heap](Heap), is where memory allocated using *malloc* is allocated, and is not deallocated unless explicitly done so using *free*
 
-> Remember:
-> 	Bit is a 0 or 1
-> 	Byte is 8 bits
+> Remember:  
+> 	Bit is a 0 or 1  
+> 	Byte is 8 bits  
 > 	Memory address is 
 
 Size of different variable types
@@ -196,14 +196,14 @@ Size of different variable types
 - Pointer: 8 or 4 Bytes (64 vs 32bit)
 - Character: 1 Byte per character
 
-> Example of the memory diagram of a program
+> Example of the memory diagram of a program  
 > 	![Pasted image 20241106120522](Pasted%20image%2020241106120522.png)
 
 ## Week 4
-> Textbook:
-> 	 King, Ch. 13, 17
-> Practice Problems:
-> 	[strings_sol](strings_sol.pdf)
+> Textbook:  
+> 	 King, Ch. 13, 17  
+> Practice Problems:  
+> 	[strings_sol](strings_sol.pdf)  
 > 	[structs_mem](structs_mem.pdf)
 
 ### Strings
@@ -222,7 +222,7 @@ strncpy(method5, "string", 7);
 method2 = "string"
 ```
 
-> When you define a string with "" it automatically adds the null terminator `\0` as the last character
+> When you define a string with "" it automatically adds the null terminator `\0` as the last character  
 > However, if you manually define a string, you need to add the null terminator manually
 
 
@@ -247,15 +247,15 @@ int main(void) {
 Structs are stored in the stack, unless allocated with malloc
 
 ## Week 5
->Term Test 1 this week
->Textbook:
->	King: 14.1-2, 15, 16
->	Kerrisk: 6.1-6.6
->Slides:
->	[CSC209 Streams](CSC209%20Streams.pdf)
->Worksheets:
->	[CSC209 io_conversions_sol](CSC209%20io_conversions_sol.pdf)
->Topics:
+>Term Test 1 this week  
+>Textbook:  
+>	King: 14.1-2, 15, 16  
+>	Kerrisk: 6.1-6.6  
+>Slides:  
+>	[CSC209 Streams](CSC209%20Streams.pdf)  
+>Worksheets:  
+>	[CSC209 io_conversions_sol](CSC209%20io_conversions_sol.pdf)  
+>Topics:  
 >	Low Level I/O
 
 Streams can either be reading from a file, or reading standard input
@@ -292,7 +292,7 @@ When compiling C code, it goes through 3 steps
 	- A .o file is an object file that contains compiled code with placeholders for links to object code in other files or libraries. 
 - And then gets assembled into an executable (.out)
 
-> Note:
+> Note:  
 > 	a.out is the default name for an executable in c
 
 ```
@@ -317,7 +317,7 @@ gcc test1.o test2.o // compiles into one a.out
 ```
 
 ### Compiling with multiple files
-If you want to reference functions from other files, in C can simply place a *function prototype*, or an empty function of the same name, at the top of your code. 
+If you want to reference functions from other files, in C can simply place a *function prototype*, or an empty function of the same name, at the top of your code.  
 Then, when you compile your code, as long as you compile the code, with another file which includes that function, the compiler will automagically link those functions together
 
 ```
@@ -338,8 +338,8 @@ gcc file1.c file2.c
 // File 2 will call the function from file 1
 ```
 
-[C Header Files](C%20Header%20Files) are a way to maintain type safety and make this process easier
-Instead of having to manually reference all the functions from a particular file, we define a *Header File* (.h)
+[C Header Files](C%20Header%20Files) are a way to maintain type safety and make this process easier  
+Instead of having to manually reference all the functions from a particular file, we define a *Header File* (.h)  
 	The header file includes all the functions that file1 must provide, and that file2 can use
 
 ```
@@ -389,15 +389,15 @@ clean:
 ```
 
 ## Week 6
->Textbook:
->	King: 14.1-2, 15, 16
->	Kerrisk: 6.1-6.6
->Topics:
->	L6.2: Header Files, Function Pointers, System Calls
->	L6.2: Make
->Worksheets:
->	[CSC209 qsort_example](CSC209%20qsort_example.c)
->	[CSC209 makefiles_sol](CSC209%20makefiles_sol.pdf)
+>Textbook:  
+>	King: 14.1-2, 15, 16  
+>	Kerrisk: 6.1-6.6  
+>Topics:  
+>	L6.2: Header Files, Function Pointers, System Calls  
+>	L6.2: Make  
+>Worksheets:  
+>	[CSC209 qsort_example](CSC209%20qsort_example.c)  
+>	[CSC209 makefiles_sol](CSC209%20makefiles_sol.pdf)  
 >	[CSC209 func_ptrs_errors_sol](CSC209%20func_ptrs_errors_sol.pdf)
 
 ### C Preprocessor
@@ -421,7 +421,7 @@ printf("%d", MACRO(10))
 gcc -DMACRO=5 question1.c
 ```
 
-In the preprocessor when compiling C code, the compiler recognizes macros, and replaces every instance of the macro, to its value
+In the preprocessor when compiling C code, the compiler recognizes macros, and replaces every instance of the macro, to its value  
 	So `char name[MACRO]` in the example above is replaced with `char name[32]` when compiling
 
 Notes
@@ -431,7 +431,7 @@ Notes
 ### Typedef
 Typedef is a way to create an *alias* for an existing type
 
-The purpose of typedef is to make code cleaner and more readable. 
+The purpose of typedef is to make code cleaner and more readable.  
 	Typedef cannot be used to create different data structures, but rather different types which function the same as traditional C types, but with a different name
 
 ``` c
@@ -463,23 +463,23 @@ void (*parse_command_line(int argc, char *argv[]))(int *, int);
 ```
 
 ### System Calls vs. Library Calls
-A system call is a call directly to the operating system
+A system call is a call directly to the operating system  
 On the other hand, a library call is a function call from another C library
 
-System calls write error to `errno`, where we should use `perror`
+System calls write error to `errno`, where we should use `perror`  
 Library calls do NOT
 
 ## Week 7
-> Textbook:
-> 	Kerrisk:24.1, 24.2, 24.4, 25.1, 25.2, 26 
-> 	King: 17.7
-> Topics
-> 	L7.1: Header Files, Make (from last week)
-> 	L7.2 Introduction to Processes
-> Worksheets
-> 	[CSC209 fork](CSC209%20fork.pdf)
-> 		[CSC209 fork_fruits](CSC209%20fork_fruits.c) 
-> 	[CSC209 wait (2)](CSC209%20wait%20(2).pdf)
+> Textbook:  
+> 	Kerrisk:24.1, 24.2, 24.4, 25.1, 25.2, 26  
+> 	King: 17.7  
+> Topics  
+> 	L7.1: Header Files, Make (from last week)  
+> 	L7.2 Introduction to Processes  
+> Worksheets  
+> 	[CSC209 fork](CSC209%20fork.pdf)  
+> 		[CSC209 fork_fruits](CSC209%20fork_fruits.c)  
+> 	[CSC209 wait (2)](CSC209%20wait%20(2).pdf)  
 > 		[CSC209 wait_sol](CSC209%20wait_sol.c)
 
 ### Forks
@@ -517,8 +517,8 @@ waitpid(pid_t pid, int *status, int options);
 // WNOHANG option can be used to check if child process has terminated, without waiting
 ```
 
-A *Zombie Process* is a child process, which has completed, but is waiting for its parent to call wait on it, or to end itself
-An *Orphan Process* is a child process whose parent has terminated first
+A *Zombie Process* is a child process, which has completed, but is waiting for its parent to call wait on it, or to end itself  
+An *Orphan Process* is a child process whose parent has terminated first  
 	An orphan processes parent is set to the init process (first process the OS runs)
 
 ### Running Executables
@@ -532,18 +532,18 @@ perror("exec")
 ```
 
 ## Week 8
-> Textbook:
-> 	Kerrisk: 44.1, 44.2, 44.4
-> Topics:
-> 	L8.1: Processes and Pipes
-> Worksheets:
-> 	[CSC209 pipe](CSC209%20pipe.pdf)
-> 	[CSC209 pipes_sol](CSC209%20pipes_sol.c)
-> 	[CSC209 Pipe_drawing](CSC209%20Pipe_drawing.pdf)
+> Textbook:  
+> 	Kerrisk: 44.1, 44.2, 44.4  
+> Topics:  
+> 	L8.1: Processes and Pipes  
+> Worksheets:  
+> 	[CSC209 pipe](CSC209%20pipe.pdf)  
+> 	[CSC209 pipes_sol](CSC209%20pipes_sol.c)  
+> 	[CSC209 Pipe_drawing](CSC209%20Pipe_drawing.pdf)  
 > 	[CSC290 redir-sol](CSC290%20redir-sol.c)
 
 ### Pipes
-We learned how to created different processes above with `fork`, now we learn how we can use pipes to communicate between processes
+We learned how to created different processes above with `fork`, now we learn how we can use pipes to communicate between processes  
 	We do this by using *file descriptors*, because child process inherit its parents file descriptors
 
 ``` c
@@ -594,8 +594,8 @@ Notes
 - Read calls are blocked if a pipe is empty, and are unblocked when they are written to
 - Write calls are blocked if a pipe is full, and are unblocked when space is made available
 #### File Descriptors
-When you run your program, every *open file* or *open communication channel*, is assigned a **file descriptor**. 
-	The file descriptor table is an indexed table of output and input channels, starting at 0, which you can also use to directly tell C where to write and read.
+When you run your program, every *open file* or *open communication channel*, is assigned a **file descriptor**.  
+	The file descriptor table is an indexed table of output and input channels, starting at 0, which you can also use to directly tell C where to write and read.  
 Typically, 3 file descriptors are automatically created when you run your program
 - stdin: index 0
 - stdout: index 1
@@ -626,7 +626,7 @@ if (read(0, &input, sizeof(int)) != sizeof(int)){
 
 When you call `pipe`, the operating system  creates a communication channel, and opens *two* file descriptors, one which reads to the pipe, and one which writes to the pipe
 
-> Pipe Diagram
+> Pipe Diagram  
 > 	![340](Pipe%20Diagram.png)
 
 ### Dup2
@@ -638,24 +638,24 @@ dup2(1, 2);
 // Now when we try to read or write from 1, we really read or write from 2
 ```
 
-> Note
+> Note  
 > 	What `dup2` is really doing is, taking two indices in the file descriptor table and resetting one to refer to the same file object as the other
 
 ## Week 9
-> Textbook:
-> 	Kerrisk: 2.11, 20 ,21
-> Topics:
-> 	L9.1: Signals
-> 	L9.2: Term Test 2 
-> Worksheets
-> 	[CSC209 Week 9 signals](attachments/CSC209%20Week%209%20signals.pdf)
+> Textbook:  
+> 	Kerrisk: 2.11, 20 ,21  
+> Topics:  
+> 	L9.1: Signals  
+> 	L9.2: Term Test 2  
+> Worksheets  
+> 	[CSC209 Week 9 signals](attachments/CSC209%20Week%209%20signals.pdf)  
 > 	[CSC209 Week 9 greeting-start](attachments/CSC209%20Week%209%20greeting-start.c)
 
 ### Signals
-Signals are a mechanism that allow a process or operating system, to inturrupt a currently running program, and notify it when an event is occurred
+Signals are a mechanism that allow a process or operating system, to inturrupt a currently running program, and notify it when an event is occurred  
 Each signal is denoted by a number from 1-31
 
-> Small list of signals
+> Small list of signals  
 > 	![CSC209 Notes Signals](attachments/CSC209%20Notes%20Signals.png)
 
 Signals in terminal
@@ -698,22 +698,22 @@ Notes
 - A signal handling function must always have the same signature as any signal handling function
 
 ## Week 10
-> Textbook
-> 	Kerrisk:
-> 		select: 63.2.1
-> 		socket: 56.1-5, 58.6.3
-> Topics:
-> 	L10.1: Sockets
-> 	L10.2: Select
-> Slides:
-> 	[CSC209 Week 10 Intro Networking](attachments/CSC209%20Week%2010%20Intro%20Networking.pdf)
-> 	[CSC209 Week 10 Select](attachments/CSC209%20Week%2010%20Select.pdf)
-> Worksheets:
-> 	[CSC209 sockets](attachments/CSC209%20sockets.pdf)
-> 	[CSC209 select](attachments/CSC209%20select.pdf)
+> Textbook  
+> 	Kerrisk:  
+> 		select: 63.2.1  
+> 		socket: 56.1-5, 58.6.3  
+> Topics:  
+> 	L10.1: Sockets  
+> 	L10.2: Select  
+> Slides:  
+> 	[CSC209 Week 10 Intro Networking](attachments/CSC209%20Week%2010%20Intro%20Networking.pdf)  
+> 	[CSC209 Week 10 Select](attachments/CSC209%20Week%2010%20Select.pdf)  
+> Worksheets:  
+> 	[CSC209 sockets](attachments/CSC209%20sockets.pdf)  
+> 	[CSC209 select](attachments/CSC209%20select.pdf)  
 > 	[CSC209 lego_game](attachments/CSC209%20lego_game.c)
 ### Bit Manipulation
-> Recall that in C, true and false values are stored as 1 for true, and 0 for false
+> Recall that in C, true and false values are stored as 1 for true, and 0 for false  
 > Also note that bits are counted right to left, starting at 0
 
 #### Bit Operators
@@ -729,8 +729,8 @@ The `&` operator, is the *bitwise comparison* operator, and checks whether each 
 // Since the bit values are not the same, & returns false
 ```
 
-The `|` operator, *bitwise or* operator returns 1 if one or both values is equal to 1. 
-The `^` *exclusive bitwise or* operator returns 1 *if only one* value is equal to 1
+The `|` operator, *bitwise or* operator returns 1 if one or both values is equal to 1.  
+The `^` *exclusive bitwise or* operator returns 1 *if only one* value is equal to 1  
 	Also called *conditional negation*
 
 ``` c
@@ -835,7 +835,7 @@ return mode & (S_IRGRP | S_IROTH) // Check if group and other have read permissi
 ```
 
 ### Multiplexing
-The function `select` can be used to check multiple pipes/file descriptors, and return the file descriptors which have a result/are ready
+The function `select` can be used to check multiple pipes/file descriptors, and return the file descriptors which have a result/are ready  
 	`select` helps to reduce wasted time and blocking, when trying to read from multiple file descriptors, where one is often idle
 
 ``` c
@@ -873,12 +873,12 @@ if (FD_ISSET(pipe2, &read_fds)){
 }
 ```
 
-> `read_fds`:
-> 	`read_fds` is overwritten by select after it is used, and cannot be used again
-> 	If you want to run select on a set of file descriptors, you need to recreate `read_fds` each time
-> Other Input values:
-> 	The third argument is used to block for write calls
-> 	The fourth argument is used to block for error checking calls
+> `read_fds`:  
+> 	`read_fds` is overwritten by select after it is used, and cannot be used again  
+> 	If you want to run select on a set of file descriptors, you need to recreate `read_fds` each time  
+> Other Input values:  
+> 	The third argument is used to block for write calls  
+> 	The fourth argument is used to block for error checking calls  
 > 	The last argument is a timeout value
 #### Why use select?
 Using blocking read calls can result in issues sometimes when we want to read from multiple sources
@@ -891,12 +891,12 @@ read(child2);
 A problem arises when child1 takes a long time to write to its pipe, but child2 has data ready to be written, because read is blocked until child1 is ready
 
 ### Sockets
-> Recall:
-> 	Each devices have an IP address
-> 	Each program on a device has a *port*, for that machine
+> Recall:  
+> 	Each devices have an IP address  
+> 	Each program on a device has a *port*, for that machine  
 > 	Messages for a program, are divided up and sent in *packets*
 
-There are many types of sockets, or ways to set up connections to recieve data. This course focuses of Stream Sockets (TCP)
+There are many types of sockets, or ways to set up connections to recieve data. This course focuses of Stream Sockets (TCP)  
 TCP Sockets are
 - Connection-oriented sockets
 - No loss guaranteed
@@ -1002,13 +1002,13 @@ write(soc, "0123456789", 10);
 close(soc)
 ```
 ## Week 11
-> Textbook:
-> 	Kerrisk: 56.1-5, 58.6.3
-> Topics:
-> 	L11.1: Introduction to Shell Programming
-> 	L11.2: Ethics Module 2: Hacking
-> Worksheets
-> 	[CSC209 shell_worksheet](attachments/CSC209%20shell_worksheet.pdf)
+> Textbook:  
+> 	Kerrisk: 56.1-5, 58.6.3  
+> Topics:  
+> 	L11.1: Introduction to Shell Programming  
+> 	L11.2: Ethics Module 2: Hacking  
+> Worksheets  
+> 	[CSC209 shell_worksheet](attachments/CSC209%20shell_worksheet.pdf)  
 > 	[CSC209 login](attachments/CSC209%20login.c)
 
 ### Shell Scripting
@@ -1139,13 +1139,13 @@ Double quotes suppress everything except for
 
 Single quotes suppress everything except for the single closing quote
 ## Week 12
-> Topics:
-> 	L12.1: Shell Programming
-> 	L12.2: Course Wrap Up
-> Slides:
-> 	[CSC209 Week12-review-karen-2024.key](attachments/CSC209%20Week12-review-karen-2024.key.pdf)
-> Worksheets
-> 	[shell_worksheet2](attachments/shell_worksheet2.pdf)
-> 	[run_time_reads](attachments/run_time_reads.sh)
-> 	[run_floop](attachments/run_floop.sh)
+> Topics:  
+> 	L12.1: Shell Programming  
+> 	L12.2: Course Wrap Up  
+> Slides:  
+> 	[CSC209 Week12-review-karen-2024.key](attachments/CSC209%20Week12-review-karen-2024.key.pdf)  
+> Worksheets  
+> 	[shell_worksheet2](attachments/shell_worksheet2.pdf)  
+> 	[run_time_reads](attachments/run_time_reads.sh)  
+> 	[run_floop](attachments/run_floop.sh)  
 > 	[run_fibonacci](attachments/run_fibonacci.sh)

@@ -2,7 +2,7 @@
 
 In the first lecture, we jumped right into the topic of design. Part of the intention of this was to get you thinking about what kind of questions one should be asking when thinking about software design.
 
-Your first design "question" for this term is to come up with three questions which you have about any of the topics introduced during the first lecture of the term. If you missed it, you can refer back to the materials in [Lectures for Week 0](https://q.utoronto.ca/courses/314288/pages/lectures-for-week-0?wrap=1 "Lectures for Week 0").
+Your first design "question" for this term is to come up with three questions which you have about any of the topics introduced during the first lecture of the term. If you missed it, you can refer back to the materials in [Lectures for Week 0](https://q.utoronto.ca/courses/314288/pages/lectures-for-week-0?wrap=1 "Lectures for Week 0").  
 [01-Introduction-clean](01-Introduction-clean.pdf)
 
 Your questions will be read and we'll pick out any common questions or particularly interesting ones to share with the class.

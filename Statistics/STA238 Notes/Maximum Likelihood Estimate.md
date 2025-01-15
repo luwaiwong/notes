@@ -1,4 +1,4 @@
-#statistics 
+#statistics  
 #uoft/sta238 
 
 The **Maximum Likelihood Estimate** is an [Estimate](Estimate.md) created with the [Maximum Likelihood Estimator](Maximum%20Likelihood%20Estimator.md)

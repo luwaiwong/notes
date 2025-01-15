@@ -1,4 +1,4 @@
-#mathematics 
+#mathematics  
 #uoft/csc236 
 
 The **Factorial** of a real number $n$ (denoted as $n!$) is $(1\cdot ...\cdot (n-1)\cdot n)$

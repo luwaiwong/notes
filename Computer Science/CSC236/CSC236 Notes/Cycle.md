@@ -1,4 +1,4 @@
-#computer-science 
+#computer-science  
 #uoft/csc236 
 
 A **Cycle** in a [Permutation](../../../Statistics/STA237%20Notes/Permutation.md), is a set of elements which *loops back on itself* as the permutation is applied
@@ -14,8 +14,8 @@ A  $k$-*cycle* (with $k\geq 2$), denoted $(a_{1} \ a_{2} \ ... \ a_{k})$, is a [
 - *Moves* $a_{k}$ to $a_1$, and
 - *Fixes* everything else
 
-We can also define the action and accompanying [Orbit](../../../Mathematics/MAT301%20Notes/Orbit.md) below, and use it to help formally define a cycle
-	Let $X$ be a set and let $\sigma\in S_{X}$. Define $x\sim y$ [IFF](IFF) $\sigma^{k}(x)=y$ for some integer $k$. Then $\sigma$ is an [Equivalence Relation](../../../Mathematics/MAT301%20Notes/Equivalence%20Relation.md)
+We can also define the action and accompanying [Orbit](../../../Mathematics/MAT301%20Notes/Orbit.md) below, and use it to help formally define a cycle  
+	Let $X$ be a set and let $\sigma\in S_{X}$. Define $x\sim y$ [IFF](IFF) $\sigma^{k}(x)=y$ for some integer $k$. Then $\sigma$ is an [Equivalence Relation](../../../Mathematics/MAT301%20Notes/Equivalence%20Relation.md)  
 Properties
 - This relation relates two elements if they are in the same *cycle
 - The orbit of a particular $x\in X$ under this action is denoted $\langle \sigma\rangle x$
@@ -25,27 +25,27 @@ Properties
 
 Then, A **Cycle** is a *permutation* with just one nontrivial orbit. If that orbit has size $k$, the cycle is called a $k$-*cycle* and $k$ is called the *length
 
-> Example of a Cycle
-> 	![Cycle Example Image](../../../Mathematics/MAT301%20Notes/Cycle%20Example%20Image.png)
-> 	In this example, there are the cycles:
+> Example of a Cycle  
+> 	![Cycle Example Image](../../../Mathematics/MAT301%20Notes/Cycle%20Example%20Image.png)  
+> 	In this example, there are the cycles:  
 > 		$\uptau: 1\rightarrow 4\rightarrow 3\rightarrow 2\rightarrow 1 \rightarrow ...$  
-> 		$\rho:1\rightarrow 2\rightarrow 3\rightarrow 4\rightarrow 5\rightarrow 1 \rightarrow ...$
+> 		$\rho:1\rightarrow 2\rightarrow 3\rightarrow 4\rightarrow 5\rightarrow 1 \rightarrow ...$  
 > 		$\overline 3: 1\rightarrow 3\rightarrow 2\rightarrow 6\rightarrow 4 \rightarrow 5\rightarrow 1\rightarrow ...$  
-> 	Using $k$-*cycle* notation,
-> 		$\uptau = (1 \ 4 \ 3 \ 2)$
-> 		$\rho = (1 \ 2 \ 3 \ 4 \ 5)$
-> 		$\overline 3 = (1 \ 3 \ 2 \ 6 \ 4\ 5)$
-> 	Note that cycles can be written in multiple ways, by "rotating" the elements
-> 	They are all equally valid, but we prefer to write the "smallest" element first
+> 	Using $k$-*cycle* notation,  
+> 		$\uptau = (1 \ 4 \ 3 \ 2)$  
+> 		$\rho = (1 \ 2 \ 3 \ 4 \ 5)$  
+> 		$\overline 3 = (1 \ 3 \ 2 \ 6 \ 4\ 5)$  
+> 	Note that cycles can be written in multiple ways, by "rotating" the elements  
+> 	They are all equally valid, but we prefer to write the "smallest" element first  
 > 		![Cycle Rotation Example Image](../../../Mathematics/MAT301%20Notes/Cycle%20Rotation%20Example%20Image.png)
 
-The [Cycle Type](../../../Mathematics/MAT301%20Notes/Cycle%20Type.md) of a [Permutation](../../../Statistics/STA237%20Notes/Permutation.md) is a list of the number of cycles of every possible length, for that permutation
-Formally, Let $\sigma\in S_{X}$ for each $k=1,2,\dots,\infty$ let $c_{k}$ be the number of orbits of size $k$. The *Cycle Type* of $\sigma$ is the ordered list of the $c_{k}$'s
+The [Cycle Type](../../../Mathematics/MAT301%20Notes/Cycle%20Type.md) of a [Permutation](../../../Statistics/STA237%20Notes/Permutation.md) is a list of the number of cycles of every possible length, for that permutation  
+Formally, Let $\sigma\in S_{X}$ for each $k=1,2,\dots,\infty$ let $c_{k}$ be the number of orbits of size $k$. The *Cycle Type* of $\sigma$ is the ordered list of the $c_{k}$'s  
 Properties
 - When $X$ is finite of order $n$, then so is every orbit, and $\sum\limits_{k\geq 1}kc_{k}=n$
 
-> Example of Cycle Type
-> 	The cycle type of $\sigma=\begin{pmatrix}1 & 2 & 3 & 4 & 5 \\ 2 & 1 & 4 & 5 & 3 \end{pmatrix}$ is $(0,1,1,0,0)$
+> Example of Cycle Type  
+> 	The cycle type of $\sigma=\begin{pmatrix}1 & 2 & 3 & 4 & 5 \\ 2 & 1 & 4 & 5 & 3 \end{pmatrix}$ is $(0,1,1,0,0)$  
 > 	The cycle type of $\uptau=\begin{pmatrix}1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 4 & 7 & 1 & 3 & 8 & 6 & 2 & 5 \end{pmatrix}$ is $(1,2,1,0,0,0,0,0)$
 
 ### Properties of Cycles
@@ -73,23 +73,23 @@ Properties
 
 [Cycle Decomposition Theorem](Cycle%20Decomposition%20Theorem) says that every permutation can be written as a product of *disjoint cycles*, and each decomposition is *unique*
 
-> Examples of breaking up permutations in terms of cycles
-> 	Take the permutation $\sigma = \begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 2 & 1 & 4 & 5 & 3\end{pmatrix}$
-> 		This permutation is obviously *not* a cycle, but it is a product of the cycles
-> 			$(1\ 2)$ and $(3\ 4\ 5)$ 
-> 		Such that $\sigma=(1 \ 2)(3\ 4\ 5)=(3\ 4\ 5)(1\ 2)$
-> 	Or take $\uptau=\begin{pmatrix}1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 4 & 7 & 1 & 3 & 8 & 6 & 2 & 5 \end{pmatrix}$
-> 		$\uptau=(1 \ 4\ 3)(2\ 7)(5\ 8)$ 
-> 	Note that we can technically break a permutation into cycles in multiple different ways, the important factor here is we are looking for *disjoint cycles*
+> Examples of breaking up permutations in terms of cycles  
+> 	Take the permutation $\sigma = \begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 2 & 1 & 4 & 5 & 3\end{pmatrix}$  
+> 		This permutation is obviously *not* a cycle, but it is a product of the cycles  
+> 			$(1\ 2)$ and $(3\ 4\ 5)$  
+> 		Such that $\sigma=(1 \ 2)(3\ 4\ 5)=(3\ 4\ 5)(1\ 2)$  
+> 	Or take $\uptau=\begin{pmatrix}1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 4 & 7 & 1 & 3 & 8 & 6 & 2 & 5 \end{pmatrix}$  
+> 		$\uptau=(1 \ 4\ 3)(2\ 7)(5\ 8)$  
+> 	Note that we can technically break a permutation into cycles in multiple different ways, the important factor here is we are looking for *disjoint cycles*  
 > 		Take for example $(1\ 2\ 3\ 4\ 5)=(1\ 2)(2\ 3)(3\ 4)(4\ 5)=(1\ 4\ 5)(1\ 2\ 3)$
 
-Formally, it says:
-Let $X$ be a set and let $\sigma\in S_{X}$. Then there exists pairwise-disjoint cycles $\sigma_{i}\in S_{X}$ such that 
-$$\sigma=\prod_{i}\sigma_{i}$$
+Formally, it says:  
+Let $X$ be a set and let $\sigma\in S_{X}$. Then there exists pairwise-disjoint cycles $\sigma_{i}\in S_{X}$ such that  
+$$\sigma=\prod_{i}\sigma_{i}$$  
 Moreover, this decomposition into cycles is unique up to reordering. That is, if $\uptau_{j}\in S_{X}$ are any other pairwise-disjoint cycles whose product is $\sigma$, then there exists a bijection $\varphi$ such that $\uptau_{j}=\sigma_{\varphi(j)}$ for all $j$
 
 # Graph Theory
 A **Cycle** is a $u,u$-[Path](Path.md), or one which starts, and ends on the same [Vertex](Vertex.md)
 
-> Example
+> Example  
 > 	![444](attachments/Pasted%20image%2020240529155616.png)

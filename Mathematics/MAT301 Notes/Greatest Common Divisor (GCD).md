@@ -1,8 +1,8 @@
-#mathematics 
+#mathematics  
 #uoft/mat301 
 
-The **Greatest Common Divisor** of two numbers $a$ and $b$ is the largest natural number that is a factor of both $a$ and $b$
-	Or the largest natural number which [Divides](Division.md) both $a$ and $b$
+The **Greatest Common Divisor** of two numbers $a$ and $b$ is the largest natural number that is a factor of both $a$ and $b$  
+	Or the largest natural number which [Divides](Division.md) both $a$ and $b$  
 Denoted $gcd(a,b)$
 
 Properties

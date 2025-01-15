@@ -1,4 +1,4 @@
-#statistics 
+#statistics  
 #uoft/sta238 
 
 A **Histogram** is a type of graph helpful for evaluating the probability of different events.
@@ -11,9 +11,9 @@ To construct a Histogram:
 - For each bin $B_{i}$ compute the proportion of data values in $B_{i}$
 - Each bin's height is the proportion divided by $b$, or the density
 
-> Some common shapes of distributions, which histograms can help in identifying are:
+> Some common shapes of distributions, which histograms can help in identifying are:  
 > ![500](attachments/Pasted%20image%2020240708171156.png)
 
 
-Related:
+Related:  
 A [Kernel Density Estimate](Kernel%20Density%20Estimate.md) graph is like an improved histogram

@@ -10,8 +10,8 @@ Notes for [MAT334](../MAT334.md)
 # Notes
 > REMEMBER: Computations are very important in this course, make sure to practice computations, don't just write notes
 ## Week 1
-> Practice Questions
-> 	Fisher: 1.1: 1-9, 11
+> Practice Questions  
+> 	Fisher: 1.1: 1-9, 11  
 > 	Ablowitz and Fokas: 1.1: 1-3
 
 ### Definition of Complex Numbers
@@ -39,8 +39,8 @@ A [Complex Number](../../MAT224%20Notes/Complex%20Numbers.md) is a "number" of t
 ### Complex Numbers Geometrically
 We can visualize complex numbers as a point in $\mathbb{R}^{2}$, where $z=x+iy$ is represented by the coordinates $(x,y)$
 
-> Notes:
-> 	 In our geometrical representation, the $x$ axis is the *real axis*, and the $y$ axis is the *imaginary axis*
+> Notes:  
+> 	 In our geometrical representation, the $x$ axis is the *real axis*, and the $y$ axis is the *imaginary axis*  
 > 	 For the below, let $z=x+iy$
 
 We can interpret different complex operations *geometrically*
@@ -71,19 +71,19 @@ Other geometric interpretations
 	- Derived from $a\left( \frac{z+\overline z}{2} \right)+b(\frac{z-\overline z}{2})=c$
 	- Also remember that $x= \frac{z+\overline z}{2}$ and $y=\frac{z-\overline z}{2i}$
 
-> Explanation
-> 	Since $x^{2}+y^{2}=1$ is a unit circle, then $|z|=\sqrt{ x^{2}+y^{2} }=1$ describes all the values in a unit circle
-> 	We can also describe any circle, with complex notation
-> 	For example:
-> 		"Describe a circle of radius 4 centered at $(1,2)$ in *complex notation*"
+> Explanation  
+> 	Since $x^{2}+y^{2}=1$ is a unit circle, then $|z|=\sqrt{ x^{2}+y^{2} }=1$ describes all the values in a unit circle  
+> 	We can also describe any circle, with complex notation  
+> 	For example:  
+> 		"Describe a circle of radius 4 centered at $(1,2)$ in *complex notation*"  
 > 		 Answer:$|z-(1+2i)|=4$ 
 
 If you want to find the "orthogonal" complex numbers to the number $z$, we can use $\mathrm{Re}(\overline w z)=0$, where $w$ is the complex number perpendicular to $z$ which intersects $z$
 
 
-> Rough Notes
-> 	When representing complex numbers geometrically, the [Eigenvalue](Eigenvalue.md) of the transformation matrix from multiplying $z$ by a complex number, is that complex number. 
-> 	For multiplication by $1+i$, matrix created is $\begin{pmatrix}1 & -1 \\ 1 & 1\end{pmatrix}$, eigenvalue of that matrix is $1\pm i$
-> 	line represented as $z(a-bi)+\overline z(a+bi)=2c$, $w=(a-bi), \overline w=(a+bi)$, 
-> 	equation of a line is $\mathrm{Re}(wz)=C$
+> Rough Notes  
+> 	When representing complex numbers geometrically, the [Eigenvalue](Eigenvalue.md) of the transformation matrix from multiplying $z$ by a complex number, is that complex number.  
+> 	For multiplication by $1+i$, matrix created is $\begin{pmatrix}1 & -1 \\ 1 & 1\end{pmatrix}$, eigenvalue of that matrix is $1\pm i$  
+> 	line represented as $z(a-bi)+\overline z(a+bi)=2c$, $w=(a-bi), \overline w=(a+bi)$,  
+> 	equation of a line is $\mathrm{Re}(wz)=C$  
 > 	A lines between points $p$ and $q$ can be *parameterized* with equation $\alpha(t)=(1-t)p+qt$ 

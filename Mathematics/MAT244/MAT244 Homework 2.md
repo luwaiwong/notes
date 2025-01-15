@@ -20,15 +20,15 @@ sunday
 
 # Questions
 ### Question 1
-a) 
-	$p(x)=e^{2x}$, $r(x)=e^{2x}$
-b)
-	$p(x)=e^{\sin(x)}$, $r(x)=e^{\sin(x)}$
-c)
-	$y=\frac{x^{3}}{6e^{2x}}$
+a)  
+	$p(x)=e^{2x}$, $r(x)=e^{2x}$  
+b)  
+	$p(x)=e^{\sin(x)}$, $r(x)=e^{\sin(x)}$  
+c)  
+	$y=\frac{x^{3}}{6e^{2x}}$  
 d) in notebook
 
 ### Question 2
-a) 
-	3, -1
+a)  
+	3, -1  
 bcd) in notebook

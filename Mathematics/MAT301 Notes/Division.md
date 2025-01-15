@@ -2,18 +2,18 @@
 
 A formal definition of division
 
-Related 
+Related  
 	[Modulus](Modulus)
 
 ---
 # Definition
-For any integer $a$ and ay nonzero integer $b$, there are unique integers $q$ and $r$ where 
-$$a=bq+r \text{ and } 0\leq r\leq |b|$$
-	$q$ is the *quotient* and $r$ is the *remainder*
-	$q$ can be found as $q=\lfloor \frac{a}{b} \rfloor$
+For any integer $a$ and ay nonzero integer $b$, there are unique integers $q$ and $r$ where  
+$$a=bq+r \text{ and } 0\leq r\leq |b|$$  
+	$q$ is the *quotient* and $r$ is the *remainder*  
+	$q$ can be found as $q=\lfloor \frac{a}{b} \rfloor$  
 	And then $r$ can be found as $r=a-bq$
 
-When $r=0$, we say $b$ *divides* $a$, and we can write $b | a$
+When $r=0$, we say $b$ *divides* $a$, and we can write $b | a$  
 	Divisibility is a [Transitive](../../Computer%20Science/CSC236/CSC236%20Notes/Transitive.md) and [Reflexive](Reflexive.md) [Relation](../../Computer%20Science/CSC236/CSC236%20Notes/Relation.md) on $\mathbb{Z}$
 
 ## Notation

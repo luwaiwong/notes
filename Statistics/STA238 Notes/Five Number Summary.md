@@ -1,4 +1,4 @@
-#statistics 
+#statistics  
 #uoft/sta238 
 
 The **Five Number Summary** is a set of 5 values which can be used to quickly describe information about a given [Data Set](Data%20Set.md)

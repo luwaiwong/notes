@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Mathematics/MAT244/MAT244 Notes/MAT244 Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "MAT244 Notes"
             }
           },
           {
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Mathematics/MAT244/MAT244 Notes/MAT244 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for MAT244 Notes"
             }
           },
           {
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Mathematics/MAT244/MAT244 Notes/MAT244 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from MAT244 Notes"
             }
           },
           {
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Mathematics/MAT244/MAT244 Notes/MAT244 Notes.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of MAT244 Notes"
             }
           }
         ],
@@ -178,8 +178,8 @@
   },
   "active": "68d2a16ef5e51fce",
   "lastOpenFiles": [
-    "Mathematics/MAT224 Notes/MAT224 Notes.md",
     "README.md",
+    "Mathematics/MAT224 Notes/MAT224 Notes.md",
     "Mathematics/MAT244/MAT244 Notes/MAT244 Notes.md",
     "Mathematics/MAT246/MAT246 Notes/MAT246 Notes.md",
     "Statistics/STA237 Notes/STA237 Notes.md",

@@ -1,23 +1,23 @@
 #mathematics/group-theory #uoft/mat301 
 
-A  (Left of Right) **Coset** of a [Subgroup](Subgroup.md) $H$ of a [Group](Group.md) $G$ is a subset of the form
+A  (Left of Right) **Coset** of a [Subgroup](Subgroup.md) $H$ of a [Group](Group.md) $G$ is a subset of the form  
  $$gH=\{gh: h\in H\}$$
  
 A (Left or Right) **Coset** of a [Group](Group.md) element $g\in G$ under an [Action](Action.md) on a [Subgroup](Subgroup.md) $H$ is the specific [Orbit](Orbit.md) ([Equivalence Class](Equivalence%20Class.md)) $gH$
 - The *coset relation* relates $a\sim b$ [IFF](IFF) $b^{-1}a\in H$ [IFF](IFF) $aH=bH$
 
-The space of all the (Left or Right) **Cosets** of a [Group](Group.md) $G$ on a [Subgroup](Subgroup.md) $H$ is denoted $GH$, and $G/H$ or $H \backslash G$
+The space of all the (Left or Right) **Cosets** of a [Group](Group.md) $G$ on a [Subgroup](Subgroup.md) $H$ is denoted $GH$, and $G/H$ or $H \backslash G$  
 	Cosets of a Group are the [Equivalence Classes](Equivalence%20Class.md) of the *Coset Relation* 
 
->Thoughts:
->	A coset is either left or right, depending on how the [Action](Action.md) between $H$ and $G$ is defined
->Simplification
+>Thoughts:  
+>	A coset is either left or right, depending on how the [Action](Action.md) between $H$ and $G$ is defined  
+>Simplification  
 >	The coset of a group element $g\in G$, is, the set of all elements  $x\in G$, which are related to $g$ such that where $gH= xH$
 
 ---
 # Definition
 
-A  (Left of Right) **Coset** of a [Subgroup](Subgroup.md) $H$ of a [Group](Group.md) $G$ is a subset of the form
+A  (Left of Right) **Coset** of a [Subgroup](Subgroup.md) $H$ of a [Group](Group.md) $G$ is a subset of the form  
  $$gH=\{gh: h\in H\}$$
  
 The *coset relation* relates $a\sim b$ [IFF](IFF) $b^{-1}a\in H$ [IFF](IFF) $aH=bH$
@@ -25,14 +25,14 @@ The *coset relation* relates $a\sim b$ [IFF](IFF) $b^{-1}a\in H$ [IFF](IFF) $aH=
 A (Left or Right) **Coset** of a [Group](Group.md) element $g\in G$ under an [Action](Action.md) on a [Subgroup](Subgroup.md) $H$ is the specific [Orbit](Orbit.md) ([Equivalence Class](Equivalence%20Class.md)) $gH$
 - The Equivalence Class created by the coset relation defined above
 
->Simplification
->	The coset relation relates two elements $a,b\in G$, If they create the same *coset* on $H$
+>Simplification  
+>	The coset relation relates two elements $a,b\in G$, If they create the same *coset* on $H$  
 >	The coset of a group element $g\in G$, is, the set of all elements  $x\in G$, which are related to $g$ such that where $gH= xH$
 
 All the (Left or Right) **Cosets** of a [Group](Group.md) $G$ on a [Subgroup](Subgroup.md) $H$, $GH$ is denoted $G/H$
 - The elements $G/H$ are cosets
 
->Understanding:
+>Understanding:  
 >	A coset is either left or right, depending on how the [Action](Action.md) between $H$ and $G$ is defined
 
 If the left and right cosets of a subset $H\leq G$ are equal, then the following are equivalent
@@ -52,12 +52,12 @@ If the left and right cosets of a subset $H\leq G$ are equal, then the following
 ## Coset Multiplication
 ^69cd89
 
-The product of two cosets $(aH)(bH)$ is the set of all products of elements of $aH$, with elements of $bH$, or the set:
+The product of two cosets $(aH)(bH)$ is the set of all products of elements of $aH$, with elements of $bH$, or the set:  
 $$\{ah_{1}bh_{2}:h_{1},h_{2}\in H\}$$
 
-> Examples:
-> 	Let $G= \mathbb{Z}$ and $H=10 \mathbb{Z}$. Consider cosets $2+10 \mathbb{Z}$ and $3+10 \mathbb{Z}$
-> 	$\begin{aligned} (2+10 \mathbb{Z})+(3+10 \mathbb{Z})&=\{\dots, -8, 2, 12, \dots\}+\{\dots, -7,3,13,\dots\} \\ &=\{\dots,-15,-5,5,15,25,\dots\} \\&= 5+10\mathbb{Z}\end{aligned}$
+> Examples:  
+> 	Let $G= \mathbb{Z}$ and $H=10 \mathbb{Z}$. Consider cosets $2+10 \mathbb{Z}$ and $3+10 \mathbb{Z}$  
+> 	$\begin{aligned} (2+10 \mathbb{Z})+(3+10 \mathbb{Z})&=\{\dots, -8, 2, 12, \dots\}+\{\dots, -7,3,13,\dots\} \\ &=\{\dots,-15,-5,5,15,25,\dots\} \\&= 5+10\mathbb{Z}\end{aligned}$  
 > 	Which is the same as $[2]+[3]=[5]$ in $\mathbb{Z}/10\mathbb{Z}$ 
 
 ### Properties

@@ -1,4 +1,4 @@
-mathematics/linear-algebra 
+mathematics/linear-algebra  
 #uoft/mat223 #uoft/mat235 #uoft/mat224 
 
 A **vector** is a value representing the relationship between two points.
@@ -8,27 +8,27 @@ A **vector** is a value representing the relationship between two points.
 >There are many different interpretations of what a vector is, especially in different sub-fields of mathematics, vectors can be coordinates, arrows, here are some definitions
 
 ### Linear Algebra
-A **Vector** is a directed line segment or "arrow", with one point distinguished  as the "head", and the other distinguished as the "tail"
-	Vectors have two operations which can be done on them are **vector addition**, and **vector multiplication** (See [Vector Operations](#^1828f1))
+A **Vector** is a directed line segment or "arrow", with one point distinguished  as the "head", and the other distinguished as the "tail"  
+	Vectors have two operations which can be done on them are **vector addition**, and **vector multiplication** (See [Vector Operations](#^1828f1))  
 	These operations give rise to various [](.md#^a7e263|properties) of vectors
 
-> Vectors are a mathematical object, with the above operations, following a specific set of properties 
+> Vectors are a mathematical object, with the above operations, following a specific set of properties  
 > Any object which satisfies those properties, can be considered a vector
 
 ### Displacement Vectors
 
 A **displacement vector** from one point to another is an arrow with the tail at the first point and the tip at the second.
 
-The **magnitude**(length) of the displacement vector is the distance between the points, represented by length of the arrow
+The **magnitude**(length) of the displacement vector is the distance between the points, represented by length of the arrow  
 The **direction** of the **vector** is the direction of the arrow
 
 - Two vectors are **parallel** if one is a [scalar multiple](#^6a18a3) of the other. 
 - A displacement vector whose **tail is at the origin** is called a *position vector*
 
 ## Calculations
-To calculate the angle between two vectors $\vec{a}$ and $\vec{b}$, you can use the formula
-$$cos(\theta)=\frac{\vec{a}\cdot\vec{b}}{||\vec{a}|| \ ||\vec{b}||}$$
-To calculate the length of a vector $\vec v$:
+To calculate the angle between two vectors $\vec{a}$ and $\vec{b}$, you can use the formula  
+$$cos(\theta)=\frac{\vec{a}\cdot\vec{b}}{||\vec{a}|| \ ||\vec{b}||}$$  
+To calculate the length of a vector $\vec v$:  
 $$||\vec{v}||=\sqrt{v_{1}^{2}+v_{2}^{2}+v_{3}^{2}}$$
 ## Notation
 Vectors can be written with an arrow over them $\vec{v}$ to distinguish them from [Scalar](Scalar.md)s, or a bold **v** to denote a vector, or the notation $\vec{PQ}$ to denote the **displacement vector** from a point P to a point Q. (first and last most common) 
@@ -80,7 +80,7 @@ The **scalar multiple** of $\vec{v}$ by $\lambda$, written $\lambda\vec{v}$ is t
 
 The **zero vector**, written as $\vec{0}$, is the vector with no magnitude. The zero vector does not have a well defined direction, and either points in *no direction* or *every direction*
 
-A **unit vector** is any vector with the **magnitude** or length 1. 
+A **unit vector** is any vector with the **magnitude** or length 1.  
 if $\vec{v}$ is nonzero, then $\frac{1}{||\vec{v}||}\vec{v}$ is a unit vector in the same direction as $\vec{v}$ 
 
 

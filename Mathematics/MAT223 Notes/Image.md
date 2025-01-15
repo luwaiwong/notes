@@ -10,10 +10,10 @@ The [Image](.md) of a [Linear Transformation](Linear%20Transformation.md) $T$, $
 
 ## Properties
 - If $\{v_{1},...v_{m}\}$ is any set that spans $V$, then $\{T(v_{1}),...,T(v_{m})\}$ spans $Im(T)$
->So the transformed set of the basis also spans the image
+>So the transformed set of the basis also spans the image  
 	This set may be linearly dependent though, we may need to take away some vectors for it to be a proper basis
 - $dim(Im(T))\leq dim(V)$ 
-- Given a matrix representation of a linear transformation, the columns on the linear transformation, where the transformations corresponding echelon form has basic variables, are the bases for the Image
+- Given a matrix representation of a linear transformation, the columns on the linear transformation, where the transformations corresponding echelon form has basic variables, are the bases for the Image  
 	The **Rank** of the [Linear Transformation](Linear%20Transformation.md) is the [Dimension](Dimension.md) of the **Image** 
 - if $V$ is a finite-dimensional vector space and $T:V\rightarrow W$ is a linear transformation, then $dim(Ker(T))+dim(Im(T))=dim(V)$
 - 

@@ -9,7 +9,7 @@ X is called a **Discrete Uniform** [Discrete Random Variable](Discrete%20Random%
 # Related Functions
 Given 
 
-[Expected Value](Expected%20Value.md): $$E(X)=\frac{a+b}{2}$$
-[Variance](Variance.md): $$Var(X)=\frac{n^{2}-1}{12}$$
+[Expected Value](Expected%20Value.md): $$E(X)=\frac{a+b}{2}$$  
+[Variance](Variance.md): $$Var(X)=\frac{n^{2}-1}{12}$$  
 [Moment Generating Function](Moment%20Generating%20Function.md): $$M_{x}(t)=e^{\lambda (e^{t}-1)}$$
 >>>>>>> Stashed changes

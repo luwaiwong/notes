@@ -1,10 +1,10 @@
-#mathematics 
+#mathematics  
 #uoft/mat301 
 
 A **Cayley Table** is a table which visualizes the results of a [Binary Operation](Binary%20Operation.md)
 
->Example of Cayley Table
->	![Pasted image 20241015220340](attachments/Pasted%20image%2020241015220340.png)
+>Example of Cayley Table  
+>	![Pasted image 20241015220340](attachments/Pasted%20image%2020241015220340.png)  
 >	![Cayley Table Multiplication](attachments/Cayley%20Table%20Multiplication.png)
 
 Properties

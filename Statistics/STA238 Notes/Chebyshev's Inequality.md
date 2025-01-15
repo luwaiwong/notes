@@ -4,7 +4,7 @@
 
 ---
 # Calculation
-Chebyshev's Inequality: 
+Chebyshev's Inequality:  
 For a [Random Variable](Random%20Variable.md) $Y$ and $a>0$, $$P(|Y-E[Y]\geq a)\leq \frac{1}{a^{2}}Var(Y)$$
 
 # Theorems & Proofs

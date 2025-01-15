@@ -1,4 +1,4 @@
-#statistics 
+#statistics  
 #uoft/sta238 
 
 The  **Maximum Likelihood Principle** is a general principle that we can use to construct estimators

@@ -6,10 +6,10 @@
 
 ## Definition
 **Conjugation** is the [Action](Action.md)  
-$$g.x=gxg^{-1}$$
+$$g.x=gxg^{-1}$$  
 Of a [Group](Group.md) $g\in G$ on a set $X$
 
-The orbits of this conjugation are called [Conjugacy Classes](Conjugacy%20Class.md), and The [Number](Index.md) of these classes is called the *class number* of $G$
+The orbits of this conjugation are called [Conjugacy Classes](Conjugacy%20Class.md), and The [Number](Index.md) of these classes is called the *class number* of $G$  
 	Denoted $k(G)$
 
 If two elements are related by conjugation, we call them [Conjugate](../MAT224%20Notes/Conjugate.md)
@@ -21,25 +21,25 @@ If a subgroup $H\leq G$ is self conjugate where $gHg^{-1}=H$ , the following are
 - $gH = Hg$ for all $g\in G$ (left and right [Cosets](Coset.md) are equal)
 - $G/H$ is a group under *coset multiplication* ([Quotient Group](Quotient%20Group.md))
 
-> Notes:
-> 	Informally, conjugacy can be see as a "change in perspective"
+> Notes:  
+> 	Informally, conjugacy can be see as a "change in perspective"  
 > 	And normal subgroups are ones which look the same from all "points of view"
 
-> Example of Conjugates:
-> Symmetric Groups
-> 	Let $\sigma=(1 \ 2\ 3)(4 \ 5) \in S_5$ (Remember [Symmetric Groups](Symmetric%20Group.md)) 
-> 	Let $f=\begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 5 & 4 & 3 & 2 & 1\end{pmatrix}$
-> 		What permutation is $f\sigma f^{-1}$?
-> 	$f\sigma f^{-1}=(1 \ 2)(3 \ 5 \ 4)$
-> 	With a little rewriting, $f\sigma f^{-1}=(5 \ 4 \ 3)(2 \ 1)$
-> 		Which looks like $\sigma$ originally, but with the letters replaced by their images under $f$
-> 	This makes the "change in perspective" view make a little more sense
-> Dihedral Groups:
-> 	In $D_{n}$, $frf^{-1}=frf=r^{-1}$
-> 		In other words, observing a clockwise rotation from behind makes it look like a counterclockwise rotation
-> Linear Transformations
-> 	Say we have a transformation $T$ in a vector space with a given basis, and a change of basis vector $B$
-> 	To convert our linear transformation to the new basis, we compute $B^{-1}TB$ 
+> Example of Conjugates:  
+> Symmetric Groups  
+> 	Let $\sigma=(1 \ 2\ 3)(4 \ 5) \in S_5$ (Remember [Symmetric Groups](Symmetric%20Group.md))  
+> 	Let $f=\begin{pmatrix} 1 & 2 & 3 & 4 & 5 \\ 5 & 4 & 3 & 2 & 1\end{pmatrix}$  
+> 		What permutation is $f\sigma f^{-1}$?  
+> 	$f\sigma f^{-1}=(1 \ 2)(3 \ 5 \ 4)$  
+> 	With a little rewriting, $f\sigma f^{-1}=(5 \ 4 \ 3)(2 \ 1)$  
+> 		Which looks like $\sigma$ originally, but with the letters replaced by their images under $f$  
+> 	This makes the "change in perspective" view make a little more sense  
+> Dihedral Groups:  
+> 	In $D_{n}$, $frf^{-1}=frf=r^{-1}$  
+> 		In other words, observing a clockwise rotation from behind makes it look like a counterclockwise rotation  
+> Linear Transformations  
+> 	Say we have a transformation $T$ in a vector space with a given basis, and a change of basis vector $B$  
+> 	To convert our linear transformation to the new basis, we compute $B^{-1}TB$  
 > 		Or, *conjugation*, a "change in perspective"
 
 ### Conjugate Elements
